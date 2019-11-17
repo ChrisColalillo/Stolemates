@@ -1,0 +1,809 @@
+﻿Log file open, 11/17/19 01:16:16
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: Stolenmates
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.069824
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.23-CL-8386587
+LogInit: Engine Version: 4.23.0-8386587+++UE4+Release-4.23
+LogInit: Compatible Engine Version: 4.23.0-8386587+++UE4+Release-4.23
+LogInit: Net CL: 8386587
+LogInit: OS: Windows 10 (Release 1903) (), CPU: Intel(R) Core(TM) i7-4770K CPU @ 3.50GHz, GPU: NVIDIA GeForce GTX 1070
+LogInit: Compiled (64-bit): Aug 31 2019 02:04:44
+LogInit: Compiled with Visual C++: 19.16.27030.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.23
+LogInit: Command Line: 
+LogInit: Base Directory: F:/Programs/Unreal/UE_4.23/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 23
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 3
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 34
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 35
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 31
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 11
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 27
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 6
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 9
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2019.11.17-06.16.16:290][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.11.17-06.16.16:290][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.11.17-06.16.16:290][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [F:/Library/Documents/StolenMatesC++/Stolenmates/Saved/Config/Windows/Engine.ini]
+[2019.11.17-06.16.16:290][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.11.17-06.16.16:290][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
+[2019.11.17-06.16.16:290][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [F:/Library/Documents/StolenMatesC++/Stolenmates/Saved/Config/Windows/Engine.ini]
+[2019.11.17-06.16.16:290][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [F:/Library/Documents/StolenMatesC++/Stolenmates/Saved/Config/Windows/Engine.ini]
+[2019.11.17-06.16.16:290][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.11.17-06.16.16:290][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.11.17-06.16.16:290][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.11.17-06.16.16:290][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.11.17-06.16.16:290][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.11.17-06.16.16:290][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.11.17-06.16.16:290][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.11.17-06.16.16:290][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.11.17-06.16.16:290][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.11.17-06.16.16:290][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.11.17-06.16.16:290][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.11.17-06.16.16:290][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.11.17-06.16.16:290][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.11.17-06.16.16:290][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [F:/Library/Documents/StolenMatesC++/Stolenmates/Saved/Config/Windows/Engine.ini]
+[2019.11.17-06.16.16:290][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.11.17-06.16.16:290][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.11.17-06.16.16:290][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.11.17-06.16.16:290][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.11.17-06.16.16:290][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.11.17-06.16.16:290][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.11.17-06.16.16:290][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2019.11.17-06.16.16:290][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.11.17-06.16.16:290][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.11.17-06.16.16:290][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.11.17-06.16.16:290][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.11.17-06.16.16:290][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.11.17-06.16.16:290][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.11.17-06.16.16:290][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [F:/Library/Documents/StolenMatesC++/Stolenmates/Saved/Config/Windows/Engine.ini]
+[2019.11.17-06.16.16:290][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [F:/Library/Documents/StolenMatesC++/Stolenmates/Saved/Config/Windows/Engine.ini]
+[2019.11.17-06.16.16:298][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [F:/Library/Documents/StolenMatesC++/Stolenmates/Saved/Config/Windows/Scalability.ini]
+[2019.11.17-06.16.16:298][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.11.17-06.16.16:298][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.11.17-06.16.16:298][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [F:/Library/Documents/StolenMatesC++/Stolenmates/Saved/Config/Windows/Scalability.ini]
+[2019.11.17-06.16.16:298][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.11.17-06.16.16:298][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [F:/Library/Documents/StolenMatesC++/Stolenmates/Saved/Config/Windows/Scalability.ini]
+[2019.11.17-06.16.16:298][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.11.17-06.16.16:298][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.11.17-06.16.16:298][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.11.17-06.16.16:298][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.11.17-06.16.16:298][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.11.17-06.16.16:298][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.11.17-06.16.16:298][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.11.17-06.16.16:298][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.11.17-06.16.16:298][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.11.17-06.16.16:298][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.11.17-06.16.16:298][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.11.17-06.16.16:298][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.11.17-06.16.16:298][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.11.17-06.16.16:298][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.11.17-06.16.16:298][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.11.17-06.16.16:298][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.11.17-06.16.16:298][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.11.17-06.16.16:298][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.11.17-06.16.16:298][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [F:/Library/Documents/StolenMatesC++/Stolenmates/Saved/Config/Windows/Scalability.ini]
+[2019.11.17-06.16.16:298][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.11.17-06.16.16:298][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.11.17-06.16.16:298][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.11.17-06.16.16:298][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.11.17-06.16.16:298][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.11.17-06.16.16:298][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.11.17-06.16.16:298][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.11.17-06.16.16:298][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.11.17-06.16.16:298][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.11.17-06.16.16:298][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.11.17-06.16.16:298][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.11.17-06.16.16:298][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.11.17-06.16.16:298][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.11.17-06.16.16:298][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.11.17-06.16.16:298][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.11.17-06.16.16:298][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.11.17-06.16.16:298][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.11.17-06.16.16:298][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.11.17-06.16.16:298][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.11.17-06.16.16:298][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.11.17-06.16.16:298][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.11.17-06.16.16:298][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.11.17-06.16.16:298][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.11.17-06.16.16:298][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.11.17-06.16.16:298][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.11.17-06.16.16:298][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.11.17-06.16.16:298][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.11.17-06.16.16:298][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.11.17-06.16.16:298][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.11.17-06.16.16:298][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.11.17-06.16.16:298][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [F:/Library/Documents/StolenMatesC++/Stolenmates/Saved/Config/Windows/Scalability.ini]
+[2019.11.17-06.16.16:298][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.11.17-06.16.16:298][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.11.17-06.16.16:298][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.11.17-06.16.16:299][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.11.17-06.16.16:299][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.11.17-06.16.16:299][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.11.17-06.16.16:299][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.11.17-06.16.16:299][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.11.17-06.16.16:299][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [F:/Library/Documents/StolenMatesC++/Stolenmates/Saved/Config/Windows/Scalability.ini]
+[2019.11.17-06.16.16:299][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.11.17-06.16.16:299][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.11.17-06.16.16:299][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.11.17-06.16.16:299][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.11.17-06.16.16:299][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.11.17-06.16.16:299][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.11.17-06.16.16:299][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.11.17-06.16.16:299][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.11.17-06.16.16:299][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.11.17-06.16.16:299][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.11.17-06.16.16:299][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.11.17-06.16.16:299][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.11.17-06.16.16:299][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.11.17-06.16.16:299][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [F:/Library/Documents/StolenMatesC++/Stolenmates/Saved/Config/Windows/Scalability.ini]
+[2019.11.17-06.16.16:299][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.11.17-06.16.16:299][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.11.17-06.16.16:299][  0]LogInit: Selected Device Profile: [Windows]
+[2019.11.17-06.16.16:299][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.11.17-06.16.16:301][  0]LogHAL: Display: Platform has ~ 16 GB [17118347264 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.11.17-06.16.16:301][  0]LogInit: Going up to parent DeviceProfile []
+[2019.11.17-06.16.16:301][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [F:/Library/Documents/StolenMatesC++/Stolenmates/Saved/Config/Windows/Scalability.ini]
+[2019.11.17-06.16.16:301][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.11.17-06.16.16:301][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.11.17-06.16.16:301][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [F:/Library/Documents/StolenMatesC++/Stolenmates/Saved/Config/Windows/Scalability.ini]
+[2019.11.17-06.16.16:301][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.11.17-06.16.16:301][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [F:/Library/Documents/StolenMatesC++/Stolenmates/Saved/Config/Windows/Scalability.ini]
+[2019.11.17-06.16.16:302][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.11.17-06.16.16:302][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.11.17-06.16.16:302][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.11.17-06.16.16:302][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.11.17-06.16.16:302][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.11.17-06.16.16:302][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.11.17-06.16.16:302][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.11.17-06.16.16:302][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.11.17-06.16.16:302][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.11.17-06.16.16:302][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.11.17-06.16.16:302][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.11.17-06.16.16:302][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.11.17-06.16.16:302][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.11.17-06.16.16:302][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.11.17-06.16.16:302][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.11.17-06.16.16:302][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.11.17-06.16.16:302][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.11.17-06.16.16:302][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.11.17-06.16.16:302][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [F:/Library/Documents/StolenMatesC++/Stolenmates/Saved/Config/Windows/Scalability.ini]
+[2019.11.17-06.16.16:302][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.11.17-06.16.16:302][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.11.17-06.16.16:302][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.11.17-06.16.16:302][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.11.17-06.16.16:302][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.11.17-06.16.16:302][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.11.17-06.16.16:302][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.11.17-06.16.16:302][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.11.17-06.16.16:302][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.11.17-06.16.16:302][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.11.17-06.16.16:302][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.11.17-06.16.16:302][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.11.17-06.16.16:302][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.11.17-06.16.16:302][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.11.17-06.16.16:302][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.11.17-06.16.16:302][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.11.17-06.16.16:302][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.11.17-06.16.16:302][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.11.17-06.16.16:302][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.11.17-06.16.16:302][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.11.17-06.16.16:302][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.11.17-06.16.16:302][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.11.17-06.16.16:302][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.11.17-06.16.16:302][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.11.17-06.16.16:302][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.11.17-06.16.16:302][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.11.17-06.16.16:302][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.11.17-06.16.16:302][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.11.17-06.16.16:302][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.11.17-06.16.16:302][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.11.17-06.16.16:302][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [F:/Library/Documents/StolenMatesC++/Stolenmates/Saved/Config/Windows/Scalability.ini]
+[2019.11.17-06.16.16:302][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.11.17-06.16.16:302][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.11.17-06.16.16:302][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.11.17-06.16.16:302][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.11.17-06.16.16:302][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.11.17-06.16.16:302][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.11.17-06.16.16:302][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.11.17-06.16.16:302][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.11.17-06.16.16:302][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [F:/Library/Documents/StolenMatesC++/Stolenmates/Saved/Config/Windows/Scalability.ini]
+[2019.11.17-06.16.16:302][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.11.17-06.16.16:302][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.11.17-06.16.16:302][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.11.17-06.16.16:302][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.11.17-06.16.16:302][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.11.17-06.16.16:302][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.11.17-06.16.16:302][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.11.17-06.16.16:302][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.11.17-06.16.16:302][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.11.17-06.16.16:302][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.11.17-06.16.16:302][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.11.17-06.16.16:302][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.11.17-06.16.16:302][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.11.17-06.16.16:302][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [F:/Library/Documents/StolenMatesC++/Stolenmates/Saved/Config/Windows/Scalability.ini]
+[2019.11.17-06.16.16:302][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.11.17-06.16.16:302][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.11.17-06.16.16:302][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.11.17-06.16.16:303][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.11.17-06.16.16:303][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2019.11.17-06.16.16:303][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [F:/Library/Documents/StolenMatesC++/Stolenmates/Saved/Config/Windows/Engine.ini]
+[2019.11.17-06.16.16:303][  0]LogInit: Computer: OWNER-PC
+[2019.11.17-06.16.16:303][  0]LogInit: User: Owner
+[2019.11.17-06.16.16:303][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.11.17-06.16.16:303][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.11.17-06.16.16:303][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.11.17-06.16.16:303][  0]LogMemory: Platform Memory Stats for Windows
+[2019.11.17-06.16.16:303][  0]LogMemory: Process Physical Memory: 100.61 MB used, 100.62 MB peak
+[2019.11.17-06.16.16:303][  0]LogMemory: Process Virtual Memory: 88.57 MB used, 88.57 MB peak
+[2019.11.17-06.16.16:303][  0]LogMemory: Physical Memory: 5813.30 MB used,  10512.03 MB free, 16325.33 MB total
+[2019.11.17-06.16.16:303][  0]LogMemory: Virtual Memory: 4656.30 MB used,  134213072.00 MB free, 134217728.00 MB total
+[2019.11.17-06.16.16:306][  0]LogWindows: WindowsPlatformFeatures enabled
+[2019.11.17-06.16.16:326][  0]LogInit: Using OS detected language (en-US).
+[2019.11.17-06.16.16:326][  0]LogInit: Using OS detected locale (en-US).
+[2019.11.17-06.16.16:326][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.11.17-06.16.16:477][  0]LogInit: Setting process to per monitor DPI aware
+[2019.11.17-06.16.16:524][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.11.17-06.16.16:524][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.11.17-06.16.19:009][  0]LogD3D11RHI: D3D11 adapters:
+[2019.11.17-06.16.19:092][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2019.11.17-06.16.19:092][  0]LogD3D11RHI:       8088/0/8162 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2019.11.17-06.16.19:095][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.11.17-06.16.19:095][  0]LogD3D11RHI:       0/0/8162 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.11.17-06.16.19:095][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.11.17-06.16.19:103][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.11.17-06.16.19:103][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2019.11.17-06.16.19:103][  0]LogWindows: EnumDisplayDevices:
+[2019.11.17-06.16.19:103][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
+[2019.11.17-06.16.19:103][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2019.11.17-06.16.19:104][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2019.11.17-06.16.19:104][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2019.11.17-06.16.19:105][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.11.17-06.16.19:105][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2019.11.17-06.16.19:105][  0]LogD3D11RHI:   Driver Version: 417.01 (internal:25.21.14.1701, unified:417.01)
+[2019.11.17-06.16.19:105][  0]LogD3D11RHI:      Driver Date: 11-15-2018
+[2019.11.17-06.16.19:105][  0]LogRHI: Texture pool is 5661 MB (70% of 8088 MB)
+[2019.11.17-06.16.19:167][  0]LogD3D11RHI: Async texture creation enabled
+[2019.11.17-06.16.19:189][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.11.17-06.16.19:626][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2019.11.17-06.16.19:636][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2019.11.17-06.16.19:645][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2019.11.17-06.16.19:654][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2019.11.17-06.16.19:664][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2019.11.17-06.16.19:672][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2019.11.17-06.16.19:680][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2019.11.17-06.16.19:688][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2019.11.17-06.16.19:692][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2019.11.17-06.16.19:724][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2019.11.17-06.16.19:724][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2019.11.17-06.16.19:724][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2019.11.17-06.16.19:724][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2019.11.17-06.16.19:724][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2019.11.17-06.16.19:724][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2019.11.17-06.16.19:724][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2019.11.17-06.16.19:724][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2019.11.17-06.16.19:724][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2019.11.17-06.16.19:724][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2019.11.17-06.16.19:724][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2019.11.17-06.16.19:724][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2019.11.17-06.16.19:724][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2019.11.17-06.16.19:724][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2019.11.17-06.16.19:724][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2019.11.17-06.16.19:724][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2019.11.17-06.16.19:724][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2019.11.17-06.16.19:724][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2019.11.17-06.16.19:725][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2019.11.17-06.16.19:741][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2019.11.17-06.16.19:741][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2019.11.17-06.16.19:753][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2019.11.17-06.16.19:753][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2019.11.17-06.16.19:759][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2019.11.17-06.16.19:766][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2019.11.17-06.16.19:772][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2019.11.17-06.16.19:779][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2019.11.17-06.16.19:803][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2019.11.17-06.16.19:803][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2019.11.17-06.16.19:804][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.11.17-06.16.19:812][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2019.11.17-06.16.19:856][  0]LogShaderCompilers: Guid format shader working directory is -16 characters bigger than the processId version (../../../../../../Library/Documents/StolenMatesC++/Stolenmates/Intermediate/Shaders/WorkingDirectory/7864/).
+[2019.11.17-06.16.19:856][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Owner/AppData/Local/Temp/UnrealShaderWorkingDir/99A7441242774B6787CA5AAC58E4B4B8/'.
+[2019.11.17-06.16.19:859][  0]LogXGEController: Cleaning working directory: C:/Users/Owner/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.11.17-06.16.19:859][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.11.17-06.16.19:859][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.11.17-06.16.19:859][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.11.17-06.16.20:656][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.11.17-06.16.20:719][  0]LogDerivedDataCache: Loaded boot cache 0.06s 73MB C:/Users/Owner/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
+[2019.11.17-06.16.20:719][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Owner/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc
+[2019.11.17-06.16.20:719][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Library/Documents/StolenMatesC++/Stolenmates/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.11.17-06.16.20:719][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.11.17-06.16.20:719][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Library/Documents/StolenMatesC++/Stolenmates/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.11.17-06.16.20:719][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.11.17-06.16.20:731][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.11.17-06.16.20:732][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.11.17-06.16.20:732][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.11.17-06.16.20:733][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Owner/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.11.17-06.16.20:733][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.11.17-06.16.20:733][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.11.17-06.16.20:764][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.11.17-06.16.20:767][  0]LogSlate: Using FreeType 2.6.0
+[2019.11.17-06.16.20:768][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.11.17-06.16.20:821][  0]LogAssetRegistry: FAssetRegistry took 0.0024 seconds to start up
+[2019.11.17-06.16.21:117][  0]LogInit: Selected Device Profile: [Windows]
+[2019.11.17-06.16.21:278][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.11.17-06.16.21:278][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2019.11.17-06.16.21:278][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.11.17-06.16.21:278][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2019.11.17-06.16.21:278][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2019.11.17-06.16.21:289][  0]LogNetVersion: Stolenmates 1.0.0, NetCL: 8386587, EngineNetVer: 11, GameNetVer: 0 (Checksum: 1334032006)
+[2019.11.17-06.16.21:715][  0]LogPackageLocalizationCache: Processed 12 localized package path(s) for 1 prioritized culture(s) in 0.040516 seconds
+[2019.11.17-06.16.21:722][  0]LogUObjectArray: 43444 objects as part of root set at end of initial load.
+[2019.11.17-06.16.21:722][  0]LogUObjectAllocator: 7548648 out of 0 bytes used by permanent object pool.
+[2019.11.17-06.16.21:722][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.11.17-06.16.22:547][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.11.17-06.16.22:550][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.11.17-06.16.22:603][  0]SourceControl: Source control is disabled
+[2019.11.17-06.16.22:603][  0]SourceControl: Source control is disabled
+[2019.11.17-06.16.22:604][  0]SourceControl: Source control is disabled
+[2019.11.17-06.16.22:605][  0]SourceControl: Source control is disabled
+[2019.11.17-06.16.22:690][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.11.17-06.16.22:919][  0]LogOcInput: OculusInput pre-init called
+[2019.11.17-06.16.22:924][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2019.11.17-06.16.22:924][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2019.11.17-06.16.23:011][  0]LogEngine: Initializing Engine...
+[2019.11.17-06.16.23:012][  0]LogHMD: SteamVR initialized.  Driver: lighthouse  Display: LHR-BFE5A360
+[2019.11.17-06.16.23:013][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2019.11.17-06.16.23:269][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.11.17-06.16.23:281][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.11.17-06.16.23:333][  0]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.11.17-06.16.23:348][  0]LogInit: FAudioDevice initialized.
+[2019.11.17-06.16.23:349][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.11.17-06.16.23:511][  0]LogDerivedDataCache: Saved boot cache 0.16s 73MB C:/Users/Owner/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
+[2019.11.17-06.16.23:519][  0]LogInit: Texture streaming: Enabled
+[2019.11.17-06.16.23:538][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.11.17-06.16.23:538][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={BD4AB6A1-4692-B953-8A7E-9E92BD2130DA}
+[2019.11.17-06.16.23:615][  0]LogInit: Transaction tracking system initialized
+[2019.11.17-06.16.23:647][  0]BlueprintLog: New page: Editor Load
+[2019.11.17-06.16.23:717][  0]LocalizationService: Localization service is disabled
+[2019.11.17-06.16.23:941][  0]LogFileCache: Scanning file cache for directory 'F:/Library/Documents/StolenMatesC++/Stolenmates/Content/' took 0.00s
+[2019.11.17-06.16.23:941][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.11.17-06.16.23:941][  0]LogCook: Display: Mobile HDR setting 1
+[2019.11.17-06.16.24:151][  0]SourceControl: Source control is disabled
+[2019.11.17-06.16.24:152][  0]Cmd: MAP LOAD FILE="../../../../../../Library/Documents/StolenMatesC++/Stolenmates/Content/Levels/City.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.11.17-06.16.24:152][  0]LightingResults: New page: Lighting Build
+[2019.11.17-06.16.24:155][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2019.11.17-06.16.24:155][  0]MapCheck: New page: Map Check
+[2019.11.17-06.16.24:155][  0]LightingResults: New page: Lighting Build
+[2019.11.17-06.16.24:182][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.10ms
+[2019.11.17-06.16.24:468][  0]LogAIModule: Creating AISystem for world City
+[2019.11.17-06.16.24:477][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.11.17-06.16.24:510][  0]LogUObjectHash: Compacting FUObjectHashTables data took   3.22ms
+[2019.11.17-06.16.24:510][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.11.17-06.16.24:510][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.081ms to complete.
+[2019.11.17-06.16.24:510][  0]LogFileHelpers: Loading map 'City' took 0.358
+[2019.11.17-06.16.24:625][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.17-06.16.24:632][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.17-06.16.24:639][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.17-06.16.24:646][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.17-06.16.24:652][  0]LogCollectionManager: Loaded 0 collections in 0.001816 seconds
+[2019.11.17-06.16.24:659][  0]LogFileCache: Scanning file cache for directory 'F:/Library/Documents/StolenMatesC++/Stolenmates/Saved/Collections/' took 0.00s
+[2019.11.17-06.16.24:659][  0]LogFileCache: Scanning file cache for directory 'F:/Library/Documents/StolenMatesC++/Stolenmates/Content/Developers/Owner/Collections/' took 0.00s
+[2019.11.17-06.16.24:659][  0]LogFileCache: Scanning file cache for directory 'F:/Library/Documents/StolenMatesC++/Stolenmates/Content/Collections/' took 0.00s
+[2019.11.17-06.16.24:659][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2019.11.17-06.16.24:667][  0]LogContentBrowser: Native class hierarchy populated in 0.0083 seconds. Added 2874 classes and 684 folders.
+[2019.11.17-06.16.24:676][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.11.17-06.16.24:705][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.11.17-06.16.24:711][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2019.11.17-06.16.24:786][  0]LogSlate: Took 0.000202 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.11.17-06.16.24:788][  0]LogSlate: Took 0.000126 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.11.17-06.16.24:793][  0]LogSlate: Took 0.000154 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.11.17-06.16.24:854][  0]LogRenderer: Reallocating scene render targets to support 1156x632 Format 10 NumSamples 1 (Frame:1).
+[2019.11.17-06.16.24:910][  0]LogSlate: Took 0.000143 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.11.17-06.16.24:965][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.11.17-06.16.24:965][  0]LogLoad: (Engine Initialization) Total time: 9.41 seconds
+[2019.11.17-06.16.24:965][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.11.17-06.16.25:025][  0]LogAssetRegistry: Asset discovery search completed in 4.2052 seconds
+[2019.11.17-06.16.25:029][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000004 seconds (found 0 objects)
+[2019.11.17-06.16.25:029][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000050 seconds (updated 0 objects)
+[2019.11.17-06.16.25:038][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.11.17-06.16.31:612][771]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.17-06.16.33:672][ 14]LogSlate: Took 0.000188 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.11.17-06.16.33:956][ 14]LogAIModule: Creating AISystem for world Prototype
+[2019.11.17-06.16.33:966][ 14]LogAssetEditorManager: Opening Asset editor for World /Game/Levels/Prototype.Prototype
+[2019.11.17-06.16.33:999][ 14]LogUObjectHash: Compacting FUObjectHashTables data took   3.40ms
+[2019.11.17-06.16.34:000][ 14]Cmd: MAP LOAD FILE="../../../../../../Library/Documents/StolenMatesC++/Stolenmates/Content/Levels/Prototype.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.11.17-06.16.34:000][ 14]LightingResults: New page: Lighting Build
+[2019.11.17-06.16.34:000][ 14]LoadErrors: New page: Loading map: Prototype.umap
+[2019.11.17-06.16.34:001][ 14]LogWorld: UWorld::CleanupWorld for City, bSessionEnded=true, bCleanupResources=true
+[2019.11.17-06.16.34:001][ 14]MapCheck: New page: Map Check
+[2019.11.17-06.16.34:001][ 14]LightingResults: New page: Lighting Build
+[2019.11.17-06.16.34:026][ 14]LogUObjectHash: Compacting FUObjectHashTables data took   2.39ms
+[2019.11.17-06.16.34:115][ 14]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.11.17-06.16.34:143][ 14]LogUObjectHash: Compacting FUObjectHashTables data took   2.40ms
+[2019.11.17-06.16.34:184][ 14]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.11.17-06.16.34:186][ 14]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 1.568ms to complete.
+[2019.11.17-06.16.34:186][ 14]LogFileHelpers: Loading map 'Prototype' took 0.187
+[2019.11.17-06.16.35:116][112]LogTemp: Repeating last play command: Selected Viewport
+[2019.11.17-06.16.35:135][112]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/Levels/Prototype.Prototype_C' with ClassGeneratedBy '/Game/Levels/Prototype.Prototype:PersistentLevel.Prototype'
+[2019.11.17-06.16.35:135][112]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.17-06.16.35:135][112]PIE: New page: PIE session: Prototype (Nov 16, 2019, 8:16:35 PM)
+[2019.11.17-06.16.35:136][112]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2019.11.17-06.16.35:137][112]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Prototype
+[2019.11.17-06.16.35:140][112]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003062s)
+[2019.11.17-06.16.35:141][112]LogAIModule: Creating AISystem for world Prototype
+[2019.11.17-06.16.35:141][112]LogPlayLevel: PIE: World Init took: (0.001152s)
+[2019.11.17-06.16.35:141][112]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Prototype.Prototype to /Game/Levels/UEDPIE_0_Prototype.Prototype (0.004409s)
+[2019.11.17-06.16.35:163][112]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2019.11.17-06.16.35:212][112]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.11.17-06.16.35:224][112]LogInit: FAudioDevice initialized.
+[2019.11.17-06.16.35:232][112]LogLoad: Game class is 'BP_GameMode_C'
+[2019.11.17-06.16.35:234][112]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Prototype.Prototype up for play (max tick rate 0) at 2019.11.17-01.16.35
+[2019.11.17-06.16.35:234][112]LogWorld: Bringing up level for play took: 0.000791
+[2019.11.17-06.16.35:234][112]LogOnline: OSS: Creating online subsystem instance for: :Context_3
+[2019.11.17-06.16.35:241][112]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 20 classes and 0 folders.
+[2019.11.17-06.16.35:242][112]LogActor: Warning: BP_Camera_C /Game/Levels/UEDPIE_0_Prototype.Prototype:PersistentLevel.BP_Camera_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.11.17-06.16.35:243][112]LogPlayerManagement: Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2019.11.17-06.16.35:244][112]LogSlate: New Slate User Created.  User Index 1, Is Virtual User: 0
+[2019.11.17-06.16.35:244][112]LogSlate: Slate User Registered.  User Index 1, Is Virtual User: 0
+[2019.11.17-06.16.35:247][112]LogSlate: New Slate User Created.  User Index 2, Is Virtual User: 0
+[2019.11.17-06.16.35:247][112]LogSlate: Slate User Registered.  User Index 2, Is Virtual User: 0
+[2019.11.17-06.16.35:249][112]LogSlate: New Slate User Created.  User Index 3, Is Virtual User: 0
+[2019.11.17-06.16.35:249][112]LogSlate: Slate User Registered.  User Index 3, Is Virtual User: 0
+[2019.11.17-06.16.35:252][112]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Prototype -0.639
+[2019.11.17-06.16.35:252][112]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/Levels/Prototype.Prototype_C' with ClassGeneratedBy '/Game/Levels/Prototype.Prototype:PersistentLevel.Prototype'
+[2019.11.17-06.16.37:687][399]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/Levels/Prototype.Prototype_C' with ClassGeneratedBy '/Game/Levels/Prototype.Prototype:PersistentLevel.Prototype'
+[2019.11.17-06.16.37:687][399]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.17-06.16.37:687][399]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Prototype
+[2019.11.17-06.16.37:688][399]LogWorld: UWorld::CleanupWorld for Prototype, bSessionEnded=true, bCleanupResources=true
+[2019.11.17-06.16.37:698][399]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.17-06.16.37:698][399]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/Levels/Prototype.Prototype_C' with ClassGeneratedBy '/Game/Levels/Prototype.Prototype:PersistentLevel.Prototype'
+[2019.11.17-06.16.37:722][399]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.17-06.16.37:725][399]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2019.11.17-06.16.37:792][404]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2019.11.17-06.16.38:676][510]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.17-06.16.41:632][844]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.17-06.16.41:723][855]LogTemp: Repeating last play command: Selected Viewport
+[2019.11.17-06.16.41:742][855]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/Levels/Prototype.Prototype_C' with ClassGeneratedBy '/Game/Levels/Prototype.Prototype:PersistentLevel.Prototype'
+[2019.11.17-06.16.41:742][855]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.17-06.16.41:742][855]PIE: New page: PIE session: Prototype (Nov 16, 2019, 8:16:41 PM)
+[2019.11.17-06.16.41:742][855]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Prototype
+[2019.11.17-06.16.41:745][855]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002882s)
+[2019.11.17-06.16.41:746][855]LogAIModule: Creating AISystem for world Prototype
+[2019.11.17-06.16.41:746][855]LogPlayLevel: PIE: World Init took: (0.001299s)
+[2019.11.17-06.16.41:746][855]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Prototype.Prototype to /Game/Levels/UEDPIE_0_Prototype.Prototype (0.004289s)
+[2019.11.17-06.16.41:768][855]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2019.11.17-06.16.41:812][855]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.11.17-06.16.41:823][855]LogInit: FAudioDevice initialized.
+[2019.11.17-06.16.41:833][855]LogLoad: Game class is 'BP_GameMode_C'
+[2019.11.17-06.16.41:835][855]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Prototype.Prototype up for play (max tick rate 0) at 2019.11.17-01.16.41
+[2019.11.17-06.16.41:835][855]LogWorld: Bringing up level for play took: 0.001496
+[2019.11.17-06.16.41:836][855]LogOnline: OSS: Creating online subsystem instance for: :Context_4
+[2019.11.17-06.16.41:838][855]LogActor: Warning: BP_Camera_C /Game/Levels/UEDPIE_0_Prototype.Prototype:PersistentLevel.BP_Camera_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.11.17-06.16.41:838][855]LogPlayerManagement: Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2019.11.17-06.16.41:846][855]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Prototype -0.045
+[2019.11.17-06.16.41:846][855]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/Levels/Prototype.Prototype_C' with ClassGeneratedBy '/Game/Levels/Prototype.Prototype:PersistentLevel.Prototype'
+[2019.11.17-06.16.42:747][959]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/Levels/Prototype.Prototype_C' with ClassGeneratedBy '/Game/Levels/Prototype.Prototype:PersistentLevel.Prototype'
+[2019.11.17-06.16.42:748][959]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.17-06.16.42:748][959]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Prototype
+[2019.11.17-06.16.42:748][959]LogWorld: UWorld::CleanupWorld for Prototype, bSessionEnded=true, bCleanupResources=true
+[2019.11.17-06.16.42:758][959]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.17-06.16.42:758][959]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/Levels/Prototype.Prototype_C' with ClassGeneratedBy '/Game/Levels/Prototype.Prototype:PersistentLevel.Prototype'
+[2019.11.17-06.16.42:783][959]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.17-06.16.42:786][959]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2019.11.17-06.16.42:852][964]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2019.11.17-06.16.44:052][108]LogEditorViewport: Clicking on Actor (LMB): BP_Waiter_C (BP_Waiter)
+[2019.11.17-06.16.45:043][221]Cmd: DELETE
+[2019.11.17-06.16.45:043][221]Cmd: ACTOR DELETE
+[2019.11.17-06.16.45:044][221]LogEditorActor: Deleted Actor: BP_Waiter_C
+[2019.11.17-06.16.45:066][221]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2019.11.17-06.16.45:066][221]LogEditorActor: Deleted 1 Actors (0.023 secs)
+[2019.11.17-06.16.47:390][496]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.17-06.16.48:735][633]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.17-06.16.48:835][645]LogTemp: Repeating last play command: Selected Viewport
+[2019.11.17-06.16.48:854][645]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/Levels/Prototype.Prototype_C' with ClassGeneratedBy '/Game/Levels/Prototype.Prototype:PersistentLevel.Prototype'
+[2019.11.17-06.16.48:854][645]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.17-06.16.48:854][645]PIE: New page: PIE session: Prototype (Nov 16, 2019, 8:16:48 PM)
+[2019.11.17-06.16.48:854][645]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Prototype
+[2019.11.17-06.16.48:857][645]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003246s)
+[2019.11.17-06.16.48:858][645]LogAIModule: Creating AISystem for world Prototype
+[2019.11.17-06.16.48:858][645]LogPlayLevel: PIE: World Init took: (0.000864s)
+[2019.11.17-06.16.48:858][645]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Prototype.Prototype to /Game/Levels/UEDPIE_0_Prototype.Prototype (0.004219s)
+[2019.11.17-06.16.48:884][645]LogUObjectHash: Compacting FUObjectHashTables data took   1.95ms
+[2019.11.17-06.16.48:930][645]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.11.17-06.16.48:940][645]LogInit: FAudioDevice initialized.
+[2019.11.17-06.16.48:948][645]LogLoad: Game class is 'BP_GameMode_C'
+[2019.11.17-06.16.48:949][645]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Prototype.Prototype up for play (max tick rate 0) at 2019.11.17-01.16.48
+[2019.11.17-06.16.48:949][645]LogWorld: Bringing up level for play took: 0.000788
+[2019.11.17-06.16.48:949][645]LogOnline: OSS: Creating online subsystem instance for: :Context_5
+[2019.11.17-06.16.48:951][645]LogActor: Warning: BP_Camera_C /Game/Levels/UEDPIE_0_Prototype.Prototype:PersistentLevel.BP_Camera_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.11.17-06.16.48:952][645]LogPlayerManagement: Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2019.11.17-06.16.48:959][645]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Prototype 1.068
+[2019.11.17-06.16.48:959][645]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/Levels/Prototype.Prototype_C' with ClassGeneratedBy '/Game/Levels/Prototype.Prototype:PersistentLevel.Prototype'
+[2019.11.17-06.16.49:472][703]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/Levels/Prototype.Prototype_C' with ClassGeneratedBy '/Game/Levels/Prototype.Prototype:PersistentLevel.Prototype'
+[2019.11.17-06.16.49:473][703]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.17-06.16.49:473][703]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Prototype
+[2019.11.17-06.16.49:473][703]LogWorld: UWorld::CleanupWorld for Prototype, bSessionEnded=true, bCleanupResources=true
+[2019.11.17-06.16.49:481][703]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.17-06.16.49:481][703]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/Levels/Prototype.Prototype_C' with ClassGeneratedBy '/Game/Levels/Prototype.Prototype:PersistentLevel.Prototype'
+[2019.11.17-06.16.49:508][703]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.17-06.16.49:511][703]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
+[2019.11.17-06.16.49:578][708]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2019.11.17-06.16.50:595][830]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (LowerWalls)
+[2019.11.17-06.16.51:387][921]LogEditorViewport: Clicking on Actor (LMB): BP_Car_C (BP_Car)
+[2019.11.17-06.16.52:370][ 36]Cmd: DELETE
+[2019.11.17-06.16.52:370][ 36]Cmd: ACTOR DELETE
+[2019.11.17-06.16.52:372][ 36]LogEditorActor: Deleted Actor: BP_Car_C
+[2019.11.17-06.16.52:396][ 36]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2019.11.17-06.16.52:396][ 36]LogEditorActor: Deleted 1 Actors (0.026 secs)
+[2019.11.17-06.16.54:591][298]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.17-06.17.03:624][316]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.17-06.17.04:178][379]LogSlate: Took 0.000159 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.11.17-06.17.10:184][ 74]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.17-06.17.21:344][406]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (LowerWalls)
+[2019.11.17-06.17.22:113][491]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.17-06.17.22:230][505]LogTemp: Repeating last play command: Selected Viewport
+[2019.11.17-06.17.22:248][505]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/Levels/Prototype.Prototype_C' with ClassGeneratedBy '/Game/Levels/Prototype.Prototype:PersistentLevel.Prototype'
+[2019.11.17-06.17.22:248][505]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.17-06.17.22:248][505]PIE: New page: PIE session: Prototype (Nov 16, 2019, 8:17:22 PM)
+[2019.11.17-06.17.22:248][505]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Prototype
+[2019.11.17-06.17.22:251][505]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002959s)
+[2019.11.17-06.17.22:252][505]LogAIModule: Creating AISystem for world Prototype
+[2019.11.17-06.17.22:252][505]LogPlayLevel: PIE: World Init took: (0.001052s)
+[2019.11.17-06.17.22:252][505]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Prototype.Prototype to /Game/Levels/UEDPIE_0_Prototype.Prototype (0.004115s)
+[2019.11.17-06.17.22:276][505]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2019.11.17-06.17.22:322][505]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.11.17-06.17.22:332][505]LogInit: FAudioDevice initialized.
+[2019.11.17-06.17.22:341][505]LogLoad: Game class is 'BP_GameMode_C'
+[2019.11.17-06.17.22:342][505]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Prototype.Prototype up for play (max tick rate 0) at 2019.11.17-01.17.22
+[2019.11.17-06.17.22:343][505]LogWorld: Bringing up level for play took: 0.000703
+[2019.11.17-06.17.22:343][505]LogOnline: OSS: Creating online subsystem instance for: :Context_8
+[2019.11.17-06.17.22:345][505]LogActor: Warning: BP_Camera_C /Game/Levels/UEDPIE_0_Prototype.Prototype:PersistentLevel.BP_Camera_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.11.17-06.17.22:345][505]LogPlayerManagement: Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2019.11.17-06.17.22:352][505]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Prototype 0.462
+[2019.11.17-06.17.22:353][505]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/Levels/Prototype.Prototype_C' with ClassGeneratedBy '/Game/Levels/Prototype.Prototype:PersistentLevel.Prototype'
+[2019.11.17-06.17.27:046][ 65]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/Levels/Prototype.Prototype_C' with ClassGeneratedBy '/Game/Levels/Prototype.Prototype:PersistentLevel.Prototype'
+[2019.11.17-06.17.27:047][ 65]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.17-06.17.27:047][ 65]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Prototype
+[2019.11.17-06.17.27:047][ 65]LogWorld: UWorld::CleanupWorld for Prototype, bSessionEnded=true, bCleanupResources=true
+[2019.11.17-06.17.27:056][ 65]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.17-06.17.27:056][ 65]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/Levels/Prototype.Prototype_C' with ClassGeneratedBy '/Game/Levels/Prototype.Prototype:PersistentLevel.Prototype'
+[2019.11.17-06.17.27:084][ 65]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.17-06.17.27:087][ 65]LogUObjectHash: Compacting FUObjectHashTables data took   1.87ms
+[2019.11.17-06.17.27:151][ 70]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2019.11.17-06.17.32:160][667]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.17-06.17.38:860][467]LogEditorViewport: Clicking on Actor (LMB): BP_Car_C (BP_Car)
+[2019.11.17-06.17.39:993][599]Cmd: DELETE
+[2019.11.17-06.17.39:993][599]Cmd: ACTOR DELETE
+[2019.11.17-06.17.39:994][599]LogEditorActor: Deleted Actor: BP_Car_C
+[2019.11.17-06.17.40:017][599]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
+[2019.11.17-06.17.40:017][599]LogEditorActor: Deleted 1 Actors (0.025 secs)
+[2019.11.17-06.17.40:905][705]LogEditorViewport: Clicking on Actor (LMB): BP_Track_C (BP_Track)
+[2019.11.17-06.17.41:168][733]Cmd: DELETE
+[2019.11.17-06.17.41:168][733]Cmd: ACTOR DELETE
+[2019.11.17-06.17.41:169][733]LogEditorActor: Deleted Actor: BP_Track_C
+[2019.11.17-06.17.41:194][733]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2019.11.17-06.17.41:194][733]LogEditorActor: Deleted 1 Actors (0.026 secs)
+[2019.11.17-06.17.42:967][941]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.17-06.17.44:204][ 86]LogAIModule: Creating AISystem for world City
+[2019.11.17-06.17.44:211][ 86]LogAssetEditorManager: Opening Asset editor for World /Game/Levels/City.City
+[2019.11.17-06.17.44:236][ 86]LogUObjectHash: Compacting FUObjectHashTables data took   1.98ms
+[2019.11.17-06.17.45:507][ 86]LogSlate: Window 'Save Content' being destroyed
+[2019.11.17-06.17.45:515][ 86]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Prototype" FILE="../../../../../../Library/Documents/StolenMatesC++/Stolenmates/Content/Levels/Prototype.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.11.17-06.17.45:541][ 86]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2019.11.17-06.17.45:670][ 86]LogSavePackage: Moving '../../../../../../Library/Documents/StolenMatesC++/Stolenmates/Saved/Prototype772E1759401E8F5F2AF6C88555B645E3.tmp' to '../../../../../../Library/Documents/StolenMatesC++/Stolenmates/Content/Levels/Prototype.umap'
+[2019.11.17-06.17.45:708][ 86]LogFileHelpers: Saving map 'Prototype' took 0.194
+[2019.11.17-06.17.45:709][ 86]Cmd: MAP LOAD FILE="../../../../../../Library/Documents/StolenMatesC++/Stolenmates/Content/Levels/City.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.11.17-06.17.45:709][ 86]LightingResults: New page: Lighting Build
+[2019.11.17-06.17.45:710][ 86]LoadErrors: New page: Loading map: City.umap
+[2019.11.17-06.17.45:710][ 86]LogWorld: UWorld::CleanupWorld for Prototype, bSessionEnded=true, bCleanupResources=true
+[2019.11.17-06.17.45:710][ 86]MapCheck: New page: Map Check
+[2019.11.17-06.17.45:710][ 86]LightingResults: New page: Lighting Build
+[2019.11.17-06.17.45:734][ 86]LogUObjectHash: Compacting FUObjectHashTables data took   2.19ms
+[2019.11.17-06.17.45:815][ 86]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.11.17-06.17.45:847][ 86]LogUObjectHash: Compacting FUObjectHashTables data took   1.90ms
+[2019.11.17-06.17.45:883][ 86]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.11.17-06.17.45:883][ 86]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.089ms to complete.
+[2019.11.17-06.17.45:883][ 86]LogFileHelpers: Loading map 'City' took 0.175
+[2019.11.17-06.17.45:945][ 86]LogAIModule: Creating AISystem for world Prototype
+[2019.11.17-06.18.05:734][447]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.17-06.18.07:997][696]LogUObjectHash: Compacting FUObjectHashTables data took   2.51ms
+[2019.11.17-06.18.08:092][696]LogAIModule: Creating AISystem for world City1
+[2019.11.17-06.18.09:019][800]LogAssetEditorManager: Opening Asset editor for World /Game/Levels/City1.City1
+[2019.11.17-06.18.09:044][800]LogUObjectHash: Compacting FUObjectHashTables data took   2.38ms
+[2019.11.17-06.18.10:451][800]LogSlate: Window 'Save Content' being destroyed
+[2019.11.17-06.18.10:460][800]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/City1" FILE="../../../../../../Library/Documents/StolenMatesC++/Stolenmates/Content/Levels/City1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.11.17-06.18.10:492][800]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2019.11.17-06.18.10:621][800]LogSavePackage: Moving '../../../../../../Library/Documents/StolenMatesC++/Stolenmates/Saved/City101250DD34FB1B98A257CBFB40B950F6B.tmp' to '../../../../../../Library/Documents/StolenMatesC++/Stolenmates/Content/Levels/City1.umap'
+[2019.11.17-06.18.10:628][800]LogFileHelpers: Saving map 'City1' took 0.168
+[2019.11.17-06.18.10:630][800]Cmd: MAP LOAD FILE="../../../../../../Library/Documents/StolenMatesC++/Stolenmates/Content/Levels/City1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.11.17-06.18.10:630][800]LightingResults: New page: Lighting Build
+[2019.11.17-06.18.10:630][800]LoadErrors: New page: Loading map: City1.umap
+[2019.11.17-06.18.10:631][800]LogWorld: UWorld::CleanupWorld for City, bSessionEnded=true, bCleanupResources=true
+[2019.11.17-06.18.10:631][800]MapCheck: New page: Map Check
+[2019.11.17-06.18.10:631][800]LightingResults: New page: Lighting Build
+[2019.11.17-06.18.10:656][800]LogUObjectHash: Compacting FUObjectHashTables data took   2.28ms
+[2019.11.17-06.18.10:681][800]LogUObjectHash: Compacting FUObjectHashTables data took   1.91ms
+[2019.11.17-06.18.10:706][800]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2019.11.17-06.18.10:817][800]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.11.17-06.18.10:849][800]LogUObjectHash: Compacting FUObjectHashTables data took   1.74ms
+[2019.11.17-06.18.10:893][800]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.11.17-06.18.10:895][800]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.098ms to complete.
+[2019.11.17-06.18.10:895][800]LogFileHelpers: Loading map 'City1' took 0.267
+[2019.11.17-06.18.13:070][ 46]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/City1.City1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/City1.City1:PersistentLevel.City1' with GeneratedClass '/Game/Levels/City1.City1_C' with ClassGeneratedBy '/Game/Levels/City1.City1:PersistentLevel.City1'
+[2019.11.17-06.18.13:070][ 46]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.17-06.18.13:070][ 46]PIE: New page: SIE session: City1 (Nov 16, 2019, 8:18:13 PM)
+[2019.11.17-06.18.13:070][ 46]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_City1
+[2019.11.17-06.18.13:074][ 46]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003978s)
+[2019.11.17-06.18.13:075][ 46]LogAIModule: Creating AISystem for world City1
+[2019.11.17-06.18.13:075][ 46]LogPlayLevel: PIE: World Init took: (0.001019s)
+[2019.11.17-06.18.13:075][ 46]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/City1.City1 to /Game/Levels/UEDPIE_0_City1.City1 (0.005191s)
+[2019.11.17-06.18.13:097][ 46]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2019.11.17-06.18.13:140][ 46]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.11.17-06.18.13:150][ 46]LogInit: FAudioDevice initialized.
+[2019.11.17-06.18.13:158][ 46]LogLoad: Game class is 'BP_GameMode_C'
+[2019.11.17-06.18.13:160][ 46]LogWorld: Bringing World /Game/Levels/UEDPIE_0_City1.City1 up for play (max tick rate 0) at 2019.11.17-01.18.13
+[2019.11.17-06.18.13:161][ 46]LogWorld: Bringing up level for play took: 0.001564
+[2019.11.17-06.18.13:161][ 46]LogOnline: OSS: Creating online subsystem instance for: :Context_9
+[2019.11.17-06.18.13:162][ 46]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2019.11.17-06.18.13:163][ 46]LogActor: Warning: BP_Camera_C /Game/Levels/UEDPIE_0_City1.City1:PersistentLevel.BP_Camera_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.11.17-06.18.13:164][ 46]LogPlayerManagement: Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2019.11.17-06.18.13:164][ 46]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=2890.000 Y=2590.000 Z=420.000] for [BP_Player_C]
+[2019.11.17-06.18.14:134][ 46]LogWindows: Error: === Critical error: ===
+[2019.11.17-06.18.14:134][ 46]LogWindows: Error: 
+[2019.11.17-06.18.14:134][ 46]LogWindows: Error: Fatal error!
+[2019.11.17-06.18.14:134][ 46]LogWindows: Error: 
+[2019.11.17-06.18.14:134][ 46]LogWindows: Error: Unhandled Exception: EXCEPTION_ACCESS_VIOLATION reading address 0x00000368
+[2019.11.17-06.18.14:134][ 46]LogWindows: Error: 
+[2019.11.17-06.18.14:134][ 46]LogWindows: Error: [Callstack] 0x00007ffd5e144635 UE4Editor-Stolenmates.dll!AStolenmatesGameModeBase::StartPlay() [f:\library\documents\stolenmatesc++\stolenmates\source\stolenmates\stolenmatesgamemodebase.cpp:29]
+[2019.11.17-06.18.14:134][ 46]LogWindows: Error: [Callstack] 0x00007ffd7c52adfe UE4Editor-Engine.dll!UnknownFunction []
+[2019.11.17-06.18.14:134][ 46]LogWindows: Error: [Callstack] 0x00007ffd7b9d4389 UE4Editor-Engine.dll!UnknownFunction []
+[2019.11.17-06.18.14:134][ 46]LogWindows: Error: [Callstack] 0x00007ffd8c204953 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.11.17-06.18.14:134][ 46]LogWindows: Error: [Callstack] 0x00007ffd8c223c01 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.11.17-06.18.14:134][ 46]LogWindows: Error: [Callstack] 0x00007ffd8c23daf5 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.11.17-06.18.14:134][ 46]LogWindows: Error: [Callstack] 0x00007ffd8bcfd9b4 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.11.17-06.18.14:134][ 46]LogWindows: Error: [Callstack] 0x00007ffd8c554b16 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.11.17-06.18.14:134][ 46]LogWindows: Error: [Callstack] 0x00007ff69c377b0a UE4Editor.exe!UnknownFunction []
+[2019.11.17-06.18.14:134][ 46]LogWindows: Error: [Callstack] 0x00007ff69c38a91c UE4Editor.exe!UnknownFunction []
+[2019.11.17-06.18.14:134][ 46]LogWindows: Error: [Callstack] 0x00007ff69c38a9fa UE4Editor.exe!UnknownFunction []
+[2019.11.17-06.18.14:134][ 46]LogWindows: Error: [Callstack] 0x00007ff69c39b92c UE4Editor.exe!UnknownFunction []
+[2019.11.17-06.18.14:134][ 46]LogWindows: Error: [Callstack] 0x00007ff69c39e60e UE4Editor.exe!UnknownFunction []
+[2019.11.17-06.18.14:134][ 46]LogWindows: Error: [Callstack] 0x00007ffdda5d7bd4 KERNEL32.DLL!UnknownFunction []
+[2019.11.17-06.18.14:134][ 46]LogWindows: Error: [Callstack] 0x00007ffddacaced1 ntdll.dll!UnknownFunction []
+[2019.11.17-06.18.14:134][ 46]LogWindows: Error: 
+[2019.11.17-06.18.14:184][ 46]LogExit: Executing StaticShutdownAfterError
+[2019.11.17-06.18.14:187][ 46]LogWindows: FPlatformMisc::RequestExit(1)
+[2019.11.17-06.18.14:235][ 46]Log file closed, 11/17/19 01:18:14
