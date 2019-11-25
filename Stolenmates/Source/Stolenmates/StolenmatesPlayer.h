@@ -18,7 +18,7 @@ public:
 
 	UPROPERTY(BlueprintReadOnly, Category = "PlayerInfo")
 	bool stunned = false;
-	UPROPERTY(BlueprintReadOnly, Category = "PlayerInfo")
+	UPROPERTY(BlueprintReadWrite, Category = "PlayerInfo")
 	bool hasHeart = false;
 	UPROPERTY(BlueprintReadOnly, Category = "PlayerInfo")
 	bool dashReady = true;
