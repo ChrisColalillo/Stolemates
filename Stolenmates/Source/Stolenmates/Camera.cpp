@@ -13,14 +13,13 @@ ACamera::ACamera()
 	PrimaryActorTick.bCanEverTick = false;
 	CameraComp = CreateDefaultSubobject<UCameraComponent>(TEXT("Camera Component"));
 	CameraComp->SetupAttachment(RootComponent);
-	CameraComp->AddLocalRotation(FRotator(270,0, 0));
 }
 
 // Called when the game starts or when spawned
 void ACamera::BeginPlay()
 {
 	Super::BeginPlay();
-	
+	CameraComp->AddLocalRotation(CameraRotation);
 }
 
 // Called every frame

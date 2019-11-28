@@ -4,6 +4,7 @@
 #include "Components/CapsuleComponent.h"
 #include "TimerManager.h"
 #include "Math/UnrealMathUtility.h"
+#include "Components/SkeletalMeshComponent.h"
 #include "Heart.h"
 
 // Sets default values
@@ -100,7 +101,7 @@ void AStolenmatesPlayer::OnCompHit(UPrimitiveComponent * HitComponent, AActor * 
 	{
 		if (hasHeart && !other->stunned)
 		{
-			heart->AttachToActor(OtherActor, FAttachmentTransformRules::KeepRelativeTransform,"HeartSocket");
+			heart->AttachToComponent(other->GetMesh(), FAttachmentTransformRules::SnapToTargetNotIncludingScale, socketName);
 			hasHeart = false;
 			other->hasHeart = true;
 			other->heart = heart;
@@ -118,7 +119,7 @@ void AStolenmatesPlayer::OnCompOverlap(UPrimitiveComponent * OverlappedComponent
 	AHeart* other = Cast<AHeart>(OtherActor);
 	if (other)
 	{
-		OtherActor->AttachToActor(this, FAttachmentTransformRules::KeepRelativeTransform, "HeartSocket");
+		OtherActor->AttachToComponent(GetMesh(), FAttachmentTransformRules::SnapToTargetNotIncludingScale, socketName);
 		heart = other;
 		hasHeart = true;
 		heart->heartCollider->SetCollisionEnabled(ECollisionEnabled::NoCollision);
@@ -133,6 +134,10 @@ void AStolenmatesPlayer::Tick(float DeltaTime)
 		return;
 	if (hasHeart)
 		timeHoldingHeart += DeltaTime;
+	PlayerMovementDirection.Normalize();
+	playerRotationDirection = PlayerMovementDirection.Rotation();
+	playerRotationDirection.Add(0, 270, 0);
+	GetMesh()->SetRelativeRotation(playerRotationDirection);
 }
 
 // Called to bind functionality to input

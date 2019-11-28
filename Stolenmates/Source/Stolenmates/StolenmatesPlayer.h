@@ -55,8 +55,11 @@ protected:
 		float  DashForce = 2000.0f;
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "PlayerProperties")
 		float HeartLossStunDuration = 1.0f;
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "PlayerProperties")
+		FName socketName;
 
 	FTimerHandle dashTimerHandle;
 	FTimerHandle stunTimerHandle;
 	FVector PlayerMovementDirection = FVector(0,0,0);
+	FRotator playerRotationDirection;
 };

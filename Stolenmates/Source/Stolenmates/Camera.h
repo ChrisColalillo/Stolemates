@@ -27,6 +27,8 @@ protected:
 		float minHeight = 1000;
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Camera Settings")
 		float maxHeight = 4000;
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Camera Settings")
+		FRotator CameraRotation;
 
 	UCameraComponent* CameraComp;
 public:

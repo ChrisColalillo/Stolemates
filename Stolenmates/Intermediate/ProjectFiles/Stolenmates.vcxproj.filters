@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\Stolenmates.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{EB7DE896-AB11-484C-ACBD-F8A74809A871}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Stolenmates.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\StolenmatesEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\.gitignore" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{A78D5E48-86A9-4059-A363-7DFC0C0CD90D}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Config\Android">
+      <UniqueIdentifier>{F0278F7F-888C-4100-821D-5E653E5FCBAA}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\Android\AndroidEngine.ini">
+      <Filter>Config\Android</Filter>
+    </None>
+    <Filter Include="Config\IOS">
+      <UniqueIdentifier>{A390A9B3-B2CB-4250-A632-58803FF1E126}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\IOS\IOSEngine.ini">
+      <Filter>Config\IOS</Filter>
+    </None>
+    <Filter Include="Config\Linux">
+      <UniqueIdentifier>{BCAEC4AB-E8EE-4B9A-B71B-16D10251934B}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\Linux\LinuxEngine.ini">
+      <Filter>Config\Linux</Filter>
+    </None>
+    <Filter Include="Config\Mac">
+      <UniqueIdentifier>{509E26D1-043D-4098-8115-307A35167B6C}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\Mac\MacEngine.ini">
+      <Filter>Config\Mac</Filter>
+    </None>
+    <Filter Include="Config\PS4">
+      <UniqueIdentifier>{3E22B1A4-5826-4BE4-8578-FB9241DB09AC}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\PS4\PS4Engine.ini">
+      <Filter>Config\PS4</Filter>
+    </None>
+    <Filter Include="Config\Switch">
+      <UniqueIdentifier>{051AF8BC-E310-428B-B867-0690F0614BD7}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\Switch\SwitchEngine.ini">
+      <Filter>Config\Switch</Filter>
+    </None>
+    <Filter Include="Config\Windows">
+      <UniqueIdentifier>{C07D83D6-8D8B-454D-9787-9589A96E5054}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\Windows\WindowsEngine.ini">
+      <Filter>Config\Windows</Filter>
+    </None>
+    <Filter Include="Config\XboxOne">
+      <UniqueIdentifier>{64FD332E-2A91-4A00-970A-2EB40EC6E5D9}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\XboxOne\XboxOneEngine.ini">
+      <Filter>Config\XboxOne</Filter>
+    </None>
+    <Filter Include="Source\Stolenmates">
+      <UniqueIdentifier>{0DFAD350-2AAF-40CA-9BB3-886DE4D2ABE0}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Stolenmates\Camera.cpp">
+      <Filter>Source\Stolenmates</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Stolenmates\Camera.h">
+      <Filter>Source\Stolenmates</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Stolenmates\Heart.cpp">
+      <Filter>Source\Stolenmates</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Stolenmates\Heart.h">
+      <Filter>Source\Stolenmates</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\Stolenmates\Stolenmates.Build.cs">
+      <Filter>Source\Stolenmates</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Stolenmates\Stolenmates.cpp">
+      <Filter>Source\Stolenmates</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Stolenmates\Stolenmates.h">
+      <Filter>Source\Stolenmates</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Stolenmates\StolenmatesGameModeBase.cpp">
+      <Filter>Source\Stolenmates</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Stolenmates\StolenmatesGameModeBase.h">
+      <Filter>Source\Stolenmates</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Stolenmates\StolenmatesPlayer.cpp">
+      <Filter>Source\Stolenmates</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Stolenmates\StolenmatesPlayer.h">
+      <Filter>Source\Stolenmates</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
