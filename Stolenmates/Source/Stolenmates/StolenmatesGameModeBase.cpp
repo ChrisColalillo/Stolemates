@@ -83,7 +83,7 @@ int AStolenmatesGameModeBase::getWinner()
 
 float AStolenmatesGameModeBase::getTimer(int i)
 {
-	if (i > players.Num())
+	if (i >= players.Num())
 		return 0;
 	return Cast<AStolenmatesPlayer>(players[i])->timeHoldingHeart;
 }
