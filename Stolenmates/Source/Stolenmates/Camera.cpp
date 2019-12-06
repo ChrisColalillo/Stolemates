@@ -39,16 +39,27 @@ void ACamera::Focus(TArray<ACharacter*> players)
 	}
 	centerPoint = centerPoint / players.Num();
 	float farthestDistance = 0;
+	float x, y, distance;
 	for (int i = 0; i < players.Num(); i++)
 	{
 		for (int j = 0; j < players.Num(); j++)
 		{
-			float distance = FVector::Dist(players[i]->GetActorLocation(), players[j]->GetActorLocation());
+			x = FMath::Abs(players[i]->GetActorLocation().X - players[j]->GetActorLocation().X)*1.77;
+			y = FMath::Abs(players[i]->GetActorLocation().Y - players[j]->GetActorLocation().Y);
+			distance = (x > y) ? x : y;
 			if (distance > farthestDistance)
+			{
 				farthestDistance = distance;
+				//centerPoint = (players[i]->GetActorLocation()+ players[j]->GetActorLocation())/2;
+			}
 		}
 	}
-	centerPoint.Z = FMath::Clamp(farthestDistance*2.0f,minHeight,maxHeight);
-	this->SetActorLocation(centerPoint);
+	centerPoint.Z += FMath::Clamp(farthestDistance,minHeight,maxHeight);
+	centerPoint.X -= FMath::Sin(CameraRotation.Yaw - 270)*(centerPoint.Z/2);
+	FVector newLocationDirection = centerPoint- GetActorLocation();
+	float magnitude = newLocationDirection.Size();
+	newLocationDirection.Normalize();
+	newLocationDirection *= FMath::Clamp(magnitude,0.0f,cameraMaxMoveSpeed);
+	this->SetActorLocation(GetActorLocation()+newLocationDirection);
 }
 
