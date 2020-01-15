@@ -1,0 +1,1416 @@
+﻿Log file open, 01/13/20 10:54:01
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: Stolenmates
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 71 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.507184
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Warning: Incompatible or missing module: Stolenmates
+Running C:/Program Files/Epic Games/UE_4.23/Engine/Binaries/DotNET/UnrealBuildTool.exe Development Win64 -Project="C:/Users/Graphic.SJH519-000W/Documents/GitHub/Stolemates/Stolenmates/Stolenmates.uproject" -TargetType=Editor -Progress -NoHotReloadFromIDE
+Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Graphic.SJH519-000W\Documents\GitHub\Stolemates).
+Creating makefile for StolenmatesEditor (no existing makefile)
+@progress push 5%
+Parsing headers for StolenmatesEditor
+  Running UnrealHeaderTool "C:\Users\Graphic.SJH519-000W\Documents\GitHub\Stolemates\Stolenmates\Stolenmates.uproject" "C:\Users\Graphic.SJH519-000W\Documents\GitHub\Stolemates\Stolenmates\Intermediate\Build\Win64\StolenmatesEditor\Development\StolenmatesEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+Reflection code generated for StolenmatesEditor in 8.2879689 seconds
+@progress pop
+Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+Building 15 actions with 24 processes...
+  @progress 'Compiling C++ source code...' 0%
+  @progress 'Compiling C++ source code...' 7%
+  [1/15] Default.rc2
+  @progress 'Compiling C++ source code...' 13%
+  [2/15] SharedPCH.Engine.cpp
+  @progress 'Compiling C++ source code...' 20%
+  [3/15] Stolenmates.cpp
+  @progress 'Compiling C++ source code...' 27%
+  [4/15] Heart.cpp
+  @progress 'Compiling C++ source code...' 33%
+  [5/15] Stolenmates.init.gen.cpp
+  @progress 'Compiling C++ source code...' 40%
+  [6/15] Heart.gen.cpp
+  @progress 'Compiling C++ source code...' 47%
+  [7/15] Camera.gen.cpp
+  @progress 'Compiling C++ source code...' 53%
+  [8/15] Camera.cpp
+  @progress 'Compiling C++ source code...' 60%
+  [9/15] StolenmatesGameModeBase.gen.cpp
+  @progress 'Compiling C++ source code...' 67%
+  [10/15] StolenmatesPlayer.gen.cpp
+  @progress 'Compiling C++ source code...' 73%
+  [11/15] StolenmatesPlayer.cpp
+  @progress 'Compiling C++ source code...' 80%
+  [12/15] StolenmatesGameModeBase.cpp
+  @progress 'Compiling C++ source code...' 87%
+  [13/15] UE4Editor-Stolenmates.lib
+     Creating library C:\Users\Graphic.SJH519-000W\Documents\GitHub\Stolemates\Stolenmates\Intermediate\Build\Win64\UE4Editor\Development\Stolenmates\UE4Editor-Stolenmates.lib and object C:\Users\Graphic.SJH519-000W\Documents\GitHub\Stolemates\Stolenmates\Intermediate\Build\Win64\UE4Editor\Development\Stolenmates\UE4Editor-Stolenmates.exp
+  @progress 'Compiling C++ source code...' 93%
+  [14/15] UE4Editor-Stolenmates.dll
+     Creating library C:\Users\Graphic.SJH519-000W\Documents\GitHub\Stolemates\Stolenmates\Intermediate\Build\Win64\UE4Editor\Development\Stolenmates\UE4Editor-Stolenmates.suppressed.lib and object C:\Users\Graphic.SJH519-000W\Documents\GitHub\Stolemates\Stolenmates\Intermediate\Build\Win64\UE4Editor\Development\Stolenmates\UE4Editor-Stolenmates.suppressed.exp
+  @progress 'Compiling C++ source code...' 100%
+  [15/15] StolenmatesEditor.target
+Total time in Parallel executor: 29.75 seconds
+Total execution time: 46.57 seconds
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.23-CL-8386587
+LogInit: Engine Version: 4.23.0-8386587+++UE4+Release-4.23
+LogInit: Compatible Engine Version: 4.23.0-8386587+++UE4+Release-4.23
+LogInit: Net CL: 8386587
+LogInit: OS: Windows 10 (Release 1809) (), CPU:       Intel(R) Xeon(R) CPU E5-2697 v2 @ 2.70GHz, GPU: AMD FirePro D700 (FireGL V)
+LogInit: Compiled (64-bit): Aug 31 2019 02:04:44
+LogInit: Compiled with Visual C++: 19.16.27030.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.23
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.23/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 23
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 3
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 34
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 35
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 31
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 11
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 27
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 6
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 9
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2020.01.13-15.54.52:153][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.01.13-15.54.52:153][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.01.13-15.54.52:154][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Graphic.SJH519-000W/Documents/GitHub/Stolemates/Stolenmates/Saved/Config/Windows/Engine.ini]
+[2020.01.13-15.54.52:154][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.01.13-15.54.52:154][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
+[2020.01.13-15.54.52:154][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/Graphic.SJH519-000W/Documents/GitHub/Stolemates/Stolenmates/Saved/Config/Windows/Engine.ini]
+[2020.01.13-15.54.52:154][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Graphic.SJH519-000W/Documents/GitHub/Stolemates/Stolenmates/Saved/Config/Windows/Engine.ini]
+[2020.01.13-15.54.52:154][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.01.13-15.54.52:154][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.01.13-15.54.52:154][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.01.13-15.54.52:154][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.01.13-15.54.52:154][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.01.13-15.54.52:154][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.01.13-15.54.52:154][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.01.13-15.54.52:154][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.01.13-15.54.52:154][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.01.13-15.54.52:154][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.01.13-15.54.52:154][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.01.13-15.54.52:154][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.01.13-15.54.52:154][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.01.13-15.54.52:154][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/Graphic.SJH519-000W/Documents/GitHub/Stolemates/Stolenmates/Saved/Config/Windows/Engine.ini]
+[2020.01.13-15.54.52:154][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.01.13-15.54.52:154][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.01.13-15.54.52:154][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.01.13-15.54.52:154][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.01.13-15.54.52:154][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.01.13-15.54.52:154][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.01.13-15.54.52:154][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2020.01.13-15.54.52:154][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.01.13-15.54.52:154][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.01.13-15.54.52:154][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.01.13-15.54.52:154][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.01.13-15.54.52:154][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.01.13-15.54.52:154][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.01.13-15.54.52:154][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/Graphic.SJH519-000W/Documents/GitHub/Stolemates/Stolenmates/Saved/Config/Windows/Engine.ini]
+[2020.01.13-15.54.52:154][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/Graphic.SJH519-000W/Documents/GitHub/Stolemates/Stolenmates/Saved/Config/Windows/Engine.ini]
+[2020.01.13-15.54.52:165][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Graphic.SJH519-000W/Documents/GitHub/Stolemates/Stolenmates/Saved/Config/Windows/Scalability.ini]
+[2020.01.13-15.54.52:165][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.01.13-15.54.52:165][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.01.13-15.54.52:165][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Graphic.SJH519-000W/Documents/GitHub/Stolemates/Stolenmates/Saved/Config/Windows/Scalability.ini]
+[2020.01.13-15.54.52:165][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.01.13-15.54.52:165][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Graphic.SJH519-000W/Documents/GitHub/Stolemates/Stolenmates/Saved/Config/Windows/Scalability.ini]
+[2020.01.13-15.54.52:165][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.01.13-15.54.52:165][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.01.13-15.54.52:165][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.01.13-15.54.52:165][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.01.13-15.54.52:165][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.01.13-15.54.52:165][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.01.13-15.54.52:165][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.01.13-15.54.52:165][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.01.13-15.54.52:165][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.01.13-15.54.52:165][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.01.13-15.54.52:165][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.01.13-15.54.52:165][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.01.13-15.54.52:165][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.01.13-15.54.52:165][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.01.13-15.54.52:165][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.01.13-15.54.52:165][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.01.13-15.54.52:165][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.01.13-15.54.52:165][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.01.13-15.54.52:165][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Graphic.SJH519-000W/Documents/GitHub/Stolemates/Stolenmates/Saved/Config/Windows/Scalability.ini]
+[2020.01.13-15.54.52:165][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.01.13-15.54.52:165][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.01.13-15.54.52:165][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.01.13-15.54.52:165][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.01.13-15.54.52:165][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.01.13-15.54.52:165][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.01.13-15.54.52:165][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.01.13-15.54.52:165][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.01.13-15.54.52:165][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.01.13-15.54.52:165][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.01.13-15.54.52:166][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.01.13-15.54.52:166][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.01.13-15.54.52:166][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.01.13-15.54.52:166][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.01.13-15.54.52:166][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.01.13-15.54.52:166][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.01.13-15.54.52:166][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.01.13-15.54.52:166][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.01.13-15.54.52:166][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.01.13-15.54.52:166][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.01.13-15.54.52:166][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.01.13-15.54.52:166][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.01.13-15.54.52:166][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.01.13-15.54.52:166][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.01.13-15.54.52:166][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.01.13-15.54.52:166][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.01.13-15.54.52:166][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.01.13-15.54.52:166][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.01.13-15.54.52:166][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.01.13-15.54.52:166][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.01.13-15.54.52:166][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Graphic.SJH519-000W/Documents/GitHub/Stolemates/Stolenmates/Saved/Config/Windows/Scalability.ini]
+[2020.01.13-15.54.52:166][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.01.13-15.54.52:166][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.01.13-15.54.52:166][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.01.13-15.54.52:166][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.01.13-15.54.52:166][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.01.13-15.54.52:166][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.01.13-15.54.52:166][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.01.13-15.54.52:166][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.01.13-15.54.52:166][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Graphic.SJH519-000W/Documents/GitHub/Stolemates/Stolenmates/Saved/Config/Windows/Scalability.ini]
+[2020.01.13-15.54.52:166][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.01.13-15.54.52:166][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.01.13-15.54.52:166][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.01.13-15.54.52:166][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.01.13-15.54.52:166][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.01.13-15.54.52:166][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.01.13-15.54.52:166][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.01.13-15.54.52:166][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.01.13-15.54.52:166][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.01.13-15.54.52:166][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.01.13-15.54.52:166][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.01.13-15.54.52:166][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.01.13-15.54.52:166][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.01.13-15.54.52:166][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Graphic.SJH519-000W/Documents/GitHub/Stolemates/Stolenmates/Saved/Config/Windows/Scalability.ini]
+[2020.01.13-15.54.52:166][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.01.13-15.54.52:166][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.01.13-15.54.52:167][  0]LogInit: Selected Device Profile: [Windows]
+[2020.01.13-15.54.52:167][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.01.13-15.54.52:178][  0]LogHAL: Display: Platform has ~ 32 GB [34329391104 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.01.13-15.54.52:178][  0]LogInit: Going up to parent DeviceProfile []
+[2020.01.13-15.54.52:178][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Graphic.SJH519-000W/Documents/GitHub/Stolemates/Stolenmates/Saved/Config/Windows/Scalability.ini]
+[2020.01.13-15.54.52:179][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.01.13-15.54.52:179][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.01.13-15.54.52:179][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Graphic.SJH519-000W/Documents/GitHub/Stolemates/Stolenmates/Saved/Config/Windows/Scalability.ini]
+[2020.01.13-15.54.52:179][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.01.13-15.54.52:179][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Graphic.SJH519-000W/Documents/GitHub/Stolemates/Stolenmates/Saved/Config/Windows/Scalability.ini]
+[2020.01.13-15.54.52:179][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.01.13-15.54.52:179][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.01.13-15.54.52:179][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.01.13-15.54.52:179][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.01.13-15.54.52:179][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.01.13-15.54.52:179][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.01.13-15.54.52:179][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.01.13-15.54.52:179][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.01.13-15.54.52:179][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.01.13-15.54.52:179][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.01.13-15.54.52:179][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.01.13-15.54.52:179][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.01.13-15.54.52:179][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.01.13-15.54.52:179][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.01.13-15.54.52:179][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.01.13-15.54.52:179][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.01.13-15.54.52:179][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.01.13-15.54.52:179][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.01.13-15.54.52:179][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Graphic.SJH519-000W/Documents/GitHub/Stolemates/Stolenmates/Saved/Config/Windows/Scalability.ini]
+[2020.01.13-15.54.52:179][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.01.13-15.54.52:179][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.01.13-15.54.52:179][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.01.13-15.54.52:179][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.01.13-15.54.52:179][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.01.13-15.54.52:179][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.01.13-15.54.52:179][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.01.13-15.54.52:179][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.01.13-15.54.52:179][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.01.13-15.54.52:179][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.01.13-15.54.52:179][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.01.13-15.54.52:179][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.01.13-15.54.52:179][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.01.13-15.54.52:179][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.01.13-15.54.52:179][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.01.13-15.54.52:179][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.01.13-15.54.52:179][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.01.13-15.54.52:179][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.01.13-15.54.52:179][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.01.13-15.54.52:179][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.01.13-15.54.52:179][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.01.13-15.54.52:179][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.01.13-15.54.52:179][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.01.13-15.54.52:179][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.01.13-15.54.52:179][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.01.13-15.54.52:179][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.01.13-15.54.52:179][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.01.13-15.54.52:179][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.01.13-15.54.52:179][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.01.13-15.54.52:180][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.01.13-15.54.52:180][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Graphic.SJH519-000W/Documents/GitHub/Stolemates/Stolenmates/Saved/Config/Windows/Scalability.ini]
+[2020.01.13-15.54.52:180][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.01.13-15.54.52:180][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.01.13-15.54.52:180][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.01.13-15.54.52:180][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.01.13-15.54.52:180][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.01.13-15.54.52:180][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.01.13-15.54.52:180][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.01.13-15.54.52:180][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.01.13-15.54.52:180][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Graphic.SJH519-000W/Documents/GitHub/Stolemates/Stolenmates/Saved/Config/Windows/Scalability.ini]
+[2020.01.13-15.54.52:180][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.01.13-15.54.52:180][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.01.13-15.54.52:180][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.01.13-15.54.52:180][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.01.13-15.54.52:180][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.01.13-15.54.52:180][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.01.13-15.54.52:180][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.01.13-15.54.52:180][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.01.13-15.54.52:180][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.01.13-15.54.52:180][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.01.13-15.54.52:180][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.01.13-15.54.52:180][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.01.13-15.54.52:180][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.01.13-15.54.52:180][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Graphic.SJH519-000W/Documents/GitHub/Stolemates/Stolenmates/Saved/Config/Windows/Scalability.ini]
+[2020.01.13-15.54.52:180][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.01.13-15.54.52:180][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.01.13-15.54.52:180][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.01.13-15.54.52:180][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.01.13-15.54.52:180][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.01.13-15.54.52:180][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Graphic.SJH519-000W/Documents/GitHub/Stolemates/Stolenmates/Saved/Config/Windows/Engine.ini]
+[2020.01.13-15.54.52:181][  0]LogInit: Computer: WFD211-15W
+[2020.01.13-15.54.52:181][  0]LogInit: User: Graphic
+[2020.01.13-15.54.52:181][  0]LogInit: CPU Page size=4096, Cores=12
+[2020.01.13-15.54.52:181][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.01.13-15.54.52:181][  0]LogMemory: Memory total: Physical=32.0GB (32GB approx)
+[2020.01.13-15.54.52:181][  0]LogMemory: Platform Memory Stats for Windows
+[2020.01.13-15.54.52:181][  0]LogMemory: Process Physical Memory: 106.69 MB used, 106.69 MB peak
+[2020.01.13-15.54.52:181][  0]LogMemory: Process Virtual Memory: 104.66 MB used, 104.66 MB peak
+[2020.01.13-15.54.52:181][  0]LogMemory: Physical Memory: 4898.71 MB used,  27840.35 MB free, 32739.06 MB total
+[2020.01.13-15.54.52:181][  0]LogMemory: Virtual Memory: 4799.13 MB used,  134212928.00 MB free, 134217728.00 MB total
+[2020.01.13-15.54.52:187][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.01.13-15.54.52:393][  0]LogInit: Using OS detected language (en-US).
+[2020.01.13-15.54.52:393][  0]LogInit: Using OS detected locale (en-US).
+[2020.01.13-15.54.52:396][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2020.01.13-15.54.52:737][  0]LogInit: Setting process to per monitor DPI aware
+[2020.01.13-15.54.52:830][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.01.13-15.54.52:830][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.01.13-15.54.55:404][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.01.13-15.54.55:404][  0]LogD3D11RHI: D3D11 adapters:
+[2020.01.13-15.54.55:429][  0]LogD3D11RHI:    0. 'AMD FirePro D700 (FireGL V)' (Feature Level 11_0)
+[2020.01.13-15.54.55:429][  0]LogD3D11RHI:       6124/0/16369 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x1002
+[2020.01.13-15.54.55:431][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.01.13-15.54.55:431][  0]LogD3D11RHI:       0/0/16369 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.01.13-15.54.55:431][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.01.13-15.54.55:438][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.01.13-15.54.55:438][  0]LogD3D11RHI:     GPU DeviceId: 0x6798 (for the marketing name, search the web for "GPU Device Id")
+[2020.01.13-15.54.55:438][  0]LogWindows: EnumDisplayDevices:
+[2020.01.13-15.54.55:438][  0]LogWindows:    0. 'AMD FirePro D700 (FireGL V)' (P:1 D:1)
+[2020.01.13-15.54.55:439][  0]LogWindows:    1. 'AMD FirePro D700 (FireGL V)' (P:0 D:1)
+[2020.01.13-15.54.55:439][  0]LogWindows:    2. 'AMD FirePro D700 (FireGL V)' (P:0 D:0)
+[2020.01.13-15.54.55:440][  0]LogWindows:    3. 'AMD FirePro D700 (FireGL V)' (P:0 D:0)
+[2020.01.13-15.54.55:440][  0]LogWindows:    4. 'AMD FirePro D700 (FireGL V)' (P:0 D:0)
+[2020.01.13-15.54.55:440][  0]LogWindows:    5. 'AMD FirePro D700 (FireGL V)' (P:0 D:0)
+[2020.01.13-15.54.55:441][  0]LogWindows: DebugString: FoundDriverCount:6 
+[2020.01.13-15.54.55:441][  0]LogD3D11RHI:     Adapter Name: AMD FirePro D700 (FireGL V)
+[2020.01.13-15.54.55:441][  0]LogD3D11RHI:   Driver Version: Crimson ReLive 17.6 (internal:22.19.170.1536, unified:22.19.170.1536)
+[2020.01.13-15.54.55:441][  0]LogD3D11RHI:      Driver Date: 7-20-2017
+[2020.01.13-15.54.55:441][  0]LogRHI: Texture pool is 4287 MB (70% of 6124 MB)
+[2020.01.13-15.54.55:566][  0]LogD3D11RHI: Async texture creation enabled
+[2020.01.13-15.54.55:585][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
+[2020.01.13-15.54.55:942][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2020.01.13-15.54.55:953][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2020.01.13-15.54.55:964][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2020.01.13-15.54.55:975][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2020.01.13-15.54.55:997][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2020.01.13-15.54.56:009][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2020.01.13-15.54.56:020][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2020.01.13-15.54.56:032][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2020.01.13-15.54.56:038][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2020.01.13-15.54.56:096][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2020.01.13-15.54.56:096][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2020.01.13-15.54.56:096][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2020.01.13-15.54.56:096][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2020.01.13-15.54.56:096][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2020.01.13-15.54.56:096][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2020.01.13-15.54.56:096][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2020.01.13-15.54.56:096][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2020.01.13-15.54.56:096][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2020.01.13-15.54.56:096][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2020.01.13-15.54.56:096][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2020.01.13-15.54.56:096][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2020.01.13-15.54.56:096][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2020.01.13-15.54.56:096][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2020.01.13-15.54.56:097][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2020.01.13-15.54.56:097][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2020.01.13-15.54.56:097][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2020.01.13-15.54.56:097][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2020.01.13-15.54.56:099][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2020.01.13-15.54.56:138][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2020.01.13-15.54.56:138][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2020.01.13-15.54.56:155][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2020.01.13-15.54.56:155][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2020.01.13-15.54.56:165][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2020.01.13-15.54.56:174][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2020.01.13-15.54.56:184][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2020.01.13-15.54.56:210][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2020.01.13-15.54.56:245][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2020.01.13-15.54.56:245][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2020.01.13-15.54.56:245][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.01.13-15.54.56:292][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.01.13-15.54.56:411][  0]LogShaderCompilers: Guid format shader working directory is -23 characters bigger than the processId version (../../../../../../Users/Graphic.SJH519-000W/Documents/GitHub/Stolemates/Stolenmates/Intermediate/Shaders/WorkingDirectory/5432/).
+[2020.01.13-15.54.56:411][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Graphic.SJH519-000W/AppData/Local/Temp/UnrealShaderWorkingDir/4526D334444276BB065F2BAF6F895C6B/'.
+[2020.01.13-15.54.56:414][  0]LogXGEController: Cleaning working directory: C:/Users/Graphic.SJH519-000W/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2020.01.13-15.54.56:415][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.01.13-15.54.56:415][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.01.13-15.54.56:415][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.01.13-15.54.59:227][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.01.13-15.54.59:336][  0]LogDerivedDataCache: Loaded boot cache 0.11s 73MB C:/Users/Graphic.SJH519-000W/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
+[2020.01.13-15.54.59:336][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Graphic.SJH519-000W/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc
+[2020.01.13-15.54.59:336][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Graphic.SJH519-000W/Documents/GitHub/Stolemates/Stolenmates/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.01.13-15.54.59:336][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.01.13-15.54.59:336][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Graphic.SJH519-000W/Documents/GitHub/Stolemates/Stolenmates/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.01.13-15.54.59:336][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.01.13-15.54.59:360][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.01.13-15.54.59:360][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.01.13-15.54.59:360][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.01.13-15.54.59:361][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Graphic.SJH519-000W/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.01.13-15.54.59:361][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.01.13-15.54.59:362][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.01.13-15.54.59:394][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.01.13-15.54.59:400][  0]LogSlate: Using FreeType 2.6.0
+[2020.01.13-15.54.59:420][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.01.13-15.54.59:688][  0]LogAssetRegistry: FAssetRegistry took 0.0044 seconds to start up
+[2020.01.13-15.55.00:166][  0]LogInit: Selected Device Profile: [Windows]
+[2020.01.13-15.55.00:511][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.01.13-15.55.00:511][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.01.13-15.55.00:512][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.01.13-15.55.00:512][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.01.13-15.55.00:512][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.01.13-15.55.00:557][  0]LogNetVersion: Stolenmates 1.0.0, NetCL: 8386587, EngineNetVer: 11, GameNetVer: 0 (Checksum: 1334032006)
+[2020.01.13-15.55.01:700][  0]LogPackageLocalizationCache: Processed 12 localized package path(s) for 1 prioritized culture(s) in 0.044050 seconds
+[2020.01.13-15.55.01:705][  0]LogUObjectArray: 43444 objects as part of root set at end of initial load.
+[2020.01.13-15.55.01:705][  0]LogUObjectAllocator: 7548648 out of 0 bytes used by permanent object pool.
+[2020.01.13-15.55.01:705][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.01.13-15.55.04:933][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.01.13-15.55.04:938][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.01.13-15.55.05:051][  0]SourceControl: Source control is disabled
+[2020.01.13-15.55.05:052][  0]SourceControl: Source control is disabled
+[2020.01.13-15.55.05:060][  0]SourceControl: Source control is disabled
+[2020.01.13-15.55.05:063][  0]SourceControl: Source control is disabled
+[2020.01.13-15.55.05:260][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.01.13-15.55.05:482][  0]LogOcInput: OculusInput pre-init called
+[2020.01.13-15.55.05:493][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.01.13-15.55.05:493][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.01.13-15.55.05:610][  0]LogEngine: Initializing Engine...
+[2020.01.13-15.55.05:612][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.01.13-15.55.05:614][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.001 s
+[2020.01.13-15.55.05:920][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.01.13-15.55.05:956][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.01.13-15.55.06:009][  0]LogInit: XAudio2 using '1 - DELL U2719D (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.01.13-15.55.06:053][  0]LogInit: FAudioDevice initialized.
+[2020.01.13-15.55.06:053][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.01.13-15.55.06:114][  0]LogDerivedDataCache: Saved boot cache 0.06s 73MB C:/Users/Graphic.SJH519-000W/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
+[2020.01.13-15.55.06:122][  0]LogInit: Texture streaming: Enabled
+[2020.01.13-15.55.06:147][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.01.13-15.55.06:359][  0]LogInit: Transaction tracking system initialized
+[2020.01.13-15.55.06:422][  0]BlueprintLog: New page: Editor Load
+[2020.01.13-15.55.06:581][  0]LocalizationService: Localization service is disabled
+[2020.01.13-15.55.06:937][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Graphic.SJH519-000W/Documents/GitHub/Stolemates/Stolenmates/Content/' took 0.00s
+[2020.01.13-15.55.06:937][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.01.13-15.55.06:937][  0]LogCook: Display: Mobile HDR setting 1
+[2020.01.13-15.55.07:362][  0]SourceControl: Source control is disabled
+[2020.01.13-15.55.07:363][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Graphic.SJH519-000W/Documents/GitHub/Stolemates/Stolenmates/Content/Levels/CondensedLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.01.13-15.55.07:369][  0]LightingResults: New page: Lighting Build
+[2020.01.13-15.55.07:374][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.01.13-15.55.07:375][  0]MapCheck: New page: Map Check
+[2020.01.13-15.55.07:375][  0]LightingResults: New page: Lighting Build
+[2020.01.13-15.55.07:424][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.22ms
+[2020.01.13-15.55.07:916][  0]LogLinker: Warning: While loading '../../../../../../Users/Graphic.SJH519-000W/Documents/GitHub/Stolemates/Stolenmates/Content/Blueprints/EQS_System/PowerUpSpawnLocation.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.01.13-15.55.07:916][  0]LogLinker: Warning: While loading '../../../../../../Users/Graphic.SJH519-000W/Documents/GitHub/Stolemates/Stolenmates/Content/Blueprints/EQS_System/PowerUpSpawnLocation.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.01.13-15.55.07:916][  0]LogLinker: Warning: While loading '../../../../../../Users/Graphic.SJH519-000W/Documents/GitHub/Stolemates/Stolenmates/Content/Blueprints/EQS_System/PowerUpSpawnLocation.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.01.13-15.55.07:916][  0]LogLinker: Warning: While loading '../../../../../../Users/Graphic.SJH519-000W/Documents/GitHub/Stolemates/Stolenmates/Content/Blueprints/EQS_System/PowerUpSpawnLocation.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.01.13-15.55.07:916][  0]LogLinker: Warning: While loading '../../../../../../Users/Graphic.SJH519-000W/Documents/GitHub/Stolemates/Stolenmates/Content/Blueprints/EQS_System/PowerUpSpawnLocation.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.01.13-15.55.07:916][  0]LogLinker: Warning: While loading '../../../../../../Users/Graphic.SJH519-000W/Documents/GitHub/Stolemates/Stolenmates/Content/Blueprints/EQS_System/PowerUpSpawnLocation.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.01.13-15.55.07:916][  0]LogLinker: Warning: While loading '../../../../../../Users/Graphic.SJH519-000W/Documents/GitHub/Stolemates/Stolenmates/Content/Blueprints/EQS_System/PowerUpSpawnLocation.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.01.13-15.55.07:916][  0]LogLinker: Warning: While loading '../../../../../../Users/Graphic.SJH519-000W/Documents/GitHub/Stolemates/Stolenmates/Content/Blueprints/EQS_System/PowerUpSpawnLocation.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.01.13-15.55.07:916][  0]LogLinker: Warning: While loading '../../../../../../Users/Graphic.SJH519-000W/Documents/GitHub/Stolemates/Stolenmates/Content/Blueprints/EQS_System/PowerUpSpawnLocation.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.01.13-15.55.07:917][  0]LogLinker: Warning: While loading '../../../../../../Users/Graphic.SJH519-000W/Documents/GitHub/Stolemates/Stolenmates/Content/Blueprints/EQS_System/PowerUpSpawnLocation.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.01.13-15.55.07:917][  0]LogLinker: Warning: While loading '../../../../../../Users/Graphic.SJH519-000W/Documents/GitHub/Stolemates/Stolenmates/Content/Blueprints/BP_GameMode.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.01.13-15.55.07:917][  0]LogLinker: Warning: While loading '../../../../../../Users/Graphic.SJH519-000W/Documents/GitHub/Stolemates/Stolenmates/Content/Blueprints/BP_GameMode.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.01.13-15.55.07:917][  0]LogLinker: Warning: While loading '../../../../../../Users/Graphic.SJH519-000W/Documents/GitHub/Stolemates/Stolenmates/Content/Blueprints/BP_GameMode.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.01.13-15.55.07:917][  0]LogLinker: Warning: While loading '../../../../../../Users/Graphic.SJH519-000W/Documents/GitHub/Stolemates/Stolenmates/Content/Blueprints/BP_GameMode.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.01.13-15.55.07:917][  0]LogLinker: Warning: While loading '../../../../../../Users/Graphic.SJH519-000W/Documents/GitHub/Stolemates/Stolenmates/Content/Blueprints/BP_GameMode.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.01.13-15.55.07:917][  0]LogLinker: Warning: While loading '../../../../../../Users/Graphic.SJH519-000W/Documents/GitHub/Stolemates/Stolenmates/Content/Blueprints/BP_GameMode.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.01.13-15.55.07:917][  0]LogLinker: Warning: While loading '../../../../../../Users/Graphic.SJH519-000W/Documents/GitHub/Stolemates/Stolenmates/Content/Blueprints/BP_GameMode.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.01.13-15.55.07:917][  0]LogLinker: Warning: While loading '../../../../../../Users/Graphic.SJH519-000W/Documents/GitHub/Stolemates/Stolenmates/Content/Blueprints/BP_GameMode.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.01.13-15.55.07:917][  0]LogLinker: Warning: While loading '../../../../../../Users/Graphic.SJH519-000W/Documents/GitHub/Stolemates/Stolenmates/Content/Blueprints/BP_GameMode.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.01.13-15.55.07:917][  0]LogLinker: Warning: While loading '../../../../../../Users/Graphic.SJH519-000W/Documents/GitHub/Stolemates/Stolenmates/Content/Blueprints/BP_GameMode.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.01.13-15.55.07:917][  0]LogLinker: Warning: While loading '../../../../../../Users/Graphic.SJH519-000W/Documents/GitHub/Stolemates/Stolenmates/Content/Blueprints/BP_GameMode.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.01.13-15.55.07:917][  0]LogLinker: Warning: While loading '../../../../../../Users/Graphic.SJH519-000W/Documents/GitHub/Stolemates/Stolenmates/Content/Blueprints/BP_GameMode.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.01.13-15.55.07:917][  0]LogLinker: Warning: While loading '../../../../../../Users/Graphic.SJH519-000W/Documents/GitHub/Stolemates/Stolenmates/Content/Blueprints/BP_GameMode.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.01.13-15.55.07:917][  0]LogLinker: Warning: While loading '../../../../../../Users/Graphic.SJH519-000W/Documents/GitHub/Stolemates/Stolenmates/Content/Blueprints/BP_GameMode.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.01.13-15.55.07:917][  0]LogLinker: Warning: While loading '../../../../../../Users/Graphic.SJH519-000W/Documents/GitHub/Stolemates/Stolenmates/Content/Blueprints/BP_GameMode.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.01.13-15.55.07:918][  0]LogLinker: Warning: While loading '../../../../../../Users/Graphic.SJH519-000W/Documents/GitHub/Stolemates/Stolenmates/Content/Blueprints/BP_GameMode.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.01.13-15.55.08:760][  0]LogAIModule: Creating AISystem for world CondensedLevel
+[2020.01.13-15.55.08:795][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.01.13-15.55.08:867][  0]LogUObjectHash: Compacting FUObjectHashTables data took   3.24ms
+[2020.01.13-15.55.08:867][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.01.13-15.55.08:868][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.27ms to complete.
+[2020.01.13-15.55.08:868][  0]LogFileHelpers: Loading map 'CondensedLevel' took 1.505
+[2020.01.13-15.55.09:028][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.13-15.55.09:038][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.13-15.55.09:047][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.13-15.55.09:056][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.13-15.55.09:073][  0]LogCollectionManager: Loaded 0 collections in 0.002347 seconds
+[2020.01.13-15.55.09:090][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Graphic.SJH519-000W/Documents/GitHub/Stolemates/Stolenmates/Saved/Collections/' took 0.00s
+[2020.01.13-15.55.09:090][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Graphic.SJH519-000W/Documents/GitHub/Stolemates/Stolenmates/Content/Developers/Graphic/Collections/' took 0.00s
+[2020.01.13-15.55.09:090][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Graphic.SJH519-000W/Documents/GitHub/Stolemates/Stolenmates/Content/Collections/' took 0.00s
+[2020.01.13-15.55.09:090][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2020.01.13-15.55.09:102][  0]LogContentBrowser: Native class hierarchy populated in 0.0111 seconds. Added 2867 classes and 682 folders.
+[2020.01.13-15.55.09:113][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.01.13-15.55.09:487][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.01.13-15.55.09:499][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2020.01.13-15.55.09:558][  0]LogSlate: Took 0.006187 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.01.13-15.55.09:566][  0]LogSlate: Took 0.005869 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.01.13-15.55.09:579][  0]LogSlate: Took 0.006473 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.01.13-15.55.09:703][  0]LogRenderer: Reallocating scene render targets to support 1288x572 Format 10 NumSamples 1 (Frame:1).
+[2020.01.13-15.55.09:873][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.01.13-15.55.09:873][  0]LogLoad: (Engine Initialization) Total time: 72.67 seconds
+[2020.01.13-15.55.09:873][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.01.13-15.55.09:935][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.01.13-15.55.09:953][  0]LogSlate: Took 0.005574 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.01.13-15.55.10:085][  3]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Stolemates_Condensed_Map)
+[2020.01.13-15.55.10:178][  3]LogAssetRegistry: Asset discovery search completed in 10.4917 seconds
+[2020.01.13-15.55.10:182][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000004 seconds (found 0 objects)
+[2020.01.13-15.55.10:182][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000051 seconds (updated 0 objects)
+[2020.01.13-15.55.12:488][235]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2020.01.13-15.55.16:319][641]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.01.13-15.55.44:987][803]LogSlate: Took 0.000196 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.01.13-15.55.45:000][803]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/Graphic.SJH519-000W/Downloads/Sign_Arch_On_Top.fbx)
+[2020.01.13-15.55.45:032][803]LogFbx: Loading FBX Scene from ../../../../../../Users/Graphic.SJH519-000W/Downloads/Sign_Arch_On_Top.fbx
+[2020.01.13-15.55.45:047][803]LogFbx: FBX Scene Loaded Succesfully
+[2020.01.13-15.55.46:194][803]LogSlate: Window 'FBX Import Options' being destroyed
+[2020.01.13-15.55.46:430][803]LogMaterial: Display: Missing cached shader map for material Material__1, compiling. 
+[2020.01.13-15.55.46:497][803]LogShaderCompilers: Display: Worker (1/21): shaders left to compile 22
+[2020.01.13-15.55.46:497][803]LogShaderCompilers: Display: Worker (2/21): shaders left to compile 20
+[2020.01.13-15.55.46:497][803]LogShaderCompilers: Display: Worker (3/21): shaders left to compile 18
+[2020.01.13-15.55.46:497][803]LogShaderCompilers: Display: Worker (4/21): shaders left to compile 16
+[2020.01.13-15.55.46:497][803]LogShaderCompilers: Display: Worker (5/21): shaders left to compile 14
+[2020.01.13-15.55.46:497][803]LogShaderCompilers: Display: Worker (6/21): shaders left to compile 12
+[2020.01.13-15.55.46:497][803]LogShaderCompilers: Display: Worker (7/21): shaders left to compile 10
+[2020.01.13-15.55.46:497][803]LogShaderCompilers: Display: Worker (8/21): shaders left to compile 8
+[2020.01.13-15.55.46:497][803]LogShaderCompilers: Display: Worker (9/21): shaders left to compile 6
+[2020.01.13-15.55.46:497][803]LogShaderCompilers: Display: Worker (10/21): shaders left to compile 4
+[2020.01.13-15.55.46:497][803]LogShaderCompilers: Display: Worker (11/21): shaders left to compile 2
+[2020.01.13-15.55.46:508][803]LogMaterial: Display: Missing cached shader map for material Material__2, compiling. 
+[2020.01.13-15.55.46:526][803]LogFbx: Display: Triangulating static mesh Sign_Park
+[2020.01.13-15.55.46:608][803]LogStaticMesh: Building static mesh Sign_Arch_On_Top...
+[2020.01.13-15.55.46:658][803]LogShaderCompilers: Display: Worker (12/21): shaders left to compile 22
+[2020.01.13-15.55.46:658][803]LogShaderCompilers: Display: Worker (13/21): shaders left to compile 20
+[2020.01.13-15.55.46:658][803]LogShaderCompilers: Display: Worker (14/21): shaders left to compile 18
+[2020.01.13-15.55.46:658][803]LogShaderCompilers: Display: Worker (15/21): shaders left to compile 16
+[2020.01.13-15.55.46:658][803]LogShaderCompilers: Display: Worker (16/21): shaders left to compile 14
+[2020.01.13-15.55.46:658][803]LogShaderCompilers: Display: Worker (17/21): shaders left to compile 12
+[2020.01.13-15.55.46:658][803]LogShaderCompilers: Display: Worker (18/21): shaders left to compile 10
+[2020.01.13-15.55.46:658][803]LogShaderCompilers: Display: Worker (19/21): shaders left to compile 8
+[2020.01.13-15.55.46:658][803]LogShaderCompilers: Display: Worker (20/21): shaders left to compile 6
+[2020.01.13-15.55.46:658][803]LogStaticMesh: Built static mesh [0.05s] /Game/Sign_Arch_On_Top.Sign_Arch_On_Top
+[2020.01.13-15.55.46:688][803]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/Graphic.SJH519-000W/Downloads/Sign_NoSwimming.fbx)
+[2020.01.13-15.55.46:700][803]LogFbx: Loading FBX Scene from ../../../../../../Users/Graphic.SJH519-000W/Downloads/Sign_NoSwimming.fbx
+[2020.01.13-15.55.46:711][803]LogFbx: FBX Scene Loaded Succesfully
+[2020.01.13-15.55.46:727][803]LogStaticMesh: Building static mesh Sign_NoSwimming...
+[2020.01.13-15.55.46:774][803]LogStaticMesh: Built static mesh [0.05s] /Game/Sign_NoSwimming.Sign_NoSwimming
+[2020.01.13-15.55.47:483][823]LogShaderCompilers: Display: Worker (15/21): shaders left to compile 4
+[2020.01.13-15.55.47:509][824]LogShaderCompilers: Display: Worker (4/21): shaders left to compile 3
+[2020.01.13-15.55.47:577][827]LogShaderCompilers: Display: Worker (11/21): shaders left to compile 2
+[2020.01.13-15.55.47:674][831]LogShaderCompilers: Display: Worker (12/21): shaders left to compile 1
+[2020.01.13-15.55.50:858][ 27]LogActorFactory: Actor Factory created Sign_Arch_On_Top
+[2020.01.13-15.55.51:537][105]LogActorFactory: Actor Factory created Sign_Arch_On_Top
+[2020.01.13-15.55.52:942][239]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.01.13-15.55.53:026][246]LogActorFactory: Actor Factory created Sign_NoSwimming
+[2020.01.13-15.55.53:663][320]LogActorFactory: Actor Factory created Sign_NoSwimming
+[2020.01.13-15.56.30:827][432]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sign_Arch_On_Top)
+[2020.01.13-15.56.49:185][326]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2020.01.13-15.59.57:794][139]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.01.13-15.59.58:989][277]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2020.01.13-16.00.00:417][407]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.01.13-16.05.02:392][343]LogUObjectHash: Compacting FUObjectHashTables data took   2.44ms
+[2020.01.13-16.05.02:651][343]LogSavePackage: Moving '../../../../../../Users/Graphic.SJH519-000W/Documents/GitHub/Stolemates/Stolenmates/Saved/CondensedLevel_Auto1CF31E64B492CAA4C05F6A2BC3ABF01FD.tmp' to '../../../../../../Users/Graphic.SJH519-000W/Documents/GitHub/Stolemates/Stolenmates/Saved/Autosaves/Game/Levels/CondensedLevel_Auto1.umap'
+[2020.01.13-16.05.02:658][343]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/CondensedLevel' took 0.318
+[2020.01.13-16.05.02:658][343]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.318
+[2020.01.13-16.05.02:659][343]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Sign_Arch_On_Top] ([1] browsable assets)...
+[2020.01.13-16.05.02:689][343]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Sign_Arch_On_Top.Sign_Arch_On_Top]
+[2020.01.13-16.05.02:689][343]OBJ SavePackage: Finished generating thumbnails for package [/Game/Sign_Arch_On_Top]
+[2020.01.13-16.05.02:715][343]LogSavePackage: Moving '../../../../../../Users/Graphic.SJH519-000W/Documents/GitHub/Stolemates/Stolenmates/Saved/Sign_Arch_On_Top_Auto1F3C644154AE0067122083BBBA93F0C65.tmp' to '../../../../../../Users/Graphic.SJH519-000W/Documents/GitHub/Stolemates/Stolenmates/Saved/Autosaves/Game/Sign_Arch_On_Top_Auto1.uasset'
+[2020.01.13-16.05.02:717][343]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Material__1] ([1] browsable assets)...
+[2020.01.13-16.05.02:735][343]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Material__1.Material__1]
+[2020.01.13-16.05.02:735][343]OBJ SavePackage: Finished generating thumbnails for package [/Game/Material__1]
+[2020.01.13-16.05.02:753][343]LogSavePackage: Moving '../../../../../../Users/Graphic.SJH519-000W/Documents/GitHub/Stolemates/Stolenmates/Saved/Material__1_Auto165DA95AB438106981CFD6B875D6AD8E5.tmp' to '../../../../../../Users/Graphic.SJH519-000W/Documents/GitHub/Stolemates/Stolenmates/Saved/Autosaves/Game/Material__1_Auto1.uasset'
+[2020.01.13-16.05.02:754][343]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Material__2] ([1] browsable assets)...
+[2020.01.13-16.05.02:781][343]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Material__2.Material__2]
+[2020.01.13-16.05.02:781][343]OBJ SavePackage: Finished generating thumbnails for package [/Game/Material__2]
+[2020.01.13-16.05.02:799][343]LogSavePackage: Moving '../../../../../../Users/Graphic.SJH519-000W/Documents/GitHub/Stolemates/Stolenmates/Saved/Material__2_Auto1B25CC2474ECC59816F84958E21977408.tmp' to '../../../../../../Users/Graphic.SJH519-000W/Documents/GitHub/Stolemates/Stolenmates/Saved/Autosaves/Game/Material__2_Auto1.uasset'
+[2020.01.13-16.05.02:800][343]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Sign_NoSwimming] ([1] browsable assets)...
+[2020.01.13-16.05.02:819][343]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Sign_NoSwimming.Sign_NoSwimming]
+[2020.01.13-16.05.02:819][343]OBJ SavePackage: Finished generating thumbnails for package [/Game/Sign_NoSwimming]
+[2020.01.13-16.05.02:843][343]LogSavePackage: Moving '../../../../../../Users/Graphic.SJH519-000W/Documents/GitHub/Stolemates/Stolenmates/Saved/Sign_NoSwimming_Auto1C39C7C334BBF90DE76639284AB15E74A.tmp' to '../../../../../../Users/Graphic.SJH519-000W/Documents/GitHub/Stolemates/Stolenmates/Saved/Autosaves/Game/Sign_NoSwimming_Auto1.uasset'
+[2020.01.13-16.05.02:844][343]LogFileHelpers: Auto-saving content packages took 0.186
+[2020.01.13-17.04.37:715][109]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.01.13-17.04.37:911][122]LogAssetEditorManager: Opening Asset editor for StaticMesh /Game/Sign_NoSwimming.Sign_NoSwimming
+[2020.01.13-17.04.38:626][122]LogSlate: Took 0.007562 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.01.13-17.05.40:633][975]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2020.01.13-17.16.44:972][521]LogSlate: Window 'Sign_NoSwimming' being destroyed
+[2020.01.13-17.16.44:974][521]LogSlate: Window 'Sign_NoSwimming' being destroyed
+[2020.01.13-17.16.44:989][521]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2020.01.13-17.17.02:625][468]LogUObjectHash: Compacting FUObjectHashTables data took   2.77ms
+[2020.01.13-17.17.03:924][468]LogSlate: Window 'Delete Assets' being destroyed
+[2020.01.13-17.17.03:928][468]LogUObjectGlobals: Force Deleting 2 Package(s):
+	Asset Name: /Game/Material__1.Material__1
+	Asset Name: /Game/Material__2.Material__2
+[2020.01.13-17.17.04:780][468]LogUObjectHash: Compacting FUObjectHashTables data took   2.08ms
+[2020.01.13-17.17.07:779][731]LogMetaData: Removing '/Game/Models/Sign_Arch_On_Top.Sign_Arch_On_Top' ref from Metadata '/Game/Sign_Arch_On_Top.PackageMetaData'
+[2020.01.13-17.17.07:786][731]LogMetaData: Removing '/Game/Models/Sign_NoSwimming.Sign_NoSwimming' ref from Metadata '/Game/Sign_NoSwimming.PackageMetaData'
+[2020.01.13-17.17.07:825][731]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Sign_Arch_On_Top" FILE="../../../../../../Users/Graphic.SJH519-000W/Documents/GitHub/Stolemates/Stolenmates/Content/Models/Sign_Arch_On_Top.uasset" SILENT=true
+[2020.01.13-17.17.07:853][731]LogSavePackage: Moving '../../../../../../Users/Graphic.SJH519-000W/Documents/GitHub/Stolemates/Stolenmates/Saved/Sign_Arch_On_Top06F6176540AF70158D6DBDABD915B90A.tmp' to '../../../../../../Users/Graphic.SJH519-000W/Documents/GitHub/Stolemates/Stolenmates/Content/Models/Sign_Arch_On_Top.uasset'
+[2020.01.13-17.17.07:878][731]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Sign_NoSwimming" FILE="../../../../../../Users/Graphic.SJH519-000W/Documents/GitHub/Stolemates/Stolenmates/Content/Models/Sign_NoSwimming.uasset" SILENT=true
+[2020.01.13-17.17.07:904][731]LogSavePackage: Moving '../../../../../../Users/Graphic.SJH519-000W/Documents/GitHub/Stolemates/Stolenmates/Saved/Sign_NoSwimmingBCA793EF47CD0A52AD06AAB3C151EC28.tmp' to '../../../../../../Users/Graphic.SJH519-000W/Documents/GitHub/Stolemates/Stolenmates/Content/Models/Sign_NoSwimming.uasset'
+[2020.01.13-17.17.08:083][731]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2020.01.13-17.17.08:125][731]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2020.01.13-17.17.08:172][731]LogUObjectHash: Compacting FUObjectHashTables data took   2.18ms
+[2020.01.13-17.17.08:215][731]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2020.01.13-17.17.36:014][162]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2020.01.13-17.17.36:288][162]LogSavePackage: Moving '../../../../../../Users/Graphic.SJH519-000W/Documents/GitHub/Stolemates/Stolenmates/Saved/CondensedLevel_Auto21C46880546D8DDEABE5AE1B80362C734.tmp' to '../../../../../../Users/Graphic.SJH519-000W/Documents/GitHub/Stolemates/Stolenmates/Saved/Autosaves/Game/Levels/CondensedLevel_Auto2.umap'
+[2020.01.13-17.17.36:296][162]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/CondensedLevel' took 0.330
+[2020.01.13-17.17.36:296][162]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.330
+[2020.01.13-17.17.40:138][210]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\Graphic.SJH519-000W\Downloads\rogers_stairs.fbx)
+[2020.01.13-17.17.40:151][210]LogFbx: Loading FBX Scene from C:\Users\Graphic.SJH519-000W\Downloads\rogers_stairs.fbx
+[2020.01.13-17.17.40:164][210]LogFbx: FBX Scene Loaded Succesfully
+[2020.01.13-17.17.42:878][210]LogSlate: Window 'FBX Import Options' being destroyed
+[2020.01.13-17.17.42:909][210]LogMaterial: Display: Missing cached shader map for material stair_metal, compiling. 
+[2020.01.13-17.17.42:933][210]LogShaderCompilers: Display: Worker (1/21): shaders left to compile 22
+[2020.01.13-17.17.42:933][210]LogShaderCompilers: Display: Worker (2/21): shaders left to compile 20
+[2020.01.13-17.17.42:933][210]LogShaderCompilers: Display: Worker (3/21): shaders left to compile 18
+[2020.01.13-17.17.42:933][210]LogShaderCompilers: Display: Worker (4/21): shaders left to compile 16
+[2020.01.13-17.17.42:933][210]LogShaderCompilers: Display: Worker (5/21): shaders left to compile 14
+[2020.01.13-17.17.42:933][210]LogShaderCompilers: Display: Worker (6/21): shaders left to compile 12
+[2020.01.13-17.17.42:933][210]LogShaderCompilers: Display: Worker (7/21): shaders left to compile 10
+[2020.01.13-17.17.42:933][210]LogShaderCompilers: Display: Worker (8/21): shaders left to compile 8
+[2020.01.13-17.17.42:933][210]LogShaderCompilers: Display: Worker (9/21): shaders left to compile 6
+[2020.01.13-17.17.42:933][210]LogShaderCompilers: Display: Worker (10/21): shaders left to compile 4
+[2020.01.13-17.17.42:933][210]LogShaderCompilers: Display: Worker (11/21): shaders left to compile 2
+[2020.01.13-17.17.42:950][210]LogMaterial: Display: Missing cached shader map for material stair_grey, compiling. 
+[2020.01.13-17.17.42:970][210]LogFbx: Display: Triangulating static mesh stairs
+[2020.01.13-17.17.43:324][210]LogShaderCompilers: Display: Worker (12/21): shaders left to compile 22
+[2020.01.13-17.17.43:324][210]LogShaderCompilers: Display: Worker (13/21): shaders left to compile 20
+[2020.01.13-17.17.43:324][210]LogShaderCompilers: Display: Worker (14/21): shaders left to compile 18
+[2020.01.13-17.17.43:324][210]LogShaderCompilers: Display: Worker (15/21): shaders left to compile 16
+[2020.01.13-17.17.43:324][210]LogShaderCompilers: Display: Worker (16/21): shaders left to compile 14
+[2020.01.13-17.17.43:324][210]LogShaderCompilers: Display: Worker (17/21): shaders left to compile 12
+[2020.01.13-17.17.43:324][210]LogShaderCompilers: Display: Worker (18/21): shaders left to compile 10
+[2020.01.13-17.17.43:324][210]LogShaderCompilers: Display: Worker (19/21): shaders left to compile 8
+[2020.01.13-17.17.43:325][210]LogShaderCompilers: Display: Worker (20/21): shaders left to compile 6
+[2020.01.13-17.17.43:329][210]LogStaticMesh: Building static mesh rogers_stairs...
+[2020.01.13-17.17.43:470][210]LogStaticMesh: Built static mesh [0.14s] /Game/Models/rogers_stairs.rogers_stairs
+[2020.01.13-17.17.43:484][210]LogStaticMesh: Warning: rogers_stairs has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2020.01.13-17.17.43:484][210]LogStaticMesh: Warning: rogers_stairs has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2020.01.13-17.17.43:515][210]FBXImport: Warning: rogers_stairs has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2020.01.13-17.17.43:515][210]FBXImport: Warning: rogers_stairs has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2020.01.13-17.17.44:156][227]LogShaderCompilers: Display: Worker (4/21): shaders left to compile 4
+[2020.01.13-17.17.44:185][228]LogShaderCompilers: Display: Worker (15/21): shaders left to compile 3
+[2020.01.13-17.17.44:263][230]LogShaderCompilers: Display: Worker (11/21): shaders left to compile 2
+[2020.01.13-17.17.44:370][233]LogShaderCompilers: Display: Worker (3/21): shaders left to compile 1
+[2020.01.13-17.17.46:308][371]LogSlate: Window 'Message Log' being destroyed
+[2020.01.13-17.17.46:312][371]LogSlate: Window 'Message Log' being destroyed
+[2020.01.13-17.17.51:595][882]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.01.13-17.17.51:774][897]LogActorFactory: Actor Factory created rogers_stairs
+[2020.01.13-17.17.52:517][980]LogActorFactory: Actor Factory created rogers_stairs
+[2020.01.13-17.18.07:677][663]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.01.13-17.18.07:848][673]LogAssetEditorManager: Opening Asset editor for StaticMesh /Game/Models/rogers_stairs.rogers_stairs
+[2020.01.13-17.18.18:766][538]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.01.13-17.18.18:919][556]LogSlate: Window 'rogers_stairs' being destroyed
+[2020.01.13-17.18.18:923][556]LogSlate: Window 'rogers_stairs' being destroyed
+[2020.01.13-17.18.18:924][556]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2020.01.13-17.18.24:255][166]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.01.13-17.27.36:646][826]LogUObjectHash: Compacting FUObjectHashTables data took   3.01ms
+[2020.01.13-17.27.36:901][826]LogSavePackage: Moving '../../../../../../Users/Graphic.SJH519-000W/Documents/GitHub/Stolemates/Stolenmates/Saved/CondensedLevel_Auto33C7EF67747C37DA1747C89A31512008C.tmp' to '../../../../../../Users/Graphic.SJH519-000W/Documents/GitHub/Stolemates/Stolenmates/Saved/Autosaves/Game/Levels/CondensedLevel_Auto3.umap'
+[2020.01.13-17.27.36:909][826]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/CondensedLevel' took 0.308
+[2020.01.13-17.27.36:909][826]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.308
+[2020.01.13-17.27.36:911][826]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/rogers_stairs] ([1] browsable assets)...
+[2020.01.13-17.27.36:930][826]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Models/rogers_stairs.rogers_stairs]
+[2020.01.13-17.27.36:930][826]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/rogers_stairs]
+[2020.01.13-17.27.36:960][826]LogSavePackage: Moving '../../../../../../Users/Graphic.SJH519-000W/Documents/GitHub/Stolemates/Stolenmates/Saved/rogers_stairs_Auto37418F70D4EC402208201178830AA6891.tmp' to '../../../../../../Users/Graphic.SJH519-000W/Documents/GitHub/Stolemates/Stolenmates/Saved/Autosaves/Game/Models/rogers_stairs_Auto3.uasset'
+[2020.01.13-17.27.36:963][826]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/stair_metal] ([1] browsable assets)...
+[2020.01.13-17.27.36:981][826]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Models/stair_metal.stair_metal]
+[2020.01.13-17.27.36:981][826]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/stair_metal]
+[2020.01.13-17.27.36:999][826]LogSavePackage: Moving '../../../../../../Users/Graphic.SJH519-000W/Documents/GitHub/Stolemates/Stolenmates/Saved/stair_metal_Auto33C5B940E481E238297D33A835DE5D3AC.tmp' to '../../../../../../Users/Graphic.SJH519-000W/Documents/GitHub/Stolemates/Stolenmates/Saved/Autosaves/Game/Models/stair_metal_Auto3.uasset'
+[2020.01.13-17.27.37:001][826]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/stair_grey] ([1] browsable assets)...
+[2020.01.13-17.27.37:020][826]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Models/stair_grey.stair_grey]
+[2020.01.13-17.27.37:020][826]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/stair_grey]
+[2020.01.13-17.27.37:039][826]LogSavePackage: Moving '../../../../../../Users/Graphic.SJH519-000W/Documents/GitHub/Stolemates/Stolenmates/Saved/stair_grey_Auto346AD5FE149D10CFBD478E0BF21910A35.tmp' to '../../../../../../Users/Graphic.SJH519-000W/Documents/GitHub/Stolemates/Stolenmates/Saved/Autosaves/Game/Models/stair_grey_Auto3.uasset'
+[2020.01.13-17.27.37:040][826]LogFileHelpers: Auto-saving content packages took 0.130
+[2020.01.13-17.37.23:396][170]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2020.01.13-17.37.25:433][353]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Stolemates_Condensed_Map)
+[2020.01.13-17.37.27:572][538]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Stolemates_Condensed_Map)
+[2020.01.13-17.37.29:172][661]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (rogers_stairs)
+[2020.01.13-17.38.16:821][964]Cmd: DELETE
+[2020.01.13-17.38.16:821][964]Cmd: ACTOR DELETE
+[2020.01.13-17.38.16:829][964]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.01.13-17.38.16:875][964]LogUObjectHash: Compacting FUObjectHashTables data took   2.87ms
+[2020.01.13-17.38.16:876][964]LogEditorActor: Deleted 1 Actors (0.052 secs)
+[2020.01.13-17.38.18:325][104]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.01.13-17.38.21:103][346]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2020.01.13-17.38.22:076][346]LogSlate: Window 'Delete Assets' being destroyed
+[2020.01.13-17.38.22:161][346]LogUObjectHash: Compacting FUObjectHashTables data took   2.43ms
+[2020.01.13-17.38.27:017][672]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2020.01.13-17.38.28:093][672]LogSlate: Window 'Delete Assets' being destroyed
+[2020.01.13-17.38.28:187][672]LogUObjectHash: Compacting FUObjectHashTables data took   2.13ms
+[2020.01.13-17.38.41:466][902]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\Graphic.SJH519-000W\Downloads\rogers_stairs2.fbx)
+[2020.01.13-17.38.41:480][902]LogFbx: Loading FBX Scene from C:\Users\Graphic.SJH519-000W\Downloads\rogers_stairs2.fbx
+[2020.01.13-17.38.41:494][902]LogFbx: FBX Scene Loaded Succesfully
+[2020.01.13-17.38.42:487][902]LogSlate: Window 'FBX Import Options' being destroyed
+[2020.01.13-17.38.42:516][902]LogMaterial: Display: Missing cached shader map for material stair_metal, compiling. 
+[2020.01.13-17.38.42:541][902]LogShaderCompilers: Display: Worker (1/21): shaders left to compile 22
+[2020.01.13-17.38.42:541][902]LogShaderCompilers: Display: Worker (2/21): shaders left to compile 20
+[2020.01.13-17.38.42:541][902]LogShaderCompilers: Display: Worker (3/21): shaders left to compile 18
+[2020.01.13-17.38.42:541][902]LogShaderCompilers: Display: Worker (4/21): shaders left to compile 16
+[2020.01.13-17.38.42:541][902]LogShaderCompilers: Display: Worker (5/21): shaders left to compile 14
+[2020.01.13-17.38.42:541][902]LogShaderCompilers: Display: Worker (6/21): shaders left to compile 12
+[2020.01.13-17.38.42:541][902]LogShaderCompilers: Display: Worker (7/21): shaders left to compile 10
+[2020.01.13-17.38.42:541][902]LogShaderCompilers: Display: Worker (8/21): shaders left to compile 8
+[2020.01.13-17.38.42:541][902]LogShaderCompilers: Display: Worker (9/21): shaders left to compile 6
+[2020.01.13-17.38.42:541][902]LogShaderCompilers: Display: Worker (10/21): shaders left to compile 4
+[2020.01.13-17.38.42:541][902]LogShaderCompilers: Display: Worker (11/21): shaders left to compile 2
+[2020.01.13-17.38.42:553][902]LogMaterial: Display: Missing cached shader map for material stair_grey, compiling. 
+[2020.01.13-17.38.42:571][902]LogFbx: Display: Triangulating static mesh stairs
+[2020.01.13-17.38.42:955][902]LogShaderCompilers: Display: Worker (12/21): shaders left to compile 22
+[2020.01.13-17.38.42:955][902]LogShaderCompilers: Display: Worker (13/21): shaders left to compile 20
+[2020.01.13-17.38.42:955][902]LogShaderCompilers: Display: Worker (14/21): shaders left to compile 18
+[2020.01.13-17.38.42:955][902]LogShaderCompilers: Display: Worker (15/21): shaders left to compile 16
+[2020.01.13-17.38.42:955][902]LogShaderCompilers: Display: Worker (16/21): shaders left to compile 14
+[2020.01.13-17.38.42:955][902]LogShaderCompilers: Display: Worker (17/21): shaders left to compile 12
+[2020.01.13-17.38.42:955][902]LogShaderCompilers: Display: Worker (18/21): shaders left to compile 10
+[2020.01.13-17.38.42:955][902]LogShaderCompilers: Display: Worker (19/21): shaders left to compile 8
+[2020.01.13-17.38.42:955][902]LogShaderCompilers: Display: Worker (20/21): shaders left to compile 6
+[2020.01.13-17.38.42:959][902]LogStaticMesh: Building static mesh rogers_stairs2...
+[2020.01.13-17.38.43:150][902]LogStaticMesh: Built static mesh [0.19s] /Game/Models/rogers_stairs2.rogers_stairs2
+[2020.01.13-17.38.43:168][902]LogStaticMesh: Warning: rogers_stairs2 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2020.01.13-17.38.43:168][902]LogStaticMesh: Warning: rogers_stairs2 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2020.01.13-17.38.43:211][902]FBXImport: Warning: rogers_stairs2 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2020.01.13-17.38.43:211][902]FBXImport: Warning: rogers_stairs2 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2020.01.13-17.38.43:247][902]LogShaderCompilers: Display: Worker (4/21): shaders left to compile 4
+[2020.01.13-17.38.43:388][905]LogShaderCompilers: Display: Worker (11/21): shaders left to compile 3
+[2020.01.13-17.38.43:431][907]LogShaderCompilers: Display: Worker (1/21): shaders left to compile 2
+[2020.01.13-17.38.43:458][909]LogShaderCompilers: Display: Worker (2/21): shaders left to compile 1
+[2020.01.13-17.38.44:683][ 12]LogSlate: Window 'Message Log' being destroyed
+[2020.01.13-17.38.44:687][ 12]LogSlate: Window 'Message Log' being destroyed
+[2020.01.13-17.38.48:635][200]LogActorFactory: Actor Factory created rogers_stairs2
+[2020.01.13-17.38.49:310][266]LogActorFactory: Actor Factory created rogers_stairs2
+[2020.01.13-17.39.37:495][539]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2020.01.13-17.39.41:102][914]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.01.13-17.39.49:719][825]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.01.13-17.39.52:993][102]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.01.13-17.40.01:467][638]LogLinker: Warning: While loading '../../../../../../Users/Graphic.SJH519-000W/Documents/GitHub/Stolemates/Stolenmates/Content/Blueprints/EQS_System/PowerUpSpawnLocation.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.01.13-17.40.01:467][638]LogLinker: Warning: While loading '../../../../../../Users/Graphic.SJH519-000W/Documents/GitHub/Stolemates/Stolenmates/Content/Blueprints/EQS_System/PowerUpSpawnLocation.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.01.13-17.40.01:467][638]LogLinker: Warning: While loading '../../../../../../Users/Graphic.SJH519-000W/Documents/GitHub/Stolemates/Stolenmates/Content/Blueprints/EQS_System/PowerUpSpawnLocation.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.01.13-17.40.01:467][638]LogLinker: Warning: While loading '../../../../../../Users/Graphic.SJH519-000W/Documents/GitHub/Stolemates/Stolenmates/Content/Blueprints/EQS_System/PowerUpSpawnLocation.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.01.13-17.40.01:467][638]LogLinker: Warning: While loading '../../../../../../Users/Graphic.SJH519-000W/Documents/GitHub/Stolemates/Stolenmates/Content/Blueprints/EQS_System/PowerUpSpawnLocation.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.01.13-17.40.01:467][638]LogLinker: Warning: While loading '../../../../../../Users/Graphic.SJH519-000W/Documents/GitHub/Stolemates/Stolenmates/Content/Blueprints/EQS_System/PowerUpSpawnLocation.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.01.13-17.40.01:467][638]LogLinker: Warning: While loading '../../../../../../Users/Graphic.SJH519-000W/Documents/GitHub/Stolemates/Stolenmates/Content/Blueprints/EQS_System/PowerUpSpawnLocation.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.01.13-17.40.01:467][638]LogLinker: Warning: While loading '../../../../../../Users/Graphic.SJH519-000W/Documents/GitHub/Stolemates/Stolenmates/Content/Blueprints/EQS_System/PowerUpSpawnLocation.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.01.13-17.40.01:468][638]LogLinker: Warning: While loading '../../../../../../Users/Graphic.SJH519-000W/Documents/GitHub/Stolemates/Stolenmates/Content/Blueprints/EQS_System/PowerUpSpawnLocation.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.01.13-17.40.01:468][638]LogLinker: Warning: While loading '../../../../../../Users/Graphic.SJH519-000W/Documents/GitHub/Stolemates/Stolenmates/Content/Blueprints/EQS_System/PowerUpSpawnLocation.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.01.13-17.40.01:522][638]LogLinker: Warning: While loading '../../../../../../Users/Graphic.SJH519-000W/Documents/GitHub/Stolemates/Stolenmates/Content/Levels/RestaurantFix.umap' failed to load '/Game/Levels/RestaurantFix_BuiltData': Can't find file.
+[2020.01.13-17.40.01:522][638]LogLinker: Warning: While loading '../../../../../../Users/Graphic.SJH519-000W/Documents/GitHub/Stolemates/Stolenmates/Content/Levels/RestaurantFix.umap' failed to load '/Game/Levels/RestaurantFix_BuiltData': Can't find file.
+[2020.01.13-17.40.01:538][638]LogLinker: Warning: While loading '../../../../../../Users/Graphic.SJH519-000W/Documents/GitHub/Stolemates/Stolenmates/Content/Levels/RestaurantFix.umap' failed to load '/Game/Levels/RestaurantFix_BuiltData': Can't find file.
+[2020.01.13-17.40.01:538][638]LogLinker: Warning: While loading '../../../../../../Users/Graphic.SJH519-000W/Documents/GitHub/Stolemates/Stolenmates/Content/Levels/RestaurantFix.umap' failed to load '/Game/Levels/RestaurantFix_BuiltData': Can't find file.
+[2020.01.13-17.40.01:654][638]LogLinker: Warning: Failed to load '/Game/Levels/RestaurantFix_BuiltData': Can't find file.
+[2020.01.13-17.40.01:654][638]LogLinker: Warning: Failed to load '/Game/Levels/RestaurantFix_BuiltData': Can't find file.
+[2020.01.13-17.40.01:654][638]LogLinker: Warning: Failed to load '/Game/Levels/RestaurantFix_BuiltData': Can't find file.
+[2020.01.13-17.40.01:654][638]LogLinker: Warning: Failed to load '/Game/Levels/RestaurantFix_BuiltData': Can't find file.
+[2020.01.13-17.40.01:670][638]LogLinker: Warning: While loading '../../../../../../Users/Graphic.SJH519-000W/Documents/GitHub/Stolemates/Stolenmates/Content/Levels/RestaurantFix.umap' failed to load '/Game/Levels/RestaurantFix_BuiltData': Can't find file.
+[2020.01.13-17.40.01:670][638]LoadErrors: Failed to load /Game/Levels/RestaurantFix_BuiltData.RestaurantFix_BuiltData Referenced by PersistentLevel
+[2020.01.13-17.40.01:670][638]LogLinker: Warning: While loading '../../../../../../Users/Graphic.SJH519-000W/Documents/GitHub/Stolemates/Stolenmates/Content/Levels/RestaurantFix.umap' failed to load '/Game/Levels/RestaurantFix_BuiltData': Can't find file.
+[2020.01.13-17.40.01:757][638]LogAIModule: Creating AISystem for world RestaurantFix
+[2020.01.13-17.40.01:783][638]LogAssetEditorManager: Opening Asset editor for World /Game/Levels/RestaurantFix.RestaurantFix
+[2020.01.13-17.40.01:830][638]LogUObjectHash: Compacting FUObjectHashTables data took   2.54ms
+[2020.01.13-17.40.03:578][638]LogSlate: Window 'Save Content' being destroyed
+[2020.01.13-17.40.03:584][638]Cmd: MAP LOAD FILE="../../../../../../Users/Graphic.SJH519-000W/Documents/GitHub/Stolemates/Stolenmates/Content/Levels/RestaurantFix.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.01.13-17.40.03:586][638]LightingResults: New page: Lighting Build
+[2020.01.13-17.40.03:587][638]LoadErrors: New page: Loading map: RestaurantFix.umap
+[2020.01.13-17.40.03:590][638]LogWorld: UWorld::CleanupWorld for CondensedLevel, bSessionEnded=true, bCleanupResources=true
+[2020.01.13-17.40.03:590][638]MapCheck: New page: Map Check
+[2020.01.13-17.40.03:591][638]LightingResults: New page: Lighting Build
+[2020.01.13-17.40.03:643][638]LogUObjectHash: Compacting FUObjectHashTables data took   2.58ms
+[2020.01.13-17.40.03:662][638]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.01.13-17.40.03:732][638]LogUObjectHash: Compacting FUObjectHashTables data took   2.26ms
+[2020.01.13-17.40.03:752][638]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.01.13-17.40.03:753][638]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.119ms to complete.
+[2020.01.13-17.40.03:753][638]LogFileHelpers: Loading map 'RestaurantFix' took 0.170
+[2020.01.13-17.40.03:777][638]LoadErrors: Error: /Game/Levels/RestaurantFix : Failed import for Material /Game/Models/11_-_Default.11_-_Default Referenced by export StaticMeshComponent /Game/Levels/RestaurantFix.RestaurantFix:PersistentLevel.TorontoSigh_2.StaticMeshComponent0
+[2020.01.13-17.40.03:777][638]LoadErrors: Error: /Game/Levels/RestaurantFix : Failed import for Material /Game/Models/16_-_Default.16_-_Default Referenced by export StaticMeshComponent /Game/Levels/RestaurantFix.RestaurantFix:PersistentLevel.TorontoSigh_2.StaticMeshComponent0
+[2020.01.13-17.40.03:777][638]LoadErrors: Error: /Game/Levels/RestaurantFix : Failed import for Material /Game/Models/23_-_Default.23_-_Default Referenced by export StaticMeshComponent /Game/Levels/RestaurantFix.RestaurantFix:PersistentLevel.TorontoSigh_2.StaticMeshComponent0
+[2020.01.13-17.40.07:623][ 43]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.01.13-17.40.12:629][306]LogActorFactory: Actor Factory created rogers_stairs2
+[2020.01.13-17.40.13:209][374]LogActorFactory: Actor Factory created rogers_stairs2
+[2020.01.13-17.40.21:439][213]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Stolemates_Condensed_Map)
+[2020.01.13-17.40.21:638][227]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2020.01.13-17.40.40:771][445]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2020.01.13-17.40.44:858][885]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.01.13-17.50.01:503][560]LogUObjectHash: Compacting FUObjectHashTables data took   2.07ms
+[2020.01.13-17.50.01:786][560]LogSavePackage: Moving '../../../../../../Users/Graphic.SJH519-000W/Documents/GitHub/Stolemates/Stolenmates/Saved/RestaurantFix_Auto41166BFC340590DD3C1F36BA31070DE79.tmp' to '../../../../../../Users/Graphic.SJH519-000W/Documents/GitHub/Stolemates/Stolenmates/Saved/Autosaves/Game/Levels/RestaurantFix_Auto4.umap'
+[2020.01.13-17.50.01:790][560]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/RestaurantFix' took 0.331
+[2020.01.13-17.50.01:790][560]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.331
+[2020.01.13-17.50.01:791][560]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/rogers_stairs2] ([1] browsable assets)...
+[2020.01.13-17.50.01:813][560]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Models/rogers_stairs2.rogers_stairs2]
+[2020.01.13-17.50.01:813][560]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/rogers_stairs2]
+[2020.01.13-17.50.01:844][560]LogSavePackage: Moving '../../../../../../Users/Graphic.SJH519-000W/Documents/GitHub/Stolemates/Stolenmates/Saved/rogers_stairs2_Auto499213A594C449566EBDE77B76A460127.tmp' to '../../../../../../Users/Graphic.SJH519-000W/Documents/GitHub/Stolemates/Stolenmates/Saved/Autosaves/Game/Models/rogers_stairs2_Auto4.uasset'
+[2020.01.13-17.50.01:846][560]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/stair_metal] ([1] browsable assets)...
+[2020.01.13-17.50.01:863][560]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Models/stair_metal.stair_metal]
+[2020.01.13-17.50.01:863][560]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/stair_metal]
+[2020.01.13-17.50.01:881][560]LogSavePackage: Moving '../../../../../../Users/Graphic.SJH519-000W/Documents/GitHub/Stolemates/Stolenmates/Saved/stair_metal_Auto4CD885CDE4DE456C95D7023A32B70AED3.tmp' to '../../../../../../Users/Graphic.SJH519-000W/Documents/GitHub/Stolemates/Stolenmates/Saved/Autosaves/Game/Models/stair_metal_Auto4.uasset'
+[2020.01.13-17.50.01:882][560]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/stair_grey] ([1] browsable assets)...
+[2020.01.13-17.50.01:898][560]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Models/stair_grey.stair_grey]
+[2020.01.13-17.50.01:899][560]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/stair_grey]
+[2020.01.13-17.50.01:916][560]LogSavePackage: Moving '../../../../../../Users/Graphic.SJH519-000W/Documents/GitHub/Stolemates/Stolenmates/Saved/stair_grey_Auto4A408FD7142A667676138C3BF88C8EA1B.tmp' to '../../../../../../Users/Graphic.SJH519-000W/Documents/GitHub/Stolemates/Stolenmates/Saved/Autosaves/Game/Models/stair_grey_Auto4.uasset'
+[2020.01.13-17.50.01:917][560]LogFileHelpers: Auto-saving content packages took 0.126
+[2020.01.13-18.09.39:242][308]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (rogers_stairs2)
+[2020.01.13-18.09.51:382][588]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Stolemates_Condensed_Map)
+[2020.01.13-18.09.52:848][690]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Stolemates_Condensed_Map)
+[2020.01.13-18.09.53:601][749]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Stolemates_Condensed_Map)
+[2020.01.13-18.09.54:285][815]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Stolemates_Condensed_Map)
+[2020.01.13-18.09.55:557][941]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (rogers_stairs2)
+[2020.01.13-18.10.17:938][313]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Bush9)
+[2020.01.13-18.11.11:100][414]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2020.01.13-18.11.11:162][414]LogUObjectHash: Compacting FUObjectHashTables data took   2.76ms
+[2020.01.13-18.11.11:436][414]LogSavePackage: Moving '../../../../../../Users/Graphic.SJH519-000W/Documents/GitHub/Stolemates/Stolenmates/Saved/RestaurantFix_Auto5C97CC16F4CD98B9A2652BEA79911027B.tmp' to '../../../../../../Users/Graphic.SJH519-000W/Documents/GitHub/Stolemates/Stolenmates/Saved/Autosaves/Game/Levels/RestaurantFix_Auto5.umap'
+[2020.01.13-18.11.11:439][414]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/RestaurantFix' took 0.322
+[2020.01.13-18.11.11:439][414]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.322
+[2020.01.13-18.18.39:629][120]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.01.13-18.18.39:756][125]LogActorFactory: Actor Factory created Sign_Arch_On_Top
+[2020.01.13-18.18.40:293][178]LogActorFactory: Actor Factory created Sign_Arch_On_Top
+[2020.01.13-18.18.42:771][383]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.01.13-18.18.51:750][227]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sign_Arch_On_Top)
+[2020.01.13-18.18.53:480][430]Cmd: DELETE
+[2020.01.13-18.18.53:480][430]Cmd: ACTOR DELETE
+[2020.01.13-18.18.53:486][430]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.01.13-18.18.53:536][430]LogUObjectHash: Compacting FUObjectHashTables data took   2.76ms
+[2020.01.13-18.18.53:536][430]LogEditorActor: Deleted 1 Actors (0.056 secs)
+[2020.01.13-18.21.11:950][929]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2020.01.13-18.21.12:240][929]LogSavePackage: Moving '../../../../../../Users/Graphic.SJH519-000W/Documents/GitHub/Stolemates/Stolenmates/Saved/RestaurantFix_Auto64A94B18A4C46AB5CA6C4C198C286FF76.tmp' to '../../../../../../Users/Graphic.SJH519-000W/Documents/GitHub/Stolemates/Stolenmates/Saved/Autosaves/Game/Levels/RestaurantFix_Auto6.umap'
+[2020.01.13-18.21.12:245][929]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/RestaurantFix' took 0.340
+[2020.01.13-18.21.12:245][929]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.340
+[2020.01.13-20.30.06:053][282]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.01.13-21.52.59:470][241]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.01.13-21.53.03:739][625]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.01.13-21.53.04:994][675]LogUObjectHash: Compacting FUObjectHashTables data took   2.84ms
+[2020.01.13-21.53.06:025][675]LogSlate: Window 'Delete Assets' being destroyed
+[2020.01.13-21.53.06:034][675]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2020.01.13-21.53.06:048][675]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2020.01.13-21.53.06:071][675]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2020.01.13-21.53.06:122][675]LogUObjectHash: Compacting FUObjectHashTables data took   2.34ms
+[2020.01.13-21.53.06:169][675]LogUObjectHash: Compacting FUObjectHashTables data took   2.24ms
+[2020.01.13-21.53.06:212][675]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2020.01.13-21.53.06:684][696]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.01.13-21.53.07:445][731]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2020.01.13-21.53.08:263][731]LogSlate: Window 'Delete Assets' being destroyed
+[2020.01.13-21.53.08:271][731]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2020.01.13-21.53.08:285][731]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2020.01.13-21.53.08:297][731]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2020.01.13-21.53.08:345][731]LogUObjectHash: Compacting FUObjectHashTables data took   2.27ms
+[2020.01.13-21.53.08:394][731]LogUObjectHash: Compacting FUObjectHashTables data took   2.21ms
+[2020.01.13-21.53.08:438][731]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2020.01.13-21.53.11:213][984]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.01.13-21.53.19:684][204]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\Graphic.SJH519-000W\Downloads\Sign_NoSwimmingV2.fbx)
+[2020.01.13-21.53.19:700][204]LogFbx: Loading FBX Scene from C:\Users\Graphic.SJH519-000W\Downloads\Sign_NoSwimmingV2.fbx
+[2020.01.13-21.53.19:708][204]LogFbx: FBX Scene Loaded Succesfully
+[2020.01.13-21.53.19:721][204]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2020.01.13-21.53.21:006][204]LogSlate: Window 'FBX Import Options' being destroyed
+[2020.01.13-21.53.21:038][204]LogMaterial: Display: Missing cached shader map for material Material__1, compiling. 
+[2020.01.13-21.53.21:060][204]LogShaderCompilers: Display: Worker (1/21): shaders left to compile 22
+[2020.01.13-21.53.21:060][204]LogShaderCompilers: Display: Worker (2/21): shaders left to compile 20
+[2020.01.13-21.53.21:060][204]LogShaderCompilers: Display: Worker (3/21): shaders left to compile 18
+[2020.01.13-21.53.21:060][204]LogShaderCompilers: Display: Worker (4/21): shaders left to compile 16
+[2020.01.13-21.53.21:060][204]LogShaderCompilers: Display: Worker (5/21): shaders left to compile 14
+[2020.01.13-21.53.21:060][204]LogShaderCompilers: Display: Worker (6/21): shaders left to compile 12
+[2020.01.13-21.53.21:060][204]LogShaderCompilers: Display: Worker (7/21): shaders left to compile 10
+[2020.01.13-21.53.21:060][204]LogShaderCompilers: Display: Worker (8/21): shaders left to compile 8
+[2020.01.13-21.53.21:060][204]LogShaderCompilers: Display: Worker (9/21): shaders left to compile 6
+[2020.01.13-21.53.21:060][204]LogShaderCompilers: Display: Worker (10/21): shaders left to compile 4
+[2020.01.13-21.53.21:060][204]LogShaderCompilers: Display: Worker (11/21): shaders left to compile 2
+[2020.01.13-21.53.21:081][204]LogMaterial: Display: Missing cached shader map for material Material__2, compiling. 
+[2020.01.13-21.53.21:123][204]LogStaticMesh: Building static mesh Sign_NoSwimmingV2...
+[2020.01.13-21.53.21:140][204]LogStaticMesh: Built static mesh [0.02s] /Game/Models/Sign_NoSwimmingV2.Sign_NoSwimmingV2
+[2020.01.13-21.53.21:158][204]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\Graphic.SJH519-000W\Downloads\Sign_Arch_On_TopV2.fbx)
+[2020.01.13-21.53.21:170][204]LogFbx: Loading FBX Scene from C:\Users\Graphic.SJH519-000W\Downloads\Sign_Arch_On_TopV2.fbx
+[2020.01.13-21.53.21:180][204]LogFbx: FBX Scene Loaded Succesfully
+[2020.01.13-21.53.21:186][204]LogFbx: Display: Triangulating static mesh Object001
+[2020.01.13-21.53.21:241][204]LogStaticMesh: Building static mesh Sign_Arch_On_TopV2...
+[2020.01.13-21.53.21:273][204]LogShaderCompilers: Display: Worker (12/21): shaders left to compile 22
+[2020.01.13-21.53.21:273][204]LogShaderCompilers: Display: Worker (13/21): shaders left to compile 20
+[2020.01.13-21.53.21:273][204]LogShaderCompilers: Display: Worker (14/21): shaders left to compile 18
+[2020.01.13-21.53.21:273][204]LogShaderCompilers: Display: Worker (15/21): shaders left to compile 16
+[2020.01.13-21.53.21:273][204]LogShaderCompilers: Display: Worker (16/21): shaders left to compile 14
+[2020.01.13-21.53.21:273][204]LogShaderCompilers: Display: Worker (17/21): shaders left to compile 12
+[2020.01.13-21.53.21:274][204]LogShaderCompilers: Display: Worker (18/21): shaders left to compile 10
+[2020.01.13-21.53.21:274][204]LogShaderCompilers: Display: Worker (19/21): shaders left to compile 8
+[2020.01.13-21.53.21:274][204]LogShaderCompilers: Display: Worker (20/21): shaders left to compile 6
+[2020.01.13-21.53.21:274][204]LogStaticMesh: Built static mesh [0.03s] /Game/Models/Sign_Arch_On_TopV2.Sign_Arch_On_TopV2
+[2020.01.13-21.53.22:274][236]LogShaderCompilers: Display: Worker (4/21): shaders left to compile 4
+[2020.01.13-21.53.22:274][236]LogShaderCompilers: Display: Worker (15/21): shaders left to compile 3
+[2020.01.13-21.53.22:360][239]LogShaderCompilers: Display: Worker (11/21): shaders left to compile 2
+[2020.01.13-21.53.22:462][242]LogShaderCompilers: Display: Worker (14/21): shaders left to compile 1
+[2020.01.13-21.53.29:337][583]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.01.13-21.53.29:891][598]LogUObjectHash: Compacting FUObjectHashTables data took   2.24ms
+[2020.01.13-21.53.30:692][598]LogSlate: Window 'Delete Assets' being destroyed
+[2020.01.13-21.53.30:696][598]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/Models/Material__2.Material__2
+[2020.01.13-21.53.30:701][598]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2020.01.13-21.53.31:036][598]LogUObjectHash: Compacting FUObjectHashTables data took   2.23ms
+[2020.01.13-21.53.31:517][617]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.01.13-21.53.31:785][632]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2020.01.13-21.53.32:827][632]LogSlate: Window 'Delete Assets' being destroyed
+[2020.01.13-21.53.32:830][632]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/Models/Material__1.Material__1
+[2020.01.13-21.53.32:835][632]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2020.01.13-21.53.33:158][632]LogUObjectHash: Compacting FUObjectHashTables data took   2.13ms
+[2020.01.13-21.53.34:852][700]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.01.13-21.53.35:081][711]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2020.01.13-21.53.36:338][711]LogSlate: Window 'Delete Assets' being destroyed
+[2020.01.13-21.53.36:341][711]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/Models/stair_metal.stair_metal
+[2020.01.13-21.53.36:346][711]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2020.01.13-21.53.36:682][711]LogUObjectHash: Compacting FUObjectHashTables data took   2.35ms
+[2020.01.13-21.53.37:556][747]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.01.13-21.53.38:065][770]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2020.01.13-21.53.38:936][770]LogSlate: Window 'Delete Assets' being destroyed
+[2020.01.13-21.53.38:939][770]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/Models/stair_grey.stair_grey
+[2020.01.13-21.53.38:944][770]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2020.01.13-21.53.39:279][770]LogUObjectHash: Compacting FUObjectHashTables data took   2.24ms
+[2020.01.13-21.53.40:629][826]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.01.13-21.53.40:753][835]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2020.01.13-21.53.41:807][835]LogSlate: Window 'Save Content' being destroyed
+[2020.01.13-21.53.41:817][835]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2020.01.13-21.53.41:868][835]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2020.01.13-21.53.42:141][835]LogSavePackage: Moving '../../../../../../Users/Graphic.SJH519-000W/Documents/GitHub/Stolemates/Stolenmates/Saved/RestaurantFix0ADC53E8475E6138380D258A2E30A63B.tmp' to '../../../../../../Users/Graphic.SJH519-000W/Documents/GitHub/Stolemates/Stolenmates/Content/Levels/RestaurantFix.umap'
+[2020.01.13-21.53.42:173][835]LogFileHelpers: Saving map 'RestaurantFix' took 0.349
+[2020.01.13-21.53.42:193][835]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/rogers_stairs2" FILE="../../../../../../Users/Graphic.SJH519-000W/Documents/GitHub/Stolemates/Stolenmates/Content/Models/rogers_stairs2.uasset" SILENT=true
+[2020.01.13-21.53.42:222][835]LogSavePackage: Moving '../../../../../../Users/Graphic.SJH519-000W/Documents/GitHub/Stolemates/Stolenmates/Saved/rogers_stairs21D620CEF40FF61AD5011DA806F0B82D3.tmp' to '../../../../../../Users/Graphic.SJH519-000W/Documents/GitHub/Stolemates/Stolenmates/Content/Models/rogers_stairs2.uasset'
+[2020.01.13-21.53.42:273][835]LogSavePackage: Moving '../../../../../../Users/Graphic.SJH519-000W/Documents/GitHub/Stolemates/Stolenmates/Saved/Sign_Arch_On_TopV2B0C98BE644F046D7E0921C9E144E76C6.tmp' to '../../../../../../Users/Graphic.SJH519-000W/Documents/GitHub/Stolemates/Stolenmates/Content/Models/Sign_Arch_On_TopV2.uasset'
+[2020.01.13-21.53.42:293][835]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Sign_NoSwimmingV2" FILE="../../../../../../Users/Graphic.SJH519-000W/Documents/GitHub/Stolemates/Stolenmates/Content/Models/Sign_NoSwimmingV2.uasset" SILENT=true
+[2020.01.13-21.53.42:317][835]LogSavePackage: Moving '../../../../../../Users/Graphic.SJH519-000W/Documents/GitHub/Stolemates/Stolenmates/Saved/Sign_NoSwimmingV2ABEEEADA456CFF29A9AD5DACA3174061.tmp' to '../../../../../../Users/Graphic.SJH519-000W/Documents/GitHub/Stolemates/Stolenmates/Content/Models/Sign_NoSwimmingV2.uasset'
+[2020.01.13-21.53.46:122][209]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.01.13-21.53.48:985][477]LogActorFactory: Actor Factory created Sign_Arch_On_TopV2
+[2020.01.13-21.53.49:194][501]LogActorFactory: Actor Factory created Sign_Arch_On_TopV2
+[2020.01.13-22.03.40:596][176]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2020.01.13-22.03.40:670][176]LogUObjectHash: Compacting FUObjectHashTables data took   2.82ms
+[2020.01.13-22.03.40:946][176]LogSavePackage: Moving '../../../../../../Users/Graphic.SJH519-000W/Documents/GitHub/Stolemates/Stolenmates/Saved/RestaurantFix_Auto7467D8D69451CEA70C41B1DB730D3F6A2.tmp' to '../../../../../../Users/Graphic.SJH519-000W/Documents/GitHub/Stolemates/Stolenmates/Saved/Autosaves/Game/Levels/RestaurantFix_Auto7.umap'
+[2020.01.13-22.03.40:950][176]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/RestaurantFix' took 0.323
+[2020.01.13-22.03.40:950][176]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.323
+[2020.01.13-22.15.44:066][763]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.01.13-22.15.44:181][773]LogActorFactory: Actor Factory created Sign_NoSwimmingV2
+[2020.01.13-22.15.44:839][848]LogActorFactory: Actor Factory created Sign_NoSwimmingV2
+[2020.01.13-22.16.16:948][365]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2020.01.13-22.16.17:019][365]LogUObjectHash: Compacting FUObjectHashTables data took   2.61ms
+[2020.01.13-22.16.17:289][365]LogSavePackage: Moving '../../../../../../Users/Graphic.SJH519-000W/Documents/GitHub/Stolemates/Stolenmates/Saved/RestaurantFix_Auto8E9F2DBA7433E8841C639D9B4FDE1F932.tmp' to '../../../../../../Users/Graphic.SJH519-000W/Documents/GitHub/Stolemates/Stolenmates/Saved/Autosaves/Game/Levels/RestaurantFix_Auto8.umap'
+[2020.01.13-22.16.17:293][365]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/RestaurantFix' took 0.318
+[2020.01.13-22.16.17:293][365]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.318
+[2020.01.13-22.57.18:398][427]LogUObjectHash: Compacting FUObjectHashTables data took   2.96ms
+[2020.01.13-22.57.19:886][427]LogSlate: Window 'Save Content' being destroyed
+[2020.01.13-22.57.19:949][427]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2020.01.13-22.57.20:267][427]LogSavePackage: Moving '../../../../../../Users/Graphic.SJH519-000W/Documents/GitHub/Stolemates/Stolenmates/Saved/RestaurantFix19930EAB465037812914098C1765D0A8.tmp' to '../../../../../../Users/Graphic.SJH519-000W/Documents/GitHub/Stolemates/Stolenmates/Content/Levels/RestaurantFix.umap'
+[2020.01.13-22.57.20:292][427]LogFileHelpers: Saving map 'RestaurantFix' took 0.391
+[2020.01.14-00.53.23:861][507]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.01.14-00.53.24:202][507]LogUObjectHash: Compacting FUObjectHashTables data took   2.58ms
+[2020.01.14-00.53.24:874][540]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2020.01.14-00.53.34:638][636]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.01.14-00.53.35:164][694]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2020.01.14-00.53.35:227][694]LogSlate: Window 'Stolenmates - Unreal Editor' being destroyed
+[2020.01.14-00.53.35:344][695]Cmd: QUIT_EDITOR
+[2020.01.14-00.53.35:368][695]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.01.14-00.53.35:386][695]LogExit: Preparing to exit.
+[2020.01.14-00.53.36:085][695]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2020.01.14-00.53.36:085][695]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2020.01.14-00.53.36:128][695]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
+[2020.01.14-00.53.36:143][695]LogExit: Editor shut down
+[2020.01.14-00.53.36:143][695]LogExit: Transaction tracking system shut down
+[2020.01.14-00.53.36:442][695]LogExit: Object subsystem successfully closed.
+[2020.01.14-00.53.36:488][695]LogShaderCompilers: Display: Shaders left to compile 0
+[2020.01.14-00.53.36:519][695]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (676)
+[2020.01.14-00.53.36:519][695]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (674)
+[2020.01.14-00.53.36:519][695]LogModuleManager: Shutting down and abandoning module MeshBuilder (672)
+[2020.01.14-00.53.36:520][695]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (670)
+[2020.01.14-00.53.36:520][695]LogModuleManager: Shutting down and abandoning module SceneOutliner (668)
+[2020.01.14-00.53.36:520][695]LogModuleManager: Shutting down and abandoning module AddContentDialog (666)
+[2020.01.14-00.53.36:521][695]LogModuleManager: Shutting down and abandoning module WidgetCarousel (665)
+[2020.01.14-00.53.36:521][695]LogModuleManager: Shutting down and abandoning module EditorWidgets (662)
+[2020.01.14-00.53.36:521][695]LogModuleManager: Shutting down and abandoning module CollectionManager (660)
+[2020.01.14-00.53.36:522][695]LogModuleManager: Shutting down and abandoning module StatsViewer (658)
+[2020.01.14-00.53.36:522][695]LogModuleManager: Shutting down and abandoning module VirtualTexturingEditor (656)
+[2020.01.14-00.53.36:522][695]LogModuleManager: Shutting down and abandoning module FoliageEdit (654)
+[2020.01.14-00.53.36:522][695]LogModuleManager: Shutting down and abandoning module LandscapeEditor (652)
+[2020.01.14-00.53.36:523][695]LogModuleManager: Shutting down and abandoning module MeshPaintMode (650)
+[2020.01.14-00.53.36:523][695]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (648)
+[2020.01.14-00.53.36:523][695]LogModuleManager: Shutting down and abandoning module ActorPickerMode (646)
+[2020.01.14-00.53.36:523][695]LogModuleManager: Shutting down and abandoning module GeometryMode (644)
+[2020.01.14-00.53.36:523][695]LogModuleManager: Shutting down and abandoning module TextureAlignMode (642)
+[2020.01.14-00.53.36:523][695]LogModuleManager: Shutting down and abandoning module BspMode (640)
+[2020.01.14-00.53.36:523][695]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (638)
+[2020.01.14-00.53.36:523][695]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (636)
+[2020.01.14-00.53.36:524][695]LogModuleManager: Shutting down and abandoning module AutomationWorker (634)
+[2020.01.14-00.53.36:524][695]LogModuleManager: Shutting down and abandoning module OculusMR (632)
+[2020.01.14-00.53.36:524][695]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (630)
+[2020.01.14-00.53.36:524][695]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (628)
+[2020.01.14-00.53.36:524][695]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (626)
+[2020.01.14-00.53.36:525][695]LogModuleManager: Shutting down and abandoning module PlacementMode (625)
+[2020.01.14-00.53.36:525][695]LogModuleManager: Shutting down and abandoning module MaterialEditor (624)
+[2020.01.14-00.53.36:526][695]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (620)
+[2020.01.14-00.53.36:526][695]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (618)
+[2020.01.14-00.53.36:526][695]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (616)
+[2020.01.14-00.53.36:526][695]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (614)
+[2020.01.14-00.53.36:526][695]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (612)
+[2020.01.14-00.53.36:526][695]LogModuleManager: Shutting down and abandoning module WebMMedia (610)
+[2020.01.14-00.53.36:526][695]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (608)
+[2020.01.14-00.53.36:527][695]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (606)
+[2020.01.14-00.53.36:527][695]LogModuleManager: Shutting down and abandoning module SequenceRecorder (605)
+[2020.01.14-00.53.36:527][695]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (602)
+[2020.01.14-00.53.36:527][695]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (600)
+[2020.01.14-00.53.36:527][695]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (598)
+[2020.01.14-00.53.36:527][695]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (596)
+[2020.01.14-00.53.36:527][695]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (594)
+[2020.01.14-00.53.36:527][695]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (592)
+[2020.01.14-00.53.36:527][695]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (590)
+[2020.01.14-00.53.36:527][695]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (588)
+[2020.01.14-00.53.36:527][695]LogModuleManager: Shutting down and abandoning module MagicLeapMediaCodecFactory (586)
+[2020.01.14-00.53.36:528][695]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (584)
+[2020.01.14-00.53.36:528][695]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (582)
+[2020.01.14-00.53.36:528][695]LogModuleManager: Shutting down and abandoning module CharacterAI (580)
+[2020.01.14-00.53.36:528][695]LogModuleManager: Shutting down and abandoning module SmartSnapping (578)
+[2020.01.14-00.53.36:528][695]LogModuleManager: Shutting down and abandoning module SessionServices (576)
+[2020.01.14-00.53.36:528][695]LogModuleManager: Shutting down and abandoning module MeshPaint (574)
+[2020.01.14-00.53.36:528][695]LogModuleManager: Shutting down and abandoning module ViewportSnapping (572)
+[2020.01.14-00.53.36:528][695]LogModuleManager: Shutting down and abandoning module ViewportInteraction (570)
+[2020.01.14-00.53.36:528][695]LogModuleManager: Shutting down and abandoning module ClothPainter (568)
+[2020.01.14-00.53.36:528][695]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (567)
+[2020.01.14-00.53.36:529][695]LogModuleManager: Shutting down and abandoning module LogVisualizer (564)
+[2020.01.14-00.53.36:529][695]LogModuleManager: Shutting down and abandoning module IntroTutorials (562)
+[2020.01.14-00.53.36:530][695]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (561)
+[2020.01.14-00.53.36:530][695]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (558)
+[2020.01.14-00.53.36:530][695]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (556)
+[2020.01.14-00.53.36:530][695]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (554)
+[2020.01.14-00.53.36:530][695]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (552)
+[2020.01.14-00.53.36:530][695]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (551)
+[2020.01.14-00.53.38:492][695]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (548)
+[2020.01.14-00.53.38:492][695]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (546)
+[2020.01.14-00.53.38:492][695]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (544)
+[2020.01.14-00.53.38:492][695]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (542)
+[2020.01.14-00.53.38:492][695]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (540)
+[2020.01.14-00.53.38:492][695]LogModuleManager: Shutting down and abandoning module InputBindingEditor (538)
+[2020.01.14-00.53.38:492][695]LogModuleManager: Shutting down and abandoning module MergeActors (536)
+[2020.01.14-00.53.38:494][695]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (534)
+[2020.01.14-00.53.38:494][695]LogModuleManager: Shutting down and abandoning module LocalizationService (533)
+[2020.01.14-00.53.38:494][695]LogModuleManager: Shutting down and abandoning module HardwareTargeting (530)
+[2020.01.14-00.53.38:494][695]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (528)
+[2020.01.14-00.53.38:494][695]LogModuleManager: Shutting down and abandoning module UndoHistory (526)
+[2020.01.14-00.53.38:494][695]LogModuleManager: Shutting down and abandoning module XmlParser (524)
+[2020.01.14-00.53.38:494][695]LogModuleManager: Shutting down and abandoning module Blutility (522)
+[2020.01.14-00.53.38:494][695]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (520)
+[2020.01.14-00.53.38:494][695]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (519)
+[2020.01.14-00.53.38:495][695]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (516)
+[2020.01.14-00.53.38:495][695]LogModuleManager: Shutting down and abandoning module SettingsEditor (514)
+[2020.01.14-00.53.38:495][695]LogModuleManager: Shutting down and abandoning module ProjectLauncher (512)
+[2020.01.14-00.53.38:495][695]LogModuleManager: Shutting down and abandoning module SessionFrontend (510)
+[2020.01.14-00.53.38:495][695]LogModuleManager: Shutting down and abandoning module ProfilerClient (508)
+[2020.01.14-00.53.38:495][695]LogModuleManager: Shutting down and abandoning module DeviceManager (506)
+[2020.01.14-00.53.38:495][695]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (505)
+[2020.01.14-00.53.38:550][695]LogModuleManager: Shutting down and abandoning module AutomationController (502)
+[2020.01.14-00.53.38:550][695]LogModuleManager: Shutting down and abandoning module AutomationWindow (500)
+[2020.01.14-00.53.38:552][695]LogModuleManager: Shutting down and abandoning module Layers (498)
+[2020.01.14-00.53.38:553][695]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (496)
+[2020.01.14-00.53.38:553][695]LogModuleManager: Shutting down and abandoning module DetailCustomizations (494)
+[2020.01.14-00.53.38:554][695]LogModuleManager: Shutting down and abandoning module PackagesDialog (492)
+[2020.01.14-00.53.38:554][695]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (490)
+[2020.01.14-00.53.38:555][695]LogModuleManager: Shutting down and abandoning module Persona (488)
+[2020.01.14-00.53.38:556][695]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (487)
+[2020.01.14-00.53.38:556][695]LogModuleManager: Shutting down and abandoning module AnimGraph (485)
+[2020.01.14-00.53.38:556][695]LogModuleManager: Shutting down and abandoning module Kismet (482)
+[2020.01.14-00.53.38:557][695]LogModuleManager: Shutting down and abandoning module KismetWidgets (481)
+[2020.01.14-00.53.38:557][695]LogModuleManager: Shutting down and abandoning module GraphEditor (478)
+[2020.01.14-00.53.38:559][695]LogModuleManager: Shutting down and abandoning module StructViewer (476)
+[2020.01.14-00.53.38:559][695]LogModuleManager: Shutting down and abandoning module ClassViewer (474)
+[2020.01.14-00.53.38:559][695]LogModuleManager: Shutting down and abandoning module Toolbox (472)
+[2020.01.14-00.53.38:559][695]LogModuleManager: Shutting down and abandoning module ModuleUI (470)
+[2020.01.14-00.53.38:559][695]LogModuleManager: Shutting down and abandoning module MovieSceneTools (468)
+[2020.01.14-00.53.38:560][695]LogModuleManager: Shutting down and abandoning module OutputLog (466)
+[2020.01.14-00.53.38:560][695]LogModuleManager: Shutting down and abandoning module GammaUI (464)
+[2020.01.14-00.53.38:560][695]LogModuleManager: Shutting down and abandoning module Documentation (462)
+[2020.01.14-00.53.38:560][695]LogModuleManager: Shutting down and abandoning module LiveCoding (460)
+[2020.01.14-00.53.38:561][695]LogModuleManager: Shutting down and abandoning module LevelSequence (458)
+[2020.01.14-00.53.38:561][695]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (456)
+[2020.01.14-00.53.38:561][695]LogModuleManager: Shutting down and abandoning module MovieScene (454)
+[2020.01.14-00.53.38:561][695]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (452)
+[2020.01.14-00.53.38:561][695]LogModuleManager: Shutting down and abandoning module LauncherPlatform (450)
+[2020.01.14-00.53.38:561][695]LogModuleManager: Shutting down and abandoning module AnalyticsET (448)
+[2020.01.14-00.53.38:561][695]LogModuleManager: Shutting down and abandoning module PortalServices (446)
+[2020.01.14-00.53.38:561][695]LogModuleManager: Shutting down and abandoning module PortalRpc (444)
+[2020.01.14-00.53.38:561][695]LogModuleManager: Shutting down and abandoning module MessagingRpc (442)
+[2020.01.14-00.53.38:561][695]LogModuleManager: Shutting down and abandoning module AIModule (440)
+[2020.01.14-00.53.38:561][695]LogModuleManager: Shutting down and abandoning module GameplayDebugger (439)
+[2020.01.14-00.53.38:561][695]LogModuleManager: Shutting down and abandoning module AITestSuite (437)
+[2020.01.14-00.53.38:561][695]LogModuleManager: Shutting down and abandoning module NavigationSystem (435)
+[2020.01.14-00.53.38:561][695]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (432)
+[2020.01.14-00.53.38:570][695]LogModuleManager: Shutting down and abandoning module ProfilerService (430)
+[2020.01.14-00.53.38:596][695]LogModuleManager: Shutting down and abandoning module TaskGraph (428)
+[2020.01.14-00.53.38:596][695]LogModuleManager: Shutting down and abandoning module ScreenshotTools (426)
+[2020.01.14-00.53.38:596][695]LogModuleManager: Shutting down and abandoning module SteamVRController (424)
+[2020.01.14-00.53.38:596][695]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (422)
+[2020.01.14-00.53.38:597][695]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (420)
+[2020.01.14-00.53.38:597][695]LogModuleManager: Shutting down and abandoning module OculusEditor (418)
+[2020.01.14-00.53.38:597][695]LogModuleManager: Shutting down and abandoning module OculusInput (416)
+[2020.01.14-00.53.38:597][695]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (414)
+[2020.01.14-00.53.38:597][695]LogModuleManager: Shutting down and abandoning module EditableMesh (412)
+[2020.01.14-00.53.38:597][695]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (410)
+[2020.01.14-00.53.38:597][695]LogModuleManager: Shutting down and abandoning module CableComponent (408)
+[2020.01.14-00.53.38:597][695]LogModuleManager: Shutting down and abandoning module AudioCapture (406)
+[2020.01.14-00.53.38:597][695]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (404)
+[2020.01.14-00.53.38:597][695]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (402)
+[2020.01.14-00.53.38:597][695]LogModuleManager: Shutting down and abandoning module AppleImageUtils (400)
+[2020.01.14-00.53.38:597][695]LogModuleManager: Shutting down and abandoning module AndroidPermission (398)
+[2020.01.14-00.53.38:597][695]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (396)
+[2020.01.14-00.53.38:597][695]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (394)
+[2020.01.14-00.53.38:597][695]LogModuleManager: Shutting down and abandoning module MediaCompositing (392)
+[2020.01.14-00.53.38:597][695]LogModuleManager: Shutting down and abandoning module ImgMedia (390)
+[2020.01.14-00.53.38:597][695]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (388)
+[2020.01.14-00.53.38:597][695]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (386)
+[2020.01.14-00.53.38:597][695]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (384)
+[2020.01.14-00.53.38:597][695]LogModuleManager: Shutting down and abandoning module HTML5Networking (382)
+[2020.01.14-00.53.38:598][695]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (380)
+[2020.01.14-00.53.38:598][695]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (378)
+[2020.01.14-00.53.38:598][695]LogModuleManager: Shutting down and abandoning module BackChannel (376)
+[2020.01.14-00.53.38:598][695]LogModuleManager: Shutting down and abandoning module AutomationUtilsEditor (374)
+[2020.01.14-00.53.38:598][695]LogModuleManager: Shutting down and abandoning module AutomationUtils (372)
+[2020.01.14-00.53.38:598][695]LogModuleManager: Shutting down and abandoning module AlembicImporter (370)
+[2020.01.14-00.53.38:598][695]LogModuleManager: Shutting down and abandoning module AlembicLibrary (369)
+[2020.01.14-00.53.38:598][695]LogModuleManager: Shutting down and abandoning module GeometryCache (368)
+[2020.01.14-00.53.38:598][695]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (367)
+[2020.01.14-00.53.38:598][695]LogModuleManager: Shutting down and abandoning module VariantManagerContent (362)
+[2020.01.14-00.53.38:598][695]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (360)
+[2020.01.14-00.53.38:598][695]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (358)
+[2020.01.14-00.53.38:598][695]LogModuleManager: Shutting down and abandoning module PluginBrowser (356)
+[2020.01.14-00.53.38:599][695]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (354)
+[2020.01.14-00.53.38:599][695]LogModuleManager: Shutting down and abandoning module MaterialAnalyzer (352)
+[2020.01.14-00.53.38:599][695]LogModuleManager: Shutting down and abandoning module CurveEditorTools (350)
+[2020.01.14-00.53.38:599][695]LogModuleManager: Shutting down and abandoning module CurveEditor (349)
+[2020.01.14-00.53.38:600][695]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (346)
+[2020.01.14-00.53.38:600][695]LogModuleManager: Shutting down and abandoning module CryptoKeys (344)
+[2020.01.14-00.53.38:600][695]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (342)
+[2020.01.14-00.53.38:600][695]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (340)
+[2020.01.14-00.53.38:600][695]LogModuleManager: Shutting down and abandoning module UObjectPlugin (338)
+[2020.01.14-00.53.38:600][695]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (336)
+[2020.01.14-00.53.38:600][695]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (334)
+[2020.01.14-00.53.38:600][695]LogModuleManager: Shutting down and abandoning module GitSourceControl (332)
+[2020.01.14-00.53.38:601][695]LogModuleManager: Shutting down and abandoning module SourceControl (331)
+[2020.01.14-00.53.38:601][695]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (328)
+[2020.01.14-00.53.38:601][695]LogModuleManager: Shutting down and abandoning module AnimationSharingEd (326)
+[2020.01.14-00.53.38:601][695]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (324)
+[2020.01.14-00.53.38:601][695]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (322)
+[2020.01.14-00.53.38:601][695]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (320)
+[2020.01.14-00.53.38:601][695]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (318)
+[2020.01.14-00.53.38:601][695]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (316)
+[2020.01.14-00.53.38:601][695]LogModuleManager: Shutting down and abandoning module Paper2DEditor (314)
+[2020.01.14-00.53.38:601][695]LogModuleManager: Shutting down and abandoning module Stolenmates (312)
+[2020.01.14-00.53.38:601][695]LogModuleManager: Shutting down and abandoning module SignificanceManager (310)
+[2020.01.14-00.53.38:601][695]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (308)
+[2020.01.14-00.53.38:602][695]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (306)
+[2020.01.14-00.53.38:602][695]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (302)
+[2020.01.14-00.53.38:602][695]LogModuleManager: Shutting down and abandoning module ActorSequence (300)
+[2020.01.14-00.53.38:602][695]LogModuleManager: Shutting down and abandoning module UdpMessaging (298)
+[2020.01.14-00.53.38:702][695]LogModuleManager: Shutting down and abandoning module TcpMessaging (296)
+[2020.01.14-00.53.38:803][695]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (294)
+[2020.01.14-00.53.38:803][695]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (292)
+[2020.01.14-00.53.38:803][695]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (290)
+[2020.01.14-00.53.38:803][695]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (288)
+[2020.01.14-00.53.38:803][695]LogModuleManager: Shutting down and abandoning module MagicLeapController (286)
+[2020.01.14-00.53.38:803][695]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2020.01.14-00.53.38:803][695]LogModuleManager: Shutting down and abandoning module MagicLeapAR (284)
+[2020.01.14-00.53.38:803][695]LogModuleManager: Shutting down and abandoning module AugmentedReality (283)
+[2020.01.14-00.53.38:803][695]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (280)
+[2020.01.14-00.53.38:806][695]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (278)
+[2020.01.14-00.53.38:806][695]LogModuleManager: Shutting down and abandoning module FacialAnimation (276)
+[2020.01.14-00.53.38:806][695]LogModuleManager: Shutting down and abandoning module DataValidation (274)
+[2020.01.14-00.53.38:806][695]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (272)
+[2020.01.14-00.53.38:807][695]LogModuleManager: Shutting down and abandoning module LevelEditor (271)
+[2020.01.14-00.53.38:808][695]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (270)
+[2020.01.14-00.53.38:808][695]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (268)
+[2020.01.14-00.53.38:808][695]LogModuleManager: Shutting down and abandoning module MainFrame (266)
+[2020.01.14-00.53.38:809][695]LogModuleManager: Shutting down and abandoning module HotReload (265)
+[2020.01.14-00.53.38:810][695]LogModuleManager: Shutting down and abandoning module ContentBrowser (261)
+[2020.01.14-00.53.38:812][695]LogModuleManager: Shutting down and abandoning module TreeMap (259)
+[2020.01.14-00.53.38:812][695]LogModuleManager: Shutting down and abandoning module AnimationSharing (256)
+[2020.01.14-00.53.38:812][695]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (254)
+[2020.01.14-00.53.38:812][695]LogModuleManager: Shutting down and abandoning module Paper2D (252)
+[2020.01.14-00.53.38:812][695]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (250)
+[2020.01.14-00.53.38:819][695]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (248)
+[2020.01.14-00.53.38:819][695]LogModuleManager: Shutting down and abandoning module NetworkReplayStreaming (246)
+[2020.01.14-00.53.38:819][695]LogModuleManager: Shutting down and abandoning module PacketHandler (244)
+[2020.01.14-00.53.38:819][695]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (242)
+[2020.01.14-00.53.38:819][695]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (240)
+[2020.01.14-00.53.38:820][695]LogModuleManager: Shutting down and abandoning module MediaAssets (238)
+[2020.01.14-00.53.38:820][695]LogModuleManager: Shutting down and abandoning module Overlay (236)
+[2020.01.14-00.53.38:820][695]LogModuleManager: Shutting down and abandoning module OverlayEditor (235)
+[2020.01.14-00.53.38:820][695]LogModuleManager: Shutting down and abandoning module VREditor (232)
+[2020.01.14-00.53.38:820][695]LogModuleManager: Shutting down and abandoning module StringTableEditor (230)
+[2020.01.14-00.53.38:821][695]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (228)
+[2020.01.14-00.53.38:821][695]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (226)
+[2020.01.14-00.53.38:821][695]LogModuleManager: Shutting down and abandoning module FunctionalTesting (224)
+[2020.01.14-00.53.38:821][695]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (222)
+[2020.01.14-00.53.38:821][695]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (221)
+[2020.01.14-00.53.38:821][695]LogModuleManager: Shutting down and abandoning module UMG (218)
+[2020.01.14-00.53.38:822][695]LogModuleManager: Shutting down and abandoning module UMGEditor (217)
+[2020.01.14-00.53.38:822][695]LogModuleManager: Shutting down and abandoning module Sequencer (216)
+[2020.01.14-00.53.38:823][695]LogModuleManager: Shutting down and abandoning module MessageLog (213)
+[2020.01.14-00.53.38:823][695]LogModuleManager: Shutting down and abandoning module SlateReflector (208)
+[2020.01.14-00.53.38:824][695]LogModuleManager: Shutting down and abandoning module Slate (206)
+[2020.01.14-00.53.38:824][695]LogModuleManager: Shutting down and abandoning module LandscapeEditorUtilities (204)
+[2020.01.14-00.53.38:824][695]LogModuleManager: Shutting down and abandoning module EditorStyle (202)
+[2020.01.14-00.53.38:826][695]LogModuleManager: Shutting down and abandoning module UnrealEd (200)
+[2020.01.14-00.53.38:826][695]LogModuleManager: Shutting down and abandoning module MRMesh (198)
+[2020.01.14-00.53.38:826][695]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (196)
+[2020.01.14-00.53.38:826][695]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (194)
+[2020.01.14-00.53.38:826][695]LogModuleManager: Shutting down and abandoning module XAudio2 (192)
+[2020.01.14-00.53.38:826][695]LogModuleManager: Shutting down and abandoning module Networking (190)
+[2020.01.14-00.53.38:826][695]LogModuleManager: Shutting down and abandoning module Core (188)
+[2020.01.14-00.53.38:826][695]LogModuleManager: Shutting down and abandoning module KismetCompiler (186)
+[2020.01.14-00.53.38:826][695]LogModuleManager: Shutting down and abandoning module MeshUtilities (184)
+[2020.01.14-00.53.38:826][695]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (183)
+[2020.01.14-00.53.38:826][695]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (182)
+[2020.01.14-00.53.38:826][695]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (181)
+[2020.01.14-00.53.38:826][695]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (179)
+[2020.01.14-00.53.38:827][695]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (177)
+[2020.01.14-00.53.38:827][695]LogModuleManager: Shutting down and abandoning module MaterialBaking (173)
+[2020.01.14-00.53.38:827][695]LogModuleManager: Shutting down and abandoning module NullInstallBundleManager (168)
+[2020.01.14-00.53.38:827][695]LogModuleManager: Shutting down and abandoning module DerivedDataCache (166)
+[2020.01.14-00.53.38:827][695]LogDerivedDataCache: Shutdown
+[2020.01.14-00.53.38:827][695]LogModuleManager: Shutting down and abandoning module XGEController (164)
+[2020.01.14-00.53.38:827][695]LogXGEController: Cleaning working directory: C:/Users/Graphic.SJH519-000W/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2020.01.14-00.53.38:827][695]LogModuleManager: Shutting down and abandoning module TargetPlatform (162)
+[2020.01.14-00.53.38:827][695]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (161)
+[2020.01.14-00.53.38:827][695]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (159)
+[2020.01.14-00.53.38:827][695]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (157)
+[2020.01.14-00.53.38:827][695]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (155)
+[2020.01.14-00.53.38:827][695]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (153)
+[2020.01.14-00.53.38:828][695]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (151)
+[2020.01.14-00.53.38:828][695]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (149)
+[2020.01.14-00.53.38:828][695]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (147)
+[2020.01.14-00.53.38:828][695]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (145)
+[2020.01.14-00.53.38:828][695]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (143)
+[2020.01.14-00.53.38:828][695]LogModuleManager: Shutting down and abandoning module ImageWrapper (142)
+[2020.01.14-00.53.38:828][695]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (139)
+[2020.01.14-00.53.38:828][695]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (137)
+[2020.01.14-00.53.38:828][695]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (135)
+[2020.01.14-00.53.38:828][695]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (133)
+[2020.01.14-00.53.38:828][695]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (131)
+[2020.01.14-00.53.38:829][695]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (129)
+[2020.01.14-00.53.38:829][695]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (127)
+[2020.01.14-00.53.38:829][695]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (125)
+[2020.01.14-00.53.38:829][695]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (123)
+[2020.01.14-00.53.38:829][695]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (121)
+[2020.01.14-00.53.38:830][695]LogModuleManager: Shutting down and abandoning module Messaging (119)
+[2020.01.14-00.53.38:830][695]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (117)
+[2020.01.14-00.53.38:831][695]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (115)
+[2020.01.14-00.53.38:831][695]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (113)
+[2020.01.14-00.53.38:840][695]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (111)
+[2020.01.14-00.53.38:840][695]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (109)
+[2020.01.14-00.53.38:840][695]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (107)
+[2020.01.14-00.53.38:840][695]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (105)
+[2020.01.14-00.53.38:840][695]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (103)
+[2020.01.14-00.53.38:840][695]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (101)
+[2020.01.14-00.53.38:840][695]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (99)
+[2020.01.14-00.53.38:840][695]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (97)
+[2020.01.14-00.53.38:840][695]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (95)
+[2020.01.14-00.53.38:840][695]LogModuleManager: Shutting down and abandoning module InputCore (92)
+[2020.01.14-00.53.38:840][695]LogModuleManager: Shutting down and abandoning module Settings (90)
+[2020.01.14-00.53.38:840][695]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (88)
+[2020.01.14-00.53.38:840][695]LogModuleManager: Shutting down and abandoning module PhysXCooking (86)
+[2020.01.14-00.53.38:840][695]LogModuleManager: Shutting down and abandoning module WindowsPlatformFeatures (84)
+[2020.01.14-00.53.38:840][695]LogModuleManager: Shutting down and abandoning module GameplayMediaEncoder (83)
+[2020.01.14-00.53.38:840][695]LogModuleManager: Shutting down and abandoning module SteamVR (80)
+[2020.01.14-00.53.38:841][695]LogHMD: Freeing OpenVRDLLHandle.
+[2020.01.14-00.53.38:841][695]LogModuleManager: Shutting down and abandoning module OculusHMD (78)
+[2020.01.14-00.53.38:841][695]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (76)
+[2020.01.14-00.53.38:841][695]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (74)
+[2020.01.14-00.53.38:841][695]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (72)
+[2020.01.14-00.53.38:841][695]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (68)
+[2020.01.14-00.53.38:842][695]LogModuleManager: Shutting down and abandoning module XMPP (63)
+[2020.01.14-00.53.38:842][695]LogModuleManager: Shutting down and abandoning module WebSockets (62)
+[2020.01.14-00.53.38:875][695]LogModuleManager: Shutting down and abandoning module HTTP (59)
+[2020.01.14-00.53.38:875][695]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2020.01.14-00.53.38:875][695]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BE8A4884C-4F3F-73C9-F7BB-6EBFA57FCCD5%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.23.0-8386587%2B%2B%2BUE4%2BRelease-4.23&UserID=7a5b6f904f31c0d55f54f191bb696328%7C49cb3290d0214bc1ad95685b77a7fc64%7C67ee1416-7101-4daa-877d-5bfd393b045b&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2020.01.14-00.53.38:907][695]LogModuleManager: Shutting down and abandoning module SSL (58)
+[2020.01.14-00.53.38:909][695]LogModuleManager: Shutting down and abandoning module WmfMedia (54)
+[2020.01.14-00.53.38:911][695]LogModuleManager: Shutting down and abandoning module Media (53)
+[2020.01.14-00.53.38:911][695]LogModuleManager: Shutting down and abandoning module MagicLeap (50)
+[2020.01.14-00.53.38:911][695]LogModuleManager: Shutting down and abandoning module DatasmithContent (48)
+[2020.01.14-00.53.38:912][695]LogModuleManager: Shutting down and abandoning module AISupportModule (46)
+[2020.01.14-00.53.38:912][695]LogModuleManager: Shutting down and abandoning module DesktopPlatform (44)
+[2020.01.14-00.53.38:912][695]LogModuleManager: Shutting down and abandoning module PlatformCryptoOpenSSL (42)
+[2020.01.14-00.53.38:912][695]LogModuleManager: Shutting down and abandoning module PlatformCrypto (40)
+[2020.01.14-00.53.38:912][695]LogModuleManager: Shutting down and abandoning module AnimationModifiers (38)
+[2020.01.14-00.53.38:912][695]LogModuleManager: Shutting down and abandoning module PropertyEditor (37)
+[2020.01.14-00.53.38:912][695]LogModuleManager: Shutting down and abandoning module AudioEditor (34)
+[2020.01.14-00.53.38:913][695]LogModuleManager: Shutting down and abandoning module TextureCompressor (32)
+[2020.01.14-00.53.38:913][695]LogModuleManager: Shutting down and abandoning module RenderCore (30)
+[2020.01.14-00.53.38:913][695]LogModuleManager: Shutting down and abandoning module Landscape (28)
+[2020.01.14-00.53.38:913][695]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (26)
+[2020.01.14-00.53.38:915][695]LogModuleManager: Shutting down and abandoning module OpenGLDrv (24)
+[2020.01.14-00.53.38:915][695]LogModuleManager: Shutting down and abandoning module D3D11RHI (22)
+[2020.01.14-00.53.38:915][695]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
+[2020.01.14-00.53.38:915][695]LogModuleManager: Shutting down and abandoning module Renderer (18)
+[2020.01.14-00.53.38:915][695]LogModuleManager: Shutting down and abandoning module Engine (16)
+[2020.01.14-00.53.38:915][695]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
+[2020.01.14-00.53.38:915][695]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
+[2020.01.14-00.53.38:915][695]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
+[2020.01.14-00.53.38:915][695]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
+[2020.01.14-00.53.38:915][695]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
+[2020.01.14-00.53.38:915][695]LogModuleManager: Shutting down and abandoning module PakFile (4)
+[2020.01.14-00.53.38:915][695]LogModuleManager: Shutting down and abandoning module RSA (3)
+[2020.01.14-00.53.38:916][695]LogD3D11RHI: Shutdown
+[2020.01.14-00.53.38:916][695]LogD3D11RHI: CleanupD3DDevice
+[2020.01.14-00.53.38:917][695]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2020.01.14-00.53.38:917][695]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2020.01.14-00.53.38:917][695]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2020.01.14-00.53.39:016][695]LogD3D11RHI: ~FD3D11DynamicRHI
+[2020.01.14-00.53.39:049][695]LogExit: Exiting.
+[2020.01.14-00.53.39:073][695]Log file closed, 01/13/20 19:53:39
