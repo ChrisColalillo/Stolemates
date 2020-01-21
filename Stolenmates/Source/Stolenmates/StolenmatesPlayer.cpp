@@ -6,6 +6,7 @@
 #include "Math/UnrealMathUtility.h"
 #include "Components/SkeletalMeshComponent.h"
 #include "Heart.h"
+#include "AbilityBaseClass.h"
 
 // Sets default values
 AStolenmatesPlayer::AStolenmatesPlayer()
@@ -85,11 +86,49 @@ void AStolenmatesPlayer::EndStun()
 	stunned = false;
 }
 
+void AStolenmatesPlayer::UseAbility()
+{
+	if (overrideAbility)
+	{
+		overrideAbility->fireAbility(this);
+		return;
+	}
+	if (heldAbility)
+	{
+		heldAbility->fireAbility(this);
+	}
+	return;
+
+}
+
 void AStolenmatesPlayer::StunPlayer(float StunDuration)
 {
 	stunned = true;
 	JumpReleased();
 	GetWorldTimerManager().SetTimer(stunTimerHandle, this, &AStolenmatesPlayer::EndStun, StunDuration, false);
+}
+
+void AStolenmatesPlayer::SetAbility(AbilitiesENUM ability, AAbilityBaseClass* staticAbility)
+{
+	switch (ability)
+	{
+	case AbilitiesENUM::NONE_HELD:
+		if(heldAbility)
+			heldAbility->Destroy();
+		heldAbility = nullptr;
+		break;
+	case AbilitiesENUM::NONE_OVERRIDE:
+		overrideAbility = nullptr;
+		break;
+	case AbilitiesENUM::LaunchCNTower:
+		overrideAbility = Cast<AAbilityBaseClass>(staticAbility);
+		break;
+	case AbilitiesENUM::ExapleHeldAbility:
+		if (heldAbility)
+			heldAbility->Destroy();
+		heldAbility = Cast<AAbilityBaseClass>(GetWorld()->SpawnActor<AActor>(abilities[AbilitiesENUM::ExapleHeldAbility], GetActorLocation(), GetActorRotation()));
+		break;
+	}
 }
 
 void AStolenmatesPlayer::OnCompHit(UPrimitiveComponent * HitComponent, AActor * OtherActor, UPrimitiveComponent * OtherComponent, FVector NormalImpulse, const FHitResult & Hit)
@@ -103,7 +142,9 @@ void AStolenmatesPlayer::OnCompHit(UPrimitiveComponent * HitComponent, AActor * 
 		{
 			heart->AttachToComponent(other->GetMesh(), FAttachmentTransformRules::SnapToTargetNotIncludingScale, socketName);
 			hasHeart = false;
+			holdingHeart = true;
 			other->hasHeart = true;
+			other->holdingHeart = true;
 			other->heart = heart;
 			other->GetCharacterMovement()->MaxWalkSpeed = MovementSpeedWithHeart;
 			GetCharacterMovement()->MaxWalkSpeed = MovementSpeedWithoutHeart;
@@ -122,6 +163,7 @@ void AStolenmatesPlayer::OnCompOverlap(UPrimitiveComponent * OverlappedComponent
 		OtherActor->AttachToComponent(GetMesh(), FAttachmentTransformRules::SnapToTargetNotIncludingScale, socketName);
 		heart = other;
 		hasHeart = true;
+		holdingHeart = true;
 		heart->heartCollider->SetCollisionEnabled(ECollisionEnabled::NoCollision);
 	}
 }
@@ -149,4 +191,5 @@ void AStolenmatesPlayer::SetupPlayerInputComponent(UInputComponent* PlayerInputC
 	PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &AStolenmatesPlayer::JumpPressed);
 	PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &AStolenmatesPlayer::DashPressed);
 	PlayerInputComponent->BindAction("Jump", IE_Released, this, &AStolenmatesPlayer::JumpReleased);
+	PlayerInputComponent->BindAction("UseAbility", IE_Pressed, this, &AStolenmatesPlayer::UseAbility);
 }

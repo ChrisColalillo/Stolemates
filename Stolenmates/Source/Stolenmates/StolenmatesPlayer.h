@@ -4,7 +4,18 @@
 #include "GameFramework/Character.h"
 #include "StolenmatesPlayer.generated.h"
 
+
+UENUM()
+enum class AbilitiesENUM : uint8
+{
+	NONE_HELD     UMETA(DisplayName = "No Ability held"),
+	NONE_OVERRIDE    UMETA(DisplayName = "No Ability override"),
+	LaunchCNTower      UMETA(DisplayName = "Launch From CN Tower"),
+	ExapleHeldAbility      UMETA(DisplayName = "An exaple held ability"),
+};
+
 class AHeart;
+class AAbilityBaseClass;
 UCLASS()
 class STOLENMATES_API AStolenmatesPlayer : public ACharacter
 {
@@ -35,9 +46,15 @@ protected:
 	virtual void DashPressed();
 	virtual void DashReset();
 	virtual void EndStun();
+	virtual void UseAbility();
 
+
+	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Player")
+		TMap<AbilitiesENUM,TSubclassOf<AAbilityBaseClass>> abilities;
 	UFUNCTION(BlueprintCallable, Category = "Player")
 	virtual void StunPlayer(float StunDuration);
+	UFUNCTION(BlueprintCallable, Category = "Player")
+	virtual void SetAbility(AbilitiesENUM ability, AAbilityBaseClass* staticAbility);
 	UFUNCTION()
 	void OnCompHit(UPrimitiveComponent* HitComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, FVector NormalImpulse, const FHitResult& Hit);
 	UFUNCTION()
@@ -56,10 +73,14 @@ protected:
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "PlayerProperties")
 		float HeartLossStunDuration = 1.0f;
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "PlayerProperties")
+		bool holdingHeart = false;
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "PlayerProperties")
 		FName socketName;
 
 	FTimerHandle dashTimerHandle;
 	FTimerHandle stunTimerHandle;
 	FVector PlayerMovementDirection = FVector(0,0,0);
 	FRotator playerRotationDirection;
+	AAbilityBaseClass* overrideAbility = nullptr;
+	AAbilityBaseClass* heldAbility = nullptr;
 };

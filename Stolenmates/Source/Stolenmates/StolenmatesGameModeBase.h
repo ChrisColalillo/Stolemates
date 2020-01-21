@@ -45,6 +45,9 @@ protected:
 	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Game Mode")
 	float TimeToWin = 45.0f;
 
+	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Game Mode")
+	float cameraStartHeight = 1000.0f;
+
 	ACamera* camera;
 	TArray<ACharacter*> players;
 	FTimerHandle powerUpSpawnTimerHandle;
