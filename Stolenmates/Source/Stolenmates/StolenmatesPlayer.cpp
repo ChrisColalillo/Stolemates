@@ -142,7 +142,9 @@ void AStolenmatesPlayer::OnCompHit(UPrimitiveComponent * HitComponent, AActor * 
 		{
 			heart->AttachToComponent(other->GetMesh(), FAttachmentTransformRules::SnapToTargetNotIncludingScale, socketName);
 			hasHeart = false;
+			holdingHeart = true;
 			other->hasHeart = true;
+			other->holdingHeart = true;
 			other->heart = heart;
 			other->GetCharacterMovement()->MaxWalkSpeed = MovementSpeedWithHeart;
 			GetCharacterMovement()->MaxWalkSpeed = MovementSpeedWithoutHeart;
@@ -161,6 +163,7 @@ void AStolenmatesPlayer::OnCompOverlap(UPrimitiveComponent * OverlappedComponent
 		OtherActor->AttachToComponent(GetMesh(), FAttachmentTransformRules::SnapToTargetNotIncludingScale, socketName);
 		heart = other;
 		hasHeart = true;
+		holdingHeart = true;
 		heart->heartCollider->SetCollisionEnabled(ECollisionEnabled::NoCollision);
 	}
 }
