@@ -20,7 +20,7 @@ AStolenmatesGameModeBase::AStolenmatesGameModeBase()
 void AStolenmatesGameModeBase::StartPlay()
 {
 	Super::StartPlay();
-	camera = Cast<ACamera>(GetWorld()->SpawnActor<AActor>(BPCamera,FVector(0,0,1000) , FRotator::ZeroRotator));
+	camera = Cast<ACamera>(GetWorld()->SpawnActor<AActor>(BPCamera,FVector(0,0,cameraStartHeight) , FRotator::ZeroRotator));
 	TArray<AActor*> Locations;
 	UGameplayStatics::GetAllActorsOfClass(GetWorld(), PlayerSpawners,Locations);
 	for(int32 i =0;i< Locations.Num();i++)
