@@ -28,4 +28,6 @@ public:
 	UStaticMeshComponent* heartMesh;
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components")
 	UCapsuleComponent* heartCollider;
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Booleans")
+		bool canSteal = true;
 };
