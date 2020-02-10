@@ -75,6 +75,8 @@ protected:
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "PlayerProperties")
 		float HeartGainInvincibilityDuration = 1.0f;
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "PlayerProperties")
+		bool holdingHeart = false;
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "PlayerProperties")
 		FName socketName;
 
 	FTimerHandle dashTimerHandle;

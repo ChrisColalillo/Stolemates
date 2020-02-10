@@ -109,7 +109,7 @@ void AStolenmatesPlayer::UseAbility()
 void AStolenmatesPlayer::SetInvincibility(float iTime)
 {
 	invincible = true;
-	GetWorldTimerManager().SetTimer(invinciblityTimerHandle, this, &AStolenmatesPlayer::EndStun, iTime, false);
+	GetWorldTimerManager().SetTimer(invinciblityTimerHandle, this, &AStolenmatesPlayer::EndInvincibility, iTime, false);
 }
 
 void AStolenmatesPlayer::StunPlayer(float StunDuration)
@@ -147,7 +147,7 @@ void AStolenmatesPlayer::OnCompHit(UPrimitiveComponent * HitComponent, AActor * 
 		{
 			heart->AttachToComponent(other->GetMesh(), FAttachmentTransformRules::SnapToTargetNotIncludingScale, socketName);
 			hasHeart = false;
-			holdingHeart = true;
+			holdingHeart = false;
 			other->hasHeart = true;
 			other->holdingHeart = true;
 			other->heart = heart;
