@@ -93,6 +93,8 @@ void AStolenmatesPlayer::EndInvincibility()
 
 void AStolenmatesPlayer::UseAbility()
 {
+	if (stunned)
+		return;
 	if (overrideAbility)
 	{
 		overrideAbility->fireAbility(this);
@@ -102,8 +104,6 @@ void AStolenmatesPlayer::UseAbility()
 	{
 		heldAbility->fireAbility(this);
 	}
-	return;
-
 }
 
 void AStolenmatesPlayer::SetInvincibility(float iTime)
@@ -124,9 +124,9 @@ void AStolenmatesPlayer::SetAbility(AbilitiesENUM ability, AAbilityBaseClass* st
 	switch (ability)
 	{
 	case AbilitiesENUM::ITEM_BOX_ABILITY:
-		overrideAbility = nullptr;
+		heldAbility = nullptr;
 		if (staticAbility)
-			overrideAbility = Cast<AAbilityBaseClass>(staticAbility);
+			heldAbility = Cast<AAbilityBaseClass>(staticAbility);
 		break;
 	case AbilitiesENUM::ZONE_ABILITY_OVERRIDE:
 		overrideAbility = nullptr;

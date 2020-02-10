@@ -88,3 +88,8 @@ float AStolenmatesGameModeBase::getTimer(int i)
 	return Cast<AStolenmatesPlayer>(players[i])->timeHoldingHeart;
 }
 
+TArray<ACharacter*> AStolenmatesGameModeBase::getPlayers()
+{
+	return  players;
+}
+
