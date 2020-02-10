@@ -86,8 +86,15 @@ void AStolenmatesPlayer::EndStun()
 	stunned = false;
 }
 
+void AStolenmatesPlayer::EndInvincibility()
+{
+	invincible = false;
+}
+
 void AStolenmatesPlayer::UseAbility()
 {
+	if (stunned)
+		return;
 	if (overrideAbility)
 	{
 		overrideAbility->fireAbility(this);
@@ -97,8 +104,12 @@ void AStolenmatesPlayer::UseAbility()
 	{
 		heldAbility->fireAbility(this);
 	}
-	return;
+}
 
+void AStolenmatesPlayer::SetInvincibility(float iTime)
+{
+	invincible = true;
+	GetWorldTimerManager().SetTimer(invinciblityTimerHandle, this, &AStolenmatesPlayer::EndStun, iTime, false);
 }
 
 void AStolenmatesPlayer::StunPlayer(float StunDuration)
@@ -112,21 +123,15 @@ void AStolenmatesPlayer::SetAbility(AbilitiesENUM ability, AAbilityBaseClass* st
 {
 	switch (ability)
 	{
-	case AbilitiesENUM::NONE_HELD:
-		if(heldAbility)
-			heldAbility->Destroy();
+	case AbilitiesENUM::ITEM_BOX_ABILITY:
 		heldAbility = nullptr;
+		if (staticAbility)
+			heldAbility = Cast<AAbilityBaseClass>(staticAbility);
 		break;
-	case AbilitiesENUM::NONE_OVERRIDE:
+	case AbilitiesENUM::ZONE_ABILITY_OVERRIDE:
 		overrideAbility = nullptr;
-		break;
-	case AbilitiesENUM::LaunchCNTower:
-		overrideAbility = Cast<AAbilityBaseClass>(staticAbility);
-		break;
-	case AbilitiesENUM::ExapleHeldAbility:
-		if (heldAbility)
-			heldAbility->Destroy();
-		heldAbility = Cast<AAbilityBaseClass>(GetWorld()->SpawnActor<AActor>(abilities[AbilitiesENUM::ExapleHeldAbility], GetActorLocation(), GetActorRotation()));
+		if (staticAbility)
+			overrideAbility = Cast<AAbilityBaseClass>(staticAbility);
 		break;
 	}
 }
@@ -138,7 +143,7 @@ void AStolenmatesPlayer::OnCompHit(UPrimitiveComponent * HitComponent, AActor * 
 	AStolenmatesPlayer* other = Cast<AStolenmatesPlayer>(OtherActor);
 	if (other)
 	{
-		if (hasHeart && !other->stunned)
+		if (hasHeart && !other->stunned && !invincible)
 		{
 			heart->AttachToComponent(other->GetMesh(), FAttachmentTransformRules::SnapToTargetNotIncludingScale, socketName);
 			hasHeart = false;
@@ -146,6 +151,7 @@ void AStolenmatesPlayer::OnCompHit(UPrimitiveComponent * HitComponent, AActor * 
 			other->hasHeart = true;
 			other->holdingHeart = true;
 			other->heart = heart;
+			other->SetInvincibility(HeartGainInvincibilityDuration);
 			other->GetCharacterMovement()->MaxWalkSpeed = MovementSpeedWithHeart;
 			GetCharacterMovement()->MaxWalkSpeed = MovementSpeedWithoutHeart;
 			StunPlayer(HeartLossStunDuration);

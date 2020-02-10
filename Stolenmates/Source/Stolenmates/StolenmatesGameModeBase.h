@@ -29,6 +29,8 @@ protected:
 	int getWinner();
 	UFUNCTION(BlueprintCallable, Category = "Game Mode")
 	float getTimer(int i);
+	UFUNCTION(BlueprintCallable, Category = "Game Mode")
+	TArray<ACharacter*> getPlayers();
 
 	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Game Mode")
 	TSubclassOf<AActor> PlayerSpawners;
