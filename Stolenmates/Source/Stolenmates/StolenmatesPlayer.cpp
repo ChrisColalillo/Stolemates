@@ -86,6 +86,11 @@ void AStolenmatesPlayer::EndStun()
 	stunned = false;
 }
 
+void AStolenmatesPlayer::EndInvincibility()
+{
+	invincible = false;
+}
+
 void AStolenmatesPlayer::UseAbility()
 {
 	if (overrideAbility)
@@ -101,6 +106,12 @@ void AStolenmatesPlayer::UseAbility()
 
 }
 
+void AStolenmatesPlayer::SetInvincibility(float iTime)
+{
+	invincible = true;
+	GetWorldTimerManager().SetTimer(invinciblityTimerHandle, this, &AStolenmatesPlayer::EndStun, iTime, false);
+}
+
 void AStolenmatesPlayer::StunPlayer(float StunDuration)
 {
 	stunned = true;
@@ -112,21 +123,15 @@ void AStolenmatesPlayer::SetAbility(AbilitiesENUM ability, AAbilityBaseClass* st
 {
 	switch (ability)
 	{
-	case AbilitiesENUM::NONE_HELD:
-		if(heldAbility)
-			heldAbility->Destroy();
-		heldAbility = nullptr;
-		break;
-	case AbilitiesENUM::NONE_OVERRIDE:
+	case AbilitiesENUM::ITEM_BOX_ABILITY:
 		overrideAbility = nullptr;
+		if (staticAbility)
+			overrideAbility = Cast<AAbilityBaseClass>(staticAbility);
 		break;
-	case AbilitiesENUM::LaunchCNTower:
-		overrideAbility = Cast<AAbilityBaseClass>(staticAbility);
-		break;
-	case AbilitiesENUM::ExapleHeldAbility:
-		if (heldAbility)
-			heldAbility->Destroy();
-		heldAbility = Cast<AAbilityBaseClass>(GetWorld()->SpawnActor<AActor>(abilities[AbilitiesENUM::ExapleHeldAbility], GetActorLocation(), GetActorRotation()));
+	case AbilitiesENUM::ZONE_ABILITY_OVERRIDE:
+		overrideAbility = nullptr;
+		if (staticAbility)
+			overrideAbility = Cast<AAbilityBaseClass>(staticAbility);
 		break;
 	}
 }
@@ -138,12 +143,13 @@ void AStolenmatesPlayer::OnCompHit(UPrimitiveComponent * HitComponent, AActor * 
 	AStolenmatesPlayer* other = Cast<AStolenmatesPlayer>(OtherActor);
 	if (other)
 	{
-		if (hasHeart && !other->stunned)
+		if (hasHeart && !other->stunned && !invincible)
 		{
 			heart->AttachToComponent(other->GetMesh(), FAttachmentTransformRules::SnapToTargetNotIncludingScale, socketName);
 			hasHeart = false;
 			other->hasHeart = true;
 			other->heart = heart;
+			other->SetInvincibility(HeartGainInvincibilityDuration);
 			other->GetCharacterMovement()->MaxWalkSpeed = MovementSpeedWithHeart;
 			GetCharacterMovement()->MaxWalkSpeed = MovementSpeedWithoutHeart;
 			StunPlayer(HeartLossStunDuration);
