@@ -8,10 +8,8 @@
 UENUM()
 enum class AbilitiesENUM : uint8
 {
-	NONE_HELD     UMETA(DisplayName = "No Ability held"),
-	NONE_OVERRIDE    UMETA(DisplayName = "No Ability override"),
-	LaunchCNTower      UMETA(DisplayName = "Launch From CN Tower"),
-	ExapleHeldAbility      UMETA(DisplayName = "An exaple held ability"),
+	ITEM_BOX_ABILITY     UMETA(DisplayName = "ability picked up from item box"),
+	ZONE_ABILITY_OVERRIDE    UMETA(DisplayName = "ability override from area"),
 };
 
 class AHeart;
@@ -29,6 +27,8 @@ public:
 
 	UPROPERTY(BlueprintReadOnly, Category = "PlayerInfo")
 	bool stunned = false;
+	UPROPERTY(BlueprintReadOnly, Category = "PlayerInfo")
+	bool invincible = false;
 	UPROPERTY(BlueprintReadWrite, Category = "PlayerInfo")
 	bool hasHeart = false;
 	UPROPERTY(BlueprintReadOnly, Category = "PlayerInfo")
@@ -46,11 +46,11 @@ protected:
 	virtual void DashPressed();
 	virtual void DashReset();
 	virtual void EndStun();
+	virtual void EndInvincibility();
 	virtual void UseAbility();
+	virtual void SetInvincibility(float iTime);
 
 
-	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Player")
-		TMap<AbilitiesENUM,TSubclassOf<AAbilityBaseClass>> abilities;
 	UFUNCTION(BlueprintCallable, Category = "Player")
 	virtual void StunPlayer(float StunDuration);
 	UFUNCTION(BlueprintCallable, Category = "Player")
@@ -73,12 +73,15 @@ protected:
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "PlayerProperties")
 		float HeartLossStunDuration = 1.0f;
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "PlayerProperties")
+		float HeartGainInvincibilityDuration = 1.0f;
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "PlayerProperties")
 		bool holdingHeart = false;
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "PlayerProperties")
 		FName socketName;
 
 	FTimerHandle dashTimerHandle;
 	FTimerHandle stunTimerHandle;
+	FTimerHandle invinciblityTimerHandle;
 	FVector PlayerMovementDirection = FVector(0,0,0);
 	FRotator playerRotationDirection;
 	AAbilityBaseClass* overrideAbility = nullptr;
