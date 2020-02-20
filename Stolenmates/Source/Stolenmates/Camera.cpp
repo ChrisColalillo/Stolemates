@@ -4,6 +4,7 @@
 #include "Camera.h"
 #include "Camera/CameraComponent.h"
 #include "GameFramework/SpringArmComponent.h"
+#include "Math/UnrealMathUtility.h"
 #include "StolenmatesPlayer.h"
 
 // Sets default values
@@ -19,7 +20,8 @@ ACamera::ACamera()
 void ACamera::BeginPlay()
 {
 	Super::BeginPlay();
-	CameraComp->AddLocalRotation(CameraRotation);
+	//CameraComp->AddLocalRotation(CameraRotation);
+	this->SetActorRotation(CameraRotation);
 }
 
 // Called every frame
@@ -55,6 +57,17 @@ void ACamera::Focus(TArray<ACharacter*> players)
 		}
 	}
 	centerPoint.Z += FMath::Clamp(farthestDistance,minHeight,maxHeight);
+	if (centerPoint.Z <= 4000)
+	{
+		float rotateAmount = (centerPoint.Z-minHeight)/(4000 - minHeight);
+		this->SetActorRotation(FRotator((65.0f * (1.0f - rotateAmount)), 0.0f,0.0f)+ CameraRotation);
+		centerPoint.X -= 2500* (1.0f - rotateAmount);
+		centerPoint.Z -= 250 * (1.0f - rotateAmount);
+	}
+	else
+	{
+		this->SetActorRotation(CameraRotation);
+	}
 	centerPoint.X -= FMath::Sin(CameraRotation.Yaw - 270)*(centerPoint.Z/2);
 	FVector newLocationDirection = centerPoint- GetActorLocation();
 	float magnitude = newLocationDirection.Size();
