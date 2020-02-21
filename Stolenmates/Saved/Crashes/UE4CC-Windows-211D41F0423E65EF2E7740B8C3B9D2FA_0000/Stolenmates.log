@@ -2093,35 +2093,3 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 Script Stack (0 frames):
 
 [2020.02.21-19.01.49:113][437]LogWindows: Windows GetLastError: The operation completed successfully. (0)
-[2020.02.21-19.01.57:530][437]LogWindows: Error: === Critical error: ===
-[2020.02.21-19.01.57:530][437]LogWindows: Error: 
-[2020.02.21-19.01.57:530][437]LogWindows: Error: Assertion failed: (Index >= 0) & (Index < ArrayNum) [File:O:\UE_4.23\Engine\Source\Runtime\Core\Public\Containers/Array.h] [Line: 614] 
-[2020.02.21-19.01.57:530][437]LogWindows: Error: Array index out of bounds: 0 from an array of size 0
-[2020.02.21-19.01.57:531][437]LogWindows: Error: 
-[2020.02.21-19.01.57:531][437]LogWindows: Error: 
-[2020.02.21-19.01.57:531][437]LogWindows: Error: [Callstack] 0x00007ffd1058a839 KERNELBASE.dll!UnknownFunction []
-[2020.02.21-19.01.57:531][437]LogWindows: Error: [Callstack] 0x00007ffca8d09ef7 UE4Editor-Core.dll!UnknownFunction []
-[2020.02.21-19.01.57:531][437]LogWindows: Error: [Callstack] 0x00007ffca8d0c754 UE4Editor-Core.dll!UnknownFunction []
-[2020.02.21-19.01.57:531][437]LogWindows: Error: [Callstack] 0x00007ffca8b01afa UE4Editor-Core.dll!UnknownFunction []
-[2020.02.21-19.01.57:531][437]LogWindows: Error: [Callstack] 0x00007ffca8a567c3 UE4Editor-Core.dll!UnknownFunction []
-[2020.02.21-19.01.57:531][437]LogWindows: Error: [Callstack] 0x00007ffca8a56ed0 UE4Editor-Core.dll!UnknownFunction []
-[2020.02.21-19.01.57:531][437]LogWindows: Error: [Callstack] 0x00007ffc838fe068 UE4Editor-Stolenmates.dll!DispatchCheckVerify<void,<lambda_3ac0444515b47717743577b13f0e2b74> >() [O:\UE_4.23\Engine\Source\Runtime\Core\Public\Misc\AssertionMacros.h:165]
-[2020.02.21-19.01.57:531][437]LogWindows: Error: [Callstack] 0x00007ffc838f5110 UE4Editor-Stolenmates.dll!AStolenmatesGameModeBase::StartPlay() [C:\Users\Ryan\Documents\GitHub\Stolemates\Stolenmates\Source\Stolenmates\StolenmatesGameModeBase.cpp:35]
-[2020.02.21-19.01.57:531][437]LogWindows: Error: [Callstack] 0x00007ffc9542adfe UE4Editor-Engine.dll!UnknownFunction []
-[2020.02.21-19.01.57:531][437]LogWindows: Error: [Callstack] 0x00007ffc948d4389 UE4Editor-Engine.dll!UnknownFunction []
-[2020.02.21-19.01.57:531][437]LogWindows: Error: [Callstack] 0x00007ffca6484953 UE4Editor-UnrealEd.dll!UnknownFunction []
-[2020.02.21-19.01.57:531][437]LogWindows: Error: [Callstack] 0x00007ffca64a3c01 UE4Editor-UnrealEd.dll!UnknownFunction []
-[2020.02.21-19.01.57:531][437]LogWindows: Error: [Callstack] 0x00007ffca64bdaf5 UE4Editor-UnrealEd.dll!UnknownFunction []
-[2020.02.21-19.01.57:531][437]LogWindows: Error: [Callstack] 0x00007ffca5f7d9b4 UE4Editor-UnrealEd.dll!UnknownFunction []
-[2020.02.21-19.01.57:531][437]LogWindows: Error: [Callstack] 0x00007ffca67d4b16 UE4Editor-UnrealEd.dll!UnknownFunction []
-[2020.02.21-19.01.57:531][437]LogWindows: Error: [Callstack] 0x00007ff6463d7b0a UE4Editor.exe!UnknownFunction []
-[2020.02.21-19.01.57:531][437]LogWindows: Error: [Callstack] 0x00007ff6463ea91c UE4Editor.exe!UnknownFunction []
-[2020.02.21-19.01.57:531][437]LogWindows: Error: [Callstack] 0x00007ff6463ea9fa UE4Editor.exe!UnknownFunction []
-[2020.02.21-19.01.57:531][437]LogWindows: Error: [Callstack] 0x00007ff6463fb92c UE4Editor.exe!UnknownFunction []
-[2020.02.21-19.01.57:531][437]LogWindows: Error: [Callstack] 0x00007ff6463fe60e UE4Editor.exe!UnknownFunction []
-[2020.02.21-19.01.57:531][437]LogWindows: Error: [Callstack] 0x00007ffd11987bd4 KERNEL32.DLL!UnknownFunction []
-[2020.02.21-19.01.57:531][437]LogWindows: Error: [Callstack] 0x00007ffd1320ced1 ntdll.dll!UnknownFunction []
-[2020.02.21-19.01.57:531][437]LogWindows: Error: 
-[2020.02.21-19.01.57:553][437]LogExit: Executing StaticShutdownAfterError
-[2020.02.21-19.01.57:603][437]LogWindows: FPlatformMisc::RequestExit(1)
-[2020.02.21-19.01.57:613][437]Log file closed, 02/21/20 14:01:57
