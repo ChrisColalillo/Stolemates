@@ -57,9 +57,9 @@ void ACamera::Focus(TArray<ACharacter*> players)
 		}
 	}
 	centerPoint.Z += FMath::Clamp(farthestDistance,minHeight,maxHeight);
-	if (centerPoint.Z <= rotationStartHeight)
+	if (GetActorLocation().Z <= rotationStartHeight)
 	{
-		float rotateAmount = FMath::Clamp((centerPoint.Z - rotationEndHeight)/(rotationStartHeight - minHeight),0.0f,1.0f);
+		float rotateAmount = FMath::Clamp((GetActorLocation().Z - rotationEndHeight)/(rotationStartHeight - minHeight),0.0f,1.0f);
 		this->SetActorRotation(FRotator((maxAddedRotationAngle * (1.0f - rotateAmount)), 0.0f,0.0f)+ CameraRotation);
 		centerPoint.X -= 2500* (1.0f - rotateAmount);
 		centerPoint.Z -= 250 * (1.0f - rotateAmount);
