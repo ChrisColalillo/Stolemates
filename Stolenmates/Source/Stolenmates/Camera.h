@@ -31,6 +31,17 @@ protected:
 		float cameraMaxMoveSpeed = 10;
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Camera Settings")
 		FRotator CameraRotation;
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Camera Settings")
+		float rotationStartHeight = 4000.0f;
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Camera Settings")
+		float rotationEndHeight = 2250.0f;
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Camera Settings")
+		float maxAddedRotationAngle = 65.0f;
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Camera Settings")
+		float heightRotationOffset = 250.0f;
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Camera Settings")
+		float xAxisRotationOffset = 2500.0f;
+
 
 	UCameraComponent* CameraComp;
 public:
