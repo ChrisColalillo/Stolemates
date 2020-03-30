@@ -9,6 +9,9 @@
 #include "Camera.h"
 #include "Materials/Material.h"
 #include "TimerManager.h"
+#include "Components/DecalComponent.h"
+#include "Kismet/GameplayStatics.h"
+
 
 
 AStolenmatesGameModeBase::AStolenmatesGameModeBase()
@@ -27,6 +30,7 @@ void AStolenmatesGameModeBase::StartPlay()
 	{		
 		AStolenmatesPlayer* player = GetWorld()->SpawnActor<AStolenmatesPlayer>(BPPlayer,Locations[i]->GetActorLocation(), Locations[i]->GetActorRotation());
 		player->GetMesh()->SetMaterial(0,PlayerMaterials[i]);
+		UGameplayStatics::SpawnDecalAttached(PlayerDecals[i],FVector(256,256,256), player->GetRootComponent(),FName("Decal"),FVector(0,0,0),FRotator(0,0,0), EAttachLocation::SnapToTargetIncludingScale,0);
 		UGameplayStatics::CreatePlayer(this, i, true);
 		UGameplayStatics::GetPlayerController(player, i)->Possess(player);
 		UGameplayStatics::GetPlayerController(player, i)->SetViewTargetWithBlend(camera);

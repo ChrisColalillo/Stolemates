@@ -45,6 +45,9 @@ protected:
 	TArray<UMaterialInterface*> PlayerMaterials;
 
 	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Game Mode")
+	TArray<UMaterialInterface*> PlayerDecals;
+
+	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Game Mode")
 	float TimeToWin = 45.0f;
 
 	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Game Mode")

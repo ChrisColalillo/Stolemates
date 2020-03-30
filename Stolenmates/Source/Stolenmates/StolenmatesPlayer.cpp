@@ -8,6 +8,8 @@
 #include "Heart.h"
 #include "AbilityBaseClass.h"
 
+
+
 // Sets default values
 AStolenmatesPlayer::AStolenmatesPlayer()
 {
@@ -182,6 +184,11 @@ void AStolenmatesPlayer::Tick(float DeltaTime)
 		return;
 	if (hasHeart)
 		timeHoldingHeart += DeltaTime;
+	if (PlayerMovementDirection.Size() == 0)
+	{
+		PlayerMovementDirection = previousMovementDirection;
+	}
+	previousMovementDirection = PlayerMovementDirection;
 	PlayerMovementDirection.Normalize();
 	playerRotationDirection = PlayerMovementDirection.Rotation();
 	playerRotationDirection.Add(0, 270, 0);

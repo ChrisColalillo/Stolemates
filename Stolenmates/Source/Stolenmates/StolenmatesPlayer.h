@@ -83,6 +83,7 @@ protected:
 	FTimerHandle stunTimerHandle;
 	FTimerHandle invinciblityTimerHandle;
 	FVector PlayerMovementDirection = FVector(0,0,0);
+	FVector previousMovementDirection = FVector(0,0,0);
 	FRotator playerRotationDirection;
 	AAbilityBaseClass* overrideAbility = nullptr;
 	AAbilityBaseClass* heldAbility = nullptr;

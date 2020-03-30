@@ -28,7 +28,9 @@ protected:
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Camera Settings")
 		float maxHeight = 4000;
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Camera Settings")
-		float cameraMaxMoveSpeed = 10;
+		float cameraMaxHorizontalMoveSpeed = 10;
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Camera Settings")
+		float cameraMaxVerticalMoveSpeed = 10;
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Camera Settings")
 		FRotator CameraRotation;
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Camera Settings")

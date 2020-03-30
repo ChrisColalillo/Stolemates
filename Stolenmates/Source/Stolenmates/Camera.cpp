@@ -6,6 +6,10 @@
 #include "GameFramework/SpringArmComponent.h"
 #include "Math/UnrealMathUtility.h"
 #include "StolenmatesPlayer.h"
+#include "GenericPlatform/GenericPlatformMath.h"
+
+#include "Engine.h"
+
 
 // Sets default values
 ACamera::ACamera()
@@ -39,7 +43,6 @@ void ACamera::Focus(TArray<ACharacter*> players)
 		centerPoint.X += players[i]->GetActorLocation().X;
 		centerPoint.Y += players[i]->GetActorLocation().Y;
 	}
-	centerPoint = centerPoint / players.Num();
 	float farthestDistance = 0;
 	float x, y, distance;
 	for (int i = 0; i < players.Num(); i++)
@@ -52,27 +55,37 @@ void ACamera::Focus(TArray<ACharacter*> players)
 			if (distance > farthestDistance)
 			{
 				farthestDistance = distance;
-				//centerPoint = (players[i]->GetActorLocation()+ players[j]->GetActorLocation())/2;
 			}
 		}
 	}
-	centerPoint.Z += FMath::Clamp(farthestDistance,minHeight,maxHeight);
+
+	float rotateAmount = 1.0f;
 	if (GetActorLocation().Z <= rotationStartHeight)
 	{
-		float rotateAmount = FMath::Clamp((GetActorLocation().Z - rotationEndHeight)/(rotationStartHeight - minHeight),0.0f,1.0f);
-		this->SetActorRotation(FRotator((maxAddedRotationAngle * (1.0f - rotateAmount)), 0.0f,0.0f)+ CameraRotation);
-		centerPoint.X -= 2500* (1.0f - rotateAmount);
-		centerPoint.Z -= 250 * (1.0f - rotateAmount);
+		rotateAmount = FMath::Clamp((GetActorLocation().Z - rotationEndHeight) / (rotationStartHeight - minHeight), 0.0f, 1.0f);
+		this->SetActorRotation(FRotator((maxAddedRotationAngle * (1.0f - rotateAmount)), 0.0f, 0.0f) + CameraRotation);
 	}
 	else
 	{
 		this->SetActorRotation(CameraRotation);
 	}
-	centerPoint.X -= FMath::Sin(CameraRotation.Yaw - 270)*(centerPoint.Z/2);
-	FVector newLocationDirection = centerPoint- GetActorLocation();
+	centerPoint.X -= FMath::Sin(CameraRotation.Yaw - 270)*(GetActorLocation().Z / 2);
+
+	float height = FMath::Clamp(farthestDistance, minHeight, maxHeight);
+	height -= 250 * (1.0f - rotateAmount);
+	float sign = FMath::Sign(height - GetActorLocation().Z);
+	height = FMath::Clamp(FMath::Abs(height - GetActorLocation().Z),0.0f, cameraMaxVerticalMoveSpeed);
+
+	centerPoint = centerPoint / players.Num();
+	centerPoint.Z = GetActorLocation().Z;
+	centerPoint.X -= 2500 * (1.0f - rotateAmount);
+	FVector newLocationDirection = centerPoint - GetActorLocation();
 	float magnitude = newLocationDirection.Size();
 	newLocationDirection.Normalize();
-	newLocationDirection *= FMath::Clamp(magnitude,0.0f, cameraMaxMoveSpeed);
-	this->SetActorLocation(GetActorLocation()+newLocationDirection);
+	newLocationDirection *= FMath::Clamp(magnitude, 0.0f, cameraMaxHorizontalMoveSpeed);
+
+
+	this->SetActorLocation(FVector(GetActorLocation().X + newLocationDirection.X, GetActorLocation().Y + newLocationDirection.Y, GetActorLocation().Z + (height * sign)));
+
 }
 
