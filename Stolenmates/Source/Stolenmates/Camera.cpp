@@ -72,13 +72,13 @@ void ACamera::Focus(TArray<ACharacter*> players)
 	centerPoint.X -= FMath::Sin(CameraRotation.Yaw - 270)*(GetActorLocation().Z / 2);
 
 	float height = FMath::Clamp(farthestDistance, minHeight, maxHeight);
-	height -= 250 * (1.0f - rotateAmount);
+	height -= heightRotationOffset * (1.0f - rotateAmount);
 	float sign = FMath::Sign(height - GetActorLocation().Z);
 	height = FMath::Clamp(FMath::Abs(height - GetActorLocation().Z),0.0f, cameraMaxVerticalMoveSpeed);
 
 	centerPoint = centerPoint / players.Num();
 	centerPoint.Z = GetActorLocation().Z;
-	centerPoint.X -= 2500 * (1.0f - rotateAmount);
+	centerPoint.X -= xAxisRotationOffset * (1.0f - rotateAmount);
 	FVector newLocationDirection = centerPoint - GetActorLocation();
 	float magnitude = newLocationDirection.Size();
 	newLocationDirection.Normalize();
