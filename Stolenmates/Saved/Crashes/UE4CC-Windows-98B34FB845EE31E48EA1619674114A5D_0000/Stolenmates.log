@@ -1,0 +1,1010 @@
+﻿Log file open, 04/09/20 01:14:20
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: Stolenmates
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.061469
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin HoudiniNiagara
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin NiagaraExtras
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.23-CL-9631420
+LogInit: Engine Version: 4.23.1-9631420+++UE4+Release-4.23
+LogInit: Compatible Engine Version: 4.23.0-8386587+++UE4+Release-4.23
+LogInit: Net CL: 8386587
+LogInit: OS: Windows 10 (Release 1903) (), CPU: Intel(R) Core(TM) i5-4690K CPU @ 3.50GHz, GPU: NVIDIA GeForce GTX 750 Ti
+LogInit: Compiled (64-bit): Oct 18 2019 02:07:44
+LogInit: Compiled with Visual C++: 19.16.27030.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.23
+LogInit: Command Line:  -EpicPortal -epicusername=blon_die_ -epicuserid=93c9e6b38a17407db3f59ed76ab178f2 -epiclocale=en
+LogInit: Base Directory: F:/UE_4.23/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 23
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 3
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 34
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 35
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 31
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 11
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 27
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 6
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 9
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2020.04.09-05.14.21:049][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.04.09-05.14.21:049][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.04.09-05.14.21:049][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Saved/Config/Windows/Engine.ini]
+[2020.04.09-05.14.21:049][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.04.09-05.14.21:049][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
+[2020.04.09-05.14.21:049][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Saved/Config/Windows/Engine.ini]
+[2020.04.09-05.14.21:049][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Saved/Config/Windows/Engine.ini]
+[2020.04.09-05.14.21:049][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.04.09-05.14.21:049][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.04.09-05.14.21:049][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.04.09-05.14.21:049][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.04.09-05.14.21:049][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.04.09-05.14.21:049][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.04.09-05.14.21:049][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.04.09-05.14.21:049][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.04.09-05.14.21:049][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.04.09-05.14.21:049][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.04.09-05.14.21:049][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.04.09-05.14.21:049][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.04.09-05.14.21:049][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.04.09-05.14.21:049][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Saved/Config/Windows/Engine.ini]
+[2020.04.09-05.14.21:049][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.04.09-05.14.21:049][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.04.09-05.14.21:049][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.04.09-05.14.21:049][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.04.09-05.14.21:049][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.04.09-05.14.21:049][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.04.09-05.14.21:049][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2020.04.09-05.14.21:049][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.04.09-05.14.21:049][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.04.09-05.14.21:049][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.04.09-05.14.21:049][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.04.09-05.14.21:049][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.04.09-05.14.21:049][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.04.09-05.14.21:049][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Saved/Config/Windows/Engine.ini]
+[2020.04.09-05.14.21:049][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Saved/Config/Windows/Engine.ini]
+[2020.04.09-05.14.21:051][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Saved/Config/Windows/Scalability.ini]
+[2020.04.09-05.14.21:051][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.04.09-05.14.21:051][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.04.09-05.14.21:051][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Saved/Config/Windows/Scalability.ini]
+[2020.04.09-05.14.21:051][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.04.09-05.14.21:051][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Saved/Config/Windows/Scalability.ini]
+[2020.04.09-05.14.21:051][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.04.09-05.14.21:051][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.04.09-05.14.21:051][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.04.09-05.14.21:051][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.04.09-05.14.21:051][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.04.09-05.14.21:051][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.04.09-05.14.21:051][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.04.09-05.14.21:051][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.04.09-05.14.21:051][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.04.09-05.14.21:051][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.04.09-05.14.21:051][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.04.09-05.14.21:051][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.04.09-05.14.21:051][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.04.09-05.14.21:051][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.04.09-05.14.21:051][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.04.09-05.14.21:051][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.04.09-05.14.21:051][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.04.09-05.14.21:051][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.04.09-05.14.21:051][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Saved/Config/Windows/Scalability.ini]
+[2020.04.09-05.14.21:051][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.04.09-05.14.21:051][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.04.09-05.14.21:051][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.04.09-05.14.21:051][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.04.09-05.14.21:051][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.04.09-05.14.21:051][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.04.09-05.14.21:051][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.04.09-05.14.21:051][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.04.09-05.14.21:051][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.04.09-05.14.21:051][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.04.09-05.14.21:051][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.04.09-05.14.21:051][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.04.09-05.14.21:051][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.04.09-05.14.21:051][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.04.09-05.14.21:051][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.04.09-05.14.21:052][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.04.09-05.14.21:052][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.04.09-05.14.21:052][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.04.09-05.14.21:052][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.04.09-05.14.21:052][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.04.09-05.14.21:052][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.04.09-05.14.21:052][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.04.09-05.14.21:052][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.04.09-05.14.21:052][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.04.09-05.14.21:052][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.04.09-05.14.21:052][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.04.09-05.14.21:052][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.04.09-05.14.21:052][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.04.09-05.14.21:052][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.04.09-05.14.21:052][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.04.09-05.14.21:052][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Saved/Config/Windows/Scalability.ini]
+[2020.04.09-05.14.21:052][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.04.09-05.14.21:052][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.04.09-05.14.21:052][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.04.09-05.14.21:052][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.04.09-05.14.21:052][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.04.09-05.14.21:052][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.04.09-05.14.21:052][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.04.09-05.14.21:052][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.04.09-05.14.21:052][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Saved/Config/Windows/Scalability.ini]
+[2020.04.09-05.14.21:052][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.04.09-05.14.21:052][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.04.09-05.14.21:052][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.04.09-05.14.21:052][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.04.09-05.14.21:052][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.04.09-05.14.21:052][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.04.09-05.14.21:052][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.04.09-05.14.21:052][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.04.09-05.14.21:052][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.04.09-05.14.21:052][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.04.09-05.14.21:052][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.04.09-05.14.21:052][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.04.09-05.14.21:052][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.04.09-05.14.21:052][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Saved/Config/Windows/Scalability.ini]
+[2020.04.09-05.14.21:052][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.04.09-05.14.21:052][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.04.09-05.14.21:052][  0]LogInit: Selected Device Profile: [Windows]
+[2020.04.09-05.14.21:052][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.04.09-05.14.21:055][  0]LogHAL: Display: Platform has ~ 8 GB [8428769280 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.04.09-05.14.21:055][  0]LogInit: Going up to parent DeviceProfile []
+[2020.04.09-05.14.21:055][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Saved/Config/Windows/Scalability.ini]
+[2020.04.09-05.14.21:055][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.04.09-05.14.21:055][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.04.09-05.14.21:055][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Saved/Config/Windows/Scalability.ini]
+[2020.04.09-05.14.21:055][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.04.09-05.14.21:055][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Saved/Config/Windows/Scalability.ini]
+[2020.04.09-05.14.21:055][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.04.09-05.14.21:055][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.04.09-05.14.21:055][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.04.09-05.14.21:055][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.04.09-05.14.21:055][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.04.09-05.14.21:055][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.04.09-05.14.21:055][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.04.09-05.14.21:055][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.04.09-05.14.21:055][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.04.09-05.14.21:055][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.04.09-05.14.21:055][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.04.09-05.14.21:055][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.04.09-05.14.21:055][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.04.09-05.14.21:055][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.04.09-05.14.21:055][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.04.09-05.14.21:055][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.04.09-05.14.21:055][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.04.09-05.14.21:055][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.04.09-05.14.21:055][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Saved/Config/Windows/Scalability.ini]
+[2020.04.09-05.14.21:055][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.04.09-05.14.21:055][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.04.09-05.14.21:055][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.04.09-05.14.21:055][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.04.09-05.14.21:055][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.04.09-05.14.21:055][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.04.09-05.14.21:055][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.04.09-05.14.21:055][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.04.09-05.14.21:055][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.04.09-05.14.21:055][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.04.09-05.14.21:055][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.04.09-05.14.21:055][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.04.09-05.14.21:055][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.04.09-05.14.21:055][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.04.09-05.14.21:055][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.04.09-05.14.21:055][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.04.09-05.14.21:055][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.04.09-05.14.21:055][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.04.09-05.14.21:055][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.04.09-05.14.21:055][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.04.09-05.14.21:055][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.04.09-05.14.21:055][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.04.09-05.14.21:055][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.04.09-05.14.21:055][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.04.09-05.14.21:056][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.04.09-05.14.21:056][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.04.09-05.14.21:056][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.04.09-05.14.21:056][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.04.09-05.14.21:056][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.04.09-05.14.21:056][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.04.09-05.14.21:056][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Saved/Config/Windows/Scalability.ini]
+[2020.04.09-05.14.21:056][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.04.09-05.14.21:056][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.04.09-05.14.21:056][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.04.09-05.14.21:056][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.04.09-05.14.21:056][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.04.09-05.14.21:056][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.04.09-05.14.21:056][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.04.09-05.14.21:056][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.04.09-05.14.21:056][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Saved/Config/Windows/Scalability.ini]
+[2020.04.09-05.14.21:056][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.04.09-05.14.21:056][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.04.09-05.14.21:056][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.04.09-05.14.21:056][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.04.09-05.14.21:056][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.04.09-05.14.21:056][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.04.09-05.14.21:056][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.04.09-05.14.21:056][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.04.09-05.14.21:056][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.04.09-05.14.21:056][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.04.09-05.14.21:056][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.04.09-05.14.21:056][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.04.09-05.14.21:056][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.04.09-05.14.21:056][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Saved/Config/Windows/Scalability.ini]
+[2020.04.09-05.14.21:056][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.04.09-05.14.21:056][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.04.09-05.14.21:056][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.04.09-05.14.21:056][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.04.09-05.14.21:056][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.04.09-05.14.21:056][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2020.04.09-05.14.21:056][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Saved/Config/Windows/Engine.ini]
+[2020.04.09-05.14.21:056][  0]LogInit: Computer: GLADOS
+[2020.04.09-05.14.21:056][  0]LogInit: User: Caleigh
+[2020.04.09-05.14.21:056][  0]LogInit: CPU Page size=4096, Cores=4
+[2020.04.09-05.14.21:056][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.04.09-05.14.21:056][  0]LogMemory: Memory total: Physical=7.8GB (8GB approx)
+[2020.04.09-05.14.21:056][  0]LogMemory: Platform Memory Stats for Windows
+[2020.04.09-05.14.21:056][  0]LogMemory: Process Physical Memory: 101.07 MB used, 101.07 MB peak
+[2020.04.09-05.14.21:056][  0]LogMemory: Process Virtual Memory: 100.04 MB used, 100.04 MB peak
+[2020.04.09-05.14.21:056][  0]LogMemory: Physical Memory: 6970.18 MB used,  1068.13 MB free, 8038.30 MB total
+[2020.04.09-05.14.21:056][  0]LogMemory: Virtual Memory: 4656.48 MB used,  134213072.00 MB free, 134217728.00 MB total
+[2020.04.09-05.14.21:060][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.04.09-05.14.21:077][  0]LogInit: Using OS detected language (en-US).
+[2020.04.09-05.14.21:077][  0]LogInit: Using OS detected locale (en-CA).
+[2020.04.09-05.14.21:078][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2020.04.09-05.14.21:259][  0]LogInit: Setting process to per monitor DPI aware
+[2020.04.09-05.14.21:284][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.04.09-05.14.21:284][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.04.09-05.14.21:420][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.04.09-05.14.21:420][  0]LogD3D11RHI: D3D11 adapters:
+[2020.04.09-05.14.21:472][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 750 Ti' (Feature Level 11_0)
+[2020.04.09-05.14.21:472][  0]LogD3D11RHI:       2007/0/4019 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2020.04.09-05.14.21:474][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.04.09-05.14.21:474][  0]LogD3D11RHI:       0/0/4019 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.04.09-05.14.21:474][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.04.09-05.14.21:487][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.04.09-05.14.21:487][  0]LogD3D11RHI:     GPU DeviceId: 0x1380 (for the marketing name, search the web for "GPU Device Id")
+[2020.04.09-05.14.21:487][  0]LogWindows: EnumDisplayDevices:
+[2020.04.09-05.14.21:487][  0]LogWindows:    0. 'NVIDIA GeForce GTX 750 Ti' (P:1 D:1)
+[2020.04.09-05.14.21:487][  0]LogWindows:    1. 'NVIDIA GeForce GTX 750 Ti' (P:0 D:0)
+[2020.04.09-05.14.21:488][  0]LogWindows:    2. 'NVIDIA GeForce GTX 750 Ti' (P:0 D:0)
+[2020.04.09-05.14.21:488][  0]LogWindows:    3. 'NVIDIA GeForce GTX 750 Ti' (P:0 D:0)
+[2020.04.09-05.14.21:488][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2020.04.09-05.14.21:488][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 750 Ti
+[2020.04.09-05.14.21:488][  0]LogD3D11RHI:   Driver Version: 445.75 (internal:26.21.14.4575, unified:445.75)
+[2020.04.09-05.14.21:488][  0]LogD3D11RHI:      Driver Date: 3-17-2020
+[2020.04.09-05.14.21:488][  0]LogRHI: Texture pool is 1405 MB (70% of 2007 MB)
+[2020.04.09-05.14.21:526][  0]LogD3D11RHI: Async texture creation enabled
+[2020.04.09-05.14.21:546][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.04.09-05.14.21:847][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2020.04.09-05.14.21:854][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2020.04.09-05.14.21:861][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2020.04.09-05.14.21:867][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2020.04.09-05.14.21:876][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2020.04.09-05.14.21:883][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2020.04.09-05.14.21:890][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2020.04.09-05.14.21:897][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2020.04.09-05.14.21:900][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2020.04.09-05.14.21:930][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2020.04.09-05.14.21:930][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2020.04.09-05.14.21:930][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2020.04.09-05.14.21:930][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2020.04.09-05.14.21:930][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2020.04.09-05.14.21:930][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2020.04.09-05.14.21:930][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2020.04.09-05.14.21:930][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2020.04.09-05.14.21:930][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2020.04.09-05.14.21:930][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2020.04.09-05.14.21:931][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2020.04.09-05.14.21:931][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2020.04.09-05.14.21:931][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2020.04.09-05.14.21:931][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2020.04.09-05.14.21:931][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2020.04.09-05.14.21:931][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2020.04.09-05.14.21:931][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2020.04.09-05.14.21:931][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2020.04.09-05.14.21:932][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2020.04.09-05.14.21:948][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2020.04.09-05.14.21:948][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2020.04.09-05.14.21:960][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2020.04.09-05.14.21:960][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2020.04.09-05.14.21:966][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2020.04.09-05.14.21:972][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2020.04.09-05.14.21:979][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2020.04.09-05.14.21:987][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2020.04.09-05.14.22:009][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2020.04.09-05.14.22:010][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2020.04.09-05.14.22:010][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.04.09-05.14.22:016][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.04.09-05.14.22:046][  0]LogShaderCompilers: Guid format shader working directory is -9 characters bigger than the processId version (C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Intermediate/Shaders/WorkingDirectory/32116/).
+[2020.04.09-05.14.22:047][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Caleigh/AppData/Local/Temp/UnrealShaderWorkingDir/2DF51FB743986BCF951AFB86B3479A11/'.
+[2020.04.09-05.14.22:048][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.04.09-05.14.22:048][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.04.09-05.14.22:048][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.04.09-05.14.22:647][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.04.09-05.14.22:711][  0]LogDerivedDataCache: Loaded boot cache 0.06s 82MB C:/Users/Caleigh/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
+[2020.04.09-05.14.22:711][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Caleigh/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc
+[2020.04.09-05.14.22:711][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.04.09-05.14.22:711][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.04.09-05.14.22:711][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.04.09-05.14.22:711][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.04.09-05.14.22:723][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.04.09-05.14.22:723][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.04.09-05.14.22:723][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.04.09-05.14.22:724][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Caleigh/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.04.09-05.14.22:724][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.04.09-05.14.22:724][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.04.09-05.14.22:744][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.04.09-05.14.22:746][  0]LogSlate: Using FreeType 2.6.0
+[2020.04.09-05.14.22:746][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.04.09-05.14.22:793][  0]LogAssetRegistry: FAssetRegistry took 0.0027 seconds to start up
+[2020.04.09-05.14.23:046][  0]LogInit: Selected Device Profile: [Windows]
+[2020.04.09-05.14.23:183][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.04.09-05.14.23:183][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.04.09-05.14.23:183][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.04.09-05.14.23:183][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.04.09-05.14.23:183][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.04.09-05.14.23:192][  0]LogNetVersion: Stolenmates 1.0.0, NetCL: 8386587, EngineNetVer: 11, GameNetVer: 0 (Checksum: 1334032006)
+[2020.04.09-05.14.23:572][  0]LogPackageLocalizationCache: Processed 15 localized package path(s) for 1 prioritized culture(s) in 0.047706 seconds
+[2020.04.09-05.14.23:579][  0]LogUObjectArray: 43469 objects as part of root set at end of initial load.
+[2020.04.09-05.14.23:579][  0]LogUObjectAllocator: 7553416 out of 0 bytes used by permanent object pool.
+[2020.04.09-05.14.23:579][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.04.09-05.14.24:559][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.04.09-05.14.24:562][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.04.09-05.14.24:626][  0]SourceControl: Source control is disabled
+[2020.04.09-05.14.24:626][  0]SourceControl: Source control is disabled
+[2020.04.09-05.14.24:627][  0]SourceControl: Source control is disabled
+[2020.04.09-05.14.24:628][  0]SourceControl: Source control is disabled
+[2020.04.09-05.14.24:781][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.04.09-05.14.24:931][  0]LogOcInput: OculusInput pre-init called
+[2020.04.09-05.14.24:936][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.04.09-05.14.24:936][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.04.09-05.14.25:000][  0]LogEngine: Initializing Engine...
+[2020.04.09-05.14.25:001][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.04.09-05.14.25:002][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.04.09-05.14.25:228][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.04.09-05.14.25:237][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.04.09-05.14.25:273][  0]LogInit: XAudio2 using 'Speakers (3- USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.04.09-05.14.25:299][  0]LogInit: FAudioDevice initialized.
+[2020.04.09-05.14.25:299][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.04.09-05.14.25:380][  0]LogDerivedDataCache: Saved boot cache 0.08s 82MB C:/Users/Caleigh/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
+[2020.04.09-05.14.25:383][  0]LogInit: Texture streaming: Enabled
+[2020.04.09-05.14.25:396][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.04.09-05.14.25:397][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.04.09-05.14.25:398][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.04.09-05.14.25:441][  0]LogInit: Transaction tracking system initialized
+[2020.04.09-05.14.25:461][  0]BlueprintLog: New page: Editor Load
+[2020.04.09-05.14.25:509][  0]LocalizationService: Localization service is disabled
+[2020.04.09-05.14.25:726][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/' took 0.01s
+[2020.04.09-05.14.25:726][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.04.09-05.14.25:726][  0]LogCook: Display: Mobile HDR setting 1
+[2020.04.09-05.14.25:870][  0]SourceControl: Source control is disabled
+[2020.04.09-05.14.25:870][  0]Cmd: MAP LOAD FILE="C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/Levels/Final_Level.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.04.09-05.14.25:872][  0]LightingResults: New page: Lighting Build
+[2020.04.09-05.14.25:873][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.04.09-05.14.25:874][  0]MapCheck: New page: Map Check
+[2020.04.09-05.14.25:874][  0]LightingResults: New page: Lighting Build
+[2020.04.09-05.14.25:896][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2020.04.09-05.14.26:377][  0]LogLinker: Warning: While loading 'C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/Blueprints/EQS_System/PowerUpSpawnLocation.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.04.09-05.14.26:377][  0]LogLinker: Warning: While loading 'C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/Blueprints/EQS_System/PowerUpSpawnLocation.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.04.09-05.14.26:377][  0]LogLinker: Warning: While loading 'C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/Blueprints/EQS_System/PowerUpSpawnLocation.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.04.09-05.14.26:377][  0]LogLinker: Warning: While loading 'C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/Blueprints/EQS_System/PowerUpSpawnLocation.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.04.09-05.14.26:377][  0]LogLinker: Warning: While loading 'C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/Blueprints/EQS_System/PowerUpSpawnLocation.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.04.09-05.14.26:377][  0]LogLinker: Warning: While loading 'C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/Blueprints/EQS_System/PowerUpSpawnLocation.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.04.09-05.14.26:377][  0]LogLinker: Warning: While loading 'C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/Blueprints/EQS_System/PowerUpSpawnLocation.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.04.09-05.14.26:377][  0]LogLinker: Warning: While loading 'C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/Blueprints/EQS_System/PowerUpSpawnLocation.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.04.09-05.14.26:377][  0]LogLinker: Warning: While loading 'C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/Blueprints/EQS_System/PowerUpSpawnLocation.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.04.09-05.14.26:378][  0]LogLinker: Warning: While loading 'C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/Blueprints/EQS_System/PowerUpSpawnLocation.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.04.09-05.14.26:378][  0]LogLinker: Warning: While loading 'C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/Blueprints/BP_GameMode.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.04.09-05.14.26:378][  0]LogLinker: Warning: While loading 'C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/Blueprints/BP_GameMode.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.04.09-05.14.26:378][  0]LogLinker: Warning: While loading 'C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/Blueprints/BP_GameMode.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.04.09-05.14.26:378][  0]LogLinker: Warning: While loading 'C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/Blueprints/BP_GameMode.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.04.09-05.14.26:378][  0]LogLinker: Warning: While loading 'C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/Blueprints/BP_GameMode.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.04.09-05.14.26:378][  0]LogLinker: Warning: While loading 'C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/Blueprints/BP_GameMode.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.04.09-05.14.26:378][  0]LogLinker: Warning: While loading 'C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/Blueprints/BP_GameMode.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.04.09-05.14.26:378][  0]LogLinker: Warning: While loading 'C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/Blueprints/BP_GameMode.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.04.09-05.14.26:378][  0]LogLinker: Warning: While loading 'C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/Blueprints/BP_GameMode.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.04.09-05.14.26:378][  0]LogLinker: Warning: While loading 'C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/Blueprints/BP_GameMode.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.04.09-05.14.26:378][  0]LogLinker: Warning: While loading 'C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/Blueprints/BP_GameMode.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.04.09-05.14.26:378][  0]LogLinker: Warning: While loading 'C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/Blueprints/BP_GameMode.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.04.09-05.14.26:378][  0]LogLinker: Warning: While loading 'C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/Blueprints/BP_GameMode.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.04.09-05.14.26:378][  0]LogLinker: Warning: While loading 'C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/Blueprints/BP_GameMode.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.04.09-05.14.26:378][  0]LogLinker: Warning: While loading 'C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/Blueprints/BP_GameMode.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.04.09-05.14.26:378][  0]LogLinker: Warning: While loading 'C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/Blueprints/BP_GameMode.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.04.09-05.14.29:326][  0]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/Final_Level.Final_Level:PersistentLevel.ModelComponent_260' invalid (1536 verts, 0 indices).
+[2020.04.09-05.14.29:335][  0]LogPhysics: Warning: Attempt to build physics data for /Game/Levels/Final_Level.Final_Level:PersistentLevel.ModelComponent_260.BodySetup_0 when we are unable to.
+[2020.04.09-05.14.29:476][  0]LogAIModule: Creating AISystem for world Final_Level
+[2020.04.09-05.14.29:721][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.04.09-05.14.29:933][  0]LogUObjectHash: Compacting FUObjectHashTables data took   5.31ms
+[2020.04.09-05.14.29:950][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.04.09-05.14.29:951][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 1.473ms to complete.
+[2020.04.09-05.14.29:951][  0]LogFileHelpers: Loading map 'Final_Level' took 4.082
+[2020.04.09-05.14.31:024][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.09-05.14.31:040][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.09-05.14.31:051][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.09-05.14.31:062][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.09-05.14.31:576][  0]LogCollectionManager: Loaded 0 collections in 0.003548 seconds
+[2020.04.09-05.14.31:636][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Saved/Collections/' took 0.00s
+[2020.04.09-05.14.31:636][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/Developers/Caleigh/Collections/' took 0.00s
+[2020.04.09-05.14.31:636][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/Collections/' took 0.00s
+[2020.04.09-05.14.31:636][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2020.04.09-05.14.31:680][  0]LogContentBrowser: Native class hierarchy populated in 0.0425 seconds. Added 3008 classes and 708 folders.
+[2020.04.09-05.14.31:737][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0010 seconds. Added 0 classes and 0 folders.
+[2020.04.09-05.14.33:485][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2020.04.09-05.14.34:834][  0]LogSlate: Took 0.006702 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.04.09-05.14.34:859][  0]LogSlate: Took 0.006701 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.04.09-05.14.34:932][  0]LogSlate: Took 0.013288 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.04.09-05.14.35:629][  0]LogRenderer: Reallocating scene render targets to support 1224x672 Format 10 NumSamples 1 (Frame:1).
+[2020.04.09-05.14.36:451][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0011 seconds. Added 0 classes and 0 folders.
+[2020.04.09-05.14.36:452][  0]LogLoad: (Engine Initialization) Total time: 16.24 seconds
+[2020.04.09-05.14.36:452][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.04.09-05.14.36:991][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.04.09-05.14.37:208][  0]LogSlate: Took 0.032550 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.04.09-05.14.37:371][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/' took 0.60s
+[2020.04.09-05.14.37:890][  3]LogSlate: Took 0.000293 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.04.09-05.14.38:621][ 12]LogAssetRegistry: Asset discovery search completed in 15.8293 seconds
+[2020.04.09-05.14.38:641][ 12]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000006 seconds (found 0 objects)
+[2020.04.09-05.14.38:641][ 12]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000081 seconds (updated 0 objects)
+[2020.04.09-05.14.43:579][303]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.09-05.14.43:777][310]AssetReimport: New page: Outstanding source content changes 9:14:43 PM
+[2020.04.09-05.14.43:846][312]LoadErrors: Failed to load /Game/StarterContent/Materials/M_Rock_Basalt.M_Rock_Basalt Referenced by SM_Debris
+[2020.04.09-05.14.43:918][312]LogStaticMesh: Building static mesh SM_Debris...
+[2020.04.09-05.14.43:965][312]LogStaticMesh: Built static mesh [0.06s] /Game/Art/VFX/demos/Meshes/SM_Debris.SM_Debris
+[2020.04.09-05.14.44:165][312]LogEditorFactories: Performing atomic reimport of [C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/Art/VFX/demos/Meshes/SM_Debris.fbx]
+[2020.04.09-05.14.44:193][312]LogFbx: Loading FBX Scene from C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/Art/VFX/demos/Meshes/SM_Debris.fbx
+[2020.04.09-05.14.44:214][312]LogFbx: FBX Scene Loaded Succesfully
+[2020.04.09-05.14.44:382][312]LogStaticMesh: Building static mesh SM_Debris...
+[2020.04.09-05.14.44:385][312]LogStaticMesh: Built static mesh [0.00s] /Game/Art/VFX/demos/Meshes/SM_Debris.SM_Debris
+[2020.04.09-05.14.44:416][312]LogEditorFactories: -- imported successfully
+[2020.04.09-05.14.44:474][313]LoadErrors: Failed to load /Game/Meshes/SM_Sword_Skeleton.SM_Sword_Skeleton Referenced by SM_Sword
+[2020.04.09-05.14.44:475][313]LoadErrors: Failed to load /Game/Meshes/SM_Sword_PhysicsAsset.SM_Sword_PhysicsAsset Referenced by SM_Sword
+[2020.04.09-05.14.44:486][313]LogSkeletalMesh: Building Skeletal Mesh SM_Sword...
+[2020.04.09-05.14.44:505][313]LogSkeletalMesh: Built Skeletal Mesh [0.02s] /Game/Art/VFX/demos/Meshes/SM_Sword.SM_Sword
+[2020.04.09-05.14.44:516][313]LogEditorFactories: Performing atomic reimport of [C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/Art/VFX/demos/Meshes/SM_Sword.fbx]
+[2020.04.09-05.14.44:538][313]LogFbx: Loading FBX Scene from C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/Art/VFX/demos/Meshes/SM_Sword.fbx
+[2020.04.09-05.14.44:552][313]LogFbx: FBX Scene Loaded Succesfully
+[2020.04.09-05.14.44:567][313]LogFbx: Triangulating skeletal mesh Sword
+[2020.04.09-05.14.44:624][313]LogSkeletalMesh: Section 0: 72 vertices, 1 active bones
+[2020.04.09-05.14.44:624][313]LogSkeletalMesh: Section 0: Material=0, 100 triangles
+[2020.04.09-05.14.44:625][313]LogSkeletalMesh: Building Skeletal Mesh SM_Sword...
+[2020.04.09-05.14.44:626][313]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/Art/VFX/demos/Meshes/SM_Sword.SM_Sword
+[2020.04.09-05.14.44:629][313]LogEditorFactories: -- imported successfully
+[2020.04.09-05.14.44:634][313]LogSkeletalMesh: Building Skeletal Mesh SM_Sword...
+[2020.04.09-05.14.44:634][313]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/Art/VFX/demos/Meshes/SM_Sword.SM_Sword
+[2020.04.09-05.14.44:639][313]LoadErrors: Failed to load /Game/Particles/P_Trail.P_Trail Referenced by AnimNotifyState_Trail_1
+[2020.04.09-05.14.44:640][313]LoadErrors: Failed to load /Game/Meshes/SM_Sword_Skeleton.SM_Sword_Skeleton Referenced by SM_Sword_Anim
+[2020.04.09-05.14.44:641][313]LogEditorFactories: Performing atomic reimport of [C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/Art/VFX/demos/Meshes/SM_Sword.fbx]
+[2020.04.09-05.14.44:746][313]LogContentBrowser: Verbose: The majority of assets in the view are of type: Skeleton
+[2020.04.09-05.15.01:164][313]LogSlate: Window 'Choose Skeleton' being destroyed
+[2020.04.09-05.15.01:217][313]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2020.04.09-05.15.01:314][314]LogVectorFieldFactory: Performing atomic reimport of [C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/Art/VFX/demos/Particles/VelocityField.fga]
+[2020.04.09-05.15.01:318][314]LogFactory: FactoryCreateFile: VectorFieldStatic with ReimportVectorFieldStaticFactory (0 0 C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/Art/VFX/demos/Particles/VelocityField.fga)
+[2020.04.09-05.15.01:386][314]LogVectorFieldFactory: Reimported successfully
+[2020.04.09-05.15.01:475][315]LogEditorFactories: Performing atomic reimport of [C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/Art/VFX/demos/Textures/T_Circle_D.tga]
+[2020.04.09-05.15.01:477][315]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/Art/VFX/demos/Textures/T_Circle_D.tga)
+[2020.04.09-05.15.01:517][315]LogEditorFactories: -- imported successfully
+[2020.04.09-05.15.01:958][316]LogEditorFactories: Performing atomic reimport of [C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/Art/VFX/demos/Textures/T_Cloud_Noise.tga]
+[2020.04.09-05.15.01:960][316]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/Art/VFX/demos/Textures/T_Cloud_Noise.tga)
+[2020.04.09-05.15.02:259][316]LogEditorFactories: -- imported successfully
+[2020.04.09-05.15.02:281][317]LogEditorFactories: Performing atomic reimport of [C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/Art/VFX/demos/Textures/T_DistortionRadial_N.tga]
+[2020.04.09-05.15.02:282][317]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/Art/VFX/demos/Textures/T_DistortionRadial_N.tga)
+[2020.04.09-05.15.02:290][317]LogEditorFactories: -- imported successfully
+[2020.04.09-05.15.02:673][318]LogEditorFactories: Performing atomic reimport of [C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/Art/VFX/demos/Textures/T_Dust_D.tga]
+[2020.04.09-05.15.02:675][318]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/Art/VFX/demos/Textures/T_Dust_D.tga)
+[2020.04.09-05.15.02:951][318]LogEditorFactories: -- imported successfully
+[2020.04.09-05.15.05:694][319]LogEditorFactories: Performing atomic reimport of [C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/Art/VFX/demos/Textures/T_Explosion_D.TGA]
+[2020.04.09-05.15.05:731][319]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/Art/VFX/demos/Textures/T_Explosion_D.TGA)
+[2020.04.09-05.15.07:748][319]LogEditorFactories: -- imported successfully
+[2020.04.09-05.15.07:836][320]LogEditorFactories: Performing atomic reimport of [C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/Art/VFX/demos/Textures/T_Lightning_D.tga]
+[2020.04.09-05.15.07:838][320]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/Art/VFX/demos/Textures/T_Lightning_D.tga)
+[2020.04.09-05.15.07:859][320]LogEditorFactories: -- imported successfully
+[2020.04.09-05.15.07:961][321]LogEditorFactories: Performing atomic reimport of [C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/Art/VFX/demos/Textures/T_RadialGradient_D.tga]
+[2020.04.09-05.15.07:963][321]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/Art/VFX/demos/Textures/T_RadialGradient_D.tga)
+[2020.04.09-05.15.08:004][321]LogEditorFactories: -- imported successfully
+[2020.04.09-05.15.08:102][322]LogEditorFactories: Performing atomic reimport of [C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/Art/VFX/demos/Textures/T_Trail_D.tga]
+[2020.04.09-05.15.08:104][322]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/Art/VFX/demos/Textures/T_Trail_D.tga)
+[2020.04.09-05.15.08:165][322]LogEditorFactories: -- imported successfully
+[2020.04.09-05.15.08:640][323]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/VFX/demos/Meshes/SM_Debris" FILE="C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/Art/VFX/demos/Meshes/SM_Debris.uasset" SILENT=true
+[2020.04.09-05.15.08:818][323]LogSavePackage: Moving 'C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Saved/SM_Debris08E3E87B44538E8DF140D7B6810C8C44.tmp' to 'C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/Art/VFX/demos/Meshes/SM_Debris.uasset'
+[2020.04.09-05.15.08:943][323]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/VFX/demos/Meshes/SM_Sword" FILE="C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/Art/VFX/demos/Meshes/SM_Sword.uasset" SILENT=true
+[2020.04.09-05.15.08:958][323]LogSavePackage: Moving 'C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Saved/SM_SwordC548A8794682BB60699205B909B2102C.tmp' to 'C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/Art/VFX/demos/Meshes/SM_Sword.uasset'
+[2020.04.09-05.15.09:020][323]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/VFX/demos/Meshes/SM_Sword_Anim" FILE="C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/Art/VFX/demos/Meshes/SM_Sword_Anim.uasset" SILENT=true
+[2020.04.09-05.15.09:031][323]LogSavePackage: Moving 'C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Saved/SM_Sword_Anim132C192741683269A3A2999F4E334D6B.tmp' to 'C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/Art/VFX/demos/Meshes/SM_Sword_Anim.uasset'
+[2020.04.09-05.15.09:039][323]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/VFX/demos/Particles/VelocityField" FILE="C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/Art/VFX/demos/Particles/VelocityField.uasset" SILENT=true
+[2020.04.09-05.15.09:049][323]LogSavePackage: Moving 'C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Saved/VelocityField419B487D4ECA19D3CFE7D1BB891E3C57.tmp' to 'C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/Art/VFX/demos/Particles/VelocityField.uasset'
+[2020.04.09-05.15.09:074][323]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/VFX/demos/Textures/T_Circle_D" FILE="C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/Art/VFX/demos/Textures/T_Circle_D.uasset" SILENT=true
+[2020.04.09-05.15.09:093][323]LogSavePackage: Moving 'C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Saved/T_Circle_DDF06E6B24A4215D4E8FF009E4930AF4D.tmp' to 'C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/Art/VFX/demos/Textures/T_Circle_D.uasset'
+[2020.04.09-05.15.09:114][323]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/VFX/demos/Textures/T_Cloud_Noise" FILE="C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/Art/VFX/demos/Textures/T_Cloud_Noise.uasset" SILENT=true
+[2020.04.09-05.15.09:162][323]LogSavePackage: Moving 'C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Saved/T_Cloud_NoiseAA5DDD4C4BEBA291CBD475B542B980C4.tmp' to 'C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/Art/VFX/demos/Textures/T_Cloud_Noise.uasset'
+[2020.04.09-05.15.09:211][323]LogSavePackage: Moving 'C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Saved/T_DistortionRadial_ND8614FFB4104B9DE8E0E88BC5B0F009F.tmp' to 'C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/Art/VFX/demos/Textures/T_DistortionRadial_N.uasset'
+[2020.04.09-05.15.09:231][323]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/VFX/demos/Textures/T_Dust_D" FILE="C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/Art/VFX/demos/Textures/T_Dust_D.uasset" SILENT=true
+[2020.04.09-05.15.09:275][323]LogSavePackage: Moving 'C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Saved/T_Dust_DE690193043E4DA5B2D01259DD7CE9B6F.tmp' to 'C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/Art/VFX/demos/Textures/T_Dust_D.uasset'
+[2020.04.09-05.15.09:293][323]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/VFX/demos/Textures/T_Explosion_D" FILE="C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/Art/VFX/demos/Textures/T_Explosion_D.uasset" SILENT=true
+[2020.04.09-05.15.09:601][323]LogSavePackage: Moving 'C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Saved/T_Explosion_D5B1DAB8942568B06079C39AD5CE854A5.tmp' to 'C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/Art/VFX/demos/Textures/T_Explosion_D.uasset'
+[2020.04.09-05.15.09:617][323]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/VFX/demos/Textures/T_Lightning_D" FILE="C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/Art/VFX/demos/Textures/T_Lightning_D.uasset" SILENT=true
+[2020.04.09-05.15.09:634][323]LogSavePackage: Moving 'C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Saved/T_Lightning_D961A18C34AEFE83787F702931BED0A48.tmp' to 'C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/Art/VFX/demos/Textures/T_Lightning_D.uasset'
+[2020.04.09-05.15.09:681][323]LogSavePackage: Moving 'C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Saved/T_RadialGradient_DEA1699024AF88E31196844AE9FDCA7EF.tmp' to 'C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/Art/VFX/demos/Textures/T_RadialGradient_D.uasset'
+[2020.04.09-05.15.09:703][323]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/VFX/demos/Textures/T_Trail_D" FILE="C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/Art/VFX/demos/Textures/T_Trail_D.uasset" SILENT=true
+[2020.04.09-05.15.09:731][323]LogSavePackage: Moving 'C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Saved/T_Trail_D116895ED4449577C4E24D28C50E866E4.tmp' to 'C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/Art/VFX/demos/Textures/T_Trail_D.uasset'
+[2020.04.09-05.15.12:751][450]AssetReimport: Reimported asset SM_Debris from C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/Art/VFX/demos/Meshes/SM_Debris.fbx.
+[2020.04.09-05.15.12:751][450]AssetReimport: Reimported asset SM_Sword from C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/Art/VFX/demos/Meshes/SM_Sword.fbx.
+[2020.04.09-05.15.12:751][450]AssetReimport: Reimported asset SM_Sword_Anim from C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/Art/VFX/demos/Meshes/SM_Sword.fbx.
+[2020.04.09-05.15.12:751][450]AssetReimport: Reimported asset VelocityField from C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/Art/VFX/demos/Particles/VelocityField.fga.
+[2020.04.09-05.15.12:751][450]AssetReimport: Reimported asset T_Circle_D from C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/Art/VFX/demos/Textures/T_Circle_D.tga.
+[2020.04.09-05.15.12:751][450]AssetReimport: Reimported asset T_Cloud_Noise from C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/Art/VFX/demos/Textures/T_Cloud_Noise.tga.
+[2020.04.09-05.15.12:751][450]AssetReimport: Reimported asset T_DistortionRadial_N from C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/Art/VFX/demos/Textures/T_DistortionRadial_N.tga.
+[2020.04.09-05.15.12:751][450]AssetReimport: Reimported asset T_Dust_D from C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/Art/VFX/demos/Textures/T_Dust_D.tga.
+[2020.04.09-05.15.12:751][450]AssetReimport: Reimported asset T_Explosion_D from C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/Art/VFX/demos/Textures/T_Explosion_D.TGA.
+[2020.04.09-05.15.12:751][450]AssetReimport: Reimported asset T_Lightning_D from C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/Art/VFX/demos/Textures/T_Lightning_D.tga.
+[2020.04.09-05.15.12:751][450]AssetReimport: Reimported asset T_RadialGradient_D from C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/Art/VFX/demos/Textures/T_RadialGradient_D.tga.
+[2020.04.09-05.15.12:751][450]AssetReimport: Reimported asset T_Trail_D from C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/Art/VFX/demos/Textures/T_Trail_D.tga.
+[2020.04.09-05.15.13:449][480]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.09-05.15.13:666][483]LogAssetEditorManager: Opening Asset editor for ParticleSystem /Game/Art/VFX/P_Explosion.P_Explosion
+[2020.04.09-05.15.13:714][483]LogContentBrowser: Native class hierarchy updated for 'Cascade' in 0.0005 seconds. Added 2 classes and 2 folders.
+[2020.04.09-05.15.14:244][483]LogAssetEditorManager: Opening Asset editor for ParticleSystem /Game/Art/VFX/lol.lol
+[2020.04.09-05.15.18:304][632]LogCascade: Quitting Cascade. FXSystem=0x00000242931EE4A0
+[2020.04.09-05.15.18:394][632]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2020.04.09-05.15.25:279][ 41]LogSlate: Window 'P_Explosion' being destroyed
+[2020.04.09-05.15.27:161][265]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.09-05.15.29:058][490]LogSlate: Window 'Message Log' being destroyed
+[2020.04.09-05.15.29:061][490]LogSlate: Window 'Message Log' being destroyed
+[2020.04.09-05.15.34:369][846]LogAIModule: Creating AISystem for world Caleigh_Test
+[2020.04.09-05.15.34:403][846]LogAssetEditorManager: Opening Asset editor for World /Game/Levels/Caleigh_Test.Caleigh_Test
+[2020.04.09-05.15.34:534][846]LogUObjectHash: Compacting FUObjectHashTables data took   3.74ms
+[2020.04.09-05.15.34:539][846]Cmd: MAP LOAD FILE="C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/Levels/Caleigh_Test.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.04.09-05.15.34:539][846]LightingResults: New page: Lighting Build
+[2020.04.09-05.15.34:539][846]LoadErrors: New page: Loading map: Caleigh_Test.umap
+[2020.04.09-05.15.34:571][846]LogWorld: UWorld::CleanupWorld for Final_Level, bSessionEnded=true, bCleanupResources=true
+[2020.04.09-05.15.34:581][846]MapCheck: New page: Map Check
+[2020.04.09-05.15.34:581][846]LightingResults: New page: Lighting Build
+[2020.04.09-05.15.34:691][846]LogUObjectHash: Compacting FUObjectHashTables data took   2.33ms
+[2020.04.09-05.15.34:718][846]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.04.09-05.15.34:742][846]LogUObjectHash: Compacting FUObjectHashTables data took   1.74ms
+[2020.04.09-05.15.34:802][846]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.04.09-05.15.34:803][846]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.284ms to complete.
+[2020.04.09-05.15.34:803][846]LogFileHelpers: Loading map 'Caleigh_Test' took 0.268
+[2020.04.09-05.16.31:136][824]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2020.04.09-05.16.32:808][824]LogSlate: Window 'Delete Assets' being destroyed
+[2020.04.09-05.16.32:982][824]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2020.04.09-05.16.33:003][824]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2020.04.09-05.16.33:025][824]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2020.04.09-05.16.33:049][824]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2020.04.09-05.16.33:074][824]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2020.04.09-05.16.33:095][824]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2020.04.09-05.18.10:013][299]LogLinker: Warning: While loading 'C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/Art/VFX/demos/Materials/M_Sprite_Circle.uasset' failed to load '/Game/Textures/T_Circle_D': Can't find file.
+[2020.04.09-05.18.10:013][299]LogLinker: Warning: While loading 'C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/Art/VFX/demos/Materials/M_Sprite_Circle.uasset' failed to load '/Game/Textures/T_Circle_D': Can't find file.
+[2020.04.09-05.18.10:013][299]LogLinker: Warning: While loading 'C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/Art/VFX/demos/Materials/M_Sprite_Circle.uasset' failed to load '/Game/Textures/T_Circle_D': Can't find file.
+[2020.04.09-05.18.10:013][299]LogLinker: Warning: While loading 'C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/Art/VFX/demos/Materials/M_Sprite_Circle.uasset' failed to load '/Game/Textures/T_Circle_D': Can't find file.
+[2020.04.09-05.18.10:014][299]LogLinker: Warning: While loading 'C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/Art/VFX/demos/Materials/M_Sprite_Circle.uasset' failed to load '/Game/Textures/T_Circle_D': Can't find file.
+[2020.04.09-05.18.10:014][299]LoadErrors: Failed to load /Game/Textures/T_Circle_D.T_Circle_D Referenced by MaterialExpressionTextureSample_0
+[2020.04.09-05.18.10:014][299]LogLinker: Warning: While loading 'C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/Art/VFX/demos/Materials/M_Sprite_Circle.uasset' failed to load '/Game/Textures/T_Circle_D': Can't find file.
+[2020.04.09-05.18.10:041][299]LogMaterial: Display: Missing cached shader map for material M_Sprite_Circle, compiling. 
+[2020.04.09-05.18.10:084][299]LogMaterial: Warning: C:\Users\Caleigh\Documents\GitHub\Stolemates\Stolenmates\Content\Art\VFX\demos\Materials\M_Sprite_Circle.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2020.04.09-05.18.10:084][299]LogMaterial: Display: 	(Node TextureSample) Texture Sample> Missing input texture
+[2020.04.09-05.18.10:094][299]LogAssetEditorManager: Opening Asset editor for Material /Game/Art/VFX/demos/Materials/M_Sprite_Circle.M_Sprite_Circle
+[2020.04.09-05.18.10:117][299]LogMaterial: Display: Missing cached shader map for material M_Sprite_Circle, compiling. 
+[2020.04.09-05.18.10:118][299]LogMaterial: Warning: /Engine/Transient.M_Sprite_Circle (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2020.04.09-05.18.10:118][299]LogMaterial: Display: 	(Node TextureSample) Texture Sample> Missing input texture
+[2020.04.09-05.18.11:059][299]LogMaterial: Display: Missing cached shader map for material M_Sprite_Circle, compiling. 
+[2020.04.09-05.18.11:059][299]LogMaterial: Warning: /Engine/Transient.M_Sprite_Circle (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2020.04.09-05.18.11:059][299]LogMaterial: Display: 	(Node TextureSample) Texture Sample> Missing input texture
+[2020.04.09-05.18.11:069][299]LogMaterial: Display: Missing cached shader map for material M_Sprite_Circle, compiling. 
+[2020.04.09-05.18.11:069][299]LogMaterial: Warning: /Engine/Transient.M_Sprite_Circle (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2020.04.09-05.18.11:069][299]LogMaterial: Display: 	(Node TextureSample) Texture Sample> Missing input texture
+[2020.04.09-05.18.11:079][299]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2020.04.09-05.18.11:094][299]MaterialEditorStats: Error: [SM5] (Node TextureSample) Texture Sample> Missing input texture
+[2020.04.09-05.18.11:107][299]LogSlate: Took 0.008562 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.04.09-05.18.16:301][598]LogSlate: Took 0.013866 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.04.09-05.19.00:038][547]LogMaterial: Display: Missing cached shader map for material M_Sprite_Circle, compiling. 
+[2020.04.09-05.19.00:126][547]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 23
+[2020.04.09-05.19.00:126][547]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 22
+[2020.04.09-05.19.00:126][547]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 21
+[2020.04.09-05.19.00:147][547]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2020.04.09-05.19.00:161][547]LogMaterial: Display: Missing cached shader map for material M_Sprite_Circle, compiling. 
+[2020.04.09-05.19.02:193][680]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 27
+[2020.04.09-05.19.02:505][702]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 26
+[2020.04.09-05.19.03:454][730]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 25
+[2020.04.09-05.19.03:454][730]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 24
+[2020.04.09-05.19.03:624][732]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 23
+[2020.04.09-05.19.03:931][736]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 22
+[2020.04.09-05.19.04:265][740]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 21
+[2020.04.09-05.19.04:302][741]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 20
+[2020.04.09-05.19.04:656][744]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 19
+[2020.04.09-05.19.04:760][745]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 18
+[2020.04.09-05.19.04:953][746]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 17
+[2020.04.09-05.19.05:073][749]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 16
+[2020.04.09-05.19.05:247][753]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 15
+[2020.04.09-05.19.05:446][756]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 14
+[2020.04.09-05.19.05:513][758]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 13
+[2020.04.09-05.19.05:740][763]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 12
+[2020.04.09-05.19.05:782][764]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 11
+[2020.04.09-05.19.06:002][768]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 10
+[2020.04.09-05.19.06:002][768]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 9
+[2020.04.09-05.19.06:308][774]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 8
+[2020.04.09-05.19.06:385][775]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 7
+[2020.04.09-05.19.06:559][778]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 6
+[2020.04.09-05.19.06:848][784]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 5
+[2020.04.09-05.19.07:196][791]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 4
+[2020.04.09-05.19.07:446][794]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 3
+[2020.04.09-05.19.07:995][804]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2
+[2020.04.09-05.19.08:592][813]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 1
+[2020.04.09-05.19.09:346][817]MaterialEditorStats: Base pass shader without light map: 47 instructions
+[2020.04.09-05.19.09:347][817]MaterialEditorStats: Base pass vertex shader: 104 instructions
+[2020.04.09-05.19.09:347][817]MaterialEditorStats: Texture samplers: 4/16
+[2020.04.09-05.19.09:347][817]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.04.09-05.19.09:347][817]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.04.09-05.19.38:818][892]LogMaterial: Display: Missing cached shader map for material M_Sprite_Circle, compiling. 
+[2020.04.09-05.19.38:848][893]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 23
+[2020.04.09-05.19.38:848][893]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 22
+[2020.04.09-05.19.38:848][893]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 21
+[2020.04.09-05.19.39:336][942]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 20
+[2020.04.09-05.19.39:617][970]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 19
+[2020.04.09-05.19.39:617][970]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 18
+[2020.04.09-05.19.39:848][994]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 17
+[2020.04.09-05.19.40:407][ 33]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 16
+[2020.04.09-05.19.40:621][ 48]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 15
+[2020.04.09-05.19.40:632][ 49]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 14
+[2020.04.09-05.19.40:944][ 69]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 13
+[2020.04.09-05.19.41:663][116]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 12
+[2020.04.09-05.19.41:972][137]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 11
+[2020.04.09-05.19.42:170][151]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 10
+[2020.04.09-05.19.42:805][182]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 9
+[2020.04.09-05.19.42:907][183]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 8
+[2020.04.09-05.19.42:963][184]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 7
+[2020.04.09-05.19.43:081][188]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 6
+[2020.04.09-05.19.43:196][190]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 5
+[2020.04.09-05.19.43:667][198]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 4
+[2020.04.09-05.19.43:793][203]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 3
+[2020.04.09-05.19.44:182][215]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 2
+[2020.04.09-05.19.44:338][217]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 1
+[2020.04.09-05.19.45:221][222]MaterialEditorStats: Base pass shader without light map: 47 instructions
+[2020.04.09-05.19.45:221][222]MaterialEditorStats: Base pass vertex shader: 104 instructions
+[2020.04.09-05.19.45:221][222]MaterialEditorStats: Texture samplers: 4/16
+[2020.04.09-05.19.45:221][222]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.04.09-05.19.45:221][222]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.04.09-05.21.00:663][563]LogMaterial: Display: Missing cached shader map for material M_Sprite_Circle, compiling. 
+[2020.04.09-05.21.00:699][564]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 23
+[2020.04.09-05.21.00:699][564]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 22
+[2020.04.09-05.21.00:699][564]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 21
+[2020.04.09-05.21.01:765][636]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 20
+[2020.04.09-05.21.01:821][640]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 19
+[2020.04.09-05.21.02:575][692]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 18
+[2020.04.09-05.21.03:048][722]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 17
+[2020.04.09-05.21.03:708][768]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 16
+[2020.04.09-05.21.03:954][788]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 15
+[2020.04.09-05.21.04:209][803]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 14
+[2020.04.09-05.21.04:868][847]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 13
+[2020.04.09-05.21.05:318][877]LogMaterial: Display: Missing cached shader map for material M_Sprite_Circle, compiling. 
+[2020.04.09-05.21.05:352][878]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 23
+[2020.04.09-05.21.05:446][888]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 22
+[2020.04.09-05.21.05:446][888]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 21
+[2020.04.09-05.21.05:696][915]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 20
+[2020.04.09-05.21.05:865][932]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 19
+[2020.04.09-05.21.06:074][952]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 18
+[2020.04.09-05.21.06:172][962]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 17
+[2020.04.09-05.21.06:694][  2]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 16
+[2020.04.09-05.21.06:786][  8]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 15
+[2020.04.09-05.21.07:202][ 37]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 14
+[2020.04.09-05.21.07:407][ 49]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 13
+[2020.04.09-05.21.08:024][ 83]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 12
+[2020.04.09-05.21.08:302][101]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 11
+[2020.04.09-05.21.08:538][113]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 10
+[2020.04.09-05.21.08:736][125]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 9
+[2020.04.09-05.21.08:775][128]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 8
+[2020.04.09-05.21.09:318][163]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 7
+[2020.04.09-05.21.09:398][167]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 6
+[2020.04.09-05.21.10:178][220]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 5
+[2020.04.09-05.21.11:586][314]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 4
+[2020.04.09-05.21.11:644][318]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 3
+[2020.04.09-05.21.12:814][395]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2020.04.09-05.21.13:778][461]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 6
+[2020.04.09-05.21.15:136][556]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 5
+[2020.04.09-05.21.15:885][607]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 4
+[2020.04.09-05.21.16:035][610]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 3
+[2020.04.09-05.21.16:035][610]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 2
+[2020.04.09-05.21.16:769][676]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 1
+[2020.04.09-05.21.20:629][101]LogMaterial: Display: Missing cached shader map for material M_Sprite_Circle, compiling. 
+[2020.04.09-05.21.20:707][102]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 23
+[2020.04.09-05.21.20:707][102]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 22
+[2020.04.09-05.21.20:707][102]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 21
+[2020.04.09-05.21.21:231][138]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 20
+[2020.04.09-05.21.21:352][146]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 19
+[2020.04.09-05.21.21:720][170]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 18
+[2020.04.09-05.21.21:807][178]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 17
+[2020.04.09-05.21.21:923][190]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 16
+[2020.04.09-05.21.22:080][206]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 15
+[2020.04.09-05.21.22:606][246]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 14
+[2020.04.09-05.21.23:058][275]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 13
+[2020.04.09-05.21.23:376][301]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 12
+[2020.04.09-05.21.23:415][305]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 11
+[2020.04.09-05.21.23:499][312]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 10
+[2020.04.09-05.21.23:716][328]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 9
+[2020.04.09-05.21.23:937][349]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 8
+[2020.04.09-05.21.23:937][349]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 7
+[2020.04.09-05.21.24:038][360]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 6
+[2020.04.09-05.21.24:505][408]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 5
+[2020.04.09-05.21.24:693][426]LogMaterial: Display: Missing cached shader map for material M_Sprite_Circle, compiling. 
+[2020.04.09-05.21.24:712][426]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2020.04.09-05.21.25:797][501]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 27
+[2020.04.09-05.21.25:797][501]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 26
+[2020.04.09-05.21.26:100][530]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 25
+[2020.04.09-05.21.26:308][552]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 24
+[2020.04.09-05.21.26:380][558]LogMaterial: Display: Missing cached shader map for material M_Sprite_Circle, compiling. 
+[2020.04.09-05.21.26:564][570]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 27
+[2020.04.09-05.21.27:437][634]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 26
+[2020.04.09-05.21.28:041][695]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 25
+[2020.04.09-05.21.28:052][696]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 24
+[2020.04.09-05.21.28:213][712]LogMaterial: Display: Missing cached shader map for material M_Sprite_Circle, compiling. 
+[2020.04.09-05.21.28:865][754]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 23
+[2020.04.09-05.21.29:899][823]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 22
+[2020.04.09-05.21.29:994][829]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 21
+[2020.04.09-05.21.30:383][855]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 20
+[2020.04.09-05.21.30:856][869]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 19
+[2020.04.09-05.21.30:979][873]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 18
+[2020.04.09-05.21.31:057][875]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 17
+[2020.04.09-05.21.31:085][876]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 16
+[2020.04.09-05.21.31:238][879]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 15
+[2020.04.09-05.21.31:278][880]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 14
+[2020.04.09-05.21.31:411][883]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 13
+[2020.04.09-05.21.31:556][887]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 12
+[2020.04.09-05.21.31:649][890]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 11
+[2020.04.09-05.21.31:687][891]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 10
+[2020.04.09-05.21.31:835][894]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 9
+[2020.04.09-05.21.31:918][896]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 8
+[2020.04.09-05.21.32:009][899]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 7
+[2020.04.09-05.21.32:011][899]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 6
+[2020.04.09-05.21.32:282][906]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 5
+[2020.04.09-05.21.32:580][912]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 4
+[2020.04.09-05.21.32:688][914]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 3
+[2020.04.09-05.21.33:339][931]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 2
+[2020.04.09-05.21.33:577][939]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 1
+[2020.04.09-05.21.34:637][941]MaterialEditorStats: Base pass shader without light map: 47 instructions
+[2020.04.09-05.21.34:637][941]MaterialEditorStats: Base pass vertex shader: 104 instructions
+[2020.04.09-05.21.34:637][941]MaterialEditorStats: Texture samplers: 4/16
+[2020.04.09-05.21.34:637][941]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.04.09-05.21.34:637][941]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.04.09-05.21.37:326][949]LogEditorSessionSummary: EditorSessionSummary sent report. Type=Shutdown, SessionId={F7F84F02-4E98-2688-E177-BD9E535AD8F5}
+[2020.04.09-05.21.52:135][231]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.09-05.22.25:229][421]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2020.04.09-05.22.28:272][604]LogMaterialEditor: Applying material M_Sprite_Circle
+[2020.04.09-05.22.29:116][604]LogMaterial: Display: Missing cached shader map for material M_Sprite_Circle, compiling. 
+[2020.04.09-05.22.29:154][604]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 23
+[2020.04.09-05.22.29:154][604]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 22
+[2020.04.09-05.22.29:154][604]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 21
+[2020.04.09-05.22.29:164][604]LogMaterial: Display: Missing cached shader map for material M_Sprite_Circle, compiling. 
+[2020.04.09-05.22.29:239][604]LogMaterial: Display: Missing cached shader map for material M_Sprite_Circle, compiling. 
+[2020.04.09-05.22.29:289][604]LogUObjectHash: Compacting FUObjectHashTables data took   2.24ms
+[2020.04.09-05.22.29:313][604]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.04.09-05.22.32:228][604]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 76
+[2020.04.09-05.22.32:228][604]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 75
+[2020.04.09-05.22.32:228][604]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 74
+[2020.04.09-05.22.32:228][604]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 73
+[2020.04.09-05.22.32:228][604]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 72
+[2020.04.09-05.22.32:228][604]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 71
+[2020.04.09-05.22.32:228][604]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 70
+[2020.04.09-05.22.32:228][604]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 69
+[2020.04.09-05.22.32:228][604]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 68
+[2020.04.09-05.22.32:228][604]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 67
+[2020.04.09-05.22.32:228][604]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 66
+[2020.04.09-05.22.32:228][604]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 65
+[2020.04.09-05.22.32:228][604]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 64
+[2020.04.09-05.22.32:228][604]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 63
+[2020.04.09-05.22.32:228][604]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 62
+[2020.04.09-05.22.32:228][604]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 61
+[2020.04.09-05.22.32:228][604]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 60
+[2020.04.09-05.22.32:228][604]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 59
+[2020.04.09-05.22.32:228][604]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 58
+[2020.04.09-05.22.32:228][604]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 57
+[2020.04.09-05.22.32:228][604]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 56
+[2020.04.09-05.22.32:228][604]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 55
+[2020.04.09-05.22.32:228][604]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 54
+[2020.04.09-05.22.32:228][604]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 44
+[2020.04.09-05.22.32:228][604]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 34
+[2020.04.09-05.22.32:232][604]TextureStreamingBuild: Display: Compiling optional shaders took 2.942 seconds.
+[2020.04.09-05.22.32:285][604]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2020.04.09-05.22.33:913][699]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2020.04.09-05.22.37:958][ 35]LogSlate: Window 'P_Explosion' being destroyed
+[2020.04.09-05.22.40:303][209]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 24
+[2020.04.09-05.22.42:627][272]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 15
+[2020.04.09-05.22.46:083][572]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 9
+[2020.04.09-05.22.47:421][672]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 5
+[2020.04.09-05.22.47:680][686]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 3
+[2020.04.09-05.22.51:291][893]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 1
+[2020.04.09-05.22.57:512][333]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.09-05.24.37:727][738]LogEditorSessionSummary: EditorSessionSummary sent report. Type=Shutdown, SessionId={4E3CB5D7-4F66-A9B1-3A15-BAB7B1BDF5C3}
+[2020.04.09-05.25.08:444][940]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.09-05.25.49:214][331]LogUObjectHash: Compacting FUObjectHashTables data took   1.90ms
+[2020.04.09-05.25.49:214][331]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/Caleigh_Test' took 0.028
+[2020.04.09-05.25.49:216][331]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Art/VFX/P_Explosion] ([1] browsable assets)...
+[2020.04.09-05.25.49:219][331]OBJ SavePackage:     Rendered thumbnail for [ParticleSystem /Game/Art/VFX/P_Explosion.P_Explosion]
+[2020.04.09-05.25.49:219][331]OBJ SavePackage: Finished generating thumbnails for package [/Game/Art/VFX/P_Explosion]
+[2020.04.09-05.25.49:219][331]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/VFX/P_Explosion" FILE="C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Saved/Autosaves/Game/Art/VFX/P_Explosion_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2020.04.09-05.25.49:236][331]LogSavePackage: Moving 'C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Saved/P_Explosion_Auto1AFD78AD041EFE8A34C3635A680A81AF7.tmp' to 'C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Saved/Autosaves/Game/Art/VFX/P_Explosion_Auto1.uasset'
+[2020.04.09-05.25.49:238][331]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Art/VFX/demos/Materials/M_Sprite_Circle] ([1] browsable assets)...
+[2020.04.09-05.25.49:251][331]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Art/VFX/demos/Materials/M_Sprite_Circle.M_Sprite_Circle]
+[2020.04.09-05.25.49:251][331]OBJ SavePackage: Finished generating thumbnails for package [/Game/Art/VFX/demos/Materials/M_Sprite_Circle]
+[2020.04.09-05.25.49:269][331]LogSavePackage: Moving 'C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Saved/M_Sprite_Circle_Auto1C1AF866549C5F014EF553BBBE95F74D1.tmp' to 'C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Saved/Autosaves/Game/Art/VFX/demos/Materials/M_Sprite_Circle_Auto1.uasset'
+[2020.04.09-05.25.49:270][331]LogFileHelpers: Auto-saving content packages took 0.055
+[2020.04.09-05.26.28:603][592]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.09-05.26.51:676][286]LogSlate: Window 'Color Picker' being destroyed
+[2020.04.09-05.27.50:674][887]LogSlate: Window 'Color Picker' being destroyed
+[2020.04.09-05.27.54:354][183]LogSlate: Window 'Color Picker' being destroyed
+[2020.04.09-05.29.05:398][429]LogSlate: Window 'Color Picker' being destroyed
+[2020.04.09-05.29.27:646][150]LogSlate: Window 'Color Picker' being destroyed
+[2020.04.09-05.30.10:622][716]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.09-05.30.30:734][385]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.09-05.32.19:102][326]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.09-05.34.18:000][392]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.09-05.35.29:794][601]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.09-05.36.03:835][350]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2020.04.09-05.36.03:872][350]LogUObjectHash: Compacting FUObjectHashTables data took   1.75ms
+[2020.04.09-05.36.03:872][350]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/Caleigh_Test' took 0.022
+[2020.04.09-05.36.03:873][350]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Art/VFX/P_Explosion] ([1] browsable assets)...
+[2020.04.09-05.36.03:876][350]OBJ SavePackage:     Rendered thumbnail for [ParticleSystem /Game/Art/VFX/P_Explosion.P_Explosion]
+[2020.04.09-05.36.03:876][350]OBJ SavePackage: Finished generating thumbnails for package [/Game/Art/VFX/P_Explosion]
+[2020.04.09-05.36.03:876][350]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/VFX/P_Explosion" FILE="C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Saved/Autosaves/Game/Art/VFX/P_Explosion_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2020.04.09-05.36.03:891][350]LogSavePackage: Moving 'C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Saved/P_Explosion_Auto21A3353744F7A6EE16E7713A940959732.tmp' to 'C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Saved/Autosaves/Game/Art/VFX/P_Explosion_Auto2.uasset'
+[2020.04.09-05.36.03:891][350]LogFileHelpers: Auto-saving content packages took 0.018
+[2020.04.09-05.37.00:764][776]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.09-05.37.52:308][970]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2020.04.09-05.38.42:538][140]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.09-05.38.58:460][719]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.09-05.39.39:470][ 59]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.09-05.40.06:093][862]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.09-05.41.56:508][459]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.09-05.42.01:186][834]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.09-05.43.02:342][555]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.09-05.43.05:763][822]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2020.04.09-05.43.12:786][572]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2020.04.09-05.43.33:401][114]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Caleigh_Test.Caleigh_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Caleigh_Test.Caleigh_Test:PersistentLevel.Caleigh_Test' with GeneratedClass '/Game/Levels/Caleigh_Test.Caleigh_Test_C' with ClassGeneratedBy '/Game/Levels/Caleigh_Test.Caleigh_Test:PersistentLevel.Caleigh_Test'
+[2020.04.09-05.43.33:420][114]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.04.09-05.43.33:458][114]PIE: New page: PIE session: Caleigh_Test (Apr 8, 2020, 9:43:33 PM)
+[2020.04.09-05.43.33:531][114]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2020.04.09-05.43.33:535][114]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Caleigh_Test
+[2020.04.09-05.43.33:565][114]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029514s)
+[2020.04.09-05.43.33:575][114]LogAIModule: Creating AISystem for world Caleigh_Test
+[2020.04.09-05.43.33:582][114]LogPlayLevel: PIE: World Init took: (0.017018s)
+[2020.04.09-05.43.33:591][114]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Caleigh_Test.Caleigh_Test to /Game/Levels/UEDPIE_0_Caleigh_Test.Caleigh_Test (0.056238s)
+[2020.04.09-05.43.33:636][114]LogUObjectHash: Compacting FUObjectHashTables data took   2.28ms
+[2020.04.09-05.43.33:668][114]LogInit: XAudio2 using 'Speakers (3- USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.04.09-05.43.33:679][114]LogInit: FAudioDevice initialized.
+[2020.04.09-05.43.33:704][114]LogLoad: Game class is 'BP_GameMode_C'
+[2020.04.09-05.43.33:713][114]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Caleigh_Test.Caleigh_Test up for play (max tick rate 0) at 2020.04.09-01.43.33
+[2020.04.09-05.43.33:731][114]LogWorld: Bringing up level for play took: 0.026728
+[2020.04.09-05.43.33:733][114]LogOnline: OSS: Creating online subsystem instance for: :Context_8
+[2020.04.09-05.43.33:845][114]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0015 seconds. Added 20 classes and 0 folders.
+[2020.04.09-05.43.33:865][114]LogActor: Warning: BP_Camera_C /Game/Levels/UEDPIE_0_Caleigh_Test.Caleigh_Test:PersistentLevel.BP_Camera_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.04.09-05.43.33:873][114]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2020.04.09-05.43.33:874][114]LogWindows: Windows GetLastError: The operation completed successfully. (0)
