@@ -1,0 +1,1461 @@
+﻿Log file open, 04/08/20 18:05:08
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: Stolenmates
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.457940
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin HoudiniNiagara
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin NiagaraExtras
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.23-CL-9631420
+LogInit: Engine Version: 4.23.1-9631420+++UE4+Release-4.23
+LogInit: Compatible Engine Version: 4.23.0-8386587+++UE4+Release-4.23
+LogInit: Net CL: 8386587
+LogInit: OS: Windows 10 (Release 1903) (), CPU: Intel(R) Core(TM) i5-4690K CPU @ 3.50GHz, GPU: NVIDIA GeForce GTX 750 Ti
+LogInit: Compiled (64-bit): Oct 18 2019 02:07:44
+LogInit: Compiled with Visual C++: 19.16.27030.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.23
+LogInit: Command Line: 
+LogInit: Base Directory: F:/UE_4.23/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 23
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 3
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 34
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 35
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 31
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 11
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 27
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 6
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 9
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2020.04.08-22.05.09:913][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.04.08-22.05.09:913][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.04.08-22.05.09:913][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Saved/Config/Windows/Engine.ini]
+[2020.04.08-22.05.09:913][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.04.08-22.05.09:913][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
+[2020.04.08-22.05.09:913][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Saved/Config/Windows/Engine.ini]
+[2020.04.08-22.05.09:913][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Saved/Config/Windows/Engine.ini]
+[2020.04.08-22.05.09:913][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.04.08-22.05.09:913][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.04.08-22.05.09:913][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.04.08-22.05.09:913][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.04.08-22.05.09:913][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.04.08-22.05.09:914][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.04.08-22.05.09:914][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.04.08-22.05.09:914][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.04.08-22.05.09:914][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.04.08-22.05.09:914][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.04.08-22.05.09:914][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.04.08-22.05.09:914][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.04.08-22.05.09:914][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.04.08-22.05.09:914][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Saved/Config/Windows/Engine.ini]
+[2020.04.08-22.05.09:914][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.04.08-22.05.09:914][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.04.08-22.05.09:914][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.04.08-22.05.09:914][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.04.08-22.05.09:914][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.04.08-22.05.09:914][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.04.08-22.05.09:914][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2020.04.08-22.05.09:914][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.04.08-22.05.09:914][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.04.08-22.05.09:914][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.04.08-22.05.09:914][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.04.08-22.05.09:914][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.04.08-22.05.09:914][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.04.08-22.05.09:914][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Saved/Config/Windows/Engine.ini]
+[2020.04.08-22.05.09:914][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Saved/Config/Windows/Engine.ini]
+[2020.04.08-22.05.09:916][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Saved/Config/Windows/Scalability.ini]
+[2020.04.08-22.05.09:916][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.04.08-22.05.09:916][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.04.08-22.05.09:916][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Saved/Config/Windows/Scalability.ini]
+[2020.04.08-22.05.09:916][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.04.08-22.05.09:916][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Saved/Config/Windows/Scalability.ini]
+[2020.04.08-22.05.09:916][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.04.08-22.05.09:916][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.04.08-22.05.09:916][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.04.08-22.05.09:916][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.04.08-22.05.09:916][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.04.08-22.05.09:916][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.04.08-22.05.09:916][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.04.08-22.05.09:916][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.04.08-22.05.09:916][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.04.08-22.05.09:916][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.04.08-22.05.09:916][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.04.08-22.05.09:916][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.04.08-22.05.09:916][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.04.08-22.05.09:916][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.04.08-22.05.09:916][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.04.08-22.05.09:916][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.04.08-22.05.09:916][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.04.08-22.05.09:916][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.04.08-22.05.09:916][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Saved/Config/Windows/Scalability.ini]
+[2020.04.08-22.05.09:916][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.04.08-22.05.09:916][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.04.08-22.05.09:916][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.04.08-22.05.09:916][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.04.08-22.05.09:916][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.04.08-22.05.09:916][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.04.08-22.05.09:916][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.04.08-22.05.09:916][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.04.08-22.05.09:916][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.04.08-22.05.09:916][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.04.08-22.05.09:916][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.04.08-22.05.09:916][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.04.08-22.05.09:916][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.04.08-22.05.09:916][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.04.08-22.05.09:916][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.04.08-22.05.09:916][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.04.08-22.05.09:916][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.04.08-22.05.09:916][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.04.08-22.05.09:916][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.04.08-22.05.09:917][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.04.08-22.05.09:917][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.04.08-22.05.09:917][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.04.08-22.05.09:917][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.04.08-22.05.09:917][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.04.08-22.05.09:917][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.04.08-22.05.09:917][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.04.08-22.05.09:917][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.04.08-22.05.09:917][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.04.08-22.05.09:917][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.04.08-22.05.09:917][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.04.08-22.05.09:917][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Saved/Config/Windows/Scalability.ini]
+[2020.04.08-22.05.09:917][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.04.08-22.05.09:917][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.04.08-22.05.09:917][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.04.08-22.05.09:917][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.04.08-22.05.09:917][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.04.08-22.05.09:917][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.04.08-22.05.09:917][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.04.08-22.05.09:917][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.04.08-22.05.09:917][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Saved/Config/Windows/Scalability.ini]
+[2020.04.08-22.05.09:917][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.04.08-22.05.09:917][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.04.08-22.05.09:917][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.04.08-22.05.09:917][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.04.08-22.05.09:917][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.04.08-22.05.09:917][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.04.08-22.05.09:917][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.04.08-22.05.09:917][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.04.08-22.05.09:917][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.04.08-22.05.09:917][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.04.08-22.05.09:917][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.04.08-22.05.09:917][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.04.08-22.05.09:917][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.04.08-22.05.09:917][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Saved/Config/Windows/Scalability.ini]
+[2020.04.08-22.05.09:917][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.04.08-22.05.09:917][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.04.08-22.05.09:917][  0]LogInit: Selected Device Profile: [Windows]
+[2020.04.08-22.05.09:917][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.04.08-22.05.09:942][  0]LogHAL: Display: Platform has ~ 8 GB [8428769280 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.04.08-22.05.09:942][  0]LogInit: Going up to parent DeviceProfile []
+[2020.04.08-22.05.09:942][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Saved/Config/Windows/Scalability.ini]
+[2020.04.08-22.05.09:942][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.04.08-22.05.09:942][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.04.08-22.05.09:942][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Saved/Config/Windows/Scalability.ini]
+[2020.04.08-22.05.09:942][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.04.08-22.05.09:942][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Saved/Config/Windows/Scalability.ini]
+[2020.04.08-22.05.09:942][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.04.08-22.05.09:942][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.04.08-22.05.09:942][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.04.08-22.05.09:943][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.04.08-22.05.09:943][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.04.08-22.05.09:943][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.04.08-22.05.09:943][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.04.08-22.05.09:943][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.04.08-22.05.09:943][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.04.08-22.05.09:943][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.04.08-22.05.09:943][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.04.08-22.05.09:943][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.04.08-22.05.09:943][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.04.08-22.05.09:943][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.04.08-22.05.09:943][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.04.08-22.05.09:943][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.04.08-22.05.09:943][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.04.08-22.05.09:943][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.04.08-22.05.09:943][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Saved/Config/Windows/Scalability.ini]
+[2020.04.08-22.05.09:943][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.04.08-22.05.09:943][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.04.08-22.05.09:943][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.04.08-22.05.09:943][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.04.08-22.05.09:943][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.04.08-22.05.09:943][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.04.08-22.05.09:943][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.04.08-22.05.09:943][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.04.08-22.05.09:943][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.04.08-22.05.09:943][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.04.08-22.05.09:943][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.04.08-22.05.09:943][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.04.08-22.05.09:943][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.04.08-22.05.09:943][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.04.08-22.05.09:943][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.04.08-22.05.09:943][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.04.08-22.05.09:943][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.04.08-22.05.09:943][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.04.08-22.05.09:943][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.04.08-22.05.09:943][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.04.08-22.05.09:943][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.04.08-22.05.09:943][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.04.08-22.05.09:943][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.04.08-22.05.09:943][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.04.08-22.05.09:943][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.04.08-22.05.09:943][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.04.08-22.05.09:943][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.04.08-22.05.09:943][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.04.08-22.05.09:943][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.04.08-22.05.09:943][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.04.08-22.05.09:943][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Saved/Config/Windows/Scalability.ini]
+[2020.04.08-22.05.09:943][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.04.08-22.05.09:943][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.04.08-22.05.09:943][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.04.08-22.05.09:943][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.04.08-22.05.09:943][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.04.08-22.05.09:943][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.04.08-22.05.09:943][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.04.08-22.05.09:943][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.04.08-22.05.09:943][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Saved/Config/Windows/Scalability.ini]
+[2020.04.08-22.05.09:943][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.04.08-22.05.09:943][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.04.08-22.05.09:943][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.04.08-22.05.09:943][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.04.08-22.05.09:943][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.04.08-22.05.09:943][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.04.08-22.05.09:943][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.04.08-22.05.09:943][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.04.08-22.05.09:943][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.04.08-22.05.09:943][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.04.08-22.05.09:943][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.04.08-22.05.09:943][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.04.08-22.05.09:943][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.04.08-22.05.09:943][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Saved/Config/Windows/Scalability.ini]
+[2020.04.08-22.05.09:943][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.04.08-22.05.09:943][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.04.08-22.05.09:943][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.04.08-22.05.09:966][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.04.08-22.05.09:966][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.04.08-22.05.09:966][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2020.04.08-22.05.09:966][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Saved/Config/Windows/Engine.ini]
+[2020.04.08-22.05.09:966][  0]LogInit: Computer: GLADOS
+[2020.04.08-22.05.09:966][  0]LogInit: User: Caleigh
+[2020.04.08-22.05.09:966][  0]LogInit: CPU Page size=4096, Cores=4
+[2020.04.08-22.05.09:966][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.04.08-22.05.09:966][  0]LogMemory: Memory total: Physical=7.8GB (8GB approx)
+[2020.04.08-22.05.09:966][  0]LogMemory: Platform Memory Stats for Windows
+[2020.04.08-22.05.09:966][  0]LogMemory: Process Physical Memory: 101.21 MB used, 101.21 MB peak
+[2020.04.08-22.05.09:966][  0]LogMemory: Process Virtual Memory: 100.29 MB used, 100.29 MB peak
+[2020.04.08-22.05.09:966][  0]LogMemory: Physical Memory: 6213.48 MB used,  1824.82 MB free, 8038.30 MB total
+[2020.04.08-22.05.09:966][  0]LogMemory: Virtual Memory: 4656.48 MB used,  134213072.00 MB free, 134217728.00 MB total
+[2020.04.08-22.05.09:971][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.04.08-22.05.10:147][  0]LogInit: Using OS detected language (en-US).
+[2020.04.08-22.05.10:147][  0]LogInit: Using OS detected locale (en-CA).
+[2020.04.08-22.05.10:147][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2020.04.08-22.05.10:711][  0]LogInit: Setting process to per monitor DPI aware
+[2020.04.08-22.05.10:911][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.04.08-22.05.10:911][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.04.08-22.05.11:685][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.04.08-22.05.11:685][  0]LogD3D11RHI: D3D11 adapters:
+[2020.04.08-22.05.11:741][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 750 Ti' (Feature Level 11_0)
+[2020.04.08-22.05.11:741][  0]LogD3D11RHI:       2007/0/4019 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2020.04.08-22.05.11:744][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.04.08-22.05.11:744][  0]LogD3D11RHI:       0/0/4019 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.04.08-22.05.11:744][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.04.08-22.05.11:755][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.04.08-22.05.11:755][  0]LogD3D11RHI:     GPU DeviceId: 0x1380 (for the marketing name, search the web for "GPU Device Id")
+[2020.04.08-22.05.11:755][  0]LogWindows: EnumDisplayDevices:
+[2020.04.08-22.05.11:755][  0]LogWindows:    0. 'NVIDIA GeForce GTX 750 Ti' (P:1 D:1)
+[2020.04.08-22.05.11:755][  0]LogWindows:    1. 'NVIDIA GeForce GTX 750 Ti' (P:0 D:0)
+[2020.04.08-22.05.11:756][  0]LogWindows:    2. 'NVIDIA GeForce GTX 750 Ti' (P:0 D:0)
+[2020.04.08-22.05.11:756][  0]LogWindows:    3. 'NVIDIA GeForce GTX 750 Ti' (P:0 D:0)
+[2020.04.08-22.05.11:756][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2020.04.08-22.05.11:756][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 750 Ti
+[2020.04.08-22.05.11:756][  0]LogD3D11RHI:   Driver Version: 445.75 (internal:26.21.14.4575, unified:445.75)
+[2020.04.08-22.05.11:756][  0]LogD3D11RHI:      Driver Date: 3-17-2020
+[2020.04.08-22.05.11:756][  0]LogRHI: Texture pool is 1405 MB (70% of 2007 MB)
+[2020.04.08-22.05.11:796][  0]LogD3D11RHI: Async texture creation enabled
+[2020.04.08-22.05.11:826][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.04.08-22.05.12:677][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2020.04.08-22.05.12:698][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2020.04.08-22.05.12:722][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2020.04.08-22.05.12:756][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2020.04.08-22.05.12:810][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2020.04.08-22.05.12:853][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2020.04.08-22.05.12:895][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2020.04.08-22.05.12:947][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2020.04.08-22.05.12:993][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2020.04.08-22.05.13:037][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2020.04.08-22.05.13:037][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2020.04.08-22.05.13:037][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2020.04.08-22.05.13:037][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2020.04.08-22.05.13:037][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2020.04.08-22.05.13:037][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2020.04.08-22.05.13:037][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2020.04.08-22.05.13:037][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2020.04.08-22.05.13:037][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2020.04.08-22.05.13:037][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2020.04.08-22.05.13:037][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2020.04.08-22.05.13:037][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2020.04.08-22.05.13:037][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2020.04.08-22.05.13:037][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2020.04.08-22.05.13:037][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2020.04.08-22.05.13:037][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2020.04.08-22.05.13:037][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2020.04.08-22.05.13:037][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2020.04.08-22.05.13:077][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2020.04.08-22.05.13:210][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2020.04.08-22.05.13:210][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2020.04.08-22.05.13:232][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2020.04.08-22.05.13:232][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2020.04.08-22.05.13:265][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2020.04.08-22.05.13:316][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2020.04.08-22.05.13:325][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2020.04.08-22.05.13:377][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2020.04.08-22.05.13:408][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2020.04.08-22.05.13:408][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2020.04.08-22.05.13:408][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.04.08-22.05.13:483][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.04.08-22.05.13:760][  0]LogShaderCompilers: Guid format shader working directory is -9 characters bigger than the processId version (C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Intermediate/Shaders/WorkingDirectory/27484/).
+[2020.04.08-22.05.13:760][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Caleigh/AppData/Local/Temp/UnrealShaderWorkingDir/13974BD4470B6BCDCA38F9A62771CDD1/'.
+[2020.04.08-22.05.13:780][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.04.08-22.05.13:780][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.04.08-22.05.13:780][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.04.08-22.05.15:011][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.04.08-22.05.15:224][  0]LogDerivedDataCache: Loaded boot cache 0.21s 75MB C:/Users/Caleigh/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
+[2020.04.08-22.05.15:224][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Caleigh/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc
+[2020.04.08-22.05.15:224][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.04.08-22.05.15:224][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.04.08-22.05.15:224][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.04.08-22.05.15:224][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.04.08-22.05.15:249][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.04.08-22.05.15:249][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.04.08-22.05.15:249][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.04.08-22.05.15:250][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Caleigh/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.04.08-22.05.15:251][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.04.08-22.05.15:251][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.04.08-22.05.15:270][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.04.08-22.05.15:272][  0]LogSlate: Using FreeType 2.6.0
+[2020.04.08-22.05.15:284][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.04.08-22.05.15:637][  0]LogAssetRegistry: FAssetRegistry took 0.0026 seconds to start up
+[2020.04.08-22.05.15:916][  0]LogInit: Selected Device Profile: [Windows]
+[2020.04.08-22.05.16:389][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.04.08-22.05.16:389][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.04.08-22.05.16:389][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.04.08-22.05.16:389][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.04.08-22.05.16:389][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.04.08-22.05.16:402][  0]LogNetVersion: Stolenmates 1.0.0, NetCL: 8386587, EngineNetVer: 11, GameNetVer: 0 (Checksum: 1334032006)
+[2020.04.08-22.05.16:958][  0]LogPackageLocalizationCache: Processed 15 localized package path(s) for 1 prioritized culture(s) in 0.058950 seconds
+[2020.04.08-22.05.16:966][  0]LogUObjectArray: 43469 objects as part of root set at end of initial load.
+[2020.04.08-22.05.16:966][  0]LogUObjectAllocator: 7553416 out of 0 bytes used by permanent object pool.
+[2020.04.08-22.05.16:966][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.04.08-22.05.22:486][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.04.08-22.05.22:500][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.04.08-22.05.22:720][  0]SourceControl: Source control is disabled
+[2020.04.08-22.05.22:720][  0]SourceControl: Source control is disabled
+[2020.04.08-22.05.22:748][  0]SourceControl: Source control is disabled
+[2020.04.08-22.05.22:759][  0]SourceControl: Source control is disabled
+[2020.04.08-22.05.23:328][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.04.08-22.05.23:641][  0]LogOcInput: OculusInput pre-init called
+[2020.04.08-22.05.23:668][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.04.08-22.05.23:668][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.04.08-22.05.23:829][  0]LogEngine: Initializing Engine...
+[2020.04.08-22.05.23:834][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.04.08-22.05.23:835][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.04.08-22.05.24:114][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.04.08-22.05.24:149][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.04.08-22.05.24:173][  0]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2020.04.08-22.05.24:192][  0]LogInit: FAudioDevice initialized.
+[2020.04.08-22.05.24:192][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.04.08-22.05.24:272][  0]LogDerivedDataCache: Saved boot cache 0.08s 74MB C:/Users/Caleigh/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
+[2020.04.08-22.05.24:276][  0]LogInit: Texture streaming: Enabled
+[2020.04.08-22.05.24:390][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.04.08-22.05.24:390][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.04.08-22.05.24:391][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.04.08-22.05.24:469][  0]LogInit: Transaction tracking system initialized
+[2020.04.08-22.05.24:619][  0]BlueprintLog: New page: Editor Load
+[2020.04.08-22.05.24:903][  0]LocalizationService: Localization service is disabled
+[2020.04.08-22.05.25:527][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/' took 0.00s
+[2020.04.08-22.05.25:527][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.04.08-22.05.25:527][  0]LogCook: Display: Mobile HDR setting 1
+[2020.04.08-22.05.26:458][  0]SourceControl: Source control is disabled
+[2020.04.08-22.05.26:458][  0]Cmd: MAP LOAD FILE="C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/Levels/Final_Level.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.04.08-22.05.26:459][  0]LightingResults: New page: Lighting Build
+[2020.04.08-22.05.26:472][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.04.08-22.05.26:472][  0]MapCheck: New page: Map Check
+[2020.04.08-22.05.26:472][  0]LightingResults: New page: Lighting Build
+[2020.04.08-22.05.26:494][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2020.04.08-22.05.26:700][  0]LogLinker: Warning: While loading 'C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/Blueprints/EQS_System/PowerUpSpawnLocation.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.04.08-22.05.26:700][  0]LogLinker: Warning: While loading 'C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/Blueprints/EQS_System/PowerUpSpawnLocation.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.04.08-22.05.26:700][  0]LogLinker: Warning: While loading 'C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/Blueprints/EQS_System/PowerUpSpawnLocation.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.04.08-22.05.26:700][  0]LogLinker: Warning: While loading 'C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/Blueprints/EQS_System/PowerUpSpawnLocation.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.04.08-22.05.26:700][  0]LogLinker: Warning: While loading 'C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/Blueprints/EQS_System/PowerUpSpawnLocation.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.04.08-22.05.26:700][  0]LogLinker: Warning: While loading 'C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/Blueprints/EQS_System/PowerUpSpawnLocation.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.04.08-22.05.26:700][  0]LogLinker: Warning: While loading 'C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/Blueprints/EQS_System/PowerUpSpawnLocation.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.04.08-22.05.26:700][  0]LogLinker: Warning: While loading 'C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/Blueprints/EQS_System/PowerUpSpawnLocation.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.04.08-22.05.26:700][  0]LogLinker: Warning: While loading 'C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/Blueprints/EQS_System/PowerUpSpawnLocation.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.04.08-22.05.26:700][  0]LogLinker: Warning: While loading 'C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/Blueprints/EQS_System/PowerUpSpawnLocation.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.04.08-22.05.26:700][  0]LogLinker: Warning: While loading 'C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/Blueprints/BP_GameMode.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.04.08-22.05.26:700][  0]LogLinker: Warning: While loading 'C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/Blueprints/BP_GameMode.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.04.08-22.05.26:701][  0]LogLinker: Warning: While loading 'C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/Blueprints/BP_GameMode.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.04.08-22.05.26:701][  0]LogLinker: Warning: While loading 'C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/Blueprints/BP_GameMode.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.04.08-22.05.26:701][  0]LogLinker: Warning: While loading 'C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/Blueprints/BP_GameMode.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.04.08-22.05.26:701][  0]LogLinker: Warning: While loading 'C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/Blueprints/BP_GameMode.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.04.08-22.05.26:701][  0]LogLinker: Warning: While loading 'C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/Blueprints/BP_GameMode.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.04.08-22.05.26:701][  0]LogLinker: Warning: While loading 'C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/Blueprints/BP_GameMode.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.04.08-22.05.26:701][  0]LogLinker: Warning: While loading 'C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/Blueprints/BP_GameMode.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.04.08-22.05.26:701][  0]LogLinker: Warning: While loading 'C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/Blueprints/BP_GameMode.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.04.08-22.05.26:701][  0]LogLinker: Warning: While loading 'C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/Blueprints/BP_GameMode.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.04.08-22.05.26:701][  0]LogLinker: Warning: While loading 'C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/Blueprints/BP_GameMode.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.04.08-22.05.26:701][  0]LogLinker: Warning: While loading 'C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/Blueprints/BP_GameMode.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.04.08-22.05.26:701][  0]LogLinker: Warning: While loading 'C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/Blueprints/BP_GameMode.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.04.08-22.05.26:701][  0]LogLinker: Warning: While loading 'C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/Blueprints/BP_GameMode.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.04.08-22.05.26:701][  0]LogLinker: Warning: While loading 'C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/Blueprints/BP_GameMode.uasset' failed to load '/Script/EnvironmentQueryEditor': Can't find file.
+[2020.04.08-22.05.29:018][  0]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/Final_Level.Final_Level:PersistentLevel.ModelComponent_260' invalid (1536 verts, 0 indices).
+[2020.04.08-22.05.29:018][  0]LogPhysics: Warning: Attempt to build physics data for /Game/Levels/Final_Level.Final_Level:PersistentLevel.ModelComponent_260.BodySetup_0 when we are unable to.
+[2020.04.08-22.05.29:055][  0]LogAIModule: Creating AISystem for world Final_Level
+[2020.04.08-22.05.29:125][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.04.08-22.05.29:259][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.88ms
+[2020.04.08-22.05.29:259][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.04.08-22.05.29:260][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.458ms to complete.
+[2020.04.08-22.05.29:260][  0]LogFileHelpers: Loading map 'Final_Level' took 2.801
+[2020.04.08-22.05.29:426][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.08-22.05.29:434][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.08-22.05.29:442][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.08-22.05.29:449][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.08-22.05.29:998][  0]LogCollectionManager: Loaded 0 collections in 0.001010 seconds
+[2020.04.08-22.05.30:026][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Saved/Collections/' took 0.00s
+[2020.04.08-22.05.30:026][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/Developers/Caleigh/Collections/' took 0.00s
+[2020.04.08-22.05.30:026][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/Collections/' took 0.00s
+[2020.04.08-22.05.30:026][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2020.04.08-22.05.30:035][  0]LogContentBrowser: Native class hierarchy populated in 0.0086 seconds. Added 3008 classes and 708 folders.
+[2020.04.08-22.05.30:056][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.04.08-22.05.30:809][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.04.08-22.05.30:846][  0]LogSlate: Took 0.016295 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.04.08-22.05.30:854][  0]LogSlate: Took 0.007308 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.04.08-22.05.30:869][  0]LogSlate: Took 0.010130 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.04.08-22.05.30:939][  0]LogRenderer: Reallocating scene render targets to support 1224x672 Format 10 NumSamples 1 (Frame:1).
+[2020.04.08-22.05.31:131][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.04.08-22.05.31:131][  0]LogLoad: (Engine Initialization) Total time: 30.00 seconds
+[2020.04.08-22.05.31:131][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.04.08-22.05.31:201][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.04.08-22.05.31:220][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/' took 0.08s
+[2020.04.08-22.05.31:769][  9]LogSlate: Took 0.011791 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.04.08-22.05.31:816][ 10]LogAssetRegistry: Asset discovery search completed in 16.1804 seconds
+[2020.04.08-22.05.31:820][ 10]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000004 seconds (found 0 objects)
+[2020.04.08-22.05.31:820][ 10]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000058 seconds (updated 0 objects)
+[2020.04.08-22.05.32:188][ 29]LogSlate: Took 0.000167 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.04.08-22.05.33:840][186]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.08-22.05.33:940][196]LogSlate: Window 'Plugins' being destroyed
+[2020.04.08-22.05.33:944][196]LogSlate: Window 'Plugins' being destroyed
+[2020.04.08-22.05.33:944][196]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/' was aborted.
+[2020.04.08-22.05.35:572][297]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.08-22.05.38:253][461]LogAIModule: Creating AISystem for world Caleigh_Test
+[2020.04.08-22.05.38:293][461]LogAssetEditorManager: Opening Asset editor for World /Game/Levels/Caleigh_Test.Caleigh_Test
+[2020.04.08-22.05.38:315][461]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2020.04.08-22.05.38:321][461]Cmd: MAP LOAD FILE="C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/Levels/Caleigh_Test.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.04.08-22.05.38:321][461]LightingResults: New page: Lighting Build
+[2020.04.08-22.05.38:321][461]LoadErrors: New page: Loading map: Caleigh_Test.umap
+[2020.04.08-22.05.38:345][461]LogWorld: UWorld::CleanupWorld for Final_Level, bSessionEnded=true, bCleanupResources=true
+[2020.04.08-22.05.38:348][461]MapCheck: New page: Map Check
+[2020.04.08-22.05.38:348][461]LightingResults: New page: Lighting Build
+[2020.04.08-22.05.38:381][461]LogUObjectHash: Compacting FUObjectHashTables data took   2.49ms
+[2020.04.08-22.05.38:405][461]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.04.08-22.05.38:430][461]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
+[2020.04.08-22.05.38:446][461]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.04.08-22.05.38:446][461]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.108ms to complete.
+[2020.04.08-22.05.38:446][461]LogFileHelpers: Loading map 'Caleigh_Test' took 0.132
+[2020.04.08-22.14.32:260][248]LogEditorSessionSummary: EditorSessionSummary sent report. Type=Shutdown, SessionId={1975330C-4312-F089-7EAA-10AF94199392}
+[2020.04.08-22.34.52:149][247]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:/Downloads/Rock.FBX)
+[2020.04.08-22.34.52:248][247]LogFbx: Loading FBX Scene from D:/Downloads/Rock.FBX
+[2020.04.08-22.34.52:282][247]LogFbx: FBX Scene Loaded Succesfully
+[2020.04.08-22.34.54:373][247]LogSlate: Window 'FBX Import Options' being destroyed
+[2020.04.08-22.34.56:018][247]LogLinker: Failed to load '/Game/Art/VFX/Smooth_Stone': Can't find file.
+[2020.04.08-22.34.56:018][247]LogLinker: Failed to load '/Game/Art/VFX/Smooth_Stone': Can't find file.
+[2020.04.08-22.34.56:018][247]LogFbxMaterialImport: Warning: Unable to find Texture file C:\Users\Ryan\Desktop\Smooth_Stone.tga
+[2020.04.08-22.34.56:057][247]LogMaterial: Display: Missing cached shader map for material Material__25, compiling. 
+[2020.04.08-22.34.56:279][247]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 22
+[2020.04.08-22.34.56:279][247]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 14
+[2020.04.08-22.34.56:279][247]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 6
+[2020.04.08-22.34.56:286][247]LogStaticMesh: Building static mesh Rock...
+[2020.04.08-22.34.56:348][247]LogStaticMesh: Built static mesh [0.06s] /Game/Art/VFX/Rock.Rock
+[2020.04.08-22.34.56:499][247]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2020.04.08-22.35.01:487][549]LogSlate: Window 'Message Log' being destroyed
+[2020.04.08-22.35.01:491][549]LogSlate: Window 'Message Log' being destroyed
+[2020.04.08-22.35.02:969][644]LogUObjectHash: Compacting FUObjectHashTables data took   3.99ms
+[2020.04.08-22.35.02:969][644]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/Caleigh_Test' took 0.056
+[2020.04.08-22.35.02:991][644]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Art/VFX/Rock] ([1] browsable assets)...
+[2020.04.08-22.35.03:021][644]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Art/VFX/Rock.Rock]
+[2020.04.08-22.35.03:021][644]OBJ SavePackage: Finished generating thumbnails for package [/Game/Art/VFX/Rock]
+[2020.04.08-22.35.03:021][644]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/VFX/Rock" FILE="C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Saved/Autosaves/Game/Art/VFX/Rock_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2020.04.08-22.35.03:219][644]LogSavePackage: Moving 'C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Saved/Rock_Auto154E4FF2D4593F0F1BE181691DF5C08E5.tmp' to 'C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Saved/Autosaves/Game/Art/VFX/Rock_Auto1.uasset'
+[2020.04.08-22.35.03:233][644]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Art/VFX/Material__25] ([1] browsable assets)...
+[2020.04.08-22.35.03:285][644]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Art/VFX/Material__25.Material__25]
+[2020.04.08-22.35.03:285][644]OBJ SavePackage: Finished generating thumbnails for package [/Game/Art/VFX/Material__25]
+[2020.04.08-22.35.03:350][644]LogSavePackage: Moving 'C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Saved/Material__25_Auto1B59DA0C7470156C548C21F8AA95C0DAD.tmp' to 'C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Saved/Autosaves/Game/Art/VFX/Material__25_Auto1.uasset'
+[2020.04.08-22.35.03:351][644]LogFileHelpers: Auto-saving content packages took 0.380
+[2020.04.08-22.35.06:764][858]LogAssetEditorManager: Opening Asset editor for StaticMesh /Game/Art/VFX/Rock.Rock
+[2020.04.08-22.35.13:702][200]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.08-22.35.13:816][209]LogRenderer: Reallocating scene render targets to support 1432x920 Format 10 NumSamples 1 (Frame:346).
+[2020.04.08-22.35.13:816][209]LogSlate: Took 0.018418 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.04.08-22.35.17:634][372]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.08-22.35.17:716][376]LogSlate: Window 'Rock' being destroyed
+[2020.04.08-22.35.17:719][376]LogSlate: Window 'Rock' being destroyed
+[2020.04.08-22.35.17:771][376]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2020.04.08-22.36.29:402][183]LogAssetEditorManager: Opening Asset editor for ParticleSystem /Game/Art/VFX/P_Explode.P_Explode
+[2020.04.08-22.36.29:437][183]LogContentBrowser: Native class hierarchy updated for 'Cascade' in 0.0004 seconds. Added 2 classes and 2 folders.
+[2020.04.08-22.36.53:067][303]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.08-22.36.54:688][466]LogSlate: Window 'P_Explode' being destroyed
+[2020.04.08-22.36.58:329][832]LogMaterial: Display: Material /Game/Art/VFX/Material__25.Material__25 needed to have new flag set bUsedWithMeshParticles !
+[2020.04.08-22.36.58:338][832]LogMaterial: Display: Missing cached shader map for material Material__25, compiling. 
+[2020.04.08-22.36.58:370][834]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 41
+[2020.04.08-22.36.58:370][834]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 31
+[2020.04.08-22.36.58:370][834]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 21
+[2020.04.08-22.37.01:989][220]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 11
+[2020.04.08-22.37.02:831][316]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 7
+[2020.04.08-22.37.03:323][365]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 4
+[2020.04.08-22.37.04:391][461]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 2
+[2020.04.08-22.37.04:594][467]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 1
+[2020.04.08-22.40.53:283][852]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.08-22.42.16:242][691]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.08-22.42.59:813][866]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2020.04.08-22.44.11:766][756]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.08-22.45.41:787][192]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2020.04.08-22.45.41:850][192]LogUObjectHash: Compacting FUObjectHashTables data took   1.91ms
+[2020.04.08-22.45.41:850][192]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/Caleigh_Test' took 0.049
+[2020.04.08-22.45.41:851][192]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Art/VFX/Material__25] ([1] browsable assets)...
+[2020.04.08-22.45.41:851][192]OBJ SavePackage: Finished generating thumbnails for package [/Game/Art/VFX/Material__25]
+[2020.04.08-22.45.41:854][192]LogSavePackage: Moving 'C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Saved/Material__25_Auto2164D0DA64D9B84E86A388EBD310E9CDF.tmp' to 'C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Saved/Autosaves/Game/Art/VFX/Material__25_Auto2.uasset'
+[2020.04.08-22.45.41:855][192]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Art/VFX/P_Explode] ([1] browsable assets)...
+[2020.04.08-22.45.41:857][192]OBJ SavePackage:     Rendered thumbnail for [ParticleSystem /Game/Art/VFX/P_Explode.P_Explode]
+[2020.04.08-22.45.41:857][192]OBJ SavePackage: Finished generating thumbnails for package [/Game/Art/VFX/P_Explode]
+[2020.04.08-22.45.41:857][192]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/VFX/P_Explode" FILE="C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Saved/Autosaves/Game/Art/VFX/P_Explode_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2020.04.08-22.45.41:868][192]LogSavePackage: Moving 'C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Saved/P_Explode_Auto2A1813B8E459EBB0870A0B2B34360D95C.tmp' to 'C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Saved/Autosaves/Game/Art/VFX/P_Explode_Auto2.uasset'
+[2020.04.08-22.45.41:868][192]LogFileHelpers: Auto-saving content packages took 0.017
+[2020.04.08-22.46.16:656][830]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.08-22.47.42:657][829]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2020.04.08-22.48.16:046][855]LogSlate: Window 'Color Picker' being destroyed
+[2020.04.08-22.48.49:383][664]LogSlate: Window 'Color Picker' being destroyed
+[2020.04.08-22.48.56:249][486]LogSlate: Window 'Color Picker' being destroyed
+[2020.04.08-22.50.23:958][108]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.08-22.50.24:093][117]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/VFX/P_Explode" FILE="C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/Art/VFX/P_Explode.uasset" SILENT=true
+[2020.04.08-22.50.24:121][117]LogSavePackage: Moving 'C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Saved/P_Explode2CC7A24945E2152C930DB1976F54433E.tmp' to 'C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/Art/VFX/P_Explode.uasset'
+[2020.04.08-22.50.51:274][605]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.08-22.51.03:954][117]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.08-22.51.14:431][371]LogSlate: Window 'Color Picker' being destroyed
+[2020.04.08-22.51.32:929][400]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2020.04.08-22.51.53:159][817]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/VFX/P_Explode" FILE="C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/Art/VFX/P_Explode.uasset" SILENT=true
+[2020.04.08-22.51.53:188][817]LogSavePackage: Moving 'C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Saved/P_Explode021B7B4C4EC9049AF2B62DA2A34CA38A.tmp' to 'C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/Art/VFX/P_Explode.uasset'
+[2020.04.08-22.51.54:568][980]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/VFX/P_Explode" FILE="C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/Art/VFX/P_Explode.uasset" SILENT=true
+[2020.04.08-22.51.54:581][980]LogSavePackage: Moving 'C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Saved/P_ExplodeE41D3FC0424D45D16E0C55B84557487A.tmp' to 'C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/Art/VFX/P_Explode.uasset'
+[2020.04.08-22.52.43:586][613]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.08-22.52.47:496][ 73]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.08-22.52.50:593][441]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/VFX/P_Explode" FILE="C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/Art/VFX/P_Explode.uasset" SILENT=true
+[2020.04.08-22.52.50:608][441]LogSavePackage: Moving 'C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Saved/P_Explode15F5B2A54725D40E215ABBB7AF73F983.tmp' to 'C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/Art/VFX/P_Explode.uasset'
+[2020.04.08-22.53.31:078][360]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.08-22.53.59:348][722]LogStaticMesh: Building static mesh Rock02...
+[2020.04.08-22.53.59:400][722]LogStaticMesh: Built static mesh [0.05s] /Game/Art/Models/Rock02.Rock02
+[2020.04.08-22.53.59:414][722]LogAssetEditorManager: Opening Asset editor for StaticMesh /Game/Art/Models/Rock02.Rock02
+[2020.04.08-22.54.04:093][ 76]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.08-22.54.04:121][ 78]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2020.04.08-22.54.07:661][490]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.08-22.54.36:872][894]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.08-22.55.35:670][959]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.04.08-22.55.38:306][275]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.08-22.56.39:739][203]LogUObjectHash: Compacting FUObjectHashTables data took   1.86ms
+[2020.04.08-22.56.40:467][203]LogSavePackage: Moving 'C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Saved/Caleigh_Test_Auto35FA4B6174930E529610F16A47E25A16D.tmp' to 'C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Saved/Autosaves/Game/Levels/Caleigh_Test_Auto3.umap'
+[2020.04.08-22.56.40:482][203]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/Caleigh_Test' took 0.770
+[2020.04.08-22.56.40:482][203]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.770
+[2020.04.08-22.56.40:486][203]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Art/VFX/P_Explode] ([1] browsable assets)...
+[2020.04.08-22.56.40:495][203]OBJ SavePackage:     Rendered thumbnail for [ParticleSystem /Game/Art/VFX/P_Explode.P_Explode]
+[2020.04.08-22.56.40:495][203]OBJ SavePackage: Finished generating thumbnails for package [/Game/Art/VFX/P_Explode]
+[2020.04.08-22.56.40:495][203]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/VFX/P_Explode" FILE="C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Saved/Autosaves/Game/Art/VFX/P_Explode_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2020.04.08-22.56.40:545][203]LogSavePackage: Moving 'C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Saved/P_Explode_Auto35ADFBC644A2EED4E897E51B9FA1FAE20.tmp' to 'C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Saved/Autosaves/Game/Art/VFX/P_Explode_Auto3.uasset'
+[2020.04.08-22.56.40:547][203]LogFileHelpers: Auto-saving content packages took 0.062
+[2020.04.08-22.57.41:004][283]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.08-22.57.57:619][ 19]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.08-22.58.54:250][451]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2020.04.08-22.59.25:902][188]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.08-22.59.36:896][504]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.08-22.59.50:771][ 46]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.08-23.00.44:160][686]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/VFX/P_Explode" FILE="C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/Art/VFX/P_Explode.uasset" SILENT=true
+[2020.04.08-23.00.44:176][686]LogSavePackage: Moving 'C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Saved/P_ExplodeFD67FFDB441E6C3D4226A08F00C87019.tmp' to 'C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/Art/VFX/P_Explode.uasset'
+[2020.04.08-23.02.21:477][ 27]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.08-23.02.47:024][ 68]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.08-23.03.13:639][ 74]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/VFX/P_Explode" FILE="C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/Art/VFX/P_Explode.uasset" SILENT=true
+[2020.04.08-23.03.13:654][ 74]LogSavePackage: Moving 'C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Saved/P_Explode5222C59E493744A3D3B44A8A9B04DA6C.tmp' to 'C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/Art/VFX/P_Explode.uasset'
+[2020.04.08-23.03.57:873][ 67]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.08-23.04.20:181][537]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.08-23.04.55:462][442]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.08-23.05.10:949][296]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/VFX/P_Explode" FILE="C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/Art/VFX/P_Explode.uasset" SILENT=true
+[2020.04.08-23.05.10:965][296]LogSavePackage: Moving 'C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Saved/P_ExplodeEA3C5A9142DBDA6013231D9A70A0693B.tmp' to 'C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/Art/VFX/P_Explode.uasset'
+[2020.04.08-23.05.22:233][477]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.08-23.07.00:113][505]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.08-23.07.12:305][872]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.04.08-23.07.16:499][372]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.08-23.10.24:335][814]LogUObjectHash: Compacting FUObjectHashTables data took   2.44ms
+[2020.04.08-23.10.24:335][814]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/Caleigh_Test' took 0.024
+[2020.04.08-23.10.24:337][814]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Art/VFX/P_Explode] ([1] browsable assets)...
+[2020.04.08-23.10.24:339][814]OBJ SavePackage:     Rendered thumbnail for [ParticleSystem /Game/Art/VFX/P_Explode.P_Explode]
+[2020.04.08-23.10.24:339][814]OBJ SavePackage: Finished generating thumbnails for package [/Game/Art/VFX/P_Explode]
+[2020.04.08-23.10.24:339][814]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/VFX/P_Explode" FILE="C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Saved/Autosaves/Game/Art/VFX/P_Explode_Auto4.uasset" SILENT=false AUTOSAVING=true
+[2020.04.08-23.10.24:355][814]LogSavePackage: Moving 'C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Saved/P_Explode_Auto404A7FD4E4F2FE38D7018248BB7E665C1.tmp' to 'C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Saved/Autosaves/Game/Art/VFX/P_Explode_Auto4.uasset'
+[2020.04.08-23.10.24:355][814]LogFileHelpers: Auto-saving content packages took 0.019
+[2020.04.08-23.10.37:264][353]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.04.08-23.11.02:568][146]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.08-23.12.13:784][512]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.04.08-23.13.16:975][892]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/VFX/P_Explode" FILE="C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/Art/VFX/P_Explode.uasset" SILENT=true
+[2020.04.08-23.13.16:990][892]LogSavePackage: Moving 'C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Saved/P_ExplodeE1216C7C4B7BDCF93E3E038233795A05.tmp' to 'C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/Art/VFX/P_Explode.uasset'
+[2020.04.08-23.14.20:812][985]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.08-23.17.58:163][687]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.08-23.18.21:707][403]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.08-23.18.57:594][281]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/VFX/P_Explode" FILE="C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/Art/VFX/P_Explode.uasset" SILENT=true
+[2020.04.08-23.18.57:610][281]LogSavePackage: Moving 'C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Saved/P_Explode52ADB1564E66E65F6661EC8A2D05371E.tmp' to 'C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/Art/VFX/P_Explode.uasset'
+[2020.04.08-23.19.29:455][797]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.08-23.20.44:343][ 60]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2020.04.08-23.20.44:381][ 60]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2020.04.08-23.20.44:381][ 60]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/Caleigh_Test' took 0.023
+[2020.04.08-23.20.44:383][ 60]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Art/VFX/P_Explode] ([1] browsable assets)...
+[2020.04.08-23.20.44:385][ 60]OBJ SavePackage:     Rendered thumbnail for [ParticleSystem /Game/Art/VFX/P_Explode.P_Explode]
+[2020.04.08-23.20.44:385][ 60]OBJ SavePackage: Finished generating thumbnails for package [/Game/Art/VFX/P_Explode]
+[2020.04.08-23.20.44:385][ 60]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/VFX/P_Explode" FILE="C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Saved/Autosaves/Game/Art/VFX/P_Explode_Auto5.uasset" SILENT=false AUTOSAVING=true
+[2020.04.08-23.20.44:401][ 60]LogSavePackage: Moving 'C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Saved/P_Explode_Auto584EFC88C4E50C7234FCD06A12781411A.tmp' to 'C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Saved/Autosaves/Game/Art/VFX/P_Explode_Auto5.uasset'
+[2020.04.08-23.20.44:402][ 60]LogFileHelpers: Auto-saving content packages took 0.019
+[2020.04.08-23.20.57:946][680]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/VFX/P_Explode" FILE="C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/Art/VFX/P_Explode.uasset" SILENT=true
+[2020.04.08-23.20.57:961][680]LogSavePackage: Moving 'C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Saved/P_Explode4511BFAC4D9CC623BD2800AD503CB6B9.tmp' to 'C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/Art/VFX/P_Explode.uasset'
+[2020.04.08-23.21.11:124][ 84]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.08-23.21.13:613][379]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/VFX/P_Explode" FILE="C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/Art/VFX/P_Explode.uasset" SILENT=true
+[2020.04.08-23.21.13:628][379]LogSavePackage: Moving 'C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Saved/P_ExplodeDBC22E2C4D8752F554BFF4BFF317AF9D.tmp' to 'C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/Art/VFX/P_Explode.uasset'
+[2020.04.08-23.21.36:461][907]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/VFX/P_Explode" FILE="C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/Art/VFX/P_Explode.uasset" SILENT=true
+[2020.04.08-23.21.36:477][907]LogSavePackage: Moving 'C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Saved/P_ExplodeEA62363F47BE223081B912A73E7583DA.tmp' to 'C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/Art/VFX/P_Explode.uasset'
+[2020.04.08-23.21.37:564][ 36]LogCascade: Quitting Cascade. FXSystem=0x0000016D1874E8C0
+[2020.04.08-23.21.37:605][ 36]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2020.04.08-23.21.41:208][347]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_Explode)
+[2020.04.08-23.21.41:977][425]Cmd: DELETE
+[2020.04.08-23.21.41:977][425]Cmd: ACTOR DELETE
+[2020.04.08-23.21.42:236][425]LogEditorActor: Deleted Actor: Emitter
+[2020.04.08-23.21.42:310][425]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2020.04.08-23.21.42:311][425]LogEditorActor: Deleted 1 Actors (0.139 secs)
+[2020.04.08-23.21.43:243][508]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.08-23.30.44:754][309]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2020.04.08-23.30.45:131][309]LogSavePackage: Moving 'C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Saved/Caleigh_Test_Auto6B72711DD4B2172279E487E8A962C7A89.tmp' to 'C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Saved/Autosaves/Game/Levels/Caleigh_Test_Auto6.umap'
+[2020.04.08-23.30.45:136][309]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/Caleigh_Test' took 0.441
+[2020.04.08-23.30.45:136][309]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.441
+[2020.04.09-00.56.10:164][922]LogSlate: Window 'Pick a starting point for your emitter' being destroyed
+[2020.04.09-00.56.29:918][104]LogAssetEditorManager: Opening Asset editor for NiagaraEmitter /Game/Art/VFX/P_Explode2.P_Explode2
+[2020.04.09-00.56.33:286][104]LogNiagara: Warning: Failed to activate Niagara System due to invalid asset!
+[2020.04.09-00.56.35:344][104]LogNiagaraEditor: Verbose: '/Engine/Transient' Precompile took 0.465242 sec.
+[2020.04.09-00.56.35:423][104]62070_NiagaraSystem_0_MessageLog: System compile status unknown with 0 warning(s) and 0 error(s).
+[2020.04.09-00.56.38:585][104]LogNiagaraEditor: Compiling System NiagaraScript /Engine/Transient.NiagaraSystem_0:SystemSpawnScript ...................................................................
+[2020.04.09-00.56.38:585][104]LogNiagaraEditor: Compiling System NiagaraScript /Engine/Transient.NiagaraSystem_0:SystemUpdateScript ...................................................................
+[2020.04.09-00.56.40:717][104]LogNiagaraEditor: Compiling System NiagaraScript /Engine/Transient.NiagaraSystem_0:SystemSpawnScript took 3.939994 sec (3.042620/0.896448)... Status NCS_UpToDate
+[2020.04.09-00.56.40:718][104]LogNiagaraEditor: Compiling System NiagaraScript /Engine/Transient.NiagaraSystem_0:SystemUpdateScript took 4.123436 sec (3.485775/0.233320)... Status NCS_UpToDate
+[2020.04.09-00.56.40:888][106]LogNiagara: UNiagraScript 'NiagaraScript /Engine/Transient.NiagaraSystem_0:SystemSpawnScript' was built locally..
+[2020.04.09-00.56.40:889][106]LogNiagara: UNiagraScript 'NiagaraScript /Engine/Transient.NiagaraSystem_0:SystemUpdateScript' was built locally..
+[2020.04.09-00.56.41:099][107]62070_NiagaraSystem_0_MessageLog: System successfully compiled.
+[2020.04.09-00.57.25:931][ 25]LogSlate: Window 'P_Explode2' being destroyed
+[2020.04.09-00.57.30:404][359]LogMaterial: Display: Material /Game/Art/VFX/Material__25.Material__25 needed to have new flag set bUsedWithNiagaraMeshParticles !
+[2020.04.09-00.57.30:513][359]LogMaterial: Display: Missing cached shader map for material Material__25, compiling. 
+[2020.04.09-00.57.30:805][359]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 60
+[2020.04.09-00.57.30:861][360]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 50
+[2020.04.09-00.57.30:861][360]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 40
+[2020.04.09-00.57.35:712][639]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 30
+[2020.04.09-00.57.37:772][846]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 20
+[2020.04.09-00.57.38:795][955]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 13
+[2020.04.09-00.57.42:079][286]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 8
+[2020.04.09-00.57.44:898][573]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 5
+[2020.04.09-00.57.46:146][709]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 3
+[2020.04.09-00.57.46:772][763]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 1
+[2020.04.09-01.00.10:454][439]LogNiagaraEditor: Verbose: '/Engine/Transient' Precompile took 0.464188 sec.
+[2020.04.09-01.00.10:820][440]LogNiagaraEditor: Compiling System NiagaraScript /Engine/Transient.NiagaraSystem_0:P_Explode2.SpawnScript ...................................................................
+[2020.04.09-01.00.10:820][440]LogNiagaraEditor: Compiling System NiagaraScript /Engine/Transient.NiagaraSystem_0:P_Explode2.UpdateScript ...................................................................
+[2020.04.09-01.00.10:820][440]LogNiagaraEditor: Compiling System NiagaraScript /Engine/Transient.NiagaraSystem_0:SystemSpawnScript ...................................................................
+[2020.04.09-01.00.11:290][494]LogNiagaraEditor: Compiling System NiagaraScript /Engine/Transient.NiagaraSystem_0:P_Explode2.SpawnScript took 0.811878 sec (0.371277/0.440254)... Status NCS_UpToDate
+[2020.04.09-01.00.11:300][495]LogNiagara: UNiagraScript 'NiagaraScript /Engine/Transient.NiagaraSystem_0:P_Explode2.SpawnScript' was built locally..
+[2020.04.09-01.00.11:327][496]LogNiagaraEditor: Compiling System NiagaraScript /Engine/Transient.NiagaraSystem_0:SystemUpdateScript ...................................................................
+[2020.04.09-01.00.11:429][506]LogNiagaraEditor: Compiling System NiagaraScript /Engine/Transient.NiagaraSystem_0:P_Explode2.UpdateScript took 0.933490 sec (0.372905/0.117428)... Status NCS_UpToDate
+[2020.04.09-01.00.11:440][507]LogNiagara: UNiagraScript 'NiagaraScript /Engine/Transient.NiagaraSystem_0:P_Explode2.UpdateScript' was built locally..
+[2020.04.09-01.00.11:509][514]LogNiagaraEditor: Compiling System NiagaraScript /Engine/Transient.NiagaraSystem_0:SystemSpawnScript took 1.009720 sec (0.375328/0.098228)... Status NCS_UpToDate
+[2020.04.09-01.00.11:509][514]LogNiagara: UNiagraScript 'NiagaraScript /Engine/Transient.NiagaraSystem_0:SystemSpawnScript' was built locally..
+[2020.04.09-01.00.11:634][529]LogNiagaraEditor: Compiling System NiagaraScript /Engine/Transient.NiagaraSystem_0:SystemUpdateScript took 0.323691 sec (0.005610/0.129655)... Status NCS_UpToDate
+[2020.04.09-01.00.11:694][536]LogNiagara: UNiagraScript 'NiagaraScript /Engine/Transient.NiagaraSystem_0:SystemUpdateScript' was built locally..
+[2020.04.09-01.00.11:733][537]62070_NiagaraSystem_0_MessageLog: System successfully compiled.
+[2020.04.09-01.00.20:319][548]LogNiagaraEditor: Verbose: '/Engine/Transient' Precompile took 0.099106 sec.
+[2020.04.09-01.00.20:452][548]62070_NiagaraSystem_0_MessageLog: System successfully compiled.
+[2020.04.09-01.01.14:212][869]LogNiagaraEditor: Verbose: '/Engine/Transient' Precompile took 0.202264 sec.
+[2020.04.09-01.01.14:247][870]LogNiagaraEditor: Compiling System NiagaraScript /Engine/Transient.NiagaraSystem_0:P_Explode2.UpdateScript ...................................................................
+[2020.04.09-01.01.14:247][870]LogNiagaraEditor: Compiling System NiagaraScript /Engine/Transient.NiagaraSystem_0:SystemSpawnScript ...................................................................
+[2020.04.09-01.01.14:247][870]LogNiagaraEditor: Compiling System NiagaraScript /Engine/Transient.NiagaraSystem_0:P_Explode2.SpawnScript ...................................................................
+[2020.04.09-01.01.14:372][879]LogNiagaraEditor: Compiling System NiagaraScript /Engine/Transient.NiagaraSystem_0:P_Explode2.UpdateScript took 0.158226 sec (0.035061/0.123065)... Status NCS_UpToDate
+[2020.04.09-01.01.14:388][881]LogNiagaraEditor: Compiling System NiagaraScript /Engine/Transient.NiagaraSystem_0:SystemUpdateScript ...................................................................
+[2020.04.09-01.01.14:391][881]LogNiagara: UNiagraScript 'NiagaraScript /Engine/Transient.NiagaraSystem_0:P_Explode2.UpdateScript' was built locally..
+[2020.04.09-01.01.14:424][885]LogNiagaraEditor: Compiling System NiagaraScript /Engine/Transient.NiagaraSystem_0:SystemSpawnScript took 0.203270 sec (0.059691/0.046973)... Status NCS_UpToDate
+[2020.04.09-01.01.14:426][885]LogNiagara: UNiagraScript 'NiagaraScript /Engine/Transient.NiagaraSystem_0:SystemSpawnScript' was built locally..
+[2020.04.09-01.01.14:715][919]LogNiagaraEditor: Compiling System NiagaraScript /Engine/Transient.NiagaraSystem_0:P_Explode2.SpawnScript took 0.493869 sec (0.119486/0.290490)... Status NCS_UpToDate
+[2020.04.09-01.01.14:717][919]LogNiagara: UNiagraScript 'NiagaraScript /Engine/Transient.NiagaraSystem_0:P_Explode2.SpawnScript' was built locally..
+[2020.04.09-01.01.14:811][930]LogNiagaraEditor: Compiling System NiagaraScript /Engine/Transient.NiagaraSystem_0:SystemUpdateScript took 0.422385 sec (0.040005/0.100244)... Status NCS_UpToDate
+[2020.04.09-01.01.14:822][930]LogNiagara: UNiagraScript 'NiagaraScript /Engine/Transient.NiagaraSystem_0:SystemUpdateScript' was built locally..
+[2020.04.09-01.01.14:865][931]62070_NiagaraSystem_0_MessageLog: System successfully compiled.
+[2020.04.09-01.02.03:454][691]LogNiagaraEditor: Verbose: '/Engine/Transient' Precompile took 0.120277 sec.
+[2020.04.09-01.02.03:455][691]LogNiagara: Script 'NiagaraScript /Engine/Transient.NiagaraSystem_0:P_Explode2.EmitterSpawnScript' is in-sync skipping compile..
+[2020.04.09-01.02.03:455][691]LogNiagara: Script 'NiagaraScript /Engine/Transient.NiagaraSystem_0:P_Explode2.EmitterUpdateScript' is in-sync skipping compile..
+[2020.04.09-01.02.03:455][691]LogNiagara: Script 'NiagaraScript /Engine/Transient.NiagaraSystem_0:SystemSpawnScript' is in-sync skipping compile..
+[2020.04.09-01.02.03:455][691]LogNiagara: Script 'NiagaraScript /Engine/Transient.NiagaraSystem_0:SystemUpdateScript' is in-sync skipping compile..
+[2020.04.09-01.02.03:483][692]LogNiagaraEditor: Compiling System NiagaraScript /Engine/Transient.NiagaraSystem_0:P_Explode2.SpawnScript ...................................................................
+[2020.04.09-01.02.03:483][692]LogNiagaraEditor: Compiling System NiagaraScript /Engine/Transient.NiagaraSystem_0:P_Explode2.UpdateScript ...................................................................
+[2020.04.09-01.02.03:950][744]LogNiagaraEditor: Compiling System NiagaraScript /Engine/Transient.NiagaraSystem_0:P_Explode2.SpawnScript took 0.488107 sec (0.127723/0.360162)... Status NCS_UpToDate
+[2020.04.09-01.02.03:951][744]LogNiagara: UNiagraScript 'NiagaraScript /Engine/Transient.NiagaraSystem_0:P_Explode2.SpawnScript' was built locally..
+[2020.04.09-01.02.04:049][754]LogNiagaraEditor: Compiling System NiagaraScript /Engine/Transient.NiagaraSystem_0:P_Explode2.UpdateScript took 0.584619 sec (0.128911/0.101026)... Status NCS_UpToDate
+[2020.04.09-01.02.04:051][754]LogNiagara: UNiagraScript 'NiagaraScript /Engine/Transient.NiagaraSystem_0:P_Explode2.UpdateScript' was built locally..
+[2020.04.09-01.02.04:101][755]62070_NiagaraSystem_0_MessageLog: System successfully compiled.
+[2020.04.09-01.02.19:877][604]LogNiagaraEditor: Verbose: '/Engine/Transient' Precompile took 0.194382 sec.
+[2020.04.09-01.02.19:878][604]LogNiagara: Script 'NiagaraScript /Engine/Transient.NiagaraSystem_0:P_Explode2.EmitterSpawnScript' is in-sync skipping compile..
+[2020.04.09-01.02.19:878][604]LogNiagara: Script 'NiagaraScript /Engine/Transient.NiagaraSystem_0:P_Explode2.EmitterUpdateScript' is in-sync skipping compile..
+[2020.04.09-01.02.19:878][604]LogNiagara: Script 'NiagaraScript /Engine/Transient.NiagaraSystem_0:SystemSpawnScript' is in-sync skipping compile..
+[2020.04.09-01.02.19:878][604]LogNiagara: Script 'NiagaraScript /Engine/Transient.NiagaraSystem_0:SystemUpdateScript' is in-sync skipping compile..
+[2020.04.09-01.02.19:952][612]LogNiagaraEditor: Compiling System NiagaraScript /Engine/Transient.NiagaraSystem_0:P_Explode2.SpawnScript ...................................................................
+[2020.04.09-01.02.19:960][613]LogNiagaraEditor: Compiling System NiagaraScript /Engine/Transient.NiagaraSystem_0:P_Explode2.UpdateScript ...................................................................
+[2020.04.09-01.02.20:319][653]LogNiagaraEditor: Compiling System NiagaraScript /Engine/Transient.NiagaraSystem_0:P_Explode2.SpawnScript took 0.371679 sec (0.016678/0.354836)... Status NCS_UpToDate
+[2020.04.09-01.02.20:321][653]LogNiagara: UNiagraScript 'NiagaraScript /Engine/Transient.NiagaraSystem_0:P_Explode2.SpawnScript' was built locally..
+[2020.04.09-01.02.20:424][665]LogNiagaraEditor: Compiling System NiagaraScript /Engine/Transient.NiagaraSystem_0:P_Explode2.UpdateScript took 0.461385 sec (0.008549/0.103491)... Status NCS_UpToDate
+[2020.04.09-01.02.20:425][665]LogNiagara: UNiagraScript 'NiagaraScript /Engine/Transient.NiagaraSystem_0:P_Explode2.UpdateScript' was built locally..
+[2020.04.09-01.02.20:473][666]62070_NiagaraSystem_0_MessageLog: System successfully compiled.
+[2020.04.09-01.02.28:341][597]LogNiagaraEditor: Verbose: '/Engine/Transient' Precompile took 0.047372 sec.
+[2020.04.09-01.02.28:342][597]LogNiagara: Script 'NiagaraScript /Engine/Transient.NiagaraSystem_0:P_Explode2.EmitterSpawnScript' is in-sync skipping compile..
+[2020.04.09-01.02.28:342][597]LogNiagara: Script 'NiagaraScript /Engine/Transient.NiagaraSystem_0:P_Explode2.EmitterUpdateScript' is in-sync skipping compile..
+[2020.04.09-01.02.28:342][597]LogNiagara: Script 'NiagaraScript /Engine/Transient.NiagaraSystem_0:SystemSpawnScript' is in-sync skipping compile..
+[2020.04.09-01.02.28:342][597]LogNiagara: Script 'NiagaraScript /Engine/Transient.NiagaraSystem_0:SystemUpdateScript' is in-sync skipping compile..
+[2020.04.09-01.02.28:355][598]LogNiagaraEditor: Compiling System NiagaraScript /Engine/Transient.NiagaraSystem_0:P_Explode2.SpawnScript ...................................................................
+[2020.04.09-01.02.28:355][598]LogNiagaraEditor: Compiling System NiagaraScript /Engine/Transient.NiagaraSystem_0:P_Explode2.UpdateScript ...................................................................
+[2020.04.09-01.02.28:666][634]LogNiagaraEditor: Compiling System NiagaraScript /Engine/Transient.NiagaraSystem_0:P_Explode2.SpawnScript took 0.315013 sec (0.017440/0.297312)... Status NCS_UpToDate
+[2020.04.09-01.02.28:668][634]LogNiagara: UNiagraScript 'NiagaraScript /Engine/Transient.NiagaraSystem_0:P_Explode2.SpawnScript' was built locally..
+[2020.04.09-01.02.28:774][646]LogNiagaraEditor: Compiling System NiagaraScript /Engine/Transient.NiagaraSystem_0:P_Explode2.UpdateScript took 0.422812 sec (0.023426/0.108450)... Status NCS_UpToDate
+[2020.04.09-01.02.28:775][646]LogNiagara: UNiagraScript 'NiagaraScript /Engine/Transient.NiagaraSystem_0:P_Explode2.UpdateScript' was built locally..
+[2020.04.09-01.02.28:826][647]62070_NiagaraSystem_0_MessageLog: System successfully compiled.
+[2020.04.09-01.03.05:413][676]LogNiagaraEditor: Verbose: '/Engine/Transient' Precompile took 0.161540 sec.
+[2020.04.09-01.03.05:413][676]LogNiagara: Script 'NiagaraScript /Engine/Transient.NiagaraSystem_0:P_Explode2.EmitterSpawnScript' is in-sync skipping compile..
+[2020.04.09-01.03.05:413][676]LogNiagara: Script 'NiagaraScript /Engine/Transient.NiagaraSystem_0:P_Explode2.EmitterUpdateScript' is in-sync skipping compile..
+[2020.04.09-01.03.05:413][676]LogNiagara: Script 'NiagaraScript /Engine/Transient.NiagaraSystem_0:SystemSpawnScript' is in-sync skipping compile..
+[2020.04.09-01.03.05:414][676]LogNiagara: Script 'NiagaraScript /Engine/Transient.NiagaraSystem_0:SystemUpdateScript' is in-sync skipping compile..
+[2020.04.09-01.03.05:426][677]LogNiagaraEditor: Compiling System NiagaraScript /Engine/Transient.NiagaraSystem_0:P_Explode2.SpawnScript ...................................................................
+[2020.04.09-01.03.05:460][681]LogNiagaraEditor: Compiling System NiagaraScript /Engine/Transient.NiagaraSystem_0:P_Explode2.UpdateScript ...................................................................
+[2020.04.09-01.03.05:718][709]LogNiagaraEditor: Compiling System NiagaraScript /Engine/Transient.NiagaraSystem_0:P_Explode2.SpawnScript took 0.292483 sec (0.014239/0.278081)... Status NCS_UpToDate
+[2020.04.09-01.03.05:719][709]LogNiagara: UNiagraScript 'NiagaraScript /Engine/Transient.NiagaraSystem_0:P_Explode2.SpawnScript' was built locally..
+[2020.04.09-01.03.05:812][720]LogNiagaraEditor: Compiling System NiagaraScript /Engine/Transient.NiagaraSystem_0:P_Explode2.UpdateScript took 0.347529 sec (0.005725/0.093185)... Status NCS_UpToDate
+[2020.04.09-01.03.05:813][720]LogNiagara: UNiagraScript 'NiagaraScript /Engine/Transient.NiagaraSystem_0:P_Explode2.UpdateScript' was built locally..
+[2020.04.09-01.03.05:869][721]62070_NiagaraSystem_0_MessageLog: System successfully compiled.
+[2020.04.09-01.06.21:579][755]LogNiagaraEditor: Verbose: '/Engine/Transient' Precompile took 0.137864 sec.
+[2020.04.09-01.06.21:580][755]LogNiagara: Script 'NiagaraScript /Engine/Transient.NiagaraSystem_0:P_Explode2.EmitterSpawnScript' is in-sync skipping compile..
+[2020.04.09-01.06.21:580][755]LogNiagara: Script 'NiagaraScript /Engine/Transient.NiagaraSystem_0:P_Explode2.EmitterUpdateScript' is in-sync skipping compile..
+[2020.04.09-01.06.21:580][755]LogNiagara: Script 'NiagaraScript /Engine/Transient.NiagaraSystem_0:SystemSpawnScript' is in-sync skipping compile..
+[2020.04.09-01.06.21:581][755]LogNiagara: Script 'NiagaraScript /Engine/Transient.NiagaraSystem_0:SystemUpdateScript' is in-sync skipping compile..
+[2020.04.09-01.06.21:612][756]LogNiagaraEditor: Compiling System NiagaraScript /Engine/Transient.NiagaraSystem_0:P_Explode2.SpawnScript ...................................................................
+[2020.04.09-01.06.21:622][757]LogNiagaraEditor: Compiling System NiagaraScript /Engine/Transient.NiagaraSystem_0:P_Explode2.UpdateScript ...................................................................
+[2020.04.09-01.06.21:944][788]LogNiagaraEditor: Compiling System NiagaraScript /Engine/Transient.NiagaraSystem_0:P_Explode2.SpawnScript took 0.329140 sec (0.029738/0.299124)... Status NCS_UpToDate
+[2020.04.09-01.06.21:946][788]LogNiagara: UNiagraScript 'NiagaraScript /Engine/Transient.NiagaraSystem_0:P_Explode2.SpawnScript' was built locally..
+[2020.04.09-01.06.22:029][798]LogNiagaraEditor: Compiling System NiagaraScript /Engine/Transient.NiagaraSystem_0:P_Explode2.UpdateScript took 0.410115 sec (0.025723/0.094067)... Status NCS_UpToDate
+[2020.04.09-01.06.22:030][798]LogNiagara: UNiagraScript 'NiagaraScript /Engine/Transient.NiagaraSystem_0:P_Explode2.UpdateScript' was built locally..
+[2020.04.09-01.06.22:078][799]62070_NiagaraSystem_0_MessageLog: System successfully compiled.
+[2020.04.09-01.07.32:936][ 78]LogNiagaraEditor: Verbose: '/Engine/Transient' Precompile took 0.079324 sec.
+[2020.04.09-01.07.32:936][ 78]LogNiagara: Script 'NiagaraScript /Engine/Transient.NiagaraSystem_0:P_Explode2.EmitterSpawnScript' is in-sync skipping compile..
+[2020.04.09-01.07.32:936][ 78]LogNiagara: Script 'NiagaraScript /Engine/Transient.NiagaraSystem_0:P_Explode2.EmitterUpdateScript' is in-sync skipping compile..
+[2020.04.09-01.07.32:936][ 78]LogNiagara: Script 'NiagaraScript /Engine/Transient.NiagaraSystem_0:SystemSpawnScript' is in-sync skipping compile..
+[2020.04.09-01.07.32:936][ 78]LogNiagara: Script 'NiagaraScript /Engine/Transient.NiagaraSystem_0:SystemUpdateScript' is in-sync skipping compile..
+[2020.04.09-01.07.32:995][ 84]LogNiagaraEditor: Compiling System NiagaraScript /Engine/Transient.NiagaraSystem_0:P_Explode2.SpawnScript ...................................................................
+[2020.04.09-01.07.33:003][ 85]LogNiagaraEditor: Compiling System NiagaraScript /Engine/Transient.NiagaraSystem_0:P_Explode2.UpdateScript ...................................................................
+[2020.04.09-01.07.33:252][114]LogNiagaraEditor: Compiling System NiagaraScript /Engine/Transient.NiagaraSystem_0:P_Explode2.SpawnScript took 0.253035 sec (0.043767/0.208900)... Status NCS_UpToDate
+[2020.04.09-01.07.33:253][114]LogNiagara: UNiagraScript 'NiagaraScript /Engine/Transient.NiagaraSystem_0:P_Explode2.SpawnScript' was built locally..
+[2020.04.09-01.07.33:350][125]LogNiagaraEditor: Compiling System NiagaraScript /Engine/Transient.NiagaraSystem_0:P_Explode2.UpdateScript took 0.343696 sec (0.037118/0.102903)... Status NCS_UpToDate
+[2020.04.09-01.07.33:351][125]LogNiagara: UNiagraScript 'NiagaraScript /Engine/Transient.NiagaraSystem_0:P_Explode2.UpdateScript' was built locally..
+[2020.04.09-01.07.33:401][126]62070_NiagaraSystem_0_MessageLog: System successfully compiled.
+[2020.04.09-01.07.36:008][428]LogNiagaraEditor: Verbose: '/Engine/Transient' Precompile took 0.069117 sec.
+[2020.04.09-01.07.36:009][428]LogNiagara: Script 'NiagaraScript /Engine/Transient.NiagaraSystem_0:P_Explode2.EmitterSpawnScript' is in-sync skipping compile..
+[2020.04.09-01.07.36:009][428]LogNiagara: Script 'NiagaraScript /Engine/Transient.NiagaraSystem_0:P_Explode2.EmitterUpdateScript' is in-sync skipping compile..
+[2020.04.09-01.07.36:009][428]LogNiagara: Script 'NiagaraScript /Engine/Transient.NiagaraSystem_0:SystemSpawnScript' is in-sync skipping compile..
+[2020.04.09-01.07.36:009][428]LogNiagara: Script 'NiagaraScript /Engine/Transient.NiagaraSystem_0:SystemUpdateScript' is in-sync skipping compile..
+[2020.04.09-01.07.36:020][429]LogNiagaraEditor: Compiling System NiagaraScript /Engine/Transient.NiagaraSystem_0:P_Explode2.SpawnScript ...................................................................
+[2020.04.09-01.07.36:029][430]LogNiagaraEditor: Compiling System NiagaraScript /Engine/Transient.NiagaraSystem_0:P_Explode2.UpdateScript ...................................................................
+[2020.04.09-01.07.36:348][466]LogNiagaraEditor: Compiling System NiagaraScript /Engine/Transient.NiagaraSystem_0:P_Explode2.SpawnScript took 0.321978 sec (0.014798/0.306882)... Status NCS_UpToDate
+[2020.04.09-01.07.36:358][467]LogNiagara: UNiagraScript 'NiagaraScript /Engine/Transient.NiagaraSystem_0:P_Explode2.SpawnScript' was built locally..
+[2020.04.09-01.07.36:437][476]LogNiagaraEditor: Compiling System NiagaraScript /Engine/Transient.NiagaraSystem_0:P_Explode2.UpdateScript took 0.408148 sec (0.009941/0.096716)... Status NCS_UpToDate
+[2020.04.09-01.07.36:438][476]LogNiagara: UNiagraScript 'NiagaraScript /Engine/Transient.NiagaraSystem_0:P_Explode2.UpdateScript' was built locally..
+[2020.04.09-01.07.36:483][477]62070_NiagaraSystem_0_MessageLog: System successfully compiled.
+[2020.04.09-01.07.40:484][942]LogNiagaraEditor: Verbose: '/Engine/Transient' Precompile took 0.035481 sec.
+[2020.04.09-01.07.40:484][942]LogNiagara: Script 'NiagaraScript /Engine/Transient.NiagaraSystem_0:P_Explode2.EmitterSpawnScript' is in-sync skipping compile..
+[2020.04.09-01.07.40:484][942]LogNiagara: Script 'NiagaraScript /Engine/Transient.NiagaraSystem_0:P_Explode2.EmitterUpdateScript' is in-sync skipping compile..
+[2020.04.09-01.07.40:484][942]LogNiagaraEditor: Compiling System NiagaraScript /Engine/Transient.NiagaraSystem_0:P_Explode2.UpdateScript ...................................................................
+[2020.04.09-01.07.40:484][942]LogNiagara: Script 'NiagaraScript /Engine/Transient.NiagaraSystem_0:SystemSpawnScript' is in-sync skipping compile..
+[2020.04.09-01.07.40:484][942]LogNiagara: Script 'NiagaraScript /Engine/Transient.NiagaraSystem_0:SystemUpdateScript' is in-sync skipping compile..
+[2020.04.09-01.07.40:514][943]LogNiagaraEditor: Compiling System NiagaraScript /Engine/Transient.NiagaraSystem_0:P_Explode2.SpawnScript ...................................................................
+[2020.04.09-01.07.40:584][951]LogNiagaraEditor: Compiling System NiagaraScript /Engine/Transient.NiagaraSystem_0:P_Explode2.UpdateScript took 0.098885 sec (0.005255/0.093526)... Status NCS_UpToDate
+[2020.04.09-01.07.40:584][951]LogNiagara: UNiagraScript 'NiagaraScript /Engine/Transient.NiagaraSystem_0:P_Explode2.UpdateScript' was built locally..
+[2020.04.09-01.07.40:776][971]LogNiagaraEditor: Compiling System NiagaraScript /Engine/Transient.NiagaraSystem_0:P_Explode2.SpawnScript took 0.272533 sec (0.062537/0.175523)... Status NCS_UpToDate
+[2020.04.09-01.07.40:776][971]LogNiagara: UNiagraScript 'NiagaraScript /Engine/Transient.NiagaraSystem_0:P_Explode2.SpawnScript' was built locally..
+[2020.04.09-01.07.40:838][972]62070_NiagaraSystem_0_MessageLog: System successfully compiled.
+[2020.04.09-01.08.14:559][949]Cmd: TRANSACTION UNDO
+[2020.04.09-01.08.14:559][949]LogEditorTransaction: Undo Remove a module from the stack
+[2020.04.09-01.08.14:877][949]LogNiagaraEditor: Verbose: '/Engine/Transient' Precompile took 0.053514 sec.
+[2020.04.09-01.08.15:014][949]LogNiagaraEditor: Compiling System NiagaraScript /Engine/Transient.NiagaraSystem_0:P_Explode2.SpawnScript ...................................................................
+[2020.04.09-01.08.15:014][949]LogNiagaraEditor: Compiling System NiagaraScript /Engine/Transient.NiagaraSystem_0:P_Explode2.UpdateScript ...................................................................
+[2020.04.09-01.08.15:014][949]LogNiagaraEditor: Compiling System NiagaraScript /Engine/Transient.NiagaraSystem_0:SystemSpawnScript ...................................................................
+[2020.04.09-01.08.15:165][966]LogNiagaraEditor: Compiling System NiagaraScript /Engine/Transient.NiagaraSystem_0:P_Explode2.SpawnScript took 0.286068 sec (0.013627/0.272285)... Status NCS_UpToDate
+[2020.04.09-01.08.15:167][966]LogNiagaraEditor: Compiling System NiagaraScript /Engine/Transient.NiagaraSystem_0:SystemUpdateScript ...................................................................
+[2020.04.09-01.08.15:167][966]LogNiagara: UNiagraScript 'NiagaraScript /Engine/Transient.NiagaraSystem_0:P_Explode2.SpawnScript' was built locally..
+[2020.04.09-01.08.15:264][977]LogNiagaraEditor: Compiling System NiagaraScript /Engine/Transient.NiagaraSystem_0:P_Explode2.UpdateScript took 0.368116 sec (0.022878/0.094491)... Status NCS_UpToDate
+[2020.04.09-01.08.15:266][977]LogNiagara: UNiagraScript 'NiagaraScript /Engine/Transient.NiagaraSystem_0:P_Explode2.UpdateScript' was built locally..
+[2020.04.09-01.08.15:309][982]LogNiagaraEditor: Compiling System NiagaraScript /Engine/Transient.NiagaraSystem_0:SystemSpawnScript took 0.416049 sec (0.025408/0.047965)... Status NCS_UpToDate
+[2020.04.09-01.08.15:311][982]LogNiagara: UNiagraScript 'NiagaraScript /Engine/Transient.NiagaraSystem_0:SystemSpawnScript' was built locally..
+[2020.04.09-01.08.15:405][993]LogNiagaraEditor: Compiling System NiagaraScript /Engine/Transient.NiagaraSystem_0:SystemUpdateScript took 0.232940 sec (0.006879/0.094273)... Status NCS_UpToDate
+[2020.04.09-01.08.15:405][993]LogNiagara: UNiagraScript 'NiagaraScript /Engine/Transient.NiagaraSystem_0:SystemUpdateScript' was built locally..
+[2020.04.09-01.08.15:448][994]62070_NiagaraSystem_0_MessageLog: System successfully compiled.
+[2020.04.09-01.08.17:398][213]Cmd: TRANSACTION UNDO
+[2020.04.09-01.08.17:398][213]LogEditorTransaction: Undo Enable/Disable Module
+[2020.04.09-01.08.17:559][213]LogNiagaraEditor: Verbose: '/Engine/Transient' Precompile took 0.081702 sec.
+[2020.04.09-01.08.17:560][213]LogNiagara: Script 'NiagaraScript /Engine/Transient.NiagaraSystem_0:P_Explode2.EmitterSpawnScript' is in-sync skipping compile..
+[2020.04.09-01.08.17:560][213]LogNiagara: Script 'NiagaraScript /Engine/Transient.NiagaraSystem_0:P_Explode2.EmitterUpdateScript' is in-sync skipping compile..
+[2020.04.09-01.08.17:560][213]LogNiagara: Script 'NiagaraScript /Engine/Transient.NiagaraSystem_0:SystemSpawnScript' is in-sync skipping compile..
+[2020.04.09-01.08.17:560][213]LogNiagara: Script 'NiagaraScript /Engine/Transient.NiagaraSystem_0:SystemUpdateScript' is in-sync skipping compile..
+[2020.04.09-01.08.17:631][214]LogNiagaraEditor: Compiling System NiagaraScript /Engine/Transient.NiagaraSystem_0:P_Explode2.SpawnScript ...................................................................
+[2020.04.09-01.08.17:631][214]LogNiagaraEditor: Compiling System NiagaraScript /Engine/Transient.NiagaraSystem_0:P_Explode2.UpdateScript ...................................................................
+[2020.04.09-01.08.17:763][229]LogNiagaraEditor: Compiling System NiagaraScript /Engine/Transient.NiagaraSystem_0:P_Explode2.SpawnScript took 0.183593 sec (0.013865/0.169566)... Status NCS_UpToDate
+[2020.04.09-01.08.17:774][230]LogNiagara: UNiagraScript 'NiagaraScript /Engine/Transient.NiagaraSystem_0:P_Explode2.SpawnScript' was built locally..
+[2020.04.09-01.08.17:850][239]LogNiagaraEditor: Compiling System NiagaraScript /Engine/Transient.NiagaraSystem_0:P_Explode2.UpdateScript took 0.274433 sec (0.020767/0.091037)... Status NCS_UpToDate
+[2020.04.09-01.08.17:850][239]LogNiagara: UNiagraScript 'NiagaraScript /Engine/Transient.NiagaraSystem_0:P_Explode2.UpdateScript' was built locally..
+[2020.04.09-01.08.17:892][240]62070_NiagaraSystem_0_MessageLog: System successfully compiled.
+[2020.04.09-01.08.21:464][647]LogNiagaraEditor: Verbose: '/Engine/Transient' Precompile took 0.047882 sec.
+[2020.04.09-01.08.21:464][647]LogNiagaraEditor: Compiling System NiagaraScript /Engine/Transient.NiagaraSystem_0:P_Explode2.SpawnScript ...................................................................
+[2020.04.09-01.08.21:464][647]LogNiagara: Script 'NiagaraScript /Engine/Transient.NiagaraSystem_0:P_Explode2.EmitterSpawnScript' is in-sync skipping compile..
+[2020.04.09-01.08.21:464][647]LogNiagara: Script 'NiagaraScript /Engine/Transient.NiagaraSystem_0:P_Explode2.EmitterUpdateScript' is in-sync skipping compile..
+[2020.04.09-01.08.21:464][647]LogNiagara: Script 'NiagaraScript /Engine/Transient.NiagaraSystem_0:SystemSpawnScript' is in-sync skipping compile..
+[2020.04.09-01.08.21:465][647]LogNiagara: Script 'NiagaraScript /Engine/Transient.NiagaraSystem_0:SystemUpdateScript' is in-sync skipping compile..
+[2020.04.09-01.08.21:480][648]LogNiagaraEditor: Compiling System NiagaraScript /Engine/Transient.NiagaraSystem_0:P_Explode2.UpdateScript ...................................................................
+[2020.04.09-01.08.21:828][689]LogNiagaraEditor: Compiling System NiagaraScript /Engine/Transient.NiagaraSystem_0:P_Explode2.SpawnScript took 0.357967 sec (0.029481/0.328313)... Status NCS_UpToDate
+[2020.04.09-01.08.21:830][689]LogNiagara: UNiagraScript 'NiagaraScript /Engine/Transient.NiagaraSystem_0:P_Explode2.SpawnScript' was built locally..
+[2020.04.09-01.08.21:935][700]LogNiagaraEditor: Compiling System NiagaraScript /Engine/Transient.NiagaraSystem_0:P_Explode2.UpdateScript took 0.456372 sec (0.025748/0.107930)... Status NCS_UpToDate
+[2020.04.09-01.08.21:940][700]LogNiagara: UNiagraScript 'NiagaraScript /Engine/Transient.NiagaraSystem_0:P_Explode2.UpdateScript' was built locally..
+[2020.04.09-01.08.21:990][701]62070_NiagaraSystem_0_MessageLog: System successfully compiled.
+[2020.04.09-01.08.40:834][928]LogNiagaraEditor: Saving and Compiling NiagaraEmitter P_Explode2
+[2020.04.09-01.08.40:954][928]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/VFX/P_Explode2" FILE="C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/Art/VFX/P_Explode2.uasset" SILENT=true
+[2020.04.09-01.08.41:093][928]LogSavePackage: Moving 'C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Saved/P_Explode2BA4F42044A4C6D5BAC20ACB32D34AD27.tmp' to 'C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/Art/VFX/P_Explode2.uasset'
+[2020.04.09-01.08.45:178][381]LogNiagaraEditor: Warning: Cleanup System view model 0000016D1926C800
+[2020.04.09-01.08.45:400][381]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2020.04.09-01.08.45:476][381]LogNiagaraEditor: Warning: Cleanup System view model 0000016D1926C800
+[2020.04.09-01.08.45:476][381]LogNiagaraEditor: Warning: Deleting System view model 0000016D1926C800
+[2020.04.09-01.57.12:715][167]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/VFX/lol" FILE="C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/Art/VFX/lol.uasset" SILENT=true
+[2020.04.09-01.57.12:855][167]LogSavePackage: Moving 'C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Saved/lolB52A7B4C42D020E69A55ACB10CFB7B3F.tmp' to 'C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/Art/VFX/lol.uasset'
+[2020.04.09-01.57.15:895][167]LogUObjectHash: Compacting FUObjectHashTables data took 188.04ms
+[2020.04.09-01.57.16:037][167]LogUObjectHash: Compacting FUObjectHashTables data took   2.04ms
+[2020.04.09-01.57.16:059][167]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2020.04.09-01.57.21:465][688]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/VFX/lolol" FILE="C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/Art/VFX/lolol.uasset" SILENT=true
+[2020.04.09-01.57.21:534][688]LogSavePackage: Moving 'C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Saved/lololB3C589084D828C0A06C384892ECC6367.tmp' to 'C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/Art/VFX/lolol.uasset'
+[2020.04.09-01.57.21:656][688]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2020.04.09-01.57.21:693][688]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
+[2020.04.09-01.57.21:714][688]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2020.04.09-01.57.34:748][969]LogAssetEditorManager: Opening Asset editor for ParticleSystem /Game/Art/VFX/P_Explosion.P_Explosion
+[2020.04.09-01.57.56:485][465]LogSlate: Window 'P_Explosion' being destroyed
+[2020.04.09-01.58.06:347][286]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.09-01.58.31:234][777]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.09-02.00.49:050][642]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.09-02.01.00:256][525]LogAssetEditorManager: Opening Asset editor for ParticleSystem /Game/Art/VFX/lol.lol
+[2020.04.09-02.01.26:834][818]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.09-02.02.32:512][740]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.09-02.02.59:321][106]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2020.04.09-02.03.20:014][ 99]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.09-02.03.42:854][113]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2020.04.09-04.28.11:486][450]LogInit: XAudio2 using 'Speakers (3- USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.04.09-04.56.39:929][ 61]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.09-04.57.06:111][875]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.09-04.57.25:972][316]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.09-05.00.47:541][561]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.09-05.04.25:150][692]LogAssetTools: Warning: Failed to import 'D:\Downloads\unreal-particle-system-fundamentals\02\demos/Instructions.txt'. Unknown extension 'txt'.
+[2020.04.09-05.04.25:385][692]LogAssetTools: Warning: Failed to import 'D:\Downloads\unreal-particle-system-fundamentals\02\demos/Materials/M_Dust.uasset'. Unknown extension 'uasset'.
+[2020.04.09-05.04.25:423][692]LogAssetTools: Warning: Failed to import 'D:\Downloads\unreal-particle-system-fundamentals\02\demos/Materials/M_Explosion.uasset'. Unknown extension 'uasset'.
+[2020.04.09-05.04.25:445][692]LogAssetTools: Warning: Failed to import 'D:\Downloads\unreal-particle-system-fundamentals\02\demos/Materials/M_Lightning.uasset'. Unknown extension 'uasset'.
+[2020.04.09-05.04.25:508][692]LogAssetTools: Warning: Failed to import 'D:\Downloads\unreal-particle-system-fundamentals\02\demos/Materials/M_Shockwave.uasset'. Unknown extension 'uasset'.
+[2020.04.09-05.04.25:609][692]LogAssetTools: Warning: Failed to import 'D:\Downloads\unreal-particle-system-fundamentals\02\demos/Materials/M_Sprite_Circle.uasset'. Unknown extension 'uasset'.
+[2020.04.09-05.04.25:710][692]LogAssetTools: Warning: Failed to import 'D:\Downloads\unreal-particle-system-fundamentals\02\demos/Materials/M_Trail.uasset'. Unknown extension 'uasset'.
+[2020.04.09-05.04.25:898][692]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:\Downloads\unreal-particle-system-fundamentals\02\demos/Meshes/SM_Debris.fbx)
+[2020.04.09-05.04.27:130][692]LogFbx: Loading FBX Scene from D:\Downloads\unreal-particle-system-fundamentals\02\demos/Meshes/SM_Debris.fbx
+[2020.04.09-05.04.27:200][692]LogFbx: FBX Scene Loaded Succesfully
+[2020.04.09-05.04.30:266][692]LogSlate: Window 'FBX Import Options' being destroyed
+[2020.04.09-05.04.32:128][692]LogMaterial: Display: Missing cached shader map for material lambert1, compiling. 
+[2020.04.09-05.04.33:020][692]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 22
+[2020.04.09-05.04.33:884][692]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 14
+[2020.04.09-05.04.33:884][692]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 6
+[2020.04.09-05.04.33:884][692]LogFbx: Display: Triangulating static mesh pSphere1
+[2020.04.09-05.04.35:085][692]LogStaticMesh: Building static mesh SM_Debris...
+[2020.04.09-05.04.35:141][692]LogStaticMesh: Built static mesh [0.10s] /Game/Art/VFX/demos/Meshes/SM_Debris.SM_Debris
+[2020.04.09-05.04.36:720][692]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2020.04.09-05.04.36:955][692]LogAssetTools: Warning: Failed to import 'D:\Downloads\unreal-particle-system-fundamentals\02\demos/Meshes/SM_Debris.uasset'. Unknown extension 'uasset'.
+[2020.04.09-05.04.36:979][692]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:\Downloads\unreal-particle-system-fundamentals\02\demos/Meshes/SM_Sword.fbx)
+[2020.04.09-05.04.37:016][692]LogFbx: Loading FBX Scene from D:\Downloads\unreal-particle-system-fundamentals\02\demos/Meshes/SM_Sword.fbx
+[2020.04.09-05.04.37:057][692]LogFbx: FBX Scene Loaded Succesfully
+[2020.04.09-05.04.37:118][692]LogFbx: Display: Triangulating static mesh Sword
+[2020.04.09-05.04.37:302][692]LogStaticMesh: Building static mesh SM_Sword...
+[2020.04.09-05.04.37:305][692]LogStaticMesh: Built static mesh [0.12s] /Game/Art/VFX/demos/Meshes/SM_Sword.SM_Sword
+[2020.04.09-05.04.37:383][692]LogStaticMesh: Warning: SM_Sword has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2020.04.09-05.04.37:383][692]LogStaticMesh: Warning: SM_Sword has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2020.04.09-05.04.37:404][692]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2020.04.09-05.04.37:404][692]FBXImport: Warning: SM_Sword has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2020.04.09-05.04.37:404][692]FBXImport: Warning: SM_Sword has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2020.04.09-05.04.37:420][692]LogAssetTools: Warning: Failed to import 'D:\Downloads\unreal-particle-system-fundamentals\02\demos/Meshes/SM_Sword.uasset'. Unknown extension 'uasset'.
+[2020.04.09-05.04.37:447][692]LogAssetTools: Warning: Failed to import 'D:\Downloads\unreal-particle-system-fundamentals\02\demos/Meshes/SM_Sword_Anim.uasset'. Unknown extension 'uasset'.
+[2020.04.09-05.04.37:520][692]LogAssetTools: Warning: Failed to import 'D:\Downloads\unreal-particle-system-fundamentals\02\demos/Meshes/SM_Sword_PhysicsAsset.uasset'. Unknown extension 'uasset'.
+[2020.04.09-05.04.37:537][692]LogAssetTools: Warning: Failed to import 'D:\Downloads\unreal-particle-system-fundamentals\02\demos/Meshes/SM_Sword_Skeleton.uasset'. Unknown extension 'uasset'.
+[2020.04.09-05.04.37:553][692]LogAssetTools: Warning: Failed to import 'D:\Downloads\unreal-particle-system-fundamentals\02\demos/Particles/P_Explosion.uasset'. Unknown extension 'uasset'.
+[2020.04.09-05.04.37:571][692]LogAssetTools: Warning: Failed to import 'D:\Downloads\unreal-particle-system-fundamentals\02\demos/Particles/P_SwordLightning.uasset'. Unknown extension 'uasset'.
+[2020.04.09-05.04.37:615][692]LogAssetTools: Warning: Failed to import 'D:\Downloads\unreal-particle-system-fundamentals\02\demos/Particles/P_Trail.uasset'. Unknown extension 'uasset'.
+[2020.04.09-05.04.37:641][692]LogFactory: FactoryCreateFile: VectorFieldStatic with ReimportVectorFieldStaticFactory (0 0 D:\Downloads\unreal-particle-system-fundamentals\02\demos/Particles/VelocityField.fga)
+[2020.04.09-05.04.38:013][692]LogAssetTools: Warning: Failed to import 'D:\Downloads\unreal-particle-system-fundamentals\02\demos/Particles/VelocityField.uasset'. Unknown extension 'uasset'.
+[2020.04.09-05.04.38:186][692]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\Downloads\unreal-particle-system-fundamentals\02\demos/Textures/T_Circle_D.tga)
+[2020.04.09-05.04.39:435][692]LogTexture: Display: Building textures: T_Circle_D (AutoDXT, 512X512)
+[2020.04.09-05.04.40:461][692]LogAssetTools: Warning: Failed to import 'D:\Downloads\unreal-particle-system-fundamentals\02\demos/Textures/T_Circle_D.uasset'. Unknown extension 'uasset'.
+[2020.04.09-05.04.40:495][692]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\Downloads\unreal-particle-system-fundamentals\02\demos/Textures/T_Cloud_Noise.tga)
+[2020.04.09-05.04.40:501][692]LogTexture: Display: Building textures: T_Cloud_Noise (AutoDXT, 512X512)
+[2020.04.09-05.04.41:315][692]LogAssetTools: Warning: Failed to import 'D:\Downloads\unreal-particle-system-fundamentals\02\demos/Textures/T_Cloud_Noise.uasset'. Unknown extension 'uasset'.
+[2020.04.09-05.04.41:434][692]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\Downloads\unreal-particle-system-fundamentals\02\demos/Textures/T_DistortionRadial_N.tga)
+[2020.04.09-05.04.41:653][692]LogTexture: Display: Building textures: T_DistortionRadial_N (AutoDXT, 256X256)
+[2020.04.09-05.04.41:952][692]LogAssetTools: Warning: Failed to import 'D:\Downloads\unreal-particle-system-fundamentals\02\demos/Textures/T_DistortionRadial_N.uasset'. Unknown extension 'uasset'.
+[2020.04.09-05.04.42:000][692]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\Downloads\unreal-particle-system-fundamentals\02\demos/Textures/T_Dust_D.tga)
+[2020.04.09-05.04.42:095][692]LogTexture: Display: Building textures: T_Dust_D (AutoDXT, 512X512)
+[2020.04.09-05.04.42:668][692]LogAssetTools: Warning: Failed to import 'D:\Downloads\unreal-particle-system-fundamentals\02\demos/Textures/T_Dust_D.uasset'. Unknown extension 'uasset'.
+[2020.04.09-05.04.42:752][692]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\Downloads\unreal-particle-system-fundamentals\02\demos/Textures/T_Explosion_D.TGA)
+[2020.04.09-05.04.42:802][692]LogTexture: Display: Building textures: T_Explosion_D (AutoDXT, 2048X2048)
+[2020.04.09-05.04.45:794][692]LogAssetTools: Warning: Failed to import 'D:\Downloads\unreal-particle-system-fundamentals\02\demos/Textures/T_Explosion_D.uasset'. Unknown extension 'uasset'.
+[2020.04.09-05.04.45:800][692]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\Downloads\unreal-particle-system-fundamentals\02\demos/Textures/T_Lightning_D.tga)
+[2020.04.09-05.04.45:947][692]LogTexture: Display: Building textures: T_Lightning_D (AutoDXT, 512X256)
+[2020.04.09-05.04.46:251][692]LogAssetTools: Warning: Failed to import 'D:\Downloads\unreal-particle-system-fundamentals\02\demos/Textures/T_Lightning_D.uasset'. Unknown extension 'uasset'.
+[2020.04.09-05.04.46:262][692]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\Downloads\unreal-particle-system-fundamentals\02\demos/Textures/T_RadialGradient_D.tga)
+[2020.04.09-05.04.46:306][692]LogTexture: Display: Building textures: T_RadialGradient_D (AutoDXT, 512X512)
+[2020.04.09-05.04.46:463][692]LogAssetTools: Warning: Failed to import 'D:\Downloads\unreal-particle-system-fundamentals\02\demos/Textures/T_RadialGradient_D.uasset'. Unknown extension 'uasset'.
+[2020.04.09-05.04.46:476][692]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\Downloads\unreal-particle-system-fundamentals\02\demos/Textures/T_Trail_D.tga)
+[2020.04.09-05.04.46:495][692]LogTexture: Display: Building textures: T_Trail_D (AutoDXT, 512X512)
+[2020.04.09-05.04.46:721][692]LogAssetTools: Warning: Failed to import 'D:\Downloads\unreal-particle-system-fundamentals\02\demos/Textures/T_Trail_D.uasset'. Unknown extension 'uasset'.
+[2020.04.09-05.05.02:171][383]LogSlate: Window 'Message Log' being destroyed
+[2020.04.09-05.05.02:178][383]LogSlate: Window 'Message Log' being destroyed
+[2020.04.09-05.05.17:902][309]LogUObjectHash: Compacting FUObjectHashTables data took 137.51ms
+[2020.04.09-05.05.19:868][309]LogSlate: Window 'Delete Assets' being destroyed
+[2020.04.09-05.05.20:143][309]LogUObjectHash: Compacting FUObjectHashTables data took   1.87ms
+[2020.04.09-05.08.44:318][462]LogAssetTools: Warning: Failed to import 'D:\Downloads\unreal-particle-system-fundamentals\02\demos\Materials\M_Shockwave.uasset'. Unknown extension 'uasset'.
+[2020.04.09-05.11.03:306][962]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2020.04.09-05.11.05:696][962]LogSlate: Window 'Delete Assets' being destroyed
+[2020.04.09-05.11.05:843][962]LogUObjectHash: Compacting FUObjectHashTables data took   2.08ms
+[2020.04.09-05.11.11:487][400]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2020.04.09-05.11.11:741][400]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Caleigh_Test" FILE="C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/Levels/Caleigh_Test.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.04.09-05.11.11:857][400]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2020.04.09-05.11.16:390][400]LogSavePackage: Moving 'C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Saved/Caleigh_Test24B9FC4640B98226969BE8804E3FCD04.tmp' to 'C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/Levels/Caleigh_Test.umap'
+[2020.04.09-05.11.16:696][400]LogFileHelpers: Saving map 'Caleigh_Test' took 4.956
+[2020.04.09-05.11.16:719][400]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/VFX/Rock" FILE="C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/Art/VFX/Rock.uasset" SILENT=true
+[2020.04.09-05.11.16:858][400]LogSavePackage: Moving 'C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Saved/Rock953D75424D38F4538842E981571FD4A2.tmp' to 'C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/Art/VFX/Rock.uasset'
+[2020.04.09-05.11.16:882][400]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/VFX/Material__25" FILE="C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/Art/VFX/Material__25.uasset" SILENT=true
+[2020.04.09-05.11.17:031][400]LogSavePackage: Moving 'C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Saved/Material__25D8B7D5D94CEF2688DBF59DA66FCEA1E8.tmp' to 'C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/Art/VFX/Material__25.uasset'
+[2020.04.09-05.11.17:185][400]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/VFX/lol" FILE="C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/Art/VFX/lol.uasset" SILENT=true
+[2020.04.09-05.11.17:267][400]LogSavePackage: Moving 'C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Saved/lolD9F5EF44403D0C7FB035B0B47977E59B.tmp' to 'C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/Art/VFX/lol.uasset'
+[2020.04.09-05.11.17:315][400]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/VFX/P_Explosion" FILE="C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/Art/VFX/P_Explosion.uasset" SILENT=true
+[2020.04.09-05.11.17:391][400]LogSavePackage: Moving 'C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Saved/P_Explosion923D63EA400A818C6A0AD9ACA35518AF.tmp' to 'C:/Users/Caleigh/Documents/GitHub/Stolemates/Stolenmates/Content/Art/VFX/P_Explosion.uasset'
+[2020.04.09-05.11.22:560][815]LogUObjectHash: Compacting FUObjectHashTables data took  32.37ms
+[2020.04.09-05.11.23:309][815]LogCascade: Quitting Cascade. FXSystem=0x0000016D17C01EA0
+[2020.04.09-05.11.23:853][815]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2020.04.09-05.11.24:164][815]LogSlate: Window 'lol' being destroyed
+[2020.04.09-05.11.24:250][815]LogCascade: Quitting Cascade. FXSystem=0x0000016D4A6DA4E0
+[2020.04.09-05.11.24:613][815]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloorComponent) Not registered. Aborting.
+[2020.04.09-05.11.24:614][815]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2020.04.09-05.11.24:792][815]LogSlate: Window 'Stolenmates - Unreal Editor' being destroyed
+[2020.04.09-05.11.24:820][815]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.04.09-05.11.30:627][816]Cmd: QUIT_EDITOR
+[2020.04.09-05.11.34:526][816]LogExit: Preparing to exit.
+[2020.04.09-05.11.37:872][816]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2020.04.09-05.11.37:872][816]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2020.04.09-05.11.37:873][816]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2020.04.09-05.11.37:900][816]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2020.04.09-05.11.43:599][816]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
+[2020.04.09-05.11.45:677][816]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2020.04.09-05.11.45:697][816]LogExit: Editor shut down
+[2020.04.09-05.11.45:857][816]LogExit: Transaction tracking system shut down
+[2020.04.09-05.12.04:071][816]LogExit: Object subsystem successfully closed.
+[2020.04.09-05.12.05:676][816]LogShaderCompilers: Display: Shaders left to compile 0
+[2020.04.09-05.12.09:714][816]LogModuleManager: Shutting down and abandoning module SequencerWidgets (698)
+[2020.04.09-05.12.09:714][816]LogModuleManager: Shutting down and abandoning module DistCurveEditor (696)
+[2020.04.09-05.12.09:714][816]LogModuleManager: Shutting down and abandoning module Cascade (694)
+[2020.04.09-05.12.09:714][816]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (692)
+[2020.04.09-05.12.09:762][816]LogModuleManager: Shutting down and abandoning module MeshBuilder (690)
+[2020.04.09-05.12.09:762][816]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (688)
+[2020.04.09-05.12.09:769][816]LogModuleManager: Shutting down and abandoning module AddContentDialog (686)
+[2020.04.09-05.12.10:512][816]LogModuleManager: Shutting down and abandoning module WidgetCarousel (685)
+[2020.04.09-05.12.10:512][816]LogModuleManager: Shutting down and abandoning module EditorWidgets (682)
+[2020.04.09-05.12.10:512][816]LogModuleManager: Shutting down and abandoning module CollectionManager (680)
+[2020.04.09-05.12.10:558][816]LogModuleManager: Shutting down and abandoning module SceneOutliner (678)
+[2020.04.09-05.12.10:558][816]LogModuleManager: Shutting down and abandoning module StatsViewer (676)
+[2020.04.09-05.12.10:565][816]LogModuleManager: Shutting down and abandoning module VirtualTexturingEditor (674)
+[2020.04.09-05.12.10:565][816]LogModuleManager: Shutting down and abandoning module FoliageEdit (672)
+[2020.04.09-05.12.10:594][816]LogModuleManager: Shutting down and abandoning module LandscapeEditor (670)
+[2020.04.09-05.12.10:672][816]LogModuleManager: Shutting down and abandoning module MeshPaintMode (668)
+[2020.04.09-05.12.10:689][816]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (666)
+[2020.04.09-05.12.10:689][816]LogModuleManager: Shutting down and abandoning module ActorPickerMode (664)
+[2020.04.09-05.12.10:689][816]LogModuleManager: Shutting down and abandoning module GeometryMode (662)
+[2020.04.09-05.12.10:702][816]LogModuleManager: Shutting down and abandoning module TextureAlignMode (660)
+[2020.04.09-05.12.10:702][816]LogModuleManager: Shutting down and abandoning module BspMode (658)
+[2020.04.09-05.12.10:710][816]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (656)
+[2020.04.09-05.12.10:720][816]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (654)
+[2020.04.09-05.12.10:730][816]LogModuleManager: Shutting down and abandoning module AutomationWorker (652)
+[2020.04.09-05.12.10:746][816]LogModuleManager: Shutting down and abandoning module OculusMR (650)
+[2020.04.09-05.12.10:746][816]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (648)
+[2020.04.09-05.12.10:764][816]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (646)
+[2020.04.09-05.12.10:832][816]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (644)
+[2020.04.09-05.12.10:942][816]LogModuleManager: Shutting down and abandoning module PlacementMode (643)
+[2020.04.09-05.12.10:943][816]LogModuleManager: Shutting down and abandoning module MaterialEditor (642)
+[2020.04.09-05.12.10:982][816]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (638)
+[2020.04.09-05.12.11:038][816]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (636)
+[2020.04.09-05.12.11:038][816]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (634)
+[2020.04.09-05.12.11:039][816]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (632)
+[2020.04.09-05.12.11:048][816]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (630)
+[2020.04.09-05.12.11:048][816]LogModuleManager: Shutting down and abandoning module WebMMedia (628)
+[2020.04.09-05.12.11:053][816]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (626)
+[2020.04.09-05.12.11:073][816]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (624)
+[2020.04.09-05.12.11:086][816]LogModuleManager: Shutting down and abandoning module SequenceRecorder (623)
+[2020.04.09-05.12.11:126][816]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (620)
+[2020.04.09-05.12.11:126][816]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (618)
+[2020.04.09-05.12.11:162][816]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (616)
+[2020.04.09-05.12.11:162][816]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (614)
+[2020.04.09-05.12.11:162][816]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (612)
+[2020.04.09-05.12.11:162][816]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (610)
+[2020.04.09-05.12.11:162][816]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (608)
+[2020.04.09-05.12.11:162][816]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (606)
+[2020.04.09-05.12.11:162][816]LogModuleManager: Shutting down and abandoning module MagicLeapMediaCodecFactory (604)
+[2020.04.09-05.12.11:169][816]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (602)
+[2020.04.09-05.12.11:170][816]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (600)
+[2020.04.09-05.12.11:170][816]LogModuleManager: Shutting down and abandoning module CharacterAI (598)
+[2020.04.09-05.12.11:170][816]LogModuleManager: Shutting down and abandoning module SmartSnapping (596)
+[2020.04.09-05.12.11:179][816]LogModuleManager: Shutting down and abandoning module SessionServices (594)
+[2020.04.09-05.12.11:179][816]LogModuleManager: Shutting down and abandoning module MeshPaint (592)
+[2020.04.09-05.12.11:230][816]LogModuleManager: Shutting down and abandoning module ViewportSnapping (590)
+[2020.04.09-05.12.11:237][816]LogModuleManager: Shutting down and abandoning module ViewportInteraction (588)
+[2020.04.09-05.12.11:237][816]LogModuleManager: Shutting down and abandoning module ClothPainter (586)
+[2020.04.09-05.12.11:279][816]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (585)
+[2020.04.09-05.12.11:287][816]LogModuleManager: Shutting down and abandoning module LogVisualizer (582)
+[2020.04.09-05.12.11:321][816]LogModuleManager: Shutting down and abandoning module IntroTutorials (580)
+[2020.04.09-05.12.11:646][816]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (579)
+[2020.04.09-05.12.11:655][816]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (576)
+[2020.04.09-05.12.11:655][816]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (574)
+[2020.04.09-05.12.11:671][816]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (572)
+[2020.04.09-05.12.11:675][816]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (570)
+[2020.04.09-05.12.11:685][816]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (569)
+[2020.04.09-05.12.13:779][816]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (566)
+[2020.04.09-05.12.13:779][816]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (564)
+[2020.04.09-05.12.13:779][816]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (562)
+[2020.04.09-05.12.13:779][816]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (560)
+[2020.04.09-05.12.13:779][816]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (558)
+[2020.04.09-05.12.13:893][816]LogModuleManager: Shutting down and abandoning module InputBindingEditor (556)
+[2020.04.09-05.12.13:908][816]LogModuleManager: Shutting down and abandoning module MergeActors (554)
+[2020.04.09-05.12.13:922][816]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (552)
+[2020.04.09-05.12.13:951][816]LogModuleManager: Shutting down and abandoning module LocalizationService (551)
+[2020.04.09-05.12.13:960][816]LogModuleManager: Shutting down and abandoning module HardwareTargeting (548)
+[2020.04.09-05.12.13:960][816]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (546)
+[2020.04.09-05.12.13:971][816]LogModuleManager: Shutting down and abandoning module UndoHistory (544)
+[2020.04.09-05.12.13:986][816]LogModuleManager: Shutting down and abandoning module XmlParser (542)
+[2020.04.09-05.12.13:990][816]LogModuleManager: Shutting down and abandoning module Blutility (540)
+[2020.04.09-05.12.13:990][816]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (538)
+[2020.04.09-05.12.14:047][816]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (537)
+[2020.04.09-05.12.14:089][816]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (534)
+[2020.04.09-05.12.14:090][816]LogModuleManager: Shutting down and abandoning module SettingsEditor (532)
+[2020.04.09-05.12.14:109][816]LogModuleManager: Shutting down and abandoning module ProjectLauncher (530)
+[2020.04.09-05.12.14:123][816]LogModuleManager: Shutting down and abandoning module SessionFrontend (528)
+[2020.04.09-05.12.14:127][816]LogModuleManager: Shutting down and abandoning module ProfilerClient (526)
+[2020.04.09-05.12.14:142][816]LogModuleManager: Shutting down and abandoning module DeviceManager (524)
+[2020.04.09-05.12.14:157][816]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (523)
+[2020.04.09-05.12.14:306][816]LogModuleManager: Shutting down and abandoning module AutomationController (520)
+[2020.04.09-05.12.14:347][816]LogModuleManager: Shutting down and abandoning module AutomationWindow (518)
+[2020.04.09-05.12.14:359][816]LogModuleManager: Shutting down and abandoning module Layers (516)
+[2020.04.09-05.12.14:400][816]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (514)
+[2020.04.09-05.12.14:400][816]LogModuleManager: Shutting down and abandoning module DetailCustomizations (512)
+[2020.04.09-05.12.14:410][816]LogModuleManager: Shutting down and abandoning module PackagesDialog (510)
+[2020.04.09-05.12.14:410][816]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (508)
+[2020.04.09-05.12.14:432][816]LogModuleManager: Shutting down and abandoning module Persona (506)
+[2020.04.09-05.12.14:502][816]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (505)
+[2020.04.09-05.12.14:502][816]LogModuleManager: Shutting down and abandoning module AnimGraph (503)
+[2020.04.09-05.12.14:510][816]LogModuleManager: Shutting down and abandoning module Kismet (500)
+[2020.04.09-05.12.14:922][816]LogModuleManager: Shutting down and abandoning module KismetWidgets (499)
+[2020.04.09-05.12.14:926][816]LogModuleManager: Shutting down and abandoning module GraphEditor (496)
+[2020.04.09-05.12.15:100][816]LogModuleManager: Shutting down and abandoning module StructViewer (494)
+[2020.04.09-05.12.15:125][816]LogModuleManager: Shutting down and abandoning module ClassViewer (492)
+[2020.04.09-05.12.15:153][816]LogModuleManager: Shutting down and abandoning module Toolbox (490)
+[2020.04.09-05.12.15:154][816]LogModuleManager: Shutting down and abandoning module DesktopPlatform (489)
+[2020.04.09-05.12.15:158][816]LogModuleManager: Shutting down and abandoning module ModuleUI (486)
+[2020.04.09-05.12.15:168][816]LogModuleManager: Shutting down and abandoning module MovieSceneTools (484)
+[2020.04.09-05.12.15:258][816]LogModuleManager: Shutting down and abandoning module OutputLog (482)
+[2020.04.09-05.12.16:062][816]LogModuleManager: Shutting down and abandoning module GammaUI (480)
+[2020.04.09-05.12.16:066][816]LogModuleManager: Shutting down and abandoning module Documentation (478)
+[2020.04.09-05.12.16:086][816]LogModuleManager: Shutting down and abandoning module LiveCoding (476)
+[2020.04.09-05.12.16:090][816]LogModuleManager: Shutting down and abandoning module LevelSequence (474)
+[2020.04.09-05.12.16:090][816]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (472)
+[2020.04.09-05.12.16:097][816]LogModuleManager: Shutting down and abandoning module MovieScene (470)
+[2020.04.09-05.12.16:099][816]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (468)
+[2020.04.09-05.12.16:138][816]LogModuleManager: Shutting down and abandoning module LauncherPlatform (466)
+[2020.04.09-05.12.16:138][816]LogModuleManager: Shutting down and abandoning module AnalyticsET (464)
+[2020.04.09-05.12.16:138][816]LogModuleManager: Shutting down and abandoning module PortalServices (462)
+[2020.04.09-05.12.16:146][816]LogModuleManager: Shutting down and abandoning module PortalRpc (460)
+[2020.04.09-05.12.16:146][816]LogModuleManager: Shutting down and abandoning module MessagingRpc (458)
+[2020.04.09-05.12.16:146][816]LogModuleManager: Shutting down and abandoning module AIModule (456)
+[2020.04.09-05.12.16:230][816]LogModuleManager: Shutting down and abandoning module GameplayDebugger (455)
+[2020.04.09-05.12.16:231][816]LogModuleManager: Shutting down and abandoning module AITestSuite (453)
+[2020.04.09-05.12.16:235][816]LogModuleManager: Shutting down and abandoning module NavigationSystem (451)
+[2020.04.09-05.12.16:235][816]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (448)
+[2020.04.09-05.12.16:334][816]LogModuleManager: Shutting down and abandoning module ProfilerService (446)
+[2020.04.09-05.12.16:354][816]LogModuleManager: Shutting down and abandoning module TaskGraph (444)
+[2020.04.09-05.12.16:368][816]LogModuleManager: Shutting down and abandoning module ScreenshotTools (442)
+[2020.04.09-05.12.16:368][816]LogModuleManager: Shutting down and abandoning module SteamVRController (440)
+[2020.04.09-05.12.16:368][816]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (438)
+[2020.04.09-05.12.16:372][816]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (436)
+[2020.04.09-05.12.16:380][816]LogModuleManager: Shutting down and abandoning module OculusEditor (434)
+[2020.04.09-05.12.16:391][816]LogModuleManager: Shutting down and abandoning module OculusInput (432)
+[2020.04.09-05.12.16:398][816]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (430)
+[2020.04.09-05.12.16:399][816]LogModuleManager: Shutting down and abandoning module EditableMesh (428)
+[2020.04.09-05.12.16:405][816]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (426)
+[2020.04.09-05.12.16:405][816]LogModuleManager: Shutting down and abandoning module CableComponent (424)
+[2020.04.09-05.12.16:405][816]LogModuleManager: Shutting down and abandoning module AudioCapture (422)
+[2020.04.09-05.12.16:405][816]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (420)
+[2020.04.09-05.12.16:405][816]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (418)
+[2020.04.09-05.12.16:406][816]LogModuleManager: Shutting down and abandoning module AppleImageUtils (416)
+[2020.04.09-05.12.16:406][816]LogModuleManager: Shutting down and abandoning module AndroidPermission (414)
+[2020.04.09-05.12.16:406][816]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (412)
+[2020.04.09-05.12.16:412][816]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (410)
+[2020.04.09-05.12.16:445][816]LogModuleManager: Shutting down and abandoning module MediaCompositing (408)
+[2020.04.09-05.12.16:445][816]LogModuleManager: Shutting down and abandoning module ImgMedia (406)
+[2020.04.09-05.12.16:451][816]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (404)
+[2020.04.09-05.12.16:451][816]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (402)
+[2020.04.09-05.12.16:451][816]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (400)
+[2020.04.09-05.12.16:451][816]LogModuleManager: Shutting down and abandoning module NiagaraEditorWidgets (398)
+[2020.04.09-05.12.16:461][816]LogModuleManager: Shutting down and abandoning module HoudiniNiagaraEditor (396)
+[2020.04.09-05.12.16:466][816]LogModuleManager: Shutting down and abandoning module HoudiniNiagara (394)
+[2020.04.09-05.12.16:466][816]LogModuleManager: Shutting down and abandoning module HTML5Networking (392)
+[2020.04.09-05.12.16:466][816]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (390)
+[2020.04.09-05.12.16:466][816]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (388)
+[2020.04.09-05.12.16:466][816]LogModuleManager: Shutting down and abandoning module BackChannel (386)
+[2020.04.09-05.12.16:476][816]LogModuleManager: Shutting down and abandoning module AutomationUtilsEditor (384)
+[2020.04.09-05.12.16:476][816]LogModuleManager: Shutting down and abandoning module AutomationUtils (382)
+[2020.04.09-05.12.16:484][816]LogModuleManager: Shutting down and abandoning module AlembicImporter (380)
+[2020.04.09-05.12.16:492][816]LogModuleManager: Shutting down and abandoning module AlembicLibrary (379)
+[2020.04.09-05.12.16:502][816]LogModuleManager: Shutting down and abandoning module GeometryCache (378)
+[2020.04.09-05.12.16:502][816]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (377)
+[2020.04.09-05.12.16:502][816]LogModuleManager: Shutting down and abandoning module VariantManagerContent (372)
+[2020.04.09-05.12.16:508][816]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (370)
+[2020.04.09-05.12.16:520][816]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (368)
+[2020.04.09-05.12.16:520][816]LogModuleManager: Shutting down and abandoning module PluginBrowser (366)
+[2020.04.09-05.12.16:615][816]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (364)
+[2020.04.09-05.12.16:621][816]LogModuleManager: Shutting down and abandoning module MaterialAnalyzer (362)
+[2020.04.09-05.12.16:637][816]LogModuleManager: Shutting down and abandoning module CurveEditorTools (360)
+[2020.04.09-05.12.16:668][816]LogModuleManager: Shutting down and abandoning module CurveEditor (359)
+[2020.04.09-05.12.16:702][816]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (356)
+[2020.04.09-05.12.16:702][816]LogModuleManager: Shutting down and abandoning module CryptoKeys (354)
+[2020.04.09-05.12.16:714][816]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (352)
+[2020.04.09-05.12.16:718][816]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (350)
+[2020.04.09-05.12.16:729][816]LogModuleManager: Shutting down and abandoning module UObjectPlugin (348)
+[2020.04.09-05.12.16:729][816]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (346)
+[2020.04.09-05.12.16:730][816]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (344)
+[2020.04.09-05.12.16:758][816]LogModuleManager: Shutting down and abandoning module GitSourceControl (342)
+[2020.04.09-05.12.16:775][816]LogModuleManager: Shutting down and abandoning module SourceControl (341)
+[2020.04.09-05.12.16:792][816]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (338)
+[2020.04.09-05.12.16:818][816]LogModuleManager: Shutting down and abandoning module AnimationSharingEd (336)
+[2020.04.09-05.12.16:818][816]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (334)
+[2020.04.09-05.12.16:829][816]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (332)
+[2020.04.09-05.12.16:829][816]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (330)
+[2020.04.09-05.12.16:850][816]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (328)
+[2020.04.09-05.12.16:850][816]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (326)
+[2020.04.09-05.12.16:859][816]LogModuleManager: Shutting down and abandoning module Paper2DEditor (324)
+[2020.04.09-05.12.16:896][816]LogModuleManager: Shutting down and abandoning module Stolenmates (322)
+[2020.04.09-05.12.16:896][816]LogModuleManager: Shutting down and abandoning module SignificanceManager (320)
+[2020.04.09-05.12.16:896][816]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (318)
+[2020.04.09-05.12.16:897][816]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (316)
+[2020.04.09-05.12.16:904][816]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (312)
+[2020.04.09-05.12.16:904][816]LogModuleManager: Shutting down and abandoning module ActorSequence (310)
+[2020.04.09-05.12.16:905][816]LogModuleManager: Shutting down and abandoning module UdpMessaging (308)
+[2020.04.09-05.12.17:019][816]LogModuleManager: Shutting down and abandoning module TcpMessaging (306)
+[2020.04.09-05.12.17:133][816]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (304)
+[2020.04.09-05.12.17:143][816]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (302)
+[2020.04.09-05.12.17:143][816]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (300)
+[2020.04.09-05.12.17:364][816]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (298)
+[2020.04.09-05.12.17:364][816]LogModuleManager: Shutting down and abandoning module MagicLeapController (296)
+[2020.04.09-05.12.17:447][816]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2020.04.09-05.12.17:447][816]LogModuleManager: Shutting down and abandoning module MagicLeapAR (294)
+[2020.04.09-05.12.17:467][816]LogModuleManager: Shutting down and abandoning module AugmentedReality (293)
+[2020.04.09-05.12.17:468][816]LogModuleManager: Shutting down and abandoning module NiagaraEditor (290)
+[2020.04.09-05.12.17:564][816]LogModuleManager: Shutting down and abandoning module NiagaraAnimNotifies (288)
+[2020.04.09-05.12.17:565][816]LogModuleManager: Shutting down and abandoning module Niagara (286)
+[2020.04.09-05.12.17:592][816]LogModuleManager: Shutting down and abandoning module NiagaraCore (284)
+[2020.04.09-05.12.17:592][816]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (282)
+[2020.04.09-05.12.17:624][816]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (280)
+[2020.04.09-05.12.17:634][816]LogModuleManager: Shutting down and abandoning module FacialAnimation (278)
+[2020.04.09-05.12.17:634][816]LogModuleManager: Shutting down and abandoning module DataValidation (276)
+[2020.04.09-05.12.17:645][816]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (274)
+[2020.04.09-05.12.17:656][816]LogModuleManager: Shutting down and abandoning module LevelEditor (273)
+[2020.04.09-05.12.17:868][816]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (272)
+[2020.04.09-05.12.17:885][816]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (270)
+[2020.04.09-05.12.17:922][816]LogModuleManager: Shutting down and abandoning module MainFrame (268)
+[2020.04.09-05.12.17:929][816]LogModuleManager: Shutting down and abandoning module HotReload (267)
+[2020.04.09-05.12.17:960][816]LogModuleManager: Shutting down and abandoning module ContentBrowser (263)
+[2020.04.09-05.12.18:091][816]LogModuleManager: Shutting down and abandoning module TreeMap (261)
+[2020.04.09-05.12.18:104][816]LogModuleManager: Shutting down and abandoning module AnimationSharing (258)
+[2020.04.09-05.12.18:104][816]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (256)
+[2020.04.09-05.12.18:104][816]LogModuleManager: Shutting down and abandoning module Paper2D (254)
+[2020.04.09-05.12.18:119][816]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (252)
+[2020.04.09-05.12.19:089][816]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (250)
+[2020.04.09-05.12.19:125][816]LogModuleManager: Shutting down and abandoning module NetworkReplayStreaming (248)
+[2020.04.09-05.12.19:130][816]LogModuleManager: Shutting down and abandoning module PacketHandler (246)
+[2020.04.09-05.12.19:131][816]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (244)
+[2020.04.09-05.12.19:136][816]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (242)
+[2020.04.09-05.12.19:227][816]LogModuleManager: Shutting down and abandoning module MediaAssets (240)
+[2020.04.09-05.12.19:232][816]LogModuleManager: Shutting down and abandoning module Overlay (238)
+[2020.04.09-05.12.19:232][816]LogModuleManager: Shutting down and abandoning module OverlayEditor (237)
+[2020.04.09-05.12.19:232][816]LogModuleManager: Shutting down and abandoning module VREditor (234)
+[2020.04.09-05.12.19:260][816]LogModuleManager: Shutting down and abandoning module StringTableEditor (232)
+[2020.04.09-05.12.19:272][816]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (230)
+[2020.04.09-05.12.19:272][816]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (228)
+[2020.04.09-05.12.19:295][816]LogModuleManager: Shutting down and abandoning module FunctionalTesting (226)
+[2020.04.09-05.12.19:302][816]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (224)
+[2020.04.09-05.12.19:497][816]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (223)
+[2020.04.09-05.12.19:549][816]LogModuleManager: Shutting down and abandoning module UMG (220)
+[2020.04.09-05.12.19:570][816]LogModuleManager: Shutting down and abandoning module UMGEditor (219)
+[2020.04.09-05.12.19:593][816]LogModuleManager: Shutting down and abandoning module Sequencer (218)
+[2020.04.09-05.12.19:644][816]LogModuleManager: Shutting down and abandoning module MessageLog (215)
+[2020.04.09-05.12.19:644][816]LogModuleManager: Shutting down and abandoning module SlateReflector (210)
+[2020.04.09-05.12.19:670][816]LogModuleManager: Shutting down and abandoning module Slate (208)
+[2020.04.09-05.12.19:670][816]LogModuleManager: Shutting down and abandoning module LandscapeEditorUtilities (206)
+[2020.04.09-05.12.19:670][816]LogModuleManager: Shutting down and abandoning module EditorStyle (204)
+[2020.04.09-05.12.19:871][816]LogModuleManager: Shutting down and abandoning module UnrealEd (202)
+[2020.04.09-05.12.19:871][816]LogModuleManager: Shutting down and abandoning module MRMesh (200)
+[2020.04.09-05.12.19:871][816]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (198)
+[2020.04.09-05.12.19:879][816]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (196)
+[2020.04.09-05.12.19:889][816]LogModuleManager: Shutting down and abandoning module XAudio2 (194)
+[2020.04.09-05.12.19:889][816]LogModuleManager: Shutting down and abandoning module Networking (192)
+[2020.04.09-05.12.19:889][816]LogModuleManager: Shutting down and abandoning module Core (190)
+[2020.04.09-05.12.19:898][816]LogModuleManager: Shutting down and abandoning module KismetCompiler (188)
+[2020.04.09-05.12.19:898][816]LogModuleManager: Shutting down and abandoning module MeshUtilities (186)
+[2020.04.09-05.12.19:910][816]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (185)
+[2020.04.09-05.12.19:920][816]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (184)
+[2020.04.09-05.12.19:945][816]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (183)
+[2020.04.09-05.12.19:956][816]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (181)
+[2020.04.09-05.12.20:012][816]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (179)
+[2020.04.09-05.12.20:018][816]LogModuleManager: Shutting down and abandoning module MaterialBaking (175)
+[2020.04.09-05.12.20:027][816]LogModuleManager: Shutting down and abandoning module NullInstallBundleManager (170)
+[2020.04.09-05.12.20:027][816]LogModuleManager: Shutting down and abandoning module DerivedDataCache (168)
+[2020.04.09-05.12.20:028][816]LogDerivedDataCache: Shutdown
+[2020.04.09-05.12.20:028][816]LogModuleManager: Shutting down and abandoning module XGEController (166)
+[2020.04.09-05.12.20:084][816]LogModuleManager: Shutting down and abandoning module TargetPlatform (164)
+[2020.04.09-05.12.20:145][816]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (163)
+[2020.04.09-05.12.20:165][816]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (161)
+[2020.04.09-05.12.20:224][816]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (159)
+[2020.04.09-05.12.20:233][816]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (157)
+[2020.04.09-05.12.20:243][816]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (155)
+[2020.04.09-05.12.20:256][816]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (153)
+[2020.04.09-05.12.20:265][816]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (151)
+[2020.04.09-05.12.20:266][816]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (149)
+[2020.04.09-05.12.20:266][816]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (147)
+[2020.04.09-05.12.20:305][816]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (145)
+[2020.04.09-05.12.20:305][816]LogModuleManager: Shutting down and abandoning module ImageWrapper (144)
+[2020.04.09-05.12.20:305][816]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (141)
+[2020.04.09-05.12.20:305][816]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (139)
+[2020.04.09-05.12.20:311][816]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (137)
+[2020.04.09-05.12.20:314][816]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (135)
+[2020.04.09-05.12.20:326][816]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (133)
+[2020.04.09-05.12.25:496][816]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (131)
+[2020.04.09-05.12.25:510][816]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (129)
+[2020.04.09-05.12.25:520][816]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (127)
+[2020.04.09-05.12.25:527][816]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (125)
+[2020.04.09-05.12.25:535][816]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (123)
+[2020.04.09-05.12.26:037][816]LogModuleManager: Shutting down and abandoning module Messaging (121)
+[2020.04.09-05.12.26:037][816]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (119)
+[2020.04.09-05.12.26:429][816]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (117)
+[2020.04.09-05.12.26:434][816]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (115)
+[2020.04.09-05.12.28:208][816]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (113)
+[2020.04.09-05.12.28:216][816]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (111)
+[2020.04.09-05.12.28:224][816]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (109)
+[2020.04.09-05.12.28:230][816]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (107)
+[2020.04.09-05.12.28:238][816]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (105)
+[2020.04.09-05.12.28:300][816]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (103)
+[2020.04.09-05.12.28:308][816]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (101)
+[2020.04.09-05.12.28:316][816]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (99)
+[2020.04.09-05.12.28:325][816]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (97)
+[2020.04.09-05.12.28:329][816]LogModuleManager: Shutting down and abandoning module InputCore (94)
+[2020.04.09-05.12.28:329][816]LogModuleManager: Shutting down and abandoning module Settings (92)
+[2020.04.09-05.12.28:334][816]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (90)
+[2020.04.09-05.12.28:462][816]LogModuleManager: Shutting down and abandoning module PhysXCooking (88)
+[2020.04.09-05.12.28:462][816]LogModuleManager: Shutting down and abandoning module WindowsPlatformFeatures (86)
+[2020.04.09-05.12.28:462][816]LogModuleManager: Shutting down and abandoning module GameplayMediaEncoder (85)
+[2020.04.09-05.12.28:467][816]LogModuleManager: Shutting down and abandoning module SteamVR (82)
+[2020.04.09-05.12.28:476][816]LogHMD: Freeing OpenVRDLLHandle.
+[2020.04.09-05.12.28:476][816]LogModuleManager: Shutting down and abandoning module OculusHMD (80)
+[2020.04.09-05.12.28:486][816]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (78)
+[2020.04.09-05.12.28:486][816]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (76)
+[2020.04.09-05.12.28:486][816]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2020.04.09-05.12.28:486][816]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (70)
+[2020.04.09-05.12.28:914][816]LogModuleManager: Shutting down and abandoning module XMPP (65)
+[2020.04.09-05.12.28:932][816]LogModuleManager: Shutting down and abandoning module WebSockets (64)
+[2020.04.09-05.12.29:191][816]LogModuleManager: Shutting down and abandoning module HTTP (61)
+[2020.04.09-05.12.29:191][816]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2020.04.09-05.12.29:191][816]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BF7F84F02-4E98-2688-E177-BD9E535AD8F5%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.23.1-9631420%2B%2B%2BUE4%2BRelease-4.23&UserID=5d0567614260093d22dde39391d8bfa6%7C93c9e6b38a17407db3f59ed76ab178f2%7C04ff33a4-c227-4de6-8d32-d5283d066e67&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2020.04.09-05.12.29:237][816]LogModuleManager: Shutting down and abandoning module SSL (60)
+[2020.04.09-05.12.29:570][816]LogModuleManager: Shutting down and abandoning module WmfMedia (56)
+[2020.04.09-05.12.29:599][816]LogModuleManager: Shutting down and abandoning module Media (55)
+[2020.04.09-05.12.29:618][816]LogModuleManager: Shutting down and abandoning module MagicLeap (52)
+[2020.04.09-05.12.29:628][816]LogModuleManager: Shutting down and abandoning module NiagaraVertexFactories (50)
+[2020.04.09-05.12.29:629][816]LogModuleManager: Shutting down and abandoning module NiagaraShader (48)
+[2020.04.09-05.12.29:636][816]LogModuleManager: Shutting down and abandoning module DatasmithContent (46)
+[2020.04.09-05.12.29:636][816]LogModuleManager: Shutting down and abandoning module AISupportModule (44)
+[2020.04.09-05.12.29:636][816]LogModuleManager: Shutting down and abandoning module PlatformCryptoOpenSSL (42)
+[2020.04.09-05.12.29:641][816]LogModuleManager: Shutting down and abandoning module PlatformCrypto (40)
+[2020.04.09-05.12.29:641][816]LogModuleManager: Shutting down and abandoning module AnimationModifiers (38)
+[2020.04.09-05.12.29:658][816]LogModuleManager: Shutting down and abandoning module PropertyEditor (37)
+[2020.04.09-05.12.33:918][816]LogModuleManager: Shutting down and abandoning module AudioEditor (34)
+[2020.04.09-05.12.34:268][816]LogModuleManager: Shutting down and abandoning module TextureCompressor (32)
+[2020.04.09-05.12.34:268][816]LogModuleManager: Shutting down and abandoning module RenderCore (30)
+[2020.04.09-05.12.34:268][816]LogModuleManager: Shutting down and abandoning module Landscape (28)
+[2020.04.09-05.12.34:268][816]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (26)
+[2020.04.09-05.12.34:762][816]LogModuleManager: Shutting down and abandoning module OpenGLDrv (24)
+[2020.04.09-05.12.34:786][816]LogModuleManager: Shutting down and abandoning module D3D11RHI (22)
+[2020.04.09-05.12.34:786][816]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
+[2020.04.09-05.12.34:791][816]LogModuleManager: Shutting down and abandoning module Renderer (18)
+[2020.04.09-05.12.34:802][816]LogModuleManager: Shutting down and abandoning module Engine (16)
+[2020.04.09-05.12.34:810][816]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
+[2020.04.09-05.12.34:810][816]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
+[2020.04.09-05.12.34:816][816]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
+[2020.04.09-05.12.34:816][816]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
+[2020.04.09-05.12.34:819][816]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
+[2020.04.09-05.12.34:827][816]LogModuleManager: Shutting down and abandoning module PakFile (4)
+[2020.04.09-05.12.34:872][816]LogModuleManager: Shutting down and abandoning module RSA (3)
+[2020.04.09-05.12.34:945][816]LogD3D11RHI: Shutdown
+[2020.04.09-05.12.34:951][816]LogD3D11RHI: CleanupD3DDevice
+[2020.04.09-05.12.35:850][816]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2020.04.09-05.12.35:881][816]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2020.04.09-05.12.35:929][816]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2020.04.09-05.12.53:797][816]LogD3D11RHI: ~FD3D11DynamicRHI
+[2020.04.09-05.12.54:596][816]LogExit: Exiting.
+[2020.04.09-05.12.56:685][816]Log file closed, 04/09/20 01:12:56
