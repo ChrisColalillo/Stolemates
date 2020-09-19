@@ -37,6 +37,9 @@ public:
 	AHeart* heart;
 	float timeHoldingHeart = 0;
 	bool gameOver = false;
+
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "PlayerProperties")
+	float DecalScale = 1.0f;
 protected:
 	virtual void BeginPlay() override;
 	virtual void LeftRightAxis(float val);
