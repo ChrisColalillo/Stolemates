@@ -10,9 +10,9 @@
 	{
 		"MajorVersion": 4,
 		"MinorVersion": 23,
-		"PatchVersion": 1,
-		"Changelist": 9631420,
-		"CompatibleChangelist": 8386587,
+		"PatchVersion": 0,
+		"Changelist": 8386587,
+		"CompatibleChangelist": 0,
 		"IsLicenseeVersion": 0,
 		"IsPromotedBuild": 1,
 		"BranchName": "++UE4+Release-4.23",
@@ -27,6 +27,42 @@
 		{
 			"Path": "$(EngineDir)/Binaries/Win64/UE4Editor-Cmd.exe",
 			"Type": "Executable"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/FX/Niagara/Binaries/Win64/UE4Editor-NiagaraCore.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/FX/Niagara/Binaries/Win64/UE4Editor-Niagara.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/FX/Niagara/Binaries/Win64/UE4Editor-NiagaraAnimNotifies.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/FX/Niagara/Binaries/Win64/UE4Editor-NiagaraShader.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/FX/Niagara/Binaries/Win64/UE4Editor-NiagaraVertexFactories.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/FX/Niagara/Binaries/Win64/UE4Editor-NiagaraEditor.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/FX/Niagara/Binaries/Win64/UE4Editor-NiagaraEditorWidgets.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/FX/HoudiniNiagara/Binaries/Win64/UE4Editor-HoudiniNiagara.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/FX/HoudiniNiagara/Binaries/Win64/UE4Editor-HoudiniNiagaraEditor.dll",
+			"Type": "DynamicLibrary"
 		},
 		{
 			"Path": "$(EngineDir)/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll",
@@ -1881,6 +1917,10 @@
 			"Type": "DynamicLibrary"
 		},
 		{
+			"Path": "$(EngineDir)/Binaries/Win64/UE4Editor-ShaderFormatVectorVM.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
 			"Path": "$(EngineDir)/Binaries/Win64/UE4Editor-TreeMap.dll",
 			"Type": "DynamicLibrary"
 		},
@@ -1930,6 +1970,14 @@
 		},
 		{
 			"Path": "$(EngineDir)/Binaries/Win64/UE4Editor.version",
+			"Type": "RequiredResource"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/FX/Niagara/Binaries/Win64/UE4Editor.modules",
+			"Type": "RequiredResource"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/FX/HoudiniNiagara/Binaries/Win64/UE4Editor.modules",
 			"Type": "RequiredResource"
 		},
 		{
@@ -2252,6 +2300,18 @@
 	"RuntimeDependencies": [
 		{
 			"Path": "$(ProjectDir)/Stolenmates.uproject",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/FX/Niagara/Niagara.uplugin",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/FX/NiagaraExtras/NiagaraExtras.uplugin",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/FX/HoudiniNiagara/HoudiniNiagara.uplugin",
 			"Type": "UFS"
 		},
 		{
