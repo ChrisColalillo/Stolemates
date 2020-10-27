@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\Stolenmates.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{1449B7E2-7830-41C1-95AD-04F22C12B426}</UniqueIdentifier>
+      <UniqueIdentifier>{0D25794F-600C-48AB-A795-F8465AFEBEF4}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Stolenmates.Target.cs">
       <Filter>Source</Filter>
@@ -13,7 +13,7 @@
     </None>
     <None Include="..\..\.gitignore" />
     <Filter Include="Config">
-      <UniqueIdentifier>{08F93FDB-4205-47B1-B7FC-E47B6C5F1CB0}</UniqueIdentifier>
+      <UniqueIdentifier>{9570182A-DC97-4BCF-BC5D-C390E2180897}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -28,55 +28,55 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Config\Android">
-      <UniqueIdentifier>{A0A07E39-BB32-4F55-8C7D-1B3DE10213A9}</UniqueIdentifier>
+      <UniqueIdentifier>{3FD31E22-CDC1-4ED3-B839-EE204C6D597B}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\Android\AndroidEngine.ini">
       <Filter>Config\Android</Filter>
     </None>
     <Filter Include="Config\IOS">
-      <UniqueIdentifier>{1FCB927D-474E-4D17-A1FA-3B2AF8710548}</UniqueIdentifier>
+      <UniqueIdentifier>{0DC04AC1-8CAF-4418-9F53-B1ACCDF601F1}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\IOS\IOSEngine.ini">
       <Filter>Config\IOS</Filter>
     </None>
     <Filter Include="Config\Linux">
-      <UniqueIdentifier>{EFF03B61-58CE-40E3-85B5-C82A67D4DAF8}</UniqueIdentifier>
+      <UniqueIdentifier>{82865029-F92A-43D0-8F64-66A267BB753F}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\Linux\LinuxEngine.ini">
       <Filter>Config\Linux</Filter>
     </None>
     <Filter Include="Config\Mac">
-      <UniqueIdentifier>{2095EE26-21D1-4095-80AB-A6BDAA1CA64A}</UniqueIdentifier>
+      <UniqueIdentifier>{8F9B6A7D-B4D5-4CCE-A075-FCC09429CA86}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\Mac\MacEngine.ini">
       <Filter>Config\Mac</Filter>
     </None>
     <Filter Include="Config\PS4">
-      <UniqueIdentifier>{7ADCD8C6-0E10-4046-9983-6CE20CB076BF}</UniqueIdentifier>
+      <UniqueIdentifier>{545D480A-B74C-4C43-9BC2-34DB59AD616F}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\PS4\PS4Engine.ini">
       <Filter>Config\PS4</Filter>
     </None>
     <Filter Include="Config\Switch">
-      <UniqueIdentifier>{A46839F6-E363-4102-976E-F89F40DD28C7}</UniqueIdentifier>
+      <UniqueIdentifier>{4CE61749-6FC2-477F-BA35-FDCAAE40A367}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\Switch\SwitchEngine.ini">
       <Filter>Config\Switch</Filter>
     </None>
     <Filter Include="Config\Windows">
-      <UniqueIdentifier>{AFD524E9-D225-430D-A478-94A6B2588A04}</UniqueIdentifier>
+      <UniqueIdentifier>{8B695F72-3AF4-4C01-8AC2-BF2EB908DF2F}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\Windows\WindowsEngine.ini">
       <Filter>Config\Windows</Filter>
     </None>
     <Filter Include="Config\XboxOne">
-      <UniqueIdentifier>{03F6949A-3912-4A80-AC2F-5240AE4AB8C2}</UniqueIdentifier>
+      <UniqueIdentifier>{A06B3AD6-BEE5-4675-93F8-ADE2B4D920FF}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\XboxOne\XboxOneEngine.ini">
       <Filter>Config\XboxOne</Filter>
     </None>
     <Filter Include="Source\Stolenmates">
-      <UniqueIdentifier>{6FB920C8-EC12-4D86-A1EE-7D8160859477}</UniqueIdentifier>
+      <UniqueIdentifier>{8D63FA19-FA7F-49FF-A75D-F067E3D01180}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\Stolenmates\AbilityBaseClass.cpp">
       <Filter>Source\Stolenmates</Filter>
