@@ -56,7 +56,7 @@ void AStolenmatesPlayer::JumpPressed()
 {
 	if (gameOver)
 		return;
-	if (!hasHeart && !stunned)
+	if (!hasHeart && !stunned && !Mini)
 	{
 		Jump();
 	}
@@ -66,7 +66,7 @@ void AStolenmatesPlayer::DashPressed()
 {
 	if (gameOver)
 		return;
-	if (hasHeart && !stunned)
+	if (hasHeart && !stunned && !Mini)
 	{
 		if (dashReady)
 		{

@@ -33,6 +33,8 @@ public:
 	bool hasHeart = false;
 	UPROPERTY(BlueprintReadOnly, Category = "PlayerInfo")
 	bool dashReady = true;
+	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "PlayerProperties")
+	bool Mini = false;
 
 	AHeart* heart;
 	float timeHoldingHeart = 0;
