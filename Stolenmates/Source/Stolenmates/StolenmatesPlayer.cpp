@@ -70,7 +70,7 @@ void AStolenmatesPlayer::DashPressed()
 	{
 		if (dashReady)
 		{
-			
+			dash = true;
 			LaunchCharacter(PlayerMovementDirection* DashForce, false, true);
 			dashReady = false;
 			GetWorldTimerManager().SetTimer(dashTimerHandle, this, &AStolenmatesPlayer::DashReset, DashCooldown, false);
@@ -86,6 +86,7 @@ void AStolenmatesPlayer::DashReset()
 void AStolenmatesPlayer::EndStun()
 {
 	stunned = false;
+	catfished = false;
 }
 
 void AStolenmatesPlayer::EndInvincibility()

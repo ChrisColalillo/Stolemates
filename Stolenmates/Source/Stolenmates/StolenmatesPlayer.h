@@ -27,6 +27,10 @@ public:
 
 	UPROPERTY(BlueprintReadOnly, Category = "PlayerInfo")
 	bool stunned = false;
+	UPROPERTY(BlueprintReadWrite, Category = "PlayerInfo")
+	bool catfished = false;
+	UPROPERTY(BlueprintReadWrite, Category = "PlayerInfo")
+	bool dash = false;
 	UPROPERTY(BlueprintReadOnly, Category = "PlayerInfo")
 	bool invincible = false;
 	UPROPERTY(BlueprintReadWrite, Category = "PlayerInfo")
