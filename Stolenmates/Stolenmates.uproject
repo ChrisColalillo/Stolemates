@@ -26,5 +26,8 @@
 			"Name": "HoudiniNiagara",
 			"Enabled": true
 		}
+	],
+	"TargetPlatforms": [
+		"WindowsNoEditor"
 	]
 }

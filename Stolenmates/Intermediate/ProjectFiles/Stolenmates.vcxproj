@@ -75,7 +75,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{CABC4CAB-8A2E-4BA1-83C6-5619F559B1BB}</ProjectGuid>
+    <ProjectGuid>{A37C8082-3CB1-44D8-85BD-AD4C9ACAEC80}</ProjectGuid>
     <Keyword>MakeFileProj</Keyword>
     <RootNamespace>Stolenmates</RootNamespace>
     <PlatformToolset>v141</PlatformToolset>
