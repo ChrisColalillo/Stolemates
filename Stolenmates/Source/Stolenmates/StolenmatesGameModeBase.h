@@ -57,8 +57,13 @@ protected:
 	TArray<ACharacter*> players;
 	FTimerHandle powerUpSpawnTimerHandle;
 	bool gameOver = false;
+
 public:
 	AStolenmatesGameModeBase();
+
+	void StartLocalGame();
+	void StartOnlineGame();
+
 	virtual void StartPlay() override;
 	virtual void Tick(float DeltaTime) override;
 };
