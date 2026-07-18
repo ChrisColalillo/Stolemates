@@ -29,22 +29,42 @@ void AStolenmatesPlayer::BeginPlay()
 
 void AStolenmatesPlayer::LeftRightAxis(float val)
 {
+	if (bInputLocked)
+		return;
 	if (gameOver)
 		return;
 	if (stunned)
 		return;
-	AddMovementInput(GetActorRightVector(), val);
+
+	AddMovementInput(FVector(0.0f, 1.0f, 0.0f), val);
 	PlayerMovementDirection.Y = val;
+	FVector FlatDirection = PlayerMovementDirection;
+	FlatDirection.Z = 0.0f;
+
+	if (!FlatDirection.IsNearlyZero())
+	{
+		previousMovementDirection = FlatDirection.GetSafeNormal();
+	}
 }
 
 void AStolenmatesPlayer::ForwardBackAxis(float val)
 {
+	if (bInputLocked)
+		return;
 	if (gameOver)
 		return;
 	if (stunned)
 		return;
-	AddMovementInput(GetActorForwardVector(), val);
+
+	AddMovementInput(FVector(1.0f, 0.0f, 0.0f), val);
 	PlayerMovementDirection.X = val;
+	FVector FlatDirection = PlayerMovementDirection;
+	FlatDirection.Z = 0.0f;
+
+	if (!FlatDirection.IsNearlyZero())
+	{
+		previousMovementDirection = FlatDirection.GetSafeNormal();
+	}
 }
 
 void AStolenmatesPlayer::JumpReleased()
@@ -54,6 +74,8 @@ void AStolenmatesPlayer::JumpReleased()
 
 void AStolenmatesPlayer::JumpPressed()
 {
+	if (bInputLocked)
+		return;
 	if (gameOver)
 		return;
 	if (!hasHeart && !stunned && !Mini)
@@ -62,20 +84,113 @@ void AStolenmatesPlayer::JumpPressed()
 	}
 }
 
+void AStolenmatesPlayer::SteamActionJumpPressed()
+{
+	JumpPressed();
+	DashPressed();
+}
+
+void AStolenmatesPlayer::SteamActionJumpReleased()
+{
+	JumpReleased();
+}
+
+void AStolenmatesPlayer::SteamActionUseAbilityPressed()
+{
+	SteamInputUseAbilityPressed_BP();
+}
+
+void AStolenmatesPlayer::SteamActionMove(float MoveRight, float MoveForward)
+{
+	LeftRightAxis(MoveRight);
+	ForwardBackAxis(MoveForward);
+}
+
 void AStolenmatesPlayer::DashPressed()
 {
+	if (bInputLocked)
+		return;
 	if (gameOver)
 		return;
-	if (hasHeart && !stunned && !Mini)
+
+	FVector DashDirection = PlayerMovementDirection;
+	DashDirection.Z = 0.0f;
+
+	if (DashDirection.IsNearlyZero())
 	{
-		if (dashReady)
-		{
-			dash = true;
-			LaunchCharacter(PlayerMovementDirection* DashForce, false, true);
-			dashReady = false;
-			GetWorldTimerManager().SetTimer(dashTimerHandle, this, &AStolenmatesPlayer::DashReset, DashCooldown, false);
-		}
+		DashDirection = previousMovementDirection;
+		DashDirection.Z = 0.0f;
 	}
+
+	if (!HasAuthority())
+	{
+		ServerDashPressed(DashDirection);
+		return;
+	}
+
+	PerformDash(DashDirection);
+}
+
+
+void AStolenmatesPlayer::ServerDashPressed_Implementation(FVector DashDirection)
+{
+	UE_LOG(LogTemp, Warning,
+		TEXT("SERVER received DashPressed from PlayerIndex %d | HasHeart=%s | Stunned=%s | Mini=%s | DashReady=%s | Direction=%s"),
+		PlayerIndex,
+		hasHeart ? TEXT("true") : TEXT("false"),
+		stunned ? TEXT("true") : TEXT("false"),
+		Mini ? TEXT("true") : TEXT("false"),
+		dashReady ? TEXT("true") : TEXT("false"),
+		*DashDirection.ToString()
+	);
+
+	PerformDash(DashDirection);
+}
+
+void AStolenmatesPlayer::PerformDash(FVector DashDirection)
+{
+	if (bInputLocked)
+		return;
+	
+	if (gameOver)
+		return;
+
+	if (!hasHeart)
+		return;
+
+	if (stunned)
+		return;
+
+	if (Mini)
+		return;
+
+	if (!dashReady)
+		return;
+
+	DashDirection.Z = 0.0f;
+
+	if (DashDirection.IsNearlyZero())
+	{
+		UE_LOG(LogTemp, Warning,
+			TEXT("Dash failed for PlayerIndex %d because DashDirection was zero."),
+			PlayerIndex
+		);
+		return;
+	}
+
+	DashDirection.Normalize();
+
+	dash = true;
+	LaunchCharacter(DashDirection * DashForce, false, true);
+
+	dashReady = false;
+	GetWorldTimerManager().SetTimer(dashTimerHandle, this, &AStolenmatesPlayer::DashReset, DashCooldown, false);
+
+	UE_LOG(LogTemp, Warning,
+		TEXT("Dash fired for PlayerIndex %d | Direction=%s"),
+		PlayerIndex,
+		*DashDirection.ToString()
+	);
 }
 
 void AStolenmatesPlayer::DashReset()
@@ -96,18 +211,61 @@ void AStolenmatesPlayer::EndInvincibility()
 
 void AStolenmatesPlayer::UseAbility()
 {
+	UE_LOG(LogTemp, Warning,
+		TEXT("UseAbility called on %s | Authority=%s | PlayerIndex=%d | HeldAbility=%s | OverrideAbility=%s"),
+		*GetName(),
+		HasAuthority() ? TEXT("true") : TEXT("false"),
+		PlayerIndex,
+		heldAbility ? TEXT("true") : TEXT("false"),
+		overrideAbility ? TEXT("true") : TEXT("false")
+	);
+	if (bInputLocked)
+		return;
+
+	if (gameOver)
+		return;
+
 	if (stunned)
 		return;
+
+	if (!HasAuthority())
+	{
+		ServerUseAbility();
+		return;
+	}
+
 	if (overrideAbility)
 	{
 		overrideAbility->fireAbility(this);
 		return;
 	}
+
 	if (heldAbility)
 	{
 		heldAbility->fireAbility(this);
+		return;
 	}
+
+	UE_LOG(LogTemp, Warning,
+		TEXT("UseAbility reached server but PlayerIndex %d had no ability."),
+		PlayerIndex
+	);
 }
+
+
+
+void AStolenmatesPlayer::ServerUseAbility_Implementation()
+{
+	UE_LOG(LogTemp, Warning,
+		TEXT("SERVER received UseAbility from PlayerIndex %d"),
+		PlayerIndex
+	);
+
+	UseAbility();
+}
+
+
+
 
 void AStolenmatesPlayer::SetInvincibility(float iTime)
 {
@@ -141,6 +299,9 @@ void AStolenmatesPlayer::SetAbility(AbilitiesENUM ability, AAbilityBaseClass* st
 
 void AStolenmatesPlayer::OnCompHit(UPrimitiveComponent * HitComponent, AActor * OtherActor, UPrimitiveComponent * OtherComponent, FVector NormalImpulse, const FHitResult & Hit)
 {
+	if (bInputLocked)
+		return;
+	
 	if (gameOver)
 		return;
 	AStolenmatesPlayer* other = Cast<AStolenmatesPlayer>(OtherActor);
@@ -149,6 +310,10 @@ void AStolenmatesPlayer::OnCompHit(UPrimitiveComponent * HitComponent, AActor * 
 		if (hasHeart && !other->stunned && !invincible)
 		{
 			heart->AttachToComponent(other->GetMesh(), FAttachmentTransformRules::SnapToTargetNotIncludingScale, socketName);
+			if (heart && heart->heartCollider)
+			{
+				heart->heartCollider->SetCollisionEnabled(ECollisionEnabled::NoCollision);
+			}
 			hasHeart = false;
 			holdingHeart = false;
 			other->hasHeart = true;
@@ -164,6 +329,9 @@ void AStolenmatesPlayer::OnCompHit(UPrimitiveComponent * HitComponent, AActor * 
 
 void AStolenmatesPlayer::OnCompOverlap(UPrimitiveComponent * OverlappedComponent, AActor * OtherActor, UPrimitiveComponent * OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult & SweepResult)
 {
+	if (bInputLocked)
+		return;
+	
 	if (gameOver)
 		return;
 	AHeart* other = Cast<AHeart>(OtherActor);
@@ -181,19 +349,26 @@ void AStolenmatesPlayer::OnCompOverlap(UPrimitiveComponent * OverlappedComponent
 void AStolenmatesPlayer::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
+	
+	if (bInputLocked)
+		return;
+	
 	if (gameOver)
 		return;
-	if (hasHeart)
-		timeHoldingHeart += DeltaTime;
-	if (PlayerMovementDirection.Size() == 0)
+	
+	if (HasAuthority() && hasHeart)
 	{
-		PlayerMovementDirection = previousMovementDirection;
+		timeHoldingHeart += DeltaTime;
 	}
-	previousMovementDirection = PlayerMovementDirection;
-	PlayerMovementDirection.Normalize();
-	playerRotationDirection = PlayerMovementDirection.Rotation();
-	playerRotationDirection.Add(0, 270, 0);
-	GetMesh()->SetRelativeRotation(playerRotationDirection);
+	//if (PlayerMovementDirection.Size() == 0)
+	//{
+	//	PlayerMovementDirection = previousMovementDirection;
+	//}
+	//previousMovementDirection = PlayerMovementDirection;
+	//PlayerMovementDirection.Normalize();
+	//playerRotationDirection = PlayerMovementDirection.Rotation();
+	//playerRotationDirection.Add(0, 270, 0);
+	//GetMesh()->SetRelativeRotation(playerRotationDirection);
 }
 
 // Called to bind functionality to input
@@ -206,4 +381,22 @@ void AStolenmatesPlayer::SetupPlayerInputComponent(UInputComponent* PlayerInputC
 	PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &AStolenmatesPlayer::DashPressed);
 	PlayerInputComponent->BindAction("Jump", IE_Released, this, &AStolenmatesPlayer::JumpReleased);
 	PlayerInputComponent->BindAction("UseAbility", IE_Pressed, this, &AStolenmatesPlayer::UseAbility);
+}
+
+
+
+void AStolenmatesPlayer::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimeProps) const
+{
+	Super::GetLifetimeReplicatedProps(OutLifetimeProps);
+
+	DOREPLIFETIME(AStolenmatesPlayer, PlayerIndex);
+	DOREPLIFETIME(AStolenmatesPlayer, timeHoldingHeart);
+	DOREPLIFETIME(AStolenmatesPlayer, stunned);
+	DOREPLIFETIME(AStolenmatesPlayer, catfished);
+	DOREPLIFETIME(AStolenmatesPlayer, hasHeart);
+	DOREPLIFETIME(AStolenmatesPlayer, holdingHeart);
+	DOREPLIFETIME(AStolenmatesPlayer, gameOver);
+	DOREPLIFETIME(AStolenmatesPlayer, invincible);
+	DOREPLIFETIME(AStolenmatesPlayer, Mini);
+	DOREPLIFETIME(AStolenmatesPlayer, bInputLocked);
 }

@@ -12,7 +12,10 @@
 #include "Components/DecalComponent.h"
 #include "Kismet/GameplayStatics.h"
 #include "StolematesGameInstance.h"
-
+#include "GameFramework/PlayerController.h"
+#include "StolematesPlayerController.h"
+#include "EngineUtils.h"
+#include "StolenmatesPlayer.h"
 
 
 AStolenmatesGameModeBase::AStolenmatesGameModeBase()
@@ -28,9 +31,22 @@ void AStolenmatesGameModeBase::StartPlay()
 	UStolematesGameInstance* StolematesGI =
 		Cast<UStolematesGameInstance>(GetGameInstance());
 
+	if (StolematesGI)
+	{
+		UE_LOG(LogTemp, Warning, TEXT("Final_Level MatchType: %s"),
+			StolematesGI->MatchType == EMatchType::Online ? TEXT("Online") : TEXT("Local"));
+	}
+	else
+	{
+		UE_LOG(LogTemp, Warning, TEXT("Final_Level MatchType: GameInstance missing"));
+	}
+
 	if (StolematesGI && StolematesGI->MatchType == EMatchType::Online)
 	{
-		StartOnlineGame();
+		GetWorldTimerManager().SetTimerForNextTick(
+			this,
+			&AStolenmatesGameModeBase::TryStartOnlineGame
+		);
 	}
 	else
 	{
@@ -59,6 +75,8 @@ static void SortSpawnLocationsByPlayerTag(TArray<AActor*>& Locations)
 
 void AStolenmatesGameModeBase::StartLocalGame()
 {
+	SetAllPlayersInputLocked(false);
+
 	camera = Cast<ACamera>(GetWorld()->SpawnActor<AActor>(BPCamera, FVector(0, 0, cameraStartHeight), FRotator::ZeroRotator));
 
 	TArray<AActor*> Locations;
@@ -81,18 +99,105 @@ void AStolenmatesGameModeBase::StartLocalGame()
 	for (int32 i = 0; i < NumPlayersToSpawn; i++)
 	{
 		AStolenmatesPlayer* player = GetWorld()->SpawnActor<AStolenmatesPlayer>(BPPlayer, Locations[i]->GetActorLocation(), Locations[i]->GetActorRotation());
-		player->GetMesh()->SetMaterial(0, PlayerMaterials[i]);
-		UGameplayStatics::SpawnDecalAttached(PlayerDecals[i], FVector(256, 256 * player->DecalScale, 256 * player->DecalScale), player->GetRootComponent(), FName("Decal"), FVector(0, 0, 0), FRotator(90, 0, 0), EAttachLocation::SnapToTargetIncludingScale, 0);
-		UGameplayStatics::CreatePlayer(this, i, true);
-		UGameplayStatics::GetPlayerController(player, i)->Possess(player);
-		UGameplayStatics::GetPlayerController(player, i)->SetViewTargetWithBlend(camera);
+		player->PlayerIndex = i;
+		//player->GetMesh()->SetMaterial(0, PlayerMaterials[i]);
+		//UGameplayStatics::SpawnDecalAttached(PlayerDecals[i], FVector(256, 256 * player->DecalScale, 256 * player->DecalScale), player->GetRootComponent(), FName("Decal"), FVector(0, 0, 0), FRotator(90, 0, 0), EAttachLocation::SnapToTargetIncludingScale, 0);
+		APlayerController* PlayerController = nullptr;
+
+		if (i == 0)
+		{
+			PlayerController = UGameplayStatics::GetPlayerController(this, 0);
+		}
+		else
+		{
+			PlayerController = UGameplayStatics::CreatePlayer(this, i, true);
+		}
+
+		if (PlayerController)
+		{
+			PlayerController->Possess(player);
+			PlayerController->SetViewTargetWithBlend(camera);
+		}
+		else
+		{
+			UE_LOG(LogTemp, Warning, TEXT("Failed to get/create local PlayerController index: %d"), i);
+		}
+
 		players.Push(player);
 	}
 
-	LoadHud(UGameplayStatics::GetPlayerController(players[0], 0));
-	GetWorldTimerManager().SetTimer(powerUpSpawnTimerHandle, this, &AStolenmatesGameModeBase::SpawnPowerUp, 5.0f, true);
+	AStolematesPlayerController* StolematesPC =
+		Cast<AStolematesPlayerController>(UGameplayStatics::GetPlayerController(this, 0));
+
+	if (StolematesPC)
+	{
+		StolematesPC->ClientShowInGameHUD(players.Num(), TimeToWin);
+	}
+	else
+	{
+		UE_LOG(LogTemp, Warning, TEXT("Failed to show local HUD: PlayerController was not StolematesPlayerController"));
+	}
+
+	//GetWorldTimerManager().SetTimer(powerUpSpawnTimerHandle, this, &AStolenmatesGameModeBase::SpawnPowerUp, 5.0f, true);
 	gameOver = false;
+
+	SetAllPlayersInputLocked(false);
+	UE_LOG(LogTemp, Warning, TEXT("TEMP: Local players unlocked immediately."));
 }
+
+
+
+void AStolenmatesGameModeBase::TryStartOnlineGame()
+{
+	if (bOnlineGameStarted)
+	{
+		return;
+	}
+
+	UStolematesGameInstance* StolematesGI =
+		Cast<UStolematesGameInstance>(GetGameInstance());
+
+	int32 ExpectedCount = 1;
+
+	if (StolematesGI)
+	{
+		ExpectedCount = FMath::Max(StolematesGI->ExpectedOnlinePlayerCount, 1);
+	}
+
+	int32 CurrentControllerCount = 0;
+
+	if (GetWorld())
+	{
+		for (FConstPlayerControllerIterator It = GetWorld()->GetPlayerControllerIterator(); It; ++It)
+		{
+			CurrentControllerCount++;
+		}
+	}
+
+	UE_LOG(LogTemp, Warning, TEXT("TryStartOnlineGame: Controllers %d / Expected %d"),
+		CurrentControllerCount,
+		ExpectedCount
+	);
+
+	if (CurrentControllerCount >= ExpectedCount)
+	{
+		bOnlineGameStarted = true;
+		StartOnlineGame();
+		return;
+	}
+
+	FTimerHandle RetryHandle;
+
+	GetWorldTimerManager().SetTimer(
+		RetryHandle,
+		this,
+		&AStolenmatesGameModeBase::TryStartOnlineGame,
+		0.25f,
+		false
+	);
+}
+
+
 
 void AStolenmatesGameModeBase::StartOnlineGame()
 {
@@ -177,38 +282,62 @@ void AStolenmatesGameModeBase::StartOnlineGame()
 			continue;
 		}
 
-		if (PlayerMaterials.IsValidIndex(PlayerIndex))
-		{
-			Player->GetMesh()->SetMaterial(0, PlayerMaterials[PlayerIndex]);
-		}
-		else
-		{
-			UE_LOG(LogTemp, Warning, TEXT("No material found for online player index: %d"), PlayerIndex);
-		}
+		Player->PlayerIndex = PlayerIndex;
 
-		if (PlayerDecals.IsValidIndex(PlayerIndex))
-		{
-			UGameplayStatics::SpawnDecalAttached(
-				PlayerDecals[PlayerIndex],
-				FVector(256, 256 * Player->DecalScale, 256 * Player->DecalScale),
-				Player->GetRootComponent(),
-				FName("Decal"),
-				FVector(0, 0, 0),
-				FRotator(90, 0, 0),
-				EAttachLocation::SnapToTargetIncludingScale,
-				0
-			);
-		}
-		else
-		{
-			UE_LOG(LogTemp, Warning, TEXT("No decal found for online player index: %d"), PlayerIndex);
-		}
+		UE_LOG(LogTemp, Warning, TEXT("Assigned replicated PlayerIndex %d to pawn %s"),
+			PlayerIndex,
+			*Player->GetName()
+		);
+
+		//if (PlayerMaterials.IsValidIndex(PlayerIndex))
+		//{
+		//	Player->GetMesh()->SetMaterial(0, PlayerMaterials[PlayerIndex]);
+		//}
+		//else
+		//{
+		//	UE_LOG(LogTemp, Warning, TEXT("No material found for online player index: %d"), PlayerIndex);
+		//}
+
+		//if (PlayerDecals.IsValidIndex(PlayerIndex))
+		//{
+		//	UGameplayStatics::SpawnDecalAttached(
+		//		PlayerDecals[PlayerIndex],
+		//		FVector(256, 256 * Player->DecalScale, 256 * Player->DecalScale),
+		//		Player->GetRootComponent(),
+		//		FName("Decal"),
+		//		FVector(0, 0, 0),
+		//		FRotator(90, 0, 0),
+		//		EAttachLocation::SnapToTargetIncludingScale,
+		//		0
+		//	);
+		//}
+		//else
+		//{
+		//	UE_LOG(LogTemp, Warning, TEXT("No decal found for online player index: %d"), PlayerIndex);
+		//}
+
+		UE_LOG(LogTemp, Warning,
+			TEXT("Assigning PlayerController %s to spawned pawn index %d"),
+			*PlayerController->GetName(),
+			PlayerIndex
+		);
 
 		PlayerController->Possess(Player);
 
 		if (camera)
 		{
-			PlayerController->SetViewTargetWithBlend(camera);
+			AStolematesPlayerController* StolematesPC =
+				Cast<AStolematesPlayerController>(PlayerController);
+
+			if (StolematesPC)
+			{
+				StolematesPC->ClientSetSharedCamera(camera);
+
+				UE_LOG(LogTemp, Warning,
+					TEXT("Sent shared camera to controller %s"),
+					*PlayerController->GetName()
+				);
+			}
 		}
 
 		players.Push(Player);
@@ -219,21 +348,47 @@ void AStolenmatesGameModeBase::StartOnlineGame()
 	}
 
 	UE_LOG(LogTemp, Warning, TEXT("Online players spawned: %d"), players.Num());
+	UE_LOG(LogTemp, Warning, TEXT("Shared camera will focus player count: %d"), players.Num());
 
-	if (players.Num() > 0)
+	for (FConstPlayerControllerIterator It = GetWorld()->GetPlayerControllerIterator(); It; ++It)
 	{
-		LoadHud(UGameplayStatics::GetPlayerController(this, 0));
+		AStolematesPlayerController* StolematesPC = Cast<AStolematesPlayerController>(It->Get());
+
+		if (StolematesPC)
+		{
+			StolematesPC->ClientShowInGameHUD(players.Num(), TimeToWin);
+		}
 	}
 
-	GetWorldTimerManager().SetTimer(
-		powerUpSpawnTimerHandle,
-		this,
-		&AStolenmatesGameModeBase::SpawnPowerUp,
-		5.0f,
-		true
-	);
+	//GetWorldTimerManager().SetTimer(
+	//	powerUpSpawnTimerHandle,
+	//	this,
+	//	&AStolenmatesGameModeBase::SpawnPowerUp,
+	//	5.0f,
+	//	true
+	//);
 
 	gameOver = false;
+
+	SetAllPlayersInputLocked(true);
+	UE_LOG(LogTemp, Warning, TEXT("ONLINE MATCH START: Players locked. Waiting for all clients to be ready."));
+
+	ExpectedMatchStartPlayerCount = 0;
+
+	for (FConstPlayerControllerIterator It = GetWorld()->GetPlayerControllerIterator(); It; ++It)
+	{
+		if (It->Get())
+		{
+			ExpectedMatchStartPlayerCount++;
+		}
+	}
+
+	ExpectedMatchStartPlayerCount = FMath::Max(ExpectedMatchStartPlayerCount, 1);
+
+	MatchStartReadyControllers.Empty();
+	bWaitingForMatchStartReady = true;
+
+	BroadcastMatchStartMessage(TEXT("Connecting..."), true);
 }
 
 void AStolenmatesGameModeBase::Tick(float DeltaTime)
@@ -241,16 +396,34 @@ void AStolenmatesGameModeBase::Tick(float DeltaTime)
 	Super::Tick(DeltaTime);
 	if (gameOver)
 		return;
+
+	if (!camera)
+	{
+		return;
+	}
+
 	camera->Focus(players);
 	for (int i = 0; i < players.Num(); i++)
 	{
 		if (getTimer(i) >= TimeToWin)
 		{
+			int32 WinnerIndex = getWinner();
+
 			for (int j = 0; j < players.Num(); j++)
 			{
 				Cast<AStolenmatesPlayer>(players[j])->gameOver = true;
 			}
-			GameOverHud(UGameplayStatics::GetPlayerController(players[0], 0));
+
+			for (FConstPlayerControllerIterator It = GetWorld()->GetPlayerControllerIterator(); It; ++It)
+			{
+				AStolematesPlayerController* StolematesPC = Cast<AStolematesPlayerController>(It->Get());
+
+				if (StolematesPC)
+				{
+					StolematesPC->ClientShowGameOverHUD(WinnerIndex);
+				}
+			}
+
 			gameOver = true;
 			return;
 		}
@@ -259,14 +432,27 @@ void AStolenmatesGameModeBase::Tick(float DeltaTime)
 
 void AStolenmatesGameModeBase::playAgain()
 {
-	UGameplayStatics::OpenLevel(this, FName(*GetWorld()->GetName()), false);
-	TArray<AActor*> Locations;
-	UGameplayStatics::GetAllActorsOfClass(GetWorld(), PlayerSpawners, Locations);
-	for (int i = 0; i < players.Num(); i++)
+	UStolematesGameInstance* StolematesGI =
+		Cast<UStolematesGameInstance>(GetGameInstance());
+
+	// Online match restart.
+	// The host/server should move everyone back into Final_Level together.
+	if (StolematesGI && StolematesGI->MatchType == EMatchType::Online)
 	{
-		players[i]->SetActorLocationAndRotation(Locations[i]->GetActorLocation(), Locations[i]->GetActorRotation());
-		Cast<AStolenmatesPlayer>(players[i])->gameOver = false;
+		if (GetWorld())
+		{
+			GetWorld()->ServerTravel(TEXT("/Game/Levels/Final_Level"));
+		}
+
+		return;
 	}
+
+	// Local match restart.
+	// Reload the level and let StartLocalGame() rebuild the match cleanly.
+	UGameplayStatics::OpenLevel(
+		this,
+		FName("/Game/Levels/Final_Level")
+	);
 }
 
 int AStolenmatesGameModeBase::getWinner()
@@ -292,3 +478,243 @@ TArray<ACharacter*> AStolenmatesGameModeBase::getPlayers()
 	return  players;
 }
 
+
+
+bool AStolenmatesGameModeBase::RequestOnlinePause(APlayerController* RequestingPlayer)
+{
+	if (!RequestingPlayer)
+	{
+		UE_LOG(LogTemp, Warning, TEXT("Pause failed: RequestingPlayer was null"));
+		return false;
+	}
+
+	if (PlayerWhoPaused)
+	{
+		UE_LOG(LogTemp, Warning, TEXT("Pause denied: game is already paused by another player"));
+		return false;
+	}
+
+	bool bPauseSucceeded = SetPause(RequestingPlayer);
+
+	UE_LOG(LogTemp, Warning,
+		TEXT("SetPause result: %s | IsPaused: %s"),
+		bPauseSucceeded ? TEXT("true") : TEXT("false"),
+		UGameplayStatics::IsGamePaused(GetWorld()) ? TEXT("true") : TEXT("false")
+	);
+
+	if (bPauseSucceeded)
+	{
+		PlayerWhoPaused = RequestingPlayer;
+		BroadcastOnlinePauseMenu(PlayerWhoPaused);
+
+		UE_LOG(LogTemp, Warning, TEXT("Game paused by player controller"));
+		return true;
+	}
+
+	return false;
+}
+
+
+
+bool AStolenmatesGameModeBase::RequestOnlineResume(APlayerController* RequestingPlayer)
+{
+	if (!RequestingPlayer)
+	{
+		UE_LOG(LogTemp, Warning, TEXT("Resume failed: RequestingPlayer was null"));
+		return false;
+	}
+
+	if (PlayerWhoPaused != RequestingPlayer)
+	{
+		UE_LOG(LogTemp, Warning, TEXT("Resume denied: player did not initiate pause"));
+		return false;
+	}
+
+	bool bResumeSucceeded = ClearPause();
+
+	UE_LOG(LogTemp, Warning,
+		TEXT("ClearPause result: %s | IsPaused: %s"),
+		bResumeSucceeded ? TEXT("true") : TEXT("false"),
+		UGameplayStatics::IsGamePaused(GetWorld()) ? TEXT("true") : TEXT("false")
+	);
+
+	if (bResumeSucceeded)
+	{
+		PlayerWhoPaused = nullptr;
+		BroadcastOnlineResume();
+
+		UE_LOG(LogTemp, Warning, TEXT("Game resumed by pause owner"));
+		return true;
+	}
+
+	return false;
+}
+
+
+
+void AStolenmatesGameModeBase::BroadcastPowerUpHUDUpdate(int32 PlayerIndex, int32 PowerUpIndex)
+{
+	for (FConstPlayerControllerIterator It = GetWorld()->GetPlayerControllerIterator(); It; ++It)
+	{
+		AStolematesPlayerController* StolematesPC = Cast<AStolematesPlayerController>(It->Get());
+
+		if (StolematesPC)
+		{
+			StolematesPC->ClientUpdatePowerUpHUD(PlayerIndex, PowerUpIndex);
+		}
+	}
+}
+
+
+
+void AStolenmatesGameModeBase::HandlePlayerLeavingMatch(APlayerController* LeavingPlayer)
+{
+	if (!LeavingPlayer)
+	{
+		return;
+	}
+
+	if (PlayerWhoPaused == LeavingPlayer)
+	{
+		ClearPause();
+		PlayerWhoPaused = nullptr;
+		BroadcastOnlineResume();
+
+		UE_LOG(LogTemp, Warning, TEXT("Leaving player owned pause. Cleared pause before return to menu."));
+		return;
+	}
+
+	if (UGameplayStatics::IsGamePaused(GetWorld()) && PlayerWhoPaused == nullptr)
+	{
+		ClearPause();
+		BroadcastOnlineResume();
+
+		UE_LOG(LogTemp, Warning, TEXT("Game was paused with no pause owner. Cleared pause before return to menu."));
+	}
+}
+
+void AStolenmatesGameModeBase::BroadcastOnlinePauseMenu(APlayerController* PauseOwner)
+{
+	for (FConstPlayerControllerIterator It = GetWorld()->GetPlayerControllerIterator(); It; ++It)
+	{
+		AStolematesPlayerController* StolematesPC =
+			Cast<AStolematesPlayerController>(It->Get());
+
+		if (StolematesPC)
+		{
+			const bool bCanResume = StolematesPC == PauseOwner;
+			StolematesPC->ClientShowOnlinePauseMenu(bCanResume);
+		}
+	}
+}
+
+void AStolenmatesGameModeBase::BroadcastOnlineResume()
+{
+	for (FConstPlayerControllerIterator It = GetWorld()->GetPlayerControllerIterator(); It; ++It)
+	{
+		AStolematesPlayerController* StolematesPC =
+			Cast<AStolematesPlayerController>(It->Get());
+
+		if (StolematesPC)
+		{
+			StolematesPC->ClientHideOnlinePauseMenu();
+		}
+	}
+}
+
+
+
+void AStolenmatesGameModeBase::SetAllPlayersInputLocked(bool bLocked)
+{
+	for (TActorIterator<AStolenmatesPlayer> It(GetWorld()); It; ++It)
+	{
+		AStolenmatesPlayer* Player = *It;
+
+		if (Player)
+		{
+			Player->bInputLocked = bLocked;
+
+			UE_LOG(LogTemp, Warning,
+				TEXT("Set bInputLocked=%s for PlayerIndex %d"),
+				bLocked ? TEXT("true") : TEXT("false"),
+				Player->PlayerIndex
+			);
+		}
+	}
+}
+
+void AStolenmatesGameModeBase::UnlockPlayersForMatchStart()
+{
+	SetAllPlayersInputLocked(false);
+
+	BroadcastMatchStartMessage(TEXT(""), false);
+
+	UE_LOG(LogTemp, Warning, TEXT("MATCH START: All players unlocked."));
+}
+
+void AStolenmatesGameModeBase::BroadcastMatchStartMessage(const FString& Message, bool bVisible)
+{
+	for (FConstPlayerControllerIterator It = GetWorld()->GetPlayerControllerIterator(); It; ++It)
+	{
+		AStolematesPlayerController* PC = Cast<AStolematesPlayerController>(It->Get());
+
+		if (PC)
+		{
+			PC->ClientSetMatchStartMessage(Message, bVisible);
+		}
+	}
+}
+
+void AStolenmatesGameModeBase::NotifyPlayerReadyForMatchStart(APlayerController* ReadyPlayerController)
+{
+	if (!bWaitingForMatchStartReady)
+	{
+		return;
+	}
+
+	if (!ReadyPlayerController)
+	{
+		return;
+	}
+
+	if (!MatchStartReadyControllers.Contains(ReadyPlayerController))
+	{
+		MatchStartReadyControllers.Add(ReadyPlayerController);
+
+		UE_LOG(LogTemp, Warning,
+			TEXT("MATCH START READY: PlayerController ready. Ready %d / Expected %d"),
+			MatchStartReadyControllers.Num(),
+			ExpectedMatchStartPlayerCount
+		);
+	}
+
+	CheckAllPlayersReadyForMatchStart();
+}
+
+void AStolenmatesGameModeBase::CheckAllPlayersReadyForMatchStart()
+{
+	if (!bWaitingForMatchStartReady)
+	{
+		return;
+	}
+
+	if (MatchStartReadyControllers.Num() < ExpectedMatchStartPlayerCount)
+	{
+		return;
+	}
+
+	bWaitingForMatchStartReady = false;
+
+	UE_LOG(LogTemp, Warning, TEXT("MATCH START READY: All expected players ready. Starting countdown."));
+
+	BroadcastMatchStartMessage(TEXT("Starting..."), true);
+
+	GetWorldTimerManager().ClearTimer(MatchStartUnlockTimerHandle);
+	GetWorldTimerManager().SetTimer(
+		MatchStartUnlockTimerHandle,
+		this,
+		&AStolenmatesGameModeBase::UnlockPlayersForMatchStart,
+		MatchStartDelay,
+		false
+	);
+}

@@ -4,22 +4,31 @@ using UnrealBuildTool;
 
 public class Stolenmates : ModuleRules
 {
-	public Stolenmates(ReadOnlyTargetRules Target) : base(Target)
-	{
-		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
-	
-		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "OnlineSubsystem", "OnlineSubsystemUtils"});
+    public Stolenmates(ReadOnlyTargetRules Target) : base(Target)
+    {
+        PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 
-		PrivateDependencyModuleNames.AddRange(new string[] {  });
+        PublicDependencyModuleNames.AddRange(new string[]
+        {
+            "Core",
+            "CoreUObject",
+            "Engine",
+            "InputCore",
+            "OnlineSubsystem",
+            "OnlineSubsystemUtils"
+        });
+
+        PrivateDependencyModuleNames.AddRange(new string[]
+        {
+        });
 
         DynamicallyLoadedModuleNames.Add("OnlineSubsystemSteam");
 
-        // Uncomment if you are using Slate UI
-        // PrivateDependencyModuleNames.AddRange(new string[] { "Slate", "SlateCore" });
+        if (Target.Platform == UnrealTargetPlatform.Win64 || Target.Platform == UnrealTargetPlatform.Win32)
+        {
+            AddEngineThirdPartyPrivateStaticDependencies(Target, "Steamworks");
 
-        // Uncomment if you are using online features
-        // PrivateDependencyModuleNames.Add("OnlineSubsystem");
-
-        // To include OnlineSubsystemSteam, add it to the plugins section in your uproject file with the Enabled attribute set to true
+            PublicAdditionalLibraries.Add("Xinput.lib");
+        }
     }
 }

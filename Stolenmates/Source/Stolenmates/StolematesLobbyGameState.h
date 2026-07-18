@@ -21,6 +21,6 @@ public:
 	UPROPERTY(BlueprintAssignable, Category = "Lobby")
 		FOnPlayerListChangedDelegate OnPlayerListChanged;
 
-	UFUNCTION(BlueprintCallable, Category = "Lobby")
+	UFUNCTION(NetMulticast, Reliable, BlueprintCallable, Category = "Lobby")
 		void BroadcastPlayerListChanged();
 };

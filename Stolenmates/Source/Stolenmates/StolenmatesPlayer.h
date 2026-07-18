@@ -2,6 +2,7 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
+#include "Net/UnrealNetwork.h"
 #include "StolenmatesPlayer.generated.h"
 
 
@@ -24,25 +25,40 @@ public:
 	virtual void Tick(float DeltaTime) override;
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
+	void SteamActionJumpPressed();
+	void SteamActionJumpReleased();
+	void SteamActionUseAbilityPressed();
+	void SteamActionMove(float MoveRight, float MoveForward);
 
-	UPROPERTY(BlueprintReadOnly, Category = "PlayerInfo")
-	bool stunned = false;
-	UPROPERTY(BlueprintReadWrite, Category = "PlayerInfo")
-	bool catfished = false;
+	UFUNCTION(BlueprintImplementableEvent, Category = "Steam Controller")
+		void SteamInputUseAbilityPressed_BP();
+
+
+	UPROPERTY(Replicated, BlueprintReadOnly, Category = "PlayerInfo")
+		bool stunned = false;
+	UPROPERTY(Replicated, BlueprintReadWrite, Category = "PlayerInfo")
+		bool catfished = false;
 	UPROPERTY(BlueprintReadWrite, Category = "PlayerInfo")
 	bool dash = false;
-	UPROPERTY(BlueprintReadOnly, Category = "PlayerInfo")
-	bool invincible = false;
-	UPROPERTY(BlueprintReadWrite, Category = "PlayerInfo")
-	bool hasHeart = false;
+	UPROPERTY(Replicated, BlueprintReadOnly, Category = "PlayerInfo")
+		bool invincible = false;
+	UPROPERTY(Replicated, BlueprintReadWrite, Category = "PlayerInfo")
+		bool hasHeart = false;
 	UPROPERTY(BlueprintReadOnly, Category = "PlayerInfo")
 	bool dashReady = true;
-	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "PlayerProperties")
-	bool Mini = false;
+	UPROPERTY(Replicated, BlueprintReadWrite, Category = "PlayerProperties")
+		bool Mini = false;
+	UPROPERTY(Replicated, BlueprintReadOnly, Category = "Player")
+		int32 PlayerIndex = -1;
+	UPROPERTY(Replicated, BlueprintReadOnly, Category = "Player")
+		float timeHoldingHeart = 0.0f;
+	UPROPERTY(Replicated, BlueprintReadWrite, Category = "PlayerInfo")
+		bool bInputLocked = true;
 
 	AHeart* heart;
-	float timeHoldingHeart = 0;
-	bool gameOver = false;
+
+	UPROPERTY(Replicated, BlueprintReadWrite, Category = "PlayerInfo")
+		bool gameOver = false;
 
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "PlayerProperties")
 	float DecalScale = 1.0f;
@@ -53,11 +69,21 @@ protected:
 	virtual void JumpPressed();
 	virtual void JumpReleased();
 	virtual void DashPressed();
+	virtual void PerformDash(FVector DashDirection);
 	virtual void DashReset();
+
+	UFUNCTION(Server, Reliable)
+		void ServerDashPressed(FVector DashDirection);
+
 	virtual void EndStun();
 	virtual void EndInvincibility();
 	virtual void UseAbility();
+
+	UFUNCTION(Server, Reliable)
+		void ServerUseAbility();
+
 	virtual void SetInvincibility(float iTime);
+	virtual void GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimeProps) const override;
 
 
 	UFUNCTION(BlueprintCallable, Category = "Player")
@@ -83,7 +109,7 @@ protected:
 		float HeartLossStunDuration = 1.0f;
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "PlayerProperties")
 		float HeartGainInvincibilityDuration = 1.0f;
-	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "PlayerProperties")
+	UPROPERTY(Replicated, BlueprintReadOnly, Category = "PlayerProperties")
 		bool holdingHeart = false;
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "PlayerProperties")
 		FName socketName;

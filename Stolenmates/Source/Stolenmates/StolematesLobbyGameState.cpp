@@ -3,7 +3,7 @@
 
 #include "StolematesLobbyGameState.h"
 
-void AStolematesLobbyGameState::BroadcastPlayerListChanged()
+void AStolematesLobbyGameState::BroadcastPlayerListChanged_Implementation()
 {
 	OnPlayerListChanged.Broadcast();
 }
