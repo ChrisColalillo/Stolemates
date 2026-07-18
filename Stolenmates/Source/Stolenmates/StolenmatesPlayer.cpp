@@ -100,6 +100,11 @@ void AStolenmatesPlayer::SteamActionUseAbilityPressed()
 	SteamInputUseAbilityPressed_BP();
 }
 
+void AStolenmatesPlayer::SteamActionPausePressed()
+{
+	SteamInputPausePressed_BP();
+}
+
 void AStolenmatesPlayer::SteamActionMove(float MoveRight, float MoveForward)
 {
 	LeftRightAxis(MoveRight);

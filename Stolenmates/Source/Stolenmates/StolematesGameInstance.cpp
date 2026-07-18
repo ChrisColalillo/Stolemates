@@ -774,14 +774,7 @@ void UStolematesGameInstance::DebugSteamInputControllers()
 void UStolematesGameInstance::PollSteamControllerActions()
 {
 #if PLATFORM_WINDOWS
-	const bool bShouldPollSteamGameplay =
-		(MatchType == EMatchType::Online) ||
-		(MatchType == EMatchType::Local && LocalPlayerCount > 1);
-
-	if (!bShouldPollSteamGameplay)
-	{
-		return;
-	}
+	
 	if (!SteamAPI_IsSteamRunning())
 	{
 		return;
@@ -814,10 +807,17 @@ void UStolematesGameInstance::PollSteamControllerActions()
 	const ControllerDigitalActionHandle_t UseAbilityAction =
 		SteamController()->GetDigitalActionHandle("UseAbility");
 
+	const ControllerDigitalActionHandle_t PauseAction =
+		SteamController()->GetDigitalActionHandle("Pause");
+
 	const ControllerAnalogActionHandle_t MoveAction =
 		SteamController()->GetAnalogActionHandle("Move");
 
-	if (GameplayActionSet == 0 || JumpAction == 0 || UseAbilityAction == 0 || MoveAction == 0)
+	if (GameplayActionSet == 0 ||
+		JumpAction == 0 ||
+		UseAbilityAction == 0 ||
+		PauseAction == 0 ||
+		MoveAction == 0)
 	{
 		return;
 	}
@@ -913,6 +913,32 @@ void UStolematesGameInstance::PollSteamControllerActions()
 		}
 
 		LastUseAbilityStateByHandle.Add(HandleKey, bUseAbilityDown);
+
+		// Pause
+		const ControllerDigitalActionData_t PauseData =
+			SteamController()->GetDigitalActionData(Handle, PauseAction);
+
+		const bool bPauseActive = PauseData.bActive;
+		const bool bPauseDown = PauseData.bState;
+
+		// Only an active Pause action reporting Up counts as a real release.
+		// An inactive action during an action-set transition must not clear the latch.
+		if (bPauseActive && !bPauseDown)
+		{
+			SteamPauseHeldHandles.Remove(HandleKey);
+		}
+		else if (bPauseActive &&
+			bPauseDown &&
+			!SteamPauseHeldHandles.Contains(HandleKey))
+		{
+			SteamPauseHeldHandles.Add(HandleKey);
+
+			if (Player)
+			{
+				Player->SteamActionPausePressed();
+			}
+		}
+
 	}
 #endif
 }
@@ -952,16 +978,24 @@ void UStolematesGameInstance::PollSteamMenuActions()
 	const ControllerDigitalActionHandle_t MenuBackAction =
 		SteamController()->GetDigitalActionHandle("MenuBack");
 
+	const ControllerDigitalActionHandle_t MenuPauseAction =
+		SteamController()->GetDigitalActionHandle("MenuPause");
+
 	const ControllerAnalogActionHandle_t MenuMoveAction =
 		SteamController()->GetAnalogActionHandle("MenuMove");
 
-	if (MenuActionSet == 0 || MenuAcceptAction == 0 || MenuBackAction == 0 || MenuMoveAction == 0)
+	if (MenuActionSet == 0 ||
+		MenuAcceptAction == 0 ||
+		MenuBackAction == 0 ||
+		MenuPauseAction == 0 ||
+		MenuMoveAction == 0)
 	{
 		UE_LOG(LogTemp, Error,
-			TEXT("STEAM MENU DEBUG: Missing handle. MenuSet=%llu Accept=%llu Back=%llu Move=%llu"),
+			TEXT("STEAM MENU DEBUG: Missing handle. MenuSet=%llu Accept=%llu Back=%llu Pause=%llu Move=%llu"),
 			(uint64)MenuActionSet,
 			(uint64)MenuAcceptAction,
 			(uint64)MenuBackAction,
+			(uint64)MenuPauseAction,
 			(uint64)MenuMoveAction);
 
 		return;
@@ -1019,6 +1053,26 @@ void UStolematesGameInstance::PollSteamMenuActions()
 		}
 
 		LastBackStateByHandle.Add(HandleKey, bBackDown);
+
+		// Menu Pause
+		const ControllerDigitalActionData_t PauseData =
+			SteamController()->GetDigitalActionData(Handle, MenuPauseAction);
+
+		const bool bPauseActive = PauseData.bActive;
+		const bool bPauseDown = PauseData.bState;
+
+		// Only clear after the active MenuPause action sees a real release.
+		if (bPauseActive && !bPauseDown)
+		{
+			SteamPauseHeldHandles.Remove(HandleKey);
+		}
+		else if (bPauseActive &&
+			bPauseDown &&
+			!SteamPauseHeldHandles.Contains(HandleKey))
+		{
+			SteamPauseHeldHandles.Add(HandleKey);
+			bPendingSteamMenuPause = true;
+		}
 		
 		// Menu Move
 		const ControllerAnalogActionData_t MoveData =
@@ -1095,5 +1149,12 @@ bool UStolematesGameInstance::ConsumeSteamMenuBack()
 {
 	const bool bResult = bPendingSteamMenuBack;
 	bPendingSteamMenuBack = false;
+	return bResult;
+}
+
+bool UStolematesGameInstance::ConsumeSteamMenuPause()
+{
+	const bool bResult = bPendingSteamMenuPause;
+	bPendingSteamMenuPause = false;
 	return bResult;
 }

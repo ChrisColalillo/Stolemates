@@ -91,6 +91,9 @@ public:
 	UFUNCTION(BlueprintCallable, Category = "Steam Controller")
 		void PollSteamMenuActions();
 
+	UFUNCTION(BlueprintCallable, Category = "Steam Input")
+		bool ConsumeSteamMenuPause();
+
 	UFUNCTION(BlueprintCallable, Category = "Steam Controller")
 		int32 ConsumeSteamMenuMove();
 
@@ -101,8 +104,11 @@ public:
 		bool ConsumeSteamMenuBack();
 
 	int32 PendingSteamMenuMove = 0;
+	bool bPendingSteamMenuPause = false;
 	bool bPendingSteamMenuAccept = false;
 	bool bPendingSteamMenuBack = false;
+
+	TSet<uint64> SteamPauseHeldHandles;
 
 private:
 

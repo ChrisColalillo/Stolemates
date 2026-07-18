@@ -29,9 +29,12 @@ public:
 	void SteamActionJumpReleased();
 	void SteamActionUseAbilityPressed();
 	void SteamActionMove(float MoveRight, float MoveForward);
+	void SteamActionPausePressed();
 
 	UFUNCTION(BlueprintImplementableEvent, Category = "Steam Controller")
 		void SteamInputUseAbilityPressed_BP();
+	UFUNCTION(BlueprintImplementableEvent, Category = "Steam Controller")
+		void SteamInputPausePressed_BP();
 
 
 	UPROPERTY(Replicated, BlueprintReadOnly, Category = "PlayerInfo")
