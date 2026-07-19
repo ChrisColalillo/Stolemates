@@ -6,52 +6,40 @@
 #include "GameFramework/GameModeBase.h"
 #include "StolenmatesGameModeBase.generated.h"
 
-/**
- * 
- */
 class ACamera;
+class ACharacter;
+class APlayerController;
 class AStolenmatesPlayer;
-class UMaterialInterface;
+
 UCLASS()
 class STOLENMATES_API AStolenmatesGameModeBase : public AGameModeBase
 {
 	GENERATED_BODY()
+
 protected:
-	UFUNCTION(BlueprintImplementableEvent, Category = "Game Mode")
-	void SpawnPowerUp();
-	UFUNCTION(BlueprintImplementableEvent, Category = "Game Mode")
-	void LoadHud(APlayerController* PlayerController);
-	UFUNCTION(BlueprintImplementableEvent, Category = "Game Mode")
-	void GameOverHud(APlayerController* PlayerController);
 	UFUNCTION(BlueprintCallable, Category = "Game Mode")
-	void playAgain();
+		void playAgain();
+
 	UFUNCTION(BlueprintCallable, Category = "Game Mode")
-	int getWinner();
+		int getWinner();
+
 	UFUNCTION(BlueprintCallable, Category = "Game Mode")
-	float getTimer(int i);
-	UFUNCTION(BlueprintCallable, Category = "Game Mode")
-	TArray<ACharacter*> getPlayers();
+		float getTimer(int i);
 
 	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Game Mode")
-	TSubclassOf<AActor> PlayerSpawners;
+		TSubclassOf<AActor> PlayerSpawners;
 
 	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Game Mode")
-	TSubclassOf<AActor> BPCamera;
+		TSubclassOf<AActor> BPCamera;
 
 	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Game Mode")
-	TSubclassOf<AStolenmatesPlayer> BPPlayer;
+		TSubclassOf<AStolenmatesPlayer> BPPlayer;
 
 	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Game Mode")
-	TArray<UMaterialInterface*> PlayerMaterials;
+		float TimeToWin = 45.0f;
 
 	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Game Mode")
-	TArray<UMaterialInterface*> PlayerDecals;
-
-	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Game Mode")
-	float TimeToWin = 45.0f;
-
-	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Game Mode")
-	float cameraStartHeight = 1000.0f;
+		float cameraStartHeight = 1000.0f;
 
 	UPROPERTY()
 		APlayerController* PlayerWhoPaused = nullptr;
@@ -60,9 +48,8 @@ protected:
 
 	bool bOnlineGameStarted = false;
 
-	ACamera* camera;
+	ACamera* camera = nullptr;
 	TArray<ACharacter*> players;
-	FTimerHandle powerUpSpawnTimerHandle;
 	bool gameOver = false;
 
 	FTimerHandle MatchStartUnlockTimerHandle;
@@ -75,7 +62,10 @@ protected:
 	UFUNCTION()
 		void UnlockPlayersForMatchStart();
 
-	void BroadcastMatchStartMessage(const FString& Message, bool bVisible);
+	void BroadcastMatchStartMessage(
+		const FString& Message,
+		bool bVisible
+	);
 
 	UPROPERTY()
 		TArray<APlayerController*> MatchStartReadyControllers;
@@ -99,11 +89,19 @@ public:
 	virtual void Tick(float DeltaTime) override;
 
 	UFUNCTION(BlueprintCallable, Category = "HUD")
-		void BroadcastPowerUpHUDUpdate(int32 PlayerIndex, int32 PowerUpIndex);
+		void BroadcastPowerUpHUDUpdate(
+			int32 PlayerIndex,
+			int32 PowerUpIndex
+		);
 
 	UFUNCTION()
-		void HandlePlayerLeavingMatch(APlayerController* LeavingPlayer);
+		void HandlePlayerLeavingMatch(
+			APlayerController* LeavingPlayer
+		);
 
-	void NotifyPlayerReadyForMatchStart(APlayerController* ReadyPlayerController);
+	void NotifyPlayerReadyForMatchStart(
+		APlayerController* ReadyPlayerController
+	);
+
 	void CheckAllPlayersReadyForMatchStart();
 };

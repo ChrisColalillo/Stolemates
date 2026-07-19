@@ -3,8 +3,6 @@
 #include "GameFramework/CharacterMovementComponent.h"
 #include "Components/CapsuleComponent.h"
 #include "TimerManager.h"
-#include "Math/UnrealMathUtility.h"
-#include "Components/SkeletalMeshComponent.h"
 #include "Heart.h"
 #include "AbilityBaseClass.h"
 
@@ -102,6 +100,11 @@ void AStolenmatesPlayer::SteamActionUseAbilityPressed()
 
 void AStolenmatesPlayer::SteamActionPausePressed()
 {
+	if (gameOver)
+	{
+		return;
+	}
+
 	SteamInputPausePressed_BP();
 }
 
@@ -139,16 +142,6 @@ void AStolenmatesPlayer::DashPressed()
 
 void AStolenmatesPlayer::ServerDashPressed_Implementation(FVector DashDirection)
 {
-	UE_LOG(LogTemp, Warning,
-		TEXT("SERVER received DashPressed from PlayerIndex %d | HasHeart=%s | Stunned=%s | Mini=%s | DashReady=%s | Direction=%s"),
-		PlayerIndex,
-		hasHeart ? TEXT("true") : TEXT("false"),
-		stunned ? TEXT("true") : TEXT("false"),
-		Mini ? TEXT("true") : TEXT("false"),
-		dashReady ? TEXT("true") : TEXT("false"),
-		*DashDirection.ToString()
-	);
-
 	PerformDash(DashDirection);
 }
 
@@ -176,10 +169,6 @@ void AStolenmatesPlayer::PerformDash(FVector DashDirection)
 
 	if (DashDirection.IsNearlyZero())
 	{
-		UE_LOG(LogTemp, Warning,
-			TEXT("Dash failed for PlayerIndex %d because DashDirection was zero."),
-			PlayerIndex
-		);
 		return;
 	}
 
@@ -191,11 +180,6 @@ void AStolenmatesPlayer::PerformDash(FVector DashDirection)
 	dashReady = false;
 	GetWorldTimerManager().SetTimer(dashTimerHandle, this, &AStolenmatesPlayer::DashReset, DashCooldown, false);
 
-	UE_LOG(LogTemp, Warning,
-		TEXT("Dash fired for PlayerIndex %d | Direction=%s"),
-		PlayerIndex,
-		*DashDirection.ToString()
-	);
 }
 
 void AStolenmatesPlayer::DashReset()
@@ -216,14 +200,6 @@ void AStolenmatesPlayer::EndInvincibility()
 
 void AStolenmatesPlayer::UseAbility()
 {
-	UE_LOG(LogTemp, Warning,
-		TEXT("UseAbility called on %s | Authority=%s | PlayerIndex=%d | HeldAbility=%s | OverrideAbility=%s"),
-		*GetName(),
-		HasAuthority() ? TEXT("true") : TEXT("false"),
-		PlayerIndex,
-		heldAbility ? TEXT("true") : TEXT("false"),
-		overrideAbility ? TEXT("true") : TEXT("false")
-	);
 	if (bInputLocked)
 		return;
 
@@ -251,21 +227,12 @@ void AStolenmatesPlayer::UseAbility()
 		return;
 	}
 
-	UE_LOG(LogTemp, Warning,
-		TEXT("UseAbility reached server but PlayerIndex %d had no ability."),
-		PlayerIndex
-	);
 }
 
 
 
 void AStolenmatesPlayer::ServerUseAbility_Implementation()
 {
-	UE_LOG(LogTemp, Warning,
-		TEXT("SERVER received UseAbility from PlayerIndex %d"),
-		PlayerIndex
-	);
-
 	UseAbility();
 }
 
@@ -285,68 +252,114 @@ void AStolenmatesPlayer::StunPlayer(float StunDuration)
 	GetWorldTimerManager().SetTimer(stunTimerHandle, this, &AStolenmatesPlayer::EndStun, StunDuration, false);
 }
 
-void AStolenmatesPlayer::SetAbility(AbilitiesENUM ability, AAbilityBaseClass* staticAbility)
+void AStolenmatesPlayer::SetAbility(
+	AbilitiesENUM ability,
+	AAbilityBaseClass* staticAbility)
 {
 	switch (ability)
 	{
 	case AbilitiesENUM::ITEM_BOX_ABILITY:
-		heldAbility = nullptr;
-		if (staticAbility)
-			heldAbility = Cast<AAbilityBaseClass>(staticAbility);
+		heldAbility = staticAbility;
 		break;
+
 	case AbilitiesENUM::ZONE_ABILITY_OVERRIDE:
-		overrideAbility = nullptr;
-		if (staticAbility)
-			overrideAbility = Cast<AAbilityBaseClass>(staticAbility);
+		overrideAbility = staticAbility;
 		break;
 	}
 }
 
-void AStolenmatesPlayer::OnCompHit(UPrimitiveComponent * HitComponent, AActor * OtherActor, UPrimitiveComponent * OtherComponent, FVector NormalImpulse, const FHitResult & Hit)
+void AStolenmatesPlayer::OnCompHit(
+	UPrimitiveComponent* HitComponent,
+	AActor* OtherActor,
+	UPrimitiveComponent* OtherComponent,
+	FVector NormalImpulse,
+	const FHitResult& Hit)
 {
-	if (bInputLocked)
-		return;
-	
-	if (gameOver)
-		return;
-	AStolenmatesPlayer* other = Cast<AStolenmatesPlayer>(OtherActor);
-	if (other)
+	if (bInputLocked || gameOver)
 	{
-		if (hasHeart && !other->stunned && !invincible)
-		{
-			heart->AttachToComponent(other->GetMesh(), FAttachmentTransformRules::SnapToTargetNotIncludingScale, socketName);
-			if (heart && heart->heartCollider)
-			{
-				heart->heartCollider->SetCollisionEnabled(ECollisionEnabled::NoCollision);
-			}
-			hasHeart = false;
-			holdingHeart = false;
-			other->hasHeart = true;
-			other->holdingHeart = true;
-			other->heart = heart;
-			other->SetInvincibility(HeartGainInvincibilityDuration);
-			other->GetCharacterMovement()->MaxWalkSpeed = MovementSpeedWithHeart;
-			GetCharacterMovement()->MaxWalkSpeed = MovementSpeedWithoutHeart;
-			StunPlayer(HeartLossStunDuration);
-		}
+		return;
 	}
+
+	AStolenmatesPlayer* OtherPlayer =
+		Cast<AStolenmatesPlayer>(OtherActor);
+
+	if (!OtherPlayer ||
+		!hasHeart ||
+		OtherPlayer->stunned ||
+		invincible ||
+		!heart)
+	{
+		return;
+	}
+
+	heart->AttachToComponent(
+		OtherPlayer->GetMesh(),
+		FAttachmentTransformRules::SnapToTargetNotIncludingScale,
+		socketName
+	);
+
+	if (heart->heartCollider)
+	{
+		heart->heartCollider->SetCollisionEnabled(
+			ECollisionEnabled::NoCollision
+		);
+	}
+
+	hasHeart = false;
+	holdingHeart = false;
+
+	OtherPlayer->hasHeart = true;
+	OtherPlayer->holdingHeart = true;
+	OtherPlayer->heart = heart;
+
+	OtherPlayer->SetInvincibility(
+		HeartGainInvincibilityDuration
+	);
+
+	OtherPlayer->GetCharacterMovement()->MaxWalkSpeed =
+		MovementSpeedWithHeart;
+
+	GetCharacterMovement()->MaxWalkSpeed =
+		MovementSpeedWithoutHeart;
+
+	StunPlayer(HeartLossStunDuration);
 }
 
-void AStolenmatesPlayer::OnCompOverlap(UPrimitiveComponent * OverlappedComponent, AActor * OtherActor, UPrimitiveComponent * OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult & SweepResult)
+void AStolenmatesPlayer::OnCompOverlap(
+	UPrimitiveComponent* OverlappedComponent,
+	AActor* OtherActor,
+	UPrimitiveComponent* OtherComp,
+	int32 OtherBodyIndex,
+	bool bFromSweep,
+	const FHitResult& SweepResult)
 {
-	if (bInputLocked)
-		return;
-	
-	if (gameOver)
-		return;
-	AHeart* other = Cast<AHeart>(OtherActor);
-	if (other)
+	if (bInputLocked || gameOver)
 	{
-		OtherActor->AttachToComponent(GetMesh(), FAttachmentTransformRules::SnapToTargetNotIncludingScale, socketName);
-		heart = other;
-		hasHeart = true;
-		holdingHeart = true;
-		heart->heartCollider->SetCollisionEnabled(ECollisionEnabled::NoCollision);
+		return;
+	}
+
+	AHeart* OtherHeart = Cast<AHeart>(OtherActor);
+
+	if (!OtherHeart)
+	{
+		return;
+	}
+
+	OtherHeart->AttachToComponent(
+		GetMesh(),
+		FAttachmentTransformRules::SnapToTargetNotIncludingScale,
+		socketName
+	);
+
+	heart = OtherHeart;
+	hasHeart = true;
+	holdingHeart = true;
+
+	if (heart->heartCollider)
+	{
+		heart->heartCollider->SetCollisionEnabled(
+			ECollisionEnabled::NoCollision
+		);
 	}
 }
 
@@ -365,15 +378,7 @@ void AStolenmatesPlayer::Tick(float DeltaTime)
 	{
 		timeHoldingHeart += DeltaTime;
 	}
-	//if (PlayerMovementDirection.Size() == 0)
-	//{
-	//	PlayerMovementDirection = previousMovementDirection;
-	//}
-	//previousMovementDirection = PlayerMovementDirection;
-	//PlayerMovementDirection.Normalize();
-	//playerRotationDirection = PlayerMovementDirection.Rotation();
-	//playerRotationDirection.Add(0, 270, 0);
-	//GetMesh()->SetRelativeRotation(playerRotationDirection);
+
 }
 
 // Called to bind functionality to input

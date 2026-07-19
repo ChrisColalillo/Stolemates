@@ -47,9 +47,6 @@ public:
 		void FindJoinableSessions();
 
 	UFUNCTION(BlueprintCallable, Category = "Online")
-		void JoinOnlineSession();
-
-	UFUNCTION(BlueprintCallable, Category = "Online")
 		void LeaveOnlineGame();
 
 	UFUNCTION(BlueprintCallable, Category = "Game Flow")
@@ -81,9 +78,6 @@ public:
 
 	UFUNCTION(BlueprintCallable, Category = "Menu")
 		bool ConsumeOpenPlayMenuOnHUDLoad();
-
-	UFUNCTION(BlueprintCallable, Category = "Steam Controller")
-		void DebugSteamInputControllers();
 
 	UFUNCTION(BlueprintCallable, Category = "Steam Controller")
 		void PollSteamControllerActions();

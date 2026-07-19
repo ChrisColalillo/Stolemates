@@ -8,26 +8,18 @@
 
 class UStaticMeshComponent;
 class UCapsuleComponent;
+
 UCLASS()
 class STOLENMATES_API AHeart : public AActor
 {
 	GENERATED_BODY()
-	
-public:	
-	// Sets default values for this actor's properties
+
+public:
 	AHeart();
 
-protected:
-	// Called when the game starts or when spawned
-	virtual void BeginPlay() override;
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components")
+		UStaticMeshComponent* heartMesh;
 
-public:	
-	// Called every frame
-	virtual void Tick(float DeltaTime) override;
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components")
-	UStaticMeshComponent* heartMesh;
-	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components")
-	UCapsuleComponent* heartCollider;
-	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Booleans")
-		bool canSteal = true;
+		UCapsuleComponent* heartCollider;
 };

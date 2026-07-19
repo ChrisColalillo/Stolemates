@@ -4,18 +4,16 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
-#include "StolenMatesPlayer.h"
 #include "AbilityBaseClass.generated.h"
+
+class AStolenmatesPlayer;
 
 UCLASS()
 class STOLENMATES_API AAbilityBaseClass : public AActor
 {
 	GENERATED_BODY()
-	
-public:	
-	// Sets default values for this actor's properties
-	AAbilityBaseClass();
+
+public:
 	UFUNCTION(BlueprintImplementableEvent, Category = "Ability")
 		void fireAbility(AStolenmatesPlayer* abilityUser);
-protected:
 };
